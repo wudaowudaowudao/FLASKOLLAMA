@@ -1,0 +1,499 @@
+[
+    {
+        "type": "text",
+        "text": "ICS 01.100.99 J 04 ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/0aaef635cc226679c127bde48e20ea23de88879a7ce3458f1cb6ec63a4750b9e.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T 4459.2—2003 ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "代替GB/T 4459.2—1984 ",
+        "page_idx": 0,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "机械制图齿轮表示法",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Mechanical drawings- Conventional representation of gears ",
+        "text_level": 0,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2003-04-29 发布",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "2003-12-01实施 ",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国发布国家质量监督检验检疫总局",
+        "text_level": 0,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "GB/T4459《机械制图》结构画法分为五个部分：-第1部分：机械制图螺纹及螺纹紧固件表示法-第2部分：机械制图齿轮表示法-第3部分：机械制图花键表示法一第4部分：机械制图弹簧表示法一第5部分：机械制图中心孔表示法本部分为GB/T 4459的第2部分。本部分代替GB/T 4459.2—1984《机械制图齿轮画法》。本部分与 GB/T 4459.2—1984 相比主要变化如下；将部分图名做了修改；-将4.5中的内容改为准双曲面齿轮副啮合、8字啮合、锥齿轮副啮合和两轴线斜交的锥齿轮副斜交啮合的画法；—编写格式上按GB/T 1.1—2000 进行了修改。本部分的附录A是资料性附录。本部分由全国技术产品文件标准化技术委员会提出并归口。本部分起草单位：机械科学研究院、金陵科技学院、安徽省涡阳康达汽车制动器股份有限公司、长安汽车(集团)有限责任公司合肥工业大学、大连海事大学。本部分主要起草人：强毅、王槐德、王兴杰、李学京、邹玉堂。3",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "机械制图 齿轮表示法",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本部分规定了齿轮的表示法本部分适用于机械图样中齿轮的绘制。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "2规范性引用文件",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "下列文件中的条款通过GB/T 4459 的本部分的引用而成为本部分的条款。凡是注日期的引用文  \n件,其随后所有的修改单(不包括勘误的内容)或修订版均不适用于本部分,然而,鼓励根据本部分达成  \n协议的各方研究是否可使用这些文件的最新版本。凡是不注日期的引用文件，其最新版本适用于本部分。GB/T 3374齿轮基本术语(neq ISO/R 1122-1）",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3齿轮、齿条、蜗杆、蜗轮及链轮的画法",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1轮齿部分一般按图1一图7的规定绘制。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1.1齿顶圆和齿顶线用粗实线绘制。",
+        "text_level": 3,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1.2分度圆和分度线用细点画线绘制。",
+        "text_level": 3,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1.3齿根圆和齿根线用细实线绘制，也可省略不画;在剖视图中，齿根线用粗实线绘制。",
+        "text_level": 3,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2表示齿轮、蜗轮一般用两个视图，或者用一个视图和一个局部视图(图1～图3)。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.3在剖视图中,当剖切平面通过齿轮的轴线时,轮齿一律按不剖处理(图1、图2、图3、图4、图7)。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.4如需表明齿形,可在图形中用粗实线画出一个或两个齿;或用适当比例的局部放大图表示(图 $4\\sim$ 图7)。 lsl",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.5当需要表示齿线的特征时,可用三条与齿线方向一致的细实线表示(图6、图8)。直齿则不需表示。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.6如需要注出齿条的长度时，可在画出齿形的图中注出,并在另一视图中用粗实线画出其范围线(图4)。 a",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.7 圆弧齿轮的画法见图6。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/65a3f21c03b36461fa8533cf828ade7ad1e581e97eabe51e9126f9c9945707f1.jpg",
+        "img_caption": [
+            "图1圆柱齿轮画法 "
+        ],
+        "img_footnote": [],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/517bad9068fdb8600e65b2566ed86b2caf7d28199f301307c6f3f04b4f1f4b02.jpg",
+        "img_caption": [
+            "图2锥齿轮画法 "
+        ],
+        "img_footnote": [],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/1d4333e9691ad18aa0cf669c58dbbfe02a83d43cf23235940b8c0c3a014cc296.jpg",
+        "img_caption": [
+            "图4齿条画法"
+        ],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "",
+        "img_caption": [
+            "图3蜗轮画法 "
+        ],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/3c9795fbde861c9b4965a3bcedc59fe4f08ea8eeb309e818c86fa0f234fc0d9e.jpg",
+        "img_caption": [
+            "图5表明齿形的圆柱齿轮画法 "
+        ],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/c2b7b1fe97511646cc2c7a5ccd67cbc6860d18d579aae21ec8f7ffd3d0508efe.jpg",
+        "img_caption": [
+            "冬 圆弧齿轮画法 "
+        ],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/b4d9022abcebce43d4e48aa5434d239bd945bc430c31960c5091549160b81f53.jpg",
+        "img_caption": [
+            "图7链轮画法 "
+        ],
+        "img_footnote": [
+            "2 "
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/c0b2e2f0bce08e4e5ec587ef57289186b570e322f2be65696a990619b46164fe.jpg",
+        "img_caption": [
+            "图8齿线的表示法"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4齿轮、蜗杆、蜗轮啮合画法",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.1在垂直于圆柱齿轮轴线的投影面的视图中，啮合区内的齿顶圆均用粗实线绘制,见图9a)、图11、图12，其省略画法如图9b)所示。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.2在平行于圆柱齿轮、锥齿轮轴线的投影面的视图中,啮合图的齿顶线不需画出,节线用粗实线绘制,其他处的节线用细点画线绘制(图10、图14)。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.3在圆柱齿轮啮合、齿轮齿条啮合和锥齿轮的剖视图中，当剖切平面通过两啮合齿轮的轴线时，在啮合区内,将一个齿轮的轮齿用粗实线绘制,另一个齿轮的轮齿被遮挡的部分用虚线绘制(图9、图11、图16、图18);也可省略不画(图12、图13、图17)。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.4在剖视图中,当剖切平面不通过啮合齿轮的轴线时,齿轮一律按不剖绘制(图19)。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.5准双曲面齿轮副啮合、8字啮合、锥齿轮副啮合和两轴线斜交的锥齿轮副斜交啮合的画法， 见图 $15\\sim$ 图18。 P ",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.6 螺旋齿轮啮合的画法见图19、图20。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.7㎡蜗杆、蜗轮啮合的画法见图21～图23。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.8圆弧齿轮啮合的画法见图24。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5齿轮图样格式",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "齿轮图样格式参见附录A ",
+        "page_idx": 4,
+        "text_level": 1
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/1fdf69f42b51980dff0f3602364b56c707dad65ca76f4edaea9cb3614d930a43.jpg",
+        "img_caption": [
+            "图9圆柱齿轮副的啮合画法—外啮合(一)"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/660d2240dfd498230a4d20ddb64786c1da87a8406aec98ba4818c87104946844.jpg",
+        "img_caption": [
+            "图 $10^{\\prime}.$ 圆柱齿轮副的啮合画法—外啮合(二)"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/0c455e529f81916681ea6317680a10c5711d3054223435ac4c201866176e0885.jpg",
+        "img_caption": [
+            "图11 圆柱齿轮副的啮合画法 内啮合"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/1760e58c2f0648e6c10d9972e618d4fe5b2ace3c3e32818d41ca01e07efad770.jpg",
+        "img_caption": [
+            "图12齿轮齿条副的啮合画法",
+            "图14轴线正交的锥齿轮副的啮合画法(二)"
+        ],
+        "img_footnote": [
+            "4 "
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "",
+        "img_caption": [
+            "图13轴线正交的锥齿轮副的啮合画法(一)"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/b6f2f1314d62a03c09ac79e9492fd5f405e39bec3aa979dd2a14d2e8e9a3df16.jpg",
+        "img_caption": [
+            "图15准双曲面齿轮副的啮合画法"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/3f22ea10b1c0ca46d735ce3355cef1691af81cd95f2da8bdb0ad8b9e914ccd4f.jpg",
+        "img_caption": [
+            "图168字啮合锥齿轮副的啮合画法"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/e51beebe74e97391fddf09fa39d7afd06a009e3f6440d1869f11aecba401a956.jpg",
+        "img_caption": [
+            "图17轴线斜交的锥齿轮副的啮合画法"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/c109c8a1b2effcb093d7aab36cd87cb9a9e7c5eaad73bfe050eaaed8bb3c2e21.jpg",
+        "img_caption": [
+            "图18轴线斜交的平面齿轮与锥齿轮的啮合画法"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/c92993ddf1d5bb4d97e133140b2f2b2cf23fd42ac05d44b417380c51cb09acb5.jpg",
+        "img_caption": [
+            "图19轴线垂直交错的螺旋齿轮副的啮合画法",
+            "图20轴线不垂直交错的螺旋齿轮副的啮合画法"
+        ],
+        "img_footnote": [
+            "5 "
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/68b52335b39d44eb601c37adfa31fb03f8f59767f2a0d333f1347a52d4412201.jpg",
+        "img_caption": [
+            "图22 圆柱蜗杆副的啮合画法(二)"
+        ],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/672f6e9b04b3a850b5e0226c88ecf32c1a57a0faf8c459674a184326de7bfff6.jpg",
+        "img_caption": [
+            "图21 圆柱蜗杆副的啮合画法（一)"
+        ],
+        "img_footnote": [
+            "6 "
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/dfe3fde61d0427d7f1391cb560d2f8c4961284be046f79504527285cab74ced0.jpg",
+        "img_caption": [
+            "图23环面蜗杆副的啮合画法"
+        ],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/1975689c1a60514343c3fe774a311dfaa7725959f4c2c86bd6cb716ec3779b56.jpg",
+        "img_caption": [
+            "图24 圆弧齿轮副的啮合画法"
+        ],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "附录A(资料性附录)齿轮图样格式示例",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "本附录仅列举出渐开线圆柱齿轮(图A.1)、锥齿轮(图A.2)蜗杆(图A.3)和蜗轮(图A.4)的图样格式。图中的参数表一般放在图样的右上角。参数表中列出的参数项目可根据需要增减，检验项目按功能要求而定。图样中的技术要求一般放在该图样的右下角。",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/c5a46954538902fcf96af096ed85d6c28c10cdc280a26ae776887245bcbfc316.jpg",
+        "img_caption": [
+            "图A.1渐开线圆柱齿轮图样格式示例"
+        ],
+        "img_footnote": [
+            "8 "
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/7776bb47a9c11f2bd58638d956284f388e9d135cecb32344a78eb371ba712f72.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "9 "
+        ],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"14\">技术要求</td><td colspan=\"4\">模数</td><td colspan=\"4\">m</td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\">齿数</td><td>=</td><td></td><td></td></tr><tr><td>其余√</td><td colspan=\"3\"></td><td colspan=\"2\">法向齿形角</td><td>α</td><td></td></tr><tr><td></td><td colspan=\"2\">分度圆直径</td><td colspan=\"2\"></td><td>d</td><td></td></tr><tr><td>分锥角</td><td colspan=\"2\"></td><td colspan=\"2\">8</td><td></td><td></td></tr><tr><td>根锥角</td><td colspan=\"2\"></td><td>8</td><td></td><td></td></tr><tr><td></td><td colspan=\"2\">锥距</td><td>R</td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"2\">螺旋角及方向</td><td>β x</td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\">高度</td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"2\">变位系数 切向</td><td></td><td></td></tr><tr><td colspan=\"3\" rowspan=\"2\">测</td><td colspan=\"2\">齿厚 齿高</td><td></td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td>h</td><td colspan=\"3\"></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\">精度等级</td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\">接触斑点 齿高</td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\">% 齿长</td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\">全齿高</td><td>h</td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\">轴交角</td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\">侧隙 配对齿轮齿数</td><td>j</td><td>ZM</td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\">配对齿轮图号</td><td></td><td></td><td></td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\">公差组</td><td>项号</td><td></td><td>公差值</td></tr><tr><td colspan=\"3\"></td><td colspan=\"3\"></td><td></td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/c634e43a4a2b6e816100c3414637569cae7a18c4370a642deb743549cd6465e9.jpg",
+        "img_caption": [
+            "图A.3 蜗杆图样格式示例"
+        ],
+        "img_footnote": [
+            "10 "
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1953721552818298880/9f19a1eaf3ad218c1d0dd100e06968ab94a16f1daf28928a5ae94b5d34764209.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "11 "
+        ],
+        "table_body": "\n\n<html><body><table><tr><td></td><td rowspan=\"11\"></td><td rowspan=\"11\">其余</td><td>模数 m</td><td></td><td></td></tr><tr><td></td><td>齿数 分度圆直径</td><td>Z2 d2</td><td></td></tr><tr><td></td><td></td><td>齿顶高系数</td><td>h2</td></tr><tr><td></td><td>变位系数</td><td>x2</td><td></td></tr><tr><td rowspan=\"3\"></td><td></td><td>分度圆齿厚 $2</td><td></td></tr><tr><td>精度等级</td><td></td><td></td></tr><tr><td rowspan=\"2\">配对蜗杆</td><td>图号</td><td></td></tr><tr><td rowspan=\"2\">公差组</td><td>齿数 检项</td><td></td></tr><tr><td></td><td></td><td>公差（或极限</td></tr><tr><td></td><td></td><td rowspan=\"2\"></td><td rowspan=\"2\"></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td rowspan=\"2\"></td><td></td><td></td></tr><tr><td></td><td>Ⅱ</td><td></td></tr><tr><td rowspan=\"7\"></td><td rowspan=\"7\"></td><td rowspan=\"2\">Ⅲ</td><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td>技术要求</td><td></td></tr><tr><td colspan=\"5\"></td></tr><tr><td rowspan=\"5\"></td><td rowspan=\"5\"></td><td rowspan=\"5\"></td><td></td></tr><tr><td></td></tr><tr><td></td></tr><tr><td></td><td></td></tr><tr><td>(标题栏)</td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 12
+    }
+]

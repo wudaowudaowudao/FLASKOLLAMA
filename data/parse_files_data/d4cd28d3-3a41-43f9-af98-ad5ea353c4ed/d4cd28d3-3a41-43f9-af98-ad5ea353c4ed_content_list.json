@@ -1,0 +1,1197 @@
+[
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/d4cd28d3-3a41-43f9-af98-ad5ea353c4ed/61a3a1f92d65ab000fbef9f2581e8ae1a8043180db76b7e7e76b7f1448d91fe5.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 0,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "一九八四年",
+        "page_idx": 0,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "目录",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "1 国务院组织机构.  \n2 综合政务. 2  \n3国民经济管理、国有资产监管. 3  \n4 财政、金融、审计.. 4  \n5 国土资源、能源. 5  \n6 农业、林业、水利. .6  \n7工业、交通. 7  \n8商贸、海关、旅游. .8  \n9 市场监管、安全生产监管. 10  \n10 城乡建设、环境保护. 11  \n11 科技、教育. .12  \n12 文化、广电、新闻出版. 13  \n13 卫生、体育.. ..14  \n14 人口与计划生育、妇女儿童工作. .15  \n15 劳动、人事、监察. 16  \n16 公安、安全、司法. 17  \n17民政、扶贫、救灾. .18  \n18 民族、宗教. .19  \n19 对外事务. .20  \n20 港澳台侨工作. .21  \n21国防. 22  \n22其他. 23",
+        "page_idx": 1,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 2,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第1页",
+        "page_idx": 2,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "1国务院组织机构",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 3,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第2页",
+        "page_idx": 3,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "2 综合政务",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 4,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第3页",
+        "page_idx": 4,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "3国民经济管理、国有资产监管",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00002",
+        "page_idx": 4,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "国民经济管理、国有资产监管\\经济主题分类：体制改革",
+        "page_idx": 4,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院办公厅",
+        "page_idx": 4,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年07月14日",
+        "page_idx": 4,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院办公厅关于今后不再批准企业实行利润递增包干等办法的通知",
+        "page_idx": 4,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国办发（1984）50号 主题词：",
+        "page_idx": 4,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00012",
+        "page_idx": 4,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "国民经济管理、国有资产监管\\国有主题分类：资产监管",
+        "page_idx": 4,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院 成文日期： 1984年12月09日",
+        "page_idx": 4,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院关于国营企业厂长（经理）实行任期制度的通知",
+        "page_idx": 4,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）173号 主题词：",
+        "page_idx": 4,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 5,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第4页",
+        "page_idx": 5,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "4 财政、金融、审计",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 6,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第5页",
+        "page_idx": 6,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "5国土资源、能源",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00023",
+        "page_idx": 6,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "主题分类： 国土资源、能源\\煤炭",
+        "page_idx": 6,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院",
+        "page_idx": 6,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年09月20日",
+        "page_idx": 6,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院批转国家经委、国家计委、财政部关于调整煤炭工业若干政策问题的请示的通知",
+        "page_idx": 6,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）126号 主题词：",
+        "page_idx": 6,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第6页",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "6 农业、林业、水利",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00021",
+        "page_idx": 7,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "农业、林业、水利\\农业、畜牧业、主题分类：渔业",
+        "page_idx": 7,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年03月06日",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院关于控制棉田面积和搞活等外棉经营的通知",
+        "page_idx": 7,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）36号 主题词：",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00001",
+        "page_idx": 7,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "农业、林业、水利\\农业、畜牧业、主题分类：渔业",
+        "page_idx": 7,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院办公厅 成文日期： 1984年08月08日",
+        "page_idx": 7,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院办公厅转发农牧渔业部关于进一步发展沼气的报告的通知",
+        "page_idx": 7,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国办发（1984）64号 主题词：",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第7页",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "7工业、交通",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00013",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "主题分类： 工业、交通\\民航",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年03月01日",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院批转中国民用航空局等部门关于由民航统一安排承运劳务人员和物资的请示的通名称：知",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）33号 主题词：",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00022",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "主题分类： 工业、交通\\民航",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院办公厅",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年08月27日",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅关于中国民航局对中国海洋直升飞机专业公司实行行政管理的若干问题的名称：通知",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国办发（1984）71号 主题词：",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00014",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年11月03日",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院关于改革我国国际海洋运输管理工作的通知",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）152号 主题词：",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 9,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第8页",
+        "page_idx": 9,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "8商贸、海关、旅游 ",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00004",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "商贸、海关、旅游\\国内贸易（含供主题分类：销)",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院",
+        "page_idx": 9,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年01月11日",
+        "page_idx": 9,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院批转商业部关于做好蔬菜供应工作保持菜价基本稳定的报告的通知",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）9号",
+        "page_idx": 9,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "主题词：",
+        "page_idx": 9,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00017",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "商贸、海关、旅游\\国内贸易（含供主题分类：销)",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院",
+        "page_idx": 9,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年03月10日",
+        "page_idx": 9,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院批转商业部关于解决当前茶叶购销问题的请示的通知",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）39号 主题词：",
+        "page_idx": 9,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00019",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "商贸、海关、旅游\\国内贸易（含供主题分类：销)",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院 成文日期： 1984年06月07日",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院批转商业部关于调整茶叶购销政策和改革流通体制意见的报告的通知",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）75号 主题词：",
+        "page_idx": 9,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00008",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "商贸、海关、旅游\\国内贸易（含供主题分类：销)",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院 成文日期： 1984年07月20日",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "国务院批转国家体改委、商业部、农牧渔业部关于进一步做好农村商品流通工作的报告名称：的通知",
+        "page_idx": 9,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）96号 主题词：",
+        "page_idx": 9,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 10,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第9页",
+        "page_idx": 10,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00020",
+        "page_idx": 10,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "主题分类： 商贸、海关、旅游\\对外经贸合作",
+        "page_idx": 10,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院办公厅",
+        "page_idx": 10,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年09月04日",
+        "page_idx": 10,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院办公厅转发国家经委关于放宽沿海港口城市机械设备进口审批权限的报告的通知",
+        "page_idx": 10,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国办发（1984）79号 主题词：",
+        "page_idx": 10,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00018",
+        "page_idx": 10,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "商贸、海关、旅游\\国内贸易（含供主题分类：销)",
+        "page_idx": 10,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院 成文日期： 1984年10月26日",
+        "page_idx": 10,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院关于加强棉花产购销综合平衡的通知",
+        "page_idx": 10,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）146号 主题词：",
+        "page_idx": 10,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00016 主题分类： 商贸、海关、旅游\\对外经贸合作",
+        "page_idx": 10,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院",
+        "page_idx": 10,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年11月21日",
+        "page_idx": 10,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院关于制止大米出口多头对外的通知",
+        "page_idx": 10,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）164号 主题词：",
+        "page_idx": 10,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 11,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第10页",
+        "page_idx": 11,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "9市场监管、安全生产监管",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00015",
+        "page_idx": 11,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "主题分类： 市场监管、安全生产监管\\工商",
+        "page_idx": 11,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院办公厅",
+        "page_idx": 11,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年08月03日",
+        "page_idx": 11,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院办公厅转发国家工商行政管理局关于做好外资企业登记管理工作的报告的通知",
+        "page_idx": 11,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国办发（1984）62号 主题词：",
+        "page_idx": 11,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 12,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第11页",
+        "page_idx": 12,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "10城乡建设、环境保护",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00005",
+        "page_idx": 12,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "城乡建设、环境保护\\城乡建设（含主题分类： 住房)",
+        "page_idx": 12,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院",
+        "page_idx": 12,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年03月06日",
+        "page_idx": 12,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院批转国家计划委员会关于清理向建设项目取费情况和整顿意见的报告的通知",
+        "page_idx": 12,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）35号",
+        "page_idx": 12,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "主题词：",
+        "page_idx": 12,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00006",
+        "page_idx": 12,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "城乡建设、环境保护\\节能与资源综主题分类：合利用",
+        "page_idx": 12,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院",
+        "page_idx": 12,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年06月20日",
+        "page_idx": 12,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院关于大力开展城市节约用水的通知",
+        "page_idx": 12,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）80号 主题词：",
+        "page_idx": 12,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 13,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第12页",
+        "page_idx": 13,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "11 科技、教育",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 14,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第13页",
+        "page_idx": 14,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "12 文化、广电、新闻出版",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 15,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第14页",
+        "page_idx": 15,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "13 卫生、体育 ",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 16,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第15页",
+        "page_idx": 16,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "14人口与计划生育、妇女儿童工作",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 17,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第16页",
+        "page_idx": 17,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "15劳动、人事、监察 ",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00003",
+        "page_idx": 17,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "主题分类： 劳动、人事、监察\\其他",
+        "page_idx": 17,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院办公厅",
+        "page_idx": 17,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年05月09日",
+        "page_idx": 17,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院办公厅转发劳动人事部关于企业合理使用奖励基金的若干意见的通知",
+        "page_idx": 17,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国办发（1984）35号 主题词：",
+        "page_idx": 17,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 18,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第17页",
+        "page_idx": 18,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "16 公安、安全、司法",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00007",
+        "page_idx": 18,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "主题分类： 公安、安全、司法\\公安",
+        "page_idx": 18,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院",
+        "page_idx": 18,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年07月07日",
+        "page_idx": 18,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院批转煤炭部等部门关于煤矿井下职工家属落城镇户口试点工作总结和在全国煤矿名称：推行落户工作意见的报告的通知",
+        "page_idx": 18,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）91号 主题词：",
+        "page_idx": 18,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00009",
+        "page_idx": 18,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "主题分类： 公安、安全、司法\\公安",
+        "page_idx": 18,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院",
+        "page_idx": 18,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年10月14日",
+        "page_idx": 18,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院关于农民进入集镇落户问题的通知",
+        "page_idx": 18,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）141号 主题词：",
+        "page_idx": 18,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 19,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第18页",
+        "page_idx": 19,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "17民政、扶贫、救灾 ",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "索引号： 000014349/1984-00011",
+        "page_idx": 19,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "主题分类： 民政、扶贫、救灾\\行政区划与地名",
+        "page_idx": 19,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "发布机构： 国务院",
+        "page_idx": 19,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "成文日期： 1984年11月23日",
+        "page_idx": 19,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "名称： 国务院批转民政部关于调整建镇标准的报告的通知",
+        "page_idx": 19,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "文号： 国发（1984）165号",
+        "page_idx": 19,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 20,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第19页",
+        "page_idx": 20,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "18民族、宗教",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 21,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第20页",
+        "page_idx": 21,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "19 对外事务",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 22,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第21页",
+        "page_idx": 22,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "20 港澳台侨工作",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 23,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第22页",
+        "page_idx": 23,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "21国防 ",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "国务院办公厅政府信息公开目录",
+        "page_idx": 24,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "第23页",
+        "page_idx": 24,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "22其他",
+        "text_level": 1,
+        "page_idx": 24
+    }
+]

@@ -1,0 +1,632 @@
+[
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T 8170—2008   \n代替GB/T 1250—1989,GB/T 8170--1987 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "数值修约规则与极限数值的表示和判定",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Rules of rounding off for numerical values & expression and judgement of limiting values ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家质量监督检验检疫总局中国国家标准化管理委员会",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "发布",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "本标准是在GB/T 8170—1987《数值修约规则》和 GB/T1250—1989《极限数值的表示和判定方法》的基础上整合修订而成。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "本标准代替 GB/T8170—1987和 GB/T1250—1989。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "本标准与GB/T8170—1987和GB/T 1250—1989 相比较，技术内容的主要变化包括：-按GB/T1.1—2000《标准化工作导则第1部分：标准的结构和编写规则》的要求对标准格式进行了修改;  \n-增加了术语\"数值修约\"与“极限数值”,修改了“修约间隔\"的定义，删除了术语“有效位数”、$^{66}0.5$ 单位修约\"与 $^{6}0.2$ 单位修约”;  \n——在第3章数值修约规则中删除了“指定将数值修约成 $\\pmb{n}$ 位有效位数\"有关内容，保留“指定数位的情形”；一必要时，在修约数值右上角而不是数值后，加符号 $^{66}+^{39}$ 或 $^{66}-\\boldsymbol{\"}$ ，表示其值进行过“舍\"或“进”；  \n———在对测定值或其计算值与极限数值比较的两种判定方法中，增加了“当标准或有关文件规定了使用其中一种比较方法时，一经确定，不得改动”;删去了有关绝对极限数值的内容;",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "——在使用修约法比较时，强调了“当测试或计算精度允许时，应先将获得的数值按指定的修约位数多一位或几位报出，然后按3.2的程序修约至规定的位数。”",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "本标准由中国标准化研究院提出。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "本标准由全国统计方法应用标准化技术委员会归口。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "本标准起草单位：中国标准化研究院、中国科学院数学与系统科学研究院、广州市产品质量监督检验所、无锡市产品质量监督检验所、福州春伦茶业有限公司。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "本标准起草人：陈玉忠、于振凡、冯士雍、邓穗兴、丁文兴、党华、陈华英、傅天龙。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "数值修约规则与极限数值的表示和判定",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准规定了对数值进行修约的规则、数值极限数值的表示和判定方法，有关用语及其符号，以及将测定值或其计算值与标准规定的极限数值作比较的方法。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准适用于科学技术与生产活动中测试和计算得出的各种数值。当所得数值需要修约时，应按本标准给出的规则进行。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准适用于各种标准或其他技术规范的编写和对测试结果的判定。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2术语和定义 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "下列术语和定义适用于本标准。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.1 ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "数值修约 rounding off for numerical values ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "通过省略原数值的最后若干位数字，调整所保留的末位数字，使最后所得到的值最接近原数值的过程。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "注：经数值修约后的数值称为(原数值的)修约值。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.2 ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "修约间隔 rounding interval ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "修约值的最小数值单位。  \n注：修约间隔的数值一经确定，修约值即为该数值的整数倍。  \n例1：如指定修约间隔为0.1,修约值应在0.1的整数倍中选取，相当于将数值修约到一位小数。  \n例2：如指定修约间隔为100,修约值应在100 的整数倍中选取，相当于将数值修约到“百\"数位。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2.3 ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "极限数值 limiting values ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "标准(或技术规范)中规定考核的以数量形式给出且符合该标准(或技术规范)要求的指标数值范围的界限值。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3数值修约规则 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1 确定修约间隔 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a）指定修约间隔为 $10^{-n}(n$ 为正整数),或指明将数值修约到 $\\pmb{n}$ 位小数;  \nb） 指定修约间隔为1，或指明将数值修约到“个\"数位；  \nc）指定修约间隔为 $10^{n}(n$ 为正整数)，或指明将数值修约到 $10^{n}$ 数位，或指明将数值修约到\"十\"“百”“千”………数位。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2 进舍规则 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2.1拟舍弃数字的最左一位数字小于5，则舍去，保留其余各位数字不变。例：将12.1498修约到个数位，得12;将12.1498修约到一位小数，得12.1。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2.2拟舍弃数字的最左一位数字大于5，则进一，即保留数字的末位数字加1例：将1268修约到“百\"数位，得 $13\\times10^{2}$ （特定场合可写为1300）。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "注：本标准示例中，“特定场合”系指修约间隔明确时。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2.3拟舍弃数字的最左一位数字是5，且其后有非0数字时进一，即保留数字的末位数字加1。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "例：将10.5002修约到个数位，得11。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.2.4拟舍弃数字的最左一位数字为5,且其后无数字或皆为0时，若所保留的末位数字为奇数(1,3，  \n5,7,9)则进一，即保留数字的末位数字加1;若所保留的末位数字为偶数(0,2,4,6,8)，则舍去。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例1：修约间隔为0.1(或 $10^{-1}$ ）",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "拟修约数值 修约值   \n1.050 $10\\times10^{-1}$ (特定场合可写成为1.0) 0.35 $4\\times10^{-1}$ (特定场合可写成为0.4) 例2：修约间隔为1000（或 $10^{3}$ )   \n拟修约数值 修约值   \n2 500 $2\\times10^{3}$ (特定场合可写成为2000) 3500 $4\\times10^{3}$ (特定场合可写成为4000) ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.2.5负数修约时，先将它的绝对值按 $3.2.1{\\sim}3.2.4$ 的规定进行修约，然后在所得值前面加上负号。例1:将下列数字修约到“十\"数位：",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "拟修约数值 修约值   \n—355 $-36\\times10$ （特定场合可写为一360） —325 $-32\\times10$ （特定场合可写为一320） 例2：将下列数字修约到三位小数，即修约间隔为 $10^{-3}$ 。 拟修约数值 修约值   \n—0.036 5 $-36\\times10^{-3}$ (特定场合可写为一0.036) ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.3 不允许连续修约",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.3.1拟修约数字应在确定修约间隔或指定修约数位后一次修约获得结果,不得多次按3.2规则连续  \n修约。例1：修约97.46,修约间隔为1。正确的做法： $97.46\\rightarrow97$ 不正确的做法： $97,46\\substack{\\rightarrow}97,5\\substack{\\rightarrow}98,$ 。例2：修约15.4546，修约间隔为1。正确的做法： $15.454~6{\\rightarrow}15$ ；不正确的做法： $:15.454\\ 6{\\rightarrow}15.455{\\rightarrow}15.46{\\rightarrow}15.5{\\rightarrow}16\\ \\nonumber$ +",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.3.2在具体实施中，有时测试与计算部门先将获得数值按指定的修约数位多一位或几位报出，而后由其他部门判定。为避免产生连续修约的错误，应按下述步骤进行。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.3.2.1报出数值最右的非零数字为5时，应在数值右上角加 $\"+\"$ 或加\"一\"或不加符号，分别表明已进行过舍，进或未舍未进。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例： $16.50^{+}$ 表示实际值大于16.50,经修约舍弃为 $16.50;16.50^{-}$ 表示实际值小于16.50，经修约进一为16.50.",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.3.2.2如对报出值需进行修约，当拟舍弃数字的最左一位数字为5，且其后无数字或皆为零时，数值右上角有 $^{\\omega}+{}^{\\dag}$ 者进一，有“一\"者舍去，其他仍按3.2 的规定进行。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "例1：将下列数字修约到个数位(报出值多留一位至一位小数)。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "实测值 报出值 修约值   \n15.454 6 $15.5^{-}$ 15   \n—15.454 6 $-15.5^{-}$ 一15   \n16.520 3 $16.5^{+}$ 17   \n—16.520 3 $-16.5^{+}$ —17   \n17.500 0 17.5 18 ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.40.5单位修约与0.2单位修约",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "在对数值进行修约时，若有必要，也可采用0.5单位修约或0.2单位修约。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.4.10.5单位修约(半个单位修约）",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "0.5单位修约是指按指定修约间隔对拟修约的数值0.5单位进行的修约。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "0.5单位修约方法如下：将拟修约数值 $X$ 乘以2，按指定修约间隔对2X依3.2的规定修约，所得数值 $(2X$ 修约值)再除以2。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "例：将下列数字修约到“个\"数位的0.5单位修约。",
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723109632991232/a0c92de3a55b877753c4b207f55b55903004986313eb44d0ee11c0319bdbfde0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>拟修约数值X</td><td>2X</td><td>2X修约值</td><td>X修约值</td></tr><tr><td>60.25</td><td>120.50</td><td>120</td><td>60.0</td></tr><tr><td>60.38</td><td>120.76</td><td>121</td><td>60.5</td></tr><tr><td>60.28</td><td>120.56</td><td>121</td><td>60.5</td></tr><tr><td>60.75</td><td>-121.50</td><td>—122</td><td>-61.0</td></tr></table></body></html>\n\n",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.4.20.2单位修约",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "0.2单位修约是指按指定修约间隔对拟修约的数值0.2单位进行的修约。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "0.2单位修约方法如下：将拟修约数值X乘以5,按指定修约间隔对5X依3.2的规定修约，所得数直(5X 修约值)再除以5。",
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723109632991232/cb11048fe60da2cfb9388dbed469f287b19ce0950aecd9930fcf28762e7bb8bc.jpg",
+        "table_caption": [
+            "例：将下列数字修约到“百\"数位的0.2单位修约"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>拟修约数值X</td><td>5X</td><td>5X修约值</td><td>X修约值</td></tr><tr><td>830</td><td>4 150</td><td>4 200</td><td>840</td></tr><tr><td>842</td><td>4 210</td><td>4 200</td><td>840</td></tr><tr><td>832</td><td>4 160</td><td>4 200</td><td>840</td></tr><tr><td>—930</td><td>—4 650</td><td>－4 600</td><td>—920</td></tr></table></body></html>\n\n",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4极限数值的表示和判定",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.1 书写极限数值的一般原则",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.1.1标准(或其他技术规范)中规定考核的以数量形式给出的指标或参数等，应当规定极限数值。极限数值表示符合该标准要求的数值范围的界限值，它通过给出最小极限值和(或)最大极限值，或给出基本数值与极限偏差值等方式表达。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.1.2标准中极限数值的表示形式及书写位数应适当，其有效数字应全部写出。书写位数表示的精确程度，应能保证产品或其他标准化对象应有的性能和质量。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.2 表示极限数值的用语",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.2. 1 基本用语",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.2.1.1 表达极限数值的基本用语及符号见表1。 ",
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723109632991232/15bc5bb50c554c65e2056d1c563bc65d6a0be2adf95ed2c0cd184b4b9e06ff72.jpg",
+        "table_caption": [
+            "表1表达极限数值的基本用语及符号"
+        ],
+        "table_footnote": [
+            "注1：A为极限数值。注2：允许采用以下习惯用语表达极限数值：a）“超过 $A^{\\flat}$ ,指数值大于 $A(>A)$ ；"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>基本用语</td><td>符号</td><td colspan=\"3\">特定情形下的基本用语</td><td>注</td></tr><tr><td>大于A 小于A 大于或等于A 小于或等于A</td><td>VA ΛA A ≤A</td><td>不小于A 不大于A</td><td>多于A 少于A 不少于A 不多于A</td><td>高于A 低于A 不低于A 不高于A</td><td>测定值或计算值恰好为A值时不符合要求 测定值或计算值恰好为A值时不符合要求 测定值或计算值恰好为A值时符合要求 测定值或计算值恰好为A值时符合要求</td></tr></table></body></html>\n\n",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "b) “不足 $A^{\\prime\\prime}$ ,指数值小于 $A(<A)$ $\\mathbf{c})$ $^{\\bullet}A$ 及以上\"或“至少 $A^{\\prime\\prime}$ ,指数值大于或等于 $A(\\geqslant A)$ d) $^{\\bullet}A$ 及以下\"或“至多 $A^{\\prime\\prime}$ ，指数值小于或等于 $A(\\leqslant A)$ 。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例1：钢中磷的残量 $<0.035\\%$ ， $A=0.035\\%$ 0",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例2：钢丝绳抗拉强度 $\\geq22\\times10^{2}\\mathrm{(MPa)}$ ， $A{=}22\\times10^{2}\\mathrm{(MPa)}$ 。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.2.1.2 基本用语可以组合使用，表示极限值范围。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "对特定的考核指标 $\\boldsymbol{x}$ ，允许采用下列用语和符号(见表2)。同一标准中一般只应使用一种符号表示方式。",
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723109632991232/aeab0cf0747babd29fb4e24819a9f5d001733b213fb1142ac3afc317e8b7e158.jpg",
+        "table_caption": [
+            "表2对特定的考核指标 $\\pmb{X}$ ，允许采用的表达极限数值的组合用语及符号"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">组合基本用语</td><td rowspan=\"2\">组合允许用语</td><td colspan=\"3\">符号</td></tr><tr><td>表示方式I</td><td>表示方式Ⅱ</td><td>表示方式Ⅲ</td></tr><tr><td>大于或等于A且小于或等于B 大于A且小于或等于B 大于或等于A且小于B 大于A且小于B</td><td>从A到B 超过A到B 至少A不足B 超过A不足B</td><td>A≤X≤B A<X≤B A≤X<B A<X<B</td><td>A≤·≤B A<·≤B A≤·<B A<·<B</td><td>A~B VA~B A~<B</td></tr></table></body></html>\n\n",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.2.2 带有极限偏差值的数值",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.2.2.1基本数值 $A$ 带有绝对极限上偏差值 $+b_{\\mathrm{i}}$ 和绝对极限下偏差值一 ${b_{2}}$ ，指从 $\\displaystyle A-b_{2}$ 到 $\\pmb{A}\\pmb{b_{1}}$ 符合要求，记为 $A_{-b_{2}}^{+b_{1}}$ 。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "注：当 $\\pmb{b_{1}}=\\pmb{b_{2}}=\\pmb{b_{1}}$ 时， $\\cdot A_{-b_{2}}^{+b_{1}}$ 可简记为 $\\mathbf{\\nabla}A\\pm b$ 中",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例： $80_{-1}^{+2}\\ \\mathbf{mm}$ ,指从 $79\\ \\mathrm{mm}$ 到 $82\\mathrm{mm}$ 符合要求。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.2.2.2基本数值 $A$ 带有相对极限上偏差值 $+b_{1}\\%$ 和相对极限下偏差值一 $b_{2}\\%$ ,指实测值或其计算值$R$ 对于 $A$ 的相对偏差值 $\\left[{(R{-}A)}/A\\right]$ 从一 $6,\\%$ 到 $+b_{1}$ %符合要求，记为 $A_{-b_{2}}^{+b_{1}}\\%$ 。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "注：当 $b_{1}=b_{2}=6$ 时， $A_{-b_{2}}^{+b_{1}}\\%$ 可记为 $A(1\\pm b\\%)$ 。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例： $510~\\Omega(1\\pm5\\%)$ ，指实测值或其计算值 $R(\\Omega)$ 对于 $510~\\Omega$ 的相对偏差值[(R—510)/510]从一 $5\\%$ 到 $+5\\%$ 符合要求。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.2.2.3对基本数值 $A$ ,若极限上偏差值 $+b_{1}$ 和(或)极限下偏差值一 $b_{2}$ 使得 $A+b_{1}$ 和(或) $\\vert A-b_{2}$ 不符合要求，则应附加括号，写成 $A_{-b_{2}}^{+b_{1}}$ (不含 ${\\pmb{b_{1}}}$ 和 $b_{2}$ )或 $A_{-b_{2}}^{+b_{1}}$ (不含 ${{b}_{1}})\\mathrm{}}\\mathrm{}\\mathrm{}\\mathrm{}\\mathrm{}\\mathrm{}\\mathrm{}\\mathrm{}\\mathrm{}\\mathrm{}\\mathrm{}\\mathrm{}A_{-{b}_{2}}^{+{b}_{1}}\\mathrm{}$ (不含 $b_{2}$ )。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 $1:80_{-1}^{+2}$ (不含2) $\\mathbf{mm}$ ,指从 $79\\ \\mathrm{mm}$ 到接近但不足 $82\\mathrm{mm}$ 符合要求。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "例 $2:510\\Omega(1\\pm5\\%)$ (不含 $5\\%$ )，指实测值或其计算值 $R(\\Omega)$ 对于 $510\\ \\Omega$ 的相对偏差值[(R—510)/510］从一 $5\\%$ 到接近但不足 $+5\\%$ 符合要求。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3测定值或其计算值与标准规定的极限数值作比较的方法",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3.1 总则 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3.1.1在判定测定值或其计算值是否符合标准要求时，应将测试所得的测定值或其计算值与标准规定的极限数值作比较，比较的方法可采用：",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "a) 全数值比较法；   \nb) 修约值比较法。 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3.1.2当标准或有关文件中，若对极限数值(包括带有极限偏差值的数值)无特殊规定时，均应使用全数值比较法。如规定采用修约值比较法，应在标准中加以说明。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3.1.3若标准或有关文件规定了使用其中一种比较方法时，一经确定，不得改动。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3.2 全数值比较法",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "将测试所得的测定值或计算值不经修约处理(或虽经修约处理，但应标明它是经舍、进或未进未舍",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "而得)，用该数值与规定的极限数值作比较，只要超出极限数值规定的范围(不论超出程度大小)，都判定为不符合要求。示例见表3。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.3.3 修约值比较法",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.3.3.1将测定值或其计算值进行修约，修约数位应与规定的极限数值数位一致。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "当测试或计算精度允许时，应先将获得的数值按指定的修约数位多一位或几位报出，然后按3.2的程序修约至规定的数位。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.3.3.2将修约后的数值与规定的极限数值进行比较，只要超出极限数值规定的范围(不论超出程度大小)，都判定为不符合要求。示例见表3。",
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723109632991232/e415a3f9c7fdc2eb4b293dafdfd58461f3abcf9dbb49a6890233a702ab20e98f.jpg",
+        "table_caption": [
+            "表3全数值比较法和修约值比较法的示例与比较"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>项目</td><td>极限数值</td><td>测定值或 其计算值</td><td>按全数值比较 是否符合要求</td><td>修约值</td><td>按修约值比较 是否符合要求</td></tr><tr><td>中碳钢 抗拉强度/ MPa</td><td>≥14X100</td><td>1349 1351 1 400 1402</td><td>不符合 不符合 符合 符合</td><td>13X100 14 X100 14X100 14 X100</td><td>不符合 符合 符合 符合</td></tr><tr><td>NaOH的质量分数/ %</td><td>≥97.0</td><td>97.01 97.00 96.96 96.94</td><td>符合 符合 不符合 不符合</td><td>97.0 97.0 97.0 96.9</td><td>符合 符合 符合 不符合</td></tr><tr><td>中碳钢的硅的质量分数/ %</td><td>≤0.5</td><td>0.452 0.500 0.549 0.551</td><td>符合 符合 不符合 不符合</td><td>0.5 0.5 0.5 0.6</td><td>符合 符合 符合 不符合</td></tr><tr><td>中碳钢的锰的质量分数/ %</td><td>1.2～1.6</td><td>1.151 1.200 1.649 1.651</td><td>不符合 符合 不符合 不符合</td><td>1.2 1.2 1.6 1.7</td><td>符合 符合 符合 不符合</td></tr><tr><td>盘条直径/ mm</td><td>10.0±0.1</td><td>9.89 9.85 10.10 10.16</td><td>不符合 不符合 符合 不符合</td><td>9.9 9.8 10.1 10.2</td><td>符合 不符合 符合 不符合</td></tr><tr><td>盘条直径/ mm</td><td>10.0±0.1 (不含0.1)</td><td>9.94 9.96 10.06 10.05</td><td>符合 符合 符合 符合</td><td>9.9 10.0 10.1 10.0</td><td>不符合 符合 不符合 符合</td></tr><tr><td>盘条直径/ mm</td><td>10.0±0.1 (不含+0.1)</td><td>9.94 9.86 10.06 10.05</td><td>符合 不符合 符合 符合</td><td>9.9 9.9 10.1 10.0</td><td>符合 符合 不符合 符合</td></tr></table></body></html>\n\n",
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723109632991232/ea9f74c75c54bfba97fa0f3eef46b2f93898dd51356e1b4a4994ed9b937d7c83.jpg",
+        "table_caption": [
+            "表3 (续)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>项 目</td><td>极限数值</td><td>测定值或 其计算值</td><td>按全数值比较 是否符合要求</td><td>修约值</td><td>按修约值比较 是否符合要求</td></tr><tr><td>盘条直径/</td><td>10.0±0.1 (不含－0.1)</td><td>9.94 9.86 10.06</td><td>符合 不符合 符合</td><td>9.9 9.9</td><td>不符合 不符合</td></tr><tr><td colspan=\"4\">mm</td><td>10.1</td><td>符合 符合</td></tr><tr><td colspan=\"6\">10.05 符合 10.0</td></tr><tr><td colspan=\"4\"></td></tr></table></body></html>\n\n",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "4.3.4 两种判定方法的比较",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "对测定值或其计算值与规定的极限数值在不同情形用全数值比较法和修约值比较法的比较结果的示例见表3。对同样的极限数值，若它本身符合要求，则全数值比较法比修约值比较法相对较严格。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "参考文献",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "[1] GB/T 699—1999 优质碳素结构钢 [2] JIS Z 840l Rules for Rounding off of Number Values ",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准数值修约规则与极限数值的表示和判定GB/T 8170—2008",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "\\* ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "中国标准出版社出版发行  \n北京复兴门外三里河北街16号  \n邮政编码：100045  \n网址 www. spc. net. cn  \n电话：68523946 68517548  \n中国标准出版社秦皇岛印刷厂印刷  \n各地新华书店经销",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "\\* ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "开本 $880\\times1230$ 1/16 印张0.75 字数15千字2008年11月第一版 2008年11月第一次印刷\\*书号： $155066\\cdot1\\cdot34555$ ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "如有印装差错 由本社发行中心调换版权专有 侵权必究举报电话：(010)68533533",
+        "page_idx": 9
+    }
+]

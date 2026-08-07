@@ -1,0 +1,733 @@
+[
+    {
+        "type": "text",
+        "text": "ICS 01.100.01 J 04 ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/d47aef6f7aa2a6993ce4d4cbf3178a72798c8d4091c6a14af32061c0b99a415e.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T 14689—2008 代替GB/T14689—1993 ",
+        "text_level": 0,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "技术制图 图纸幅面和格式",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Technical drawings-Size and layout of drawing sheets ",
+        "text_level": 0,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(ISO 5457 :1999,Technical product documentation—Sizes and layout of drawing sheets,MOD) ",
+        "text_level": 0,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2008-06-26发布",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "2009-01-01实施 ",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家质量监督检验检疫总局发布中国国家标准化管理委员会",
+        "text_level": 0,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "本标准是对GB/T14689—1993《技术制图 图纸幅面和格式》的修订。",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准从1993年发布以后，得到了广泛的应用。本次修订主要是根据我国制造业产品的进出口贸易和技术交流的需要增加了有关条款，以及在标准文字和编辑上发现的一些问题等，对原标准的内容修改后编制而成。",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准代替GB/T14689—1993《技术制图 图纸幅面和格式》，主要修改的内容有：",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "按照GB/T1.1和本标准的内容要求,修改与增加了“范围\"和\"规范性引用文件\"的内容；",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "增加了 $^{6}6.4$ 条投影符号\"的条款和图11第一角画法和图12第三角画法的图例;",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "另外，还就标准中的相关内容做了文字上的修改。",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "原GB/T14689—-1993《技术制图图纸幅面和格式》国家标准是参照采用国际标准ISO5457：1980《技术制图图纸幅面和格式》,该国际标准在1999 年进行了修订，本次的修订参考应用了ISO 5457:1999《技术制图图纸幅面和格式》国际标准内容，但也考虑到原国家标准的内容和原标准在我国的应用情况。所以，本次对ISO5457：1999《技术制图图纸幅面和格式》国际标准一致性程度为修改采用。",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准由全国技术产品文件标准化技术委员会提出。",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准由全国技术产品文件标准化技术委员会归口。",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准起草单位：中机生产力促进中心、合肥工业大学、江苏技术师范学院、西安科技大本标准主要起草人：杨东拜、李学京、王槐德、李勇、韩琳琳。",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准所代替标准的历次版本发布情况为：",
+        "page_idx": 1,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "--GB 4457.1—1984; ",
+        "page_idx": 1,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "GB/T 14689—1993. ",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "技术制图 图纸幅面和格式",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准规定了图纸的幅面尺寸和格式，以及有关的附加符号。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准适用于技术图样(包括原图、底图和复制图等)及有关技术文件。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "2规范性引用文件",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "下列文件中的条款通过本标准的引用而成为本标准的条款。凡是注日期的引用文件，其随后所有的修改单(不包括勘误的内容)或修订版均不适用于本标准，然而，鼓励根据本标准达成协议的各方研究是否可使用这些文件的最新版本。凡是不注日期的引用文件，其最新版本适用于本标准。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T148印刷、书写及绘图纸幅面尺寸(GB/T 148—1997,neqISO 216:1975) ",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T 10609.1技术制图标题栏(GB/T 10609.1—1989,neq ISO 7200:1984) ",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T 10609.4技术制图对缩微复制原件的要求(GB/T 10609.4—1989,neq ISO 6428:1982)GB/T13361技术制图通用术语",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3图纸幅面尺寸及其公差",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1绘制技术图样时，应优先采用表1所规定的基本幅面。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2必要时，也允许选用表2 和表3所规定的加长幅面。这些幅面的尺寸是由基本幅面的短边成整数倍增加后得出，如图1所示。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "图1中粗实线所示为基本幅面(第一选择);细实线所示为表2所规定的加长幅面(第二选择);虚线所示为表3所规定的加长幅面(第三选择)。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3.3 图纸幅面的尺寸公差按GB/T148的规定。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "单位为毫米",
+        "page_idx": 2,
+        "text_level": 1
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/063f1bbd79c9b12ad906ea04375247033606c4e6505fc67358df86a4adcc2847.jpg",
+        "table_caption": [
+            "表1基本幅面(第一选择)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>幅面代号</td><td>尺寸BXL</td></tr><tr><td>A0</td><td>841X1 189</td></tr><tr><td>A1</td><td>594X841</td></tr><tr><td>A2</td><td>420X594</td></tr><tr><td>A3</td><td>297X 420</td></tr><tr><td>A4</td><td>210X 297</td></tr></table></body></html>\n\n",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/773aa4e9a74edb6da712680d8e8c3d6325684a114b253294d149d6504651d9e2.jpg",
+        "table_caption": [
+            "表2 加长幅面（第二选择）"
+        ],
+        "table_footnote": [
+            "1 "
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>幅面代号</td><td>尺寸 BXL</td></tr><tr><td>A3X3</td><td>420×891</td></tr><tr><td>A3X4</td><td>420X1 189</td></tr><tr><td>A4X3</td><td>297X 630</td></tr><tr><td>A4X4</td><td>297 X 841</td></tr><tr><td>A4X5</td><td>297X1 051</td></tr></table></body></html>\n\n",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "单位为毫米",
+        "page_idx": 3,
+        "text_level": 1
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/653a4f86872395405628f6868c0af947d0e095173bcf079d77457ffb03f1f30d.jpg",
+        "img_caption": [
+            "图1 图纸的幅面尺寸 "
+        ],
+        "img_footnote": [
+            "2 "
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4图框格式",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4.1在图纸上必须用粗实线画出图框，其格式分为不留装订边和留有装订边两种，但同一产品的图样只能采用一种格式。",
+        "text_level": 2,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4.2不留装订边的图纸，其图框格式如图2、图3所示，尺寸按表4的规定。",
+        "page_idx": 4,
+        "text_level": 2
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/002e8dc170d50c9da61d5f877df764eb92b281082ae470aa11fca49da659a507.jpg",
+        "img_caption": [
+            "图2 无装订边图纸！ $(\\mathbf{X}$ 型)的图框格式"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/c1389e5860fc0c482e1563d0e3c908cd82036a0fd02db4cff9f393459da79228.jpg",
+        "img_caption": [
+            "图3 无装订边图纸(Y型)的图框格式"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.3留有装订边的图纸，其图框格式如图4、图5所示，尺寸按表4的规定。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/184f46205b26f40bae4c9e709d9ed8a7a758e52b2ae1e9ad49d3e7899bacb719.jpg",
+        "img_caption": [
+            "图4有装订边图纸 $(\\mathbf{X}$ 型)的图框格式"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "",
+        "img_caption": [
+            "图5 有装订边图纸(Y型)的图框格式单位为毫米"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/f396440ef1c676acb5fd3cb775e5c4e451bbe6248676c65d58e5d7f6dabb6b66.jpg",
+        "table_caption": [
+            "表4 图框尺寸"
+        ],
+        "table_footnote": [
+            "3 "
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>幅面代号</td><td>A0</td><td>A1</td><td>A2</td><td>A3</td><td>A4</td></tr><tr><td>BXL</td><td>841X1 189</td><td>594X841</td><td>420 X 594</td><td>294X420</td><td>210×297</td></tr><tr><td></td><td colspan=\"2\">20</td><td colspan=\"3\">10</td></tr><tr><td>c</td><td colspan=\"3\">10</td><td colspan=\"2\">５</td></tr><tr><td>α</td><td colspan=\"5\">25</td></tr></table></body></html>\n\n",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.4加长幅面的图框尺寸，按所选用的基本幅面大一号的图框尺寸确定。例如 $\\mathbf{A}\\mathbf{2}\\times\\mathbf{3}$ 的图框尺寸，按A1 的图框尺寸确定,即 $e$ 为20(或 $c$ 为10),而 $\\mathbf{A}\\mathbf{3}\\times\\mathbf{4}$ 的图框尺寸，按 A2 的图框尺寸确定，即 $\\textbf{\\em e}$ 为10(或 $\\boldsymbol{\\mathsf{\\pmb{c}}}$ 为10).",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5标题栏的方位",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5.1每张图纸上都必须画出标题栏。标题栏的格式和尺寸按 GB/T 10609.1 的规定。标题栏的位置应位于图纸的右下角，如图 $2\\sim$ 图5所示。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5.2标题栏的长边置于水平方向并与图纸的长边平行时，则构成X型图纸，如图2、图4所示。若标题栏的长边与图纸的长边垂直时，则构成 $\\mathbf{Y}$ 型图纸，如图3、图5所示。在此情况下，看图的方向与看标题栏的方向一致。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "5.3为了利用预先印制的图纸，允许将X型图纸的短边置于水平位置使用，如图6所示，或将丫型图纸的长边置于水平位置使用，如图7所示。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/79594a441b45ca8f2a0b4c32b4f9ef48de378a0fe4c11e4ab1d43a038c1eb9d4.jpg",
+        "img_caption": [
+            "图6 标题栏的方位（ $\\mathbf{\\sigma}_{\\mathbf{X}}$ 形图纸竖放时）"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/0e5e87d32f954942d89aae6ccdffbd8c028eb91daf636e3af8cd1fa5fafbd5f8.jpg",
+        "img_caption": [
+            "图7 标题栏的方位（Y形图纸横放时）"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6附加符号",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6.1对中符号",
+        "text_level": 2,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "为了使图样复制和缩微摄影时定位方便，对表1和表2所列的各号图纸，均应在图纸各边长的中点处分别画出对中符号。",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "对中符号用粗实线绘制，线宽不小于 $0.5\\ \\mathrm{mm}$ ，长度从纸边界开始至伸人图框内约 $\\textsf{S m m}$ ,如图 6、图7所示。",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "对中符号的位置误差应不大于 $0.5\\ \\mathrm{mm}$ 。",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "当对中符号处在标题栏范围内时，则伸入标题栏部分省略不画，如图7所示。",
+        "text_level": 0,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6.2 方向符号",
+        "text_level": 2,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "对于按5.3规定使用预先印制的图纸时，为了明确绘图与看图时图纸的方向，应在图纸的下边对中符号处画出一个方向符号，如图6、图7所示。方向符号是用细实线绘制的等边三角形，其大小和所处的位置如图8所示。",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/d905954ac75dbd7f7a2371ac12521c81fe2f0adc1a74fefd74c467d7987b9d40.jpg",
+        "img_caption": [
+            "图8方向符号的尺寸和位置"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6.3 剪切符号",
+        "text_level": 2,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "为使复制图样时便于自动切剪，可在图纸(如供复制用的底图)的四个角上分别绘出剪切符号。",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "剪切符号可采用直角边边长为 $10\\ \\mathrm{mm}$ 的黑色等腰三角形，如图9所示，当使用这种符号对某些自动切纸机不适合时，也可以将剪切符号画成两条粗线段，线段的线宽为 $2\\ m\\mathbf{m}$ ,线长为 $10\\ \\mathrm{mm}$ ,如图10所示。",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/0506b588a874ddd42235e83f91282199703bda4019bb6fe2905604771be2fdd8.jpg",
+        "img_caption": [
+            "图9 剪切符号（一)"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/8f5402cd677187e789e2df0eb045f92580eeae71527bcd3d1a2221e451ff854c.jpg",
+        "img_caption": [
+            "图10 剪切符号（二)"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "6.4投影符号",
+        "text_level": 2,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "第一角画法的投影识别符号，如图11所示。第三角画法的投影识别符号，如图12所示。投影符号中的线型用粗实线和细点画线绘制，其中粗实线的线宽不小于 $0.5\\ \\mathrm{mm}$ ，如图11、图12所示。投影符号一般放置在标题栏中名称及代号区的下方。",
+        "page_idx": 6,
+        "text_level": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/d4ee1ae46fd1bd91fc0a734ec1b34af47f6eff45de5a181687e41bb9c9db8e88.jpg",
+        "img_caption": [
+            "图11 第一角画法的投影识别符号"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/8d3d99b72615e7b15db86fa62eb6fec7a65ee2ece7b4607f6a52059d306fc056.jpg",
+        "img_caption": [
+            "图12 第三角画法的投影识别符号"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7图幅分区",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7.1必要时，可以用细实线在图纸周边内画出分区，如图13、图14所示。",
+        "text_level": 2,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7.2图幅分区数目按图样的复杂程度确定，但必须取偶数。每一分区的长度应在 $25\\ \\mathrm{mm}\\sim75\\ \\mathrm{mm}$ 之间选择。",
+        "text_level": 2,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "7.3分区的编号，沿上下方向(按看图方向确定图纸的上下和左右)用大写拉丁字母从上到下顺序编写，沿水平方向用阿拉伯数字从左到右顺序编写。",
+        "text_level": 2,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "当分区数超过拉丁字母的总数时，超过的各区可用双重字母依次编写，例如AA,BB,CC),…·.等。",
+        "text_level": 0,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "拉丁字母和阿拉伯数字的位置应尽量靠近图框线。",
+        "page_idx": 6,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "7.4在图样中标注分区代号时，分区代号由拉丁字母和阿拉伯数字组合而成，字母在前、数字在后并排地书写，如 B3、C5 等。",
+        "text_level": 2,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "当分区代号与图形名称同时标注时，则分区代号写在图形名称的后边，中间空出一个字母的宽度，例如:A B3;E--E  A7;2:1 C5等。",
+        "page_idx": 6,
+        "text_level": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/e80c7cf485e8e2b19ff5c7ec4fa1e9e5389bbbf2eea62e73fb23621b98f2af0e.jpg",
+        "img_caption": [
+            "图13 图幅分区（一)"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/497e410af368d80b4897a3d2af523473628b91c1916d3353218b888134954c83.jpg",
+        "img_caption": [
+            "图14 图幅分区（二）"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "8米制参考分度",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "8.1对于用作缩微摄影的原件，可在图纸的下边设置不注尺寸数字的米制参考分度，用以识别缩微摄影的放大或缩小的倍率。",
+        "page_idx": 6,
+        "text_level": 2
+    },
+    {
+        "type": "text",
+        "text": "8.2米制参考分度用粗实线绘制，线宽不小于 $0.5\\ \\mathrm{mm}$ ,总长为 $100\\ \\mathrm{mm}$ ，等分为10格，格高为 $5\\ \\mathrm{mm}$ 对称地配置在图纸下边的对中符号两侧，如图15所示。",
+        "page_idx": 7,
+        "text_level": 2
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/fb787dcb1917e9d33e5f3c79ba22233f74f72e73e7354072e3a0347b05b4fd5f.jpg",
+        "img_caption": [
+            "图15 米制参考分度"
+        ],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "8.3当同时采用米制参考分度与图幅分区时，则绘制米制参考分度的这一部分省略图幅分区：",
+        "text_level": 2,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "9 预先印制的图纸 ",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "图纸可以预先印制，预先印制的图纸一般应具有图框、标题栏和对中符号三项基本内容。而其他内容如剪切符号、图幅分区、米制参考分度等可根据图纸的用途和使用情况确定其取舍。也可根据具体需要临时绘制。",
+        "page_idx": 7,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国家标准",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "技术制图 图纸幅面和格式",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "GB/T 14689—2008 ",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "中国标准出版社出版发行北京复兴门外三里河北街16号",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "邮政编码：100045",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "网址 www. spc. net.cn",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "电话：68523946 68517548",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "中国标准出版社秦皇岛印刷厂印剧",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "各地新华书店经销",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1954006868808589312/74f82ea2012d93be12824d39a17ac387c499d335edcb59cad7db5f00ef8b428b.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "开本 $880\\times1230$ 1/16 印张0.75 字数13千字",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "2008年9月第一版 2008年9月第一次印时",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "书号：155066·1-33439",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "如有印装差错 由本社发行中心调换",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "版权专有 侵权必究 ",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "举报电话：（010)68533533 ",
+        "page_idx": 8,
+        "text_level": 1
+    }
+]

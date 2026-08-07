@@ -1,0 +1,86 @@
+<think>
+好的，我现在需要根据用户提供的JSON数据生成符合指定XML格式的标准规则。首先，我需要仔细分析用户的需求和提供的示例，确保理解正确。
+用户给出的JSON数据包含多个条目，每个条目有“序号”、“一级模块”、“二级模块”和“功能点”。我的任务是将这些数据转换为XML格式，遵循用户提供的标准结构。用户提供的示例XML中，主要结构是<SpecificationCheck>，包含多个<CheckGroup>，每个<CheckGroup>下有多个<RuleItem>，每个<RuleItem>有具体的规则配置。
+首先，我需要确定如何将JSON中的模块和功能点映射到XML的结构中。观察示例XML，每个<CheckGroup>对应一个模块，而<RuleItem>对应具体的规则。例如，示例中的“xx系列”和“xxx方法”是规则项。因此，我需要将JSON中的一级模块和二级模块作为<CheckGroup>和<RuleItem>的名称，而功能点则作为规则的描述。
+接下来，我需要处理JSON中的数据。注意到有些条目的“一级模块”或“二级模块”为“nan”，这可能表示缺失或未填写。在这种情况下，可能需要将这些条目归类到最近的父级模块下。例如，如果某个条目的“一级模块”为“nan”，但“二级模块”有值，那么它可能属于上一个存在的“一级模块”。
+例如，JSON中的第二个条目“序号2.0”的一级模块是“nan”，二级模块是“登出”，功能点是“nan”。这可能意味着它属于第一个条目的一级模块“登录”下的二级模块“登出”。因此，我需要将这些条目组织成层次结构，确保每个<CheckGroup>和<RuleItem>正确嵌套。
+接下来，我需要为每个功能点生成对应的<RuleItem>。每个<RuleItem>需要包含Name、CheckFun、Description等属性。根据示例，CheckFun的值如“ScaleCheck_1”或“MarkingCheck_1”可能是预定义的函数名，但用户没有提供具体的映射规则。因此，可能需要根据功能点的内容推断合适的CheckFun值，或者使用默认值。例如，涉及审核流程的功能点可能使用相同的CheckFun，而涉及禁用或启用的功能点可能使用另一个CheckFun。
+此外，每个<RuleItem>下的<CheckConfig>包含多个<Rule>元素，每个Rule有Name、VerType和Value。在示例中，这些Rule的Name和Value是具体的规则配置。例如，比例符号检查可能涉及检查是否使用“:”符号。因此，我需要根据功能点的内容推断出对应的Rule配置。例如，功能点“支持对‘需求识别’流程进行审核”可能需要配置审核相关的规则，如审核状态、操作类型等。
+需要注意的是，用户提供的示例中，某些Rule的VerType是“-”，这可能表示不需要验证类型，或者该字段可以留空。因此，在生成XML时，可能需要将VerType设置为“-”或留空，具体取决于用户的需求。
+另外，用户强调只返回标准的XML格式，不要包含任何额外内容，如解释、注释或Markdown代码块。因此，生成的XML必须严格遵循示例的结构，确保标签正确闭合，属性正确设置。
+现在，我需要逐步处理JSON数据，构建XML结构。首先，遍历所有条目，识别一级模块，然后在每个一级模块下组织二级模块和功能点。对于每个功能点，生成对应的<RuleItem>，并填充适当的属性和子元素。
+例如，对于一级模块“系统管理”，其下的二级模块可能有“字典管理”、“菜单管理”等。每个二级模块下的功能点将作为<RuleItem>，如“支持根据名称模糊查询”、“支持新增字典”等。每个<RuleItem>的Name可能需要根据功能点内容命名，如“字典模糊查询”或“新增字典”。
+在生成CheckFun时，可能需要根据功能类型统一命名。例如，所有涉及审核的功能点可能使用“AuditCheck_1”，而涉及禁用/启用的功能点可能使用“DisableEnableCheck_1”。但用户示例中的CheckFun名称并不统一，因此可能需要根据功能点内容合理推断，或者使用默认值。
+最后，确保所有生成的XML元素符合用户提供的示例结构，没有遗漏任何必要的属性或子元素。例如，每个<RuleItem>必须包含Name、CheckFun、Description，以及<CheckConfig>中的多个<Rule>元素，每个Rule有Name、VerType和Value。
+总结步骤：
+1. 解析JSON数据，识别一级模块、二级模块和功能点。
+2. 构建层次结构，将功能点归类到对应的<CheckGroup>和<RuleItem>下。
+3. 为每个功能点生成<RuleItem>，设置Name、CheckFun、Description。
+4. 根据功能点内容推断<CheckConfig>中的Rule配置。
+5. 确保XML结构正确，符合用户示例，不包含额外内容。
+</think>
+<SpecificationCheck>
+  <CheckGroup Name="登录管理">
+    <RuleItem Name="登录验证" CheckFun="LoginCheck_1" Description="用户登录验证">
+      <CheckConfig>
+        <Rule Name="用户名" VerType="-" Value="必填"/>
+        <Rule Name="密码" VerType="-" Value="加密存储"/>
+      </CheckConfig>
+    </RuleItem>
+    <RuleItem Name="登出处理" CheckFun="LogoutCheck_1" Description="用户登出操作">
+      <CheckConfig>
+        <Rule Name="会话终止" VerType="-" Value="立即失效"/>
+      </CheckConfig>
+    </RuleItem>
+  </CheckGroup>
+  <CheckGroup Name="系统管理">
+    <RuleItem Name="字典管理" CheckFun="DictCheck_1" Description="支持字典操作">
+      <CheckConfig>
+        <Rule Name="模糊查询" VerType="-" Value="启用"/>
+        <Rule Name="键值维护" VerType="-" Value="支持"/>
+      </CheckConfig>
+    </RuleItem>
+    <RuleItem Name="菜单管理" CheckFun="MenuCheck_1" Description="菜单配置">
+      <CheckConfig>
+        <Rule Name="权限控制" VerType="-" Value="基于角色"/>
+      </CheckConfig>
+    </RuleItem>
+    <RuleItem Name="用户管理" CheckFun="UserCheck_1" Description="用户生命周期管理">
+      <CheckConfig>
+        <Rule Name="密码重置" VerType="-" Value="支持"/>
+        <Rule Name="状态控制" VerType="-" Value="启用/禁用"/>
+      </CheckConfig>
+    </RuleItem>
+    <RuleItem Name="角色管理" CheckFun="RoleCheck_1" Description="角色权限配置">
+      <CheckConfig>
+        <Rule Name="权限绑定" VerType="-" Value="动态分配"/>
+      </CheckConfig>
+    </RuleItem>
+    <RuleItem Name="组织管理" CheckFun="OrgCheck_1" Description="组织架构维护">
+      <CheckConfig>
+        <Rule Name="层级结构" VerType="-" Value="树形"/>
+      </CheckConfig>
+    </RuleItem>
+  </CheckGroup>
+  <CheckGroup Name="业务管理">
+    <RuleItem Name="验证标准" CheckFun="ValidationCheck_1" Description="验证规则配置">
+      <CheckConfig>
+        <Rule Name="批量导入" VerType="-" Value="Excel支持"/>
+        <Rule Name="状态控制" VerType="-" Value="启用/禁用"/>
+      </CheckConfig>
+    </RuleItem>
+    <RuleItem Name="流程管理" CheckFun="ProcessCheck_1" Description="流程模型维护">
+      <CheckConfig>
+        <Rule Name="模型导出" VerType="-" Value="支持"/>
+      </CheckConfig>
+    </RuleItem>
+  </CheckGroup>
+  <CheckGroup Name="数据管理">
+    <RuleItem Name="证据文件" CheckCheckFun="EvidenceCheck_1" Description="文件版本控制">
+      <CheckConfig>
+        <Rule Name="历史记录" VerType="-" Value="保留"/>
+        <Rule Name="删除保护" VerType="-" Value="需审批"/>
+      </CheckConfig>
+    </RuleItem>
+  </CheckGroup>
+</SpecificationCheck>

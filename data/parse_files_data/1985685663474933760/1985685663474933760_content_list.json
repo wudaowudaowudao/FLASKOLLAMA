@@ -1,0 +1,705 @@
+[
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "技术制 图字 体",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Technical drawings Lettering ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T 14691—93 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "代替GB4457.3—84 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准等效采用国际标准ISO3098/1—1974《技术制图——字体第一部分：常用字母》和ISO3098/2——1984《技术制图——字体第二部分：希腊字母》。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1主题内容与适用范围",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准规定了汉字、字母和数字的结构形式及基本尺寸。  \n本标准适用于技术图样及有关技术文件。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2引用标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GB10609.4 技术制图 对缩微复制原件的要求GB/T 13361 技术制图 通用术语",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3基本要求",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3.1书写字体必须做到：字体工整、笔画清楚、间隔均匀、排列整齐。  \n3.2字体高度（用 $\\pmb{h}$ 表示)的公称尺寸系列为:1.8,2.5,3.5,5,7,10,14， $20~\\mathrm{mm}$ 。如需要书写更大的字，其字体高度应按 $\\sqrt{2}$ 的比率递增。字体高度代表字体的号数。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3.3汉字应写成长仿宋体字，并应采用中华人民共和国国务院正式公布推行的《汉字简化方案》中规定的简化字。汉字的高度 $\\pmb{h}$ 不应小于 $3.5~\\mathrm{mm}$ ,其字宽一般为 $r/\\sqrt{2}$ 。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3.4字母和数字分A型和B型。A型字体的笔画宽度 $(d)$ 为字高 $(h)$ 的十四分之一B型字体的笔画宽度 $(d)$ 为字高(h)的十分之一。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "在同一图样上，只允许选用一种型式的字体。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3.5字母和数字可写成斜体和直体。斜体字字头向右倾斜，与水平基准线成 $75^{\\circ}$ 。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3.6汉字、拉丁字母、希腊字母、阿拉伯数字和罗马数字等组合书写时，其排列格式和间距应符合图1～图4和表1、表2的规定。",
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/f0292ad859b09de53ceba2458937ceb97552adea5883c180e516c928427f54f2.jpg",
+        "img_caption": [
+            "图1"
+        ],
+        "img_footnote": [],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/04face61b59cb62d26165860d1103faef86c26374efdb37d8efb5cc00effa636.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/d2adb7c0c30c586122d8c4ed5a984fa1da09bd459a76c46ccaba8c831891e17d.jpg",
+        "img_caption": [
+            "图3 "
+        ],
+        "img_footnote": [],
+        "page_idx": 1
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/ca92a06e4053eb1bbb623d1e173a32c0e2e4860771539ba082fc1f8bfadbac66.jpg",
+        "img_caption": [
+            "图2",
+            "图4"
+        ],
+        "img_footnote": [],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "mm mm ",
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/2ead86b5b050d355e64c92d1a882132c9532eea6a887db4915b41c5c9c30ee11.jpg",
+        "table_caption": [
+            "表1A型字体"
+        ],
+        "table_footnote": [
+            "注：1）特殊的字符组合，如LA、TV、Tr 等,字母间间距可为 $\\pmb{\\alpha}=(1/14)\\hbar$ 。"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"2\">书写 格式</td><td>基本比例</td><td colspan=\"9\">尺 寸</td></tr><tr><td>大写字母高度</td><td>h</td><td>(14/14)h</td><td>1.8</td><td>2.5</td><td>3.5</td><td>5</td><td>7</td><td>10</td><td>14</td><td>20</td></tr><tr><td>小写字母高度</td><td>c1</td><td>(10/14)h</td><td>1.3</td><td>1.8</td><td>2.5</td><td>3.5</td><td>5</td><td>7</td><td>10</td><td>14</td></tr><tr><td>小写字母伸出尾部</td><td>c2</td><td>(4/14)h</td><td>0.5</td><td>0.72</td><td>1.0</td><td>1.43</td><td>2</td><td>2.8</td><td>４</td><td>5.7</td></tr><tr><td>小写字母出头部</td><td>c3</td><td>(4/14)h</td><td>0.5</td><td>0.72</td><td>1.0</td><td>1.43</td><td>2</td><td>2.8</td><td>4</td><td>5.7</td></tr><tr><td>发音符号范围</td><td>f</td><td>(5/14)h</td><td>0.64</td><td>0.89</td><td>1.25</td><td>1.78</td><td>.2.5</td><td>3.6</td><td>５</td><td>？</td></tr><tr><td>字母间间距1)</td><td>α</td><td>(2/14)h</td><td>0.26</td><td>0.36</td><td>0.5</td><td>0.7</td><td>1</td><td>1.4</td><td>2</td><td>2.8</td></tr><tr><td>基准线最小间距(有发音符号)</td><td>b1</td><td>(25/14)h</td><td>3.2</td><td>4.46</td><td>6.25</td><td>8.9</td><td>12.5</td><td>17.8</td><td>25</td><td>35.7</td></tr><tr><td>基准线最小间距(无发音符号)</td><td>62</td><td>(21/14)h</td><td>2.73</td><td>3.78</td><td>5.25</td><td>7.35</td><td>10.5</td><td>14.7</td><td>21</td><td>29.4</td></tr><tr><td>基准线最小间距(仅为大写字母)</td><td>b3</td><td>(17/14)h</td><td>2.21</td><td>3.06</td><td>4.25</td><td>5.95</td><td>8.5</td><td>11.9</td><td>17</td><td>23.8</td></tr><tr><td>词间距</td><td>e</td><td>(6/14)h</td><td>0.78</td><td>1.08</td><td>1.5</td><td>2.1</td><td>3</td><td>4.2</td><td>6</td><td>8.4</td></tr><tr><td>笔画宽度</td><td>d</td><td>(1/14)h</td><td>0.13</td><td>0.18</td><td>0.25</td><td>0.35</td><td>0.5</td><td>0.7</td><td>1</td><td>1.4</td></tr></table></body></html>\n\n",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/4000472c11c797ea77c11db0eeb92971cd3655c8bb22b921789a62e9f6cd97b2.jpg",
+        "table_caption": [
+            "表2B型字体"
+        ],
+        "table_footnote": [
+            "注：1）特殊的字符组合，如LA、TV、Tr等，字母间间距可为 $a{=}(1/10)h_{c}$ "
+        ],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"2\">书写格式</td><td>基本比例</td><td colspan=\"9\">尺 寸</td></tr><tr><td>大写字母高度</td><td>In</td><td>(10/10)h</td><td>1.8</td><td>2.5</td><td>3.5</td><td>5</td><td>7</td><td>10</td><td>14 </td><td>20</td></tr><tr><td>小写字母高度</td><td>c1</td><td>(7/10)h</td><td></td><td>1.261.75</td><td></td><td>2.53.5</td><td>5</td><td>7</td><td>10</td><td>14</td></tr><tr><td>小写字母伸出尾部</td><td>c2</td><td>(3/10)h</td><td>0.54</td><td></td><td>0.751.051.5</td><td></td><td>2.1</td><td>3</td><td>4.2</td><td>6</td></tr><tr><td>小写字母伸出头部</td><td>c3</td><td>(3/10)h</td><td>0.54</td><td>0.75</td><td>1.051.5</td><td></td><td>2.1</td><td>3</td><td>4.2</td><td>6</td></tr><tr><td>发音符号范围</td><td>f</td><td>(4/10)h</td><td>0.72</td><td>1.0</td><td>1.4 2.0</td><td></td><td>2.8</td><td>4</td><td>5.6</td><td>8</td></tr><tr><td>字母间间距</td><td>a</td><td>(2/10)h</td><td>0.36</td><td>0.5</td><td>0.7</td><td>1</td><td>1.4</td><td>2</td><td>2.8</td><td>4</td></tr><tr><td>基准线最小间距(有发音符号时)</td><td>b1</td><td>(19/10)h</td><td>3. 42</td><td>4.75</td><td></td><td>6.659.5</td><td>13.3</td><td>19</td><td>26.6</td><td>38</td></tr><tr><td>基准线最小间距(无发音符号时)</td><td>b2</td><td>(15/10)h</td><td>2.7</td><td>3.75</td><td></td><td>5.257.5</td><td>10.5</td><td>15</td><td>21</td><td>30</td></tr><tr><td>基准线最小间距(仅为大写字母)</td><td>b3</td><td>(13/10)h</td><td>2.34</td><td>3.25</td><td></td><td>4.556.5</td><td>9.113</td><td></td><td>18.226</td><td></td></tr><tr><td>词间距</td><td>e</td><td>(6/10)h</td><td>1. 08</td><td>1.5</td><td>2.1</td><td>3</td><td>4.2</td><td>6</td><td>8.412</td><td></td></tr><tr><td>笔画宽度</td><td>a</td><td>(1/10)h</td><td>0.18</td><td></td><td></td><td>0.250.350.5</td><td>0.7</td><td>1</td><td>1.4</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "附录A ",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "字体示例",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "(参考件) ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A1长仿宋体汉字示例",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": ".10号字",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "字体工整 笔画清楚 间隔均匀 排列整齐 ",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "7号字横平竖直注意起落结构均匀填满方格",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5号字技术制图机械电子汽车航空船舶土木建筑矿山井坑港口纺织服装",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "3.5号字 螺纹齿轮端子接线飞行指导驾驶舱位挖填施工引水通风闸阀坝梯麻化纤 ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A2　 拉丁字母示例",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "A2.1A 型字体大写斜体",
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/f269d397d45e93068fd49452326a6222043c81842d708d9113264f96f18aa8fa.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/90e9f07cae9af2c0f428e7e99aa33c9139427a399f807eee27a53193903a5357.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "小写斜体",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/8ed14313570742990669316a46e43ac1d3424980957e2f97e96012d8ff0949c5.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/53a749354c26b0120a0097f3a42340809dc9d48829f5427cd3b18dca2a53b55a.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "大写直体",
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/47f5744b193b751b51a25d2c302dafc0752a6e43e7de8b8a74a2ae7150151278.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/6c87dd21aeb3217a3149daa672bb66209c7f6b1eafb96180cb36695ef334f2c8.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "小写直体",
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/d89d67004d1a0296e5336576d6638ab1f0fad3fab579fc05f8eb3cd9fcd6711c.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/930d21bf1edd51506fbc53f14231676408b87fb73e625166a012404dbb540dec.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "A2.2 B型字体",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "大写斜体",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/b5618081e30b2b1d6a5373bc7163b419c81cc5011cc0bbe85ebffd437c5d0526.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "小写斜体",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/dd7de8f29395a69612f9c5f3a0f937991be241edbf13827b2d6b1c73ea2c5dcf.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "大写直体",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/1c8e95ed510e7e7895cb67313a5c9697696d68af8da0423d4b22566b8a172dcc.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A3希腊字母示例",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "A3.1A型字体大写斜体",
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/714c34960df94299df135d3095fe70bca06c9f2493bd6d6bb3d2a949f7a695be.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/2f3aff6ba3304a5d12122a12edcc8f95e55ea02b8dc344fd7cd15e2391d26cd8.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/dfabd641b81a1ad056a1694cdb70f6bedb76b074d30a8321213fe84a9448c487.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "小写斜体",
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/4b1c8f4691f51086aa1767288cda50e90e1767c9f5e97bcd4e329832a368d8ec.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/27f370aa01333c754ed73acfc5c3c5d345ac25d34e14c845365445b0008a1c74.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/ce15404dd1473831b7ba87a6883ee4c3888f8dcab5c1d22e789c00d3cf12ba33.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "大写直体",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/10221ce718252ea63ea8df27025386d5b915a499d6a6684edd2ca60fa460e6bc.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/a93d444fd7c5dd480265b49ba4b246461f3a5475324ef790fe363c21fc7a6f7d.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/95ee2821fae8c66e617b8e47ce083db99d423a68aea3a930db2bff859cb04b0d.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "小写直体",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/ef82693331fb7a794bb7c95b755a3a63a808acdfdb2b5c94bfec334ec7b6c222.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/cb48cd63cc85e7f20dad5ba69329223c3dd4c228167dd07220b43b039a2a704c.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/c5025654d31577ed0077be2111d6145e3e9017a0bc60bc63c7c655f1dea8856f.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "A3.2 B型字体",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "大写斜体",
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/8da73cdee79af88a74f6bdc61e14d820c3bed358562d1086389d5a32d7491677.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "小写斜体",
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/38a48ab01d312b890aa905fa40759c62e86efd220a7ba952e0be90bc569df34f.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/d7e2bd4098fc96aef440dd5a207cd53730f17a1a4be904e612255a6d24e72ddb.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/44c162844c249f914953da9110bd1096ed9a333ab739246088ff02b132498edf.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "大写直体",
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/eb991a0deb147db7ce19772a3c32f9c62fd1b883de682c771a1a28ccbfb0fa37.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "小写直体",
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/b57cb8339114ec30f7ebb3ccbf2b9f0e0d62b9017d116deb1b7436d98fe04c80.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/babd71d277983edfd87a5f5f2d4cfa49885719d8fbbb12c2f7ebc9d221c3b5b4.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/8473704ed531c2672e74dac8289a86878f1ac9b1efce5f76418edaf9bf3624ef.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "A4 阿拉伯数字示例 ",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "A4.1A型字体 斜体 ",
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/fd7d52e4b83a84b9e1318f9dc9dc28039aa8d21a8abd3049912803226ab130e3.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "直体",
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/e361ed373c75e9b6c028cdeb83ec01c1866e51165fdfbeb6b82abb77d193c0a9.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "A4.2B型字体 斜体 ",
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/e712a53217d59e0ccddcb72c5caf86d3599487cefe911957f3a0750e35bed615.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "直体",
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/2b5a839825604a260167654c12b143547745d04cbff0192890343f1aa545dc31.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "A5 罗马数字示例",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "A5.1A型字体 斜体 ",
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/94c1ba24c629a4fa50e8ea90e99d266789e3eb1524116f21af1d3d5d729d5324.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "直体",
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/bcd7d7c3f71176fad26780284f8816cee0f634e387f4ae7ae336dd04af269dfd.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "A5.2B型字体 斜体 ",
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/950629cdc2128f3f0f35d1188aeb21c479edf8e91b2a9333083f32c19fc05bab.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "直体",
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985685663474933760/ea89950084e4ddcd3614990819a87ce3f39e032c72b1f201eef43d2da0b2eeea.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "A6 综合应用规定",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "A6.1用作指数、分数、极限偏差、注脚等的数字及字母，一般应采用小一号的字体。示例：",
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "text": "$$\n10^{3}5^{-1}D_{1}T_{\\it d}\n$$",
+        "text_format": "latex",
+        "page_idx": 11
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\phi20-0.0237^{\\circ}-2^{\\circ}=\\frac{3}{5}\n$$",
+        "text_format": "latex",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "A6.2图样中的数学符号、物理量符号、计量单位符号以及其他符号、代号，应分别符合国家的有关法令和标准的规定。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "示例：",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "l /mm m/kg 460r/min 220V 5MQ 380kPα ",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "A6.3其他应用示例",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "10Js5(±0.003) M24-6h   \n25H6 II A向旋转 m5 2:1 5:1   \n6.3 3.50 R8 5% ",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "附加说明：",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "本标准由全国技术制图标准化技术委员会提出。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "本标准由机械工业部机械标准化研究所、大连海运学院、东南大学、成都科技大学、武汉水利电力学院、中国建筑技术中心标准所等单位负责起草。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "本标准主要起草人刘光霁、杨东湃、陈增群、孟。",
+        "page_idx": 12
+    }
+]

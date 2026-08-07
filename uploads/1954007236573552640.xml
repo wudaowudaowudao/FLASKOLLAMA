@@ -1,0 +1,52 @@
+<SpecificationCheck>
+    <CheckGroup Name="机械制图尺寸公差与配合注法检查" DocType="Standard">
+        <RuleItem Name="公差带代号及公差等级" CheckFun="ToleranceCheck_1" RepairFun="" Description="本标准规定了机械图样中尺寸公差与配合公差的标注方法，适用于机械图样中尺寸公差(线性尺寸公差和角度尺寸公差)与配合的标注方法。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="公差带代号" VerType="-" Value="应符合GB/T1800的规定"/>
+                <Rule Name="公差等级代号" VerType="-" Value="应符合GB/T1800的规定"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="字体写法" CheckFun="FontCheck_1" RepairFun="" Description="规定了机械制图中字体的写法要求" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="字体标准" VerType="-" Value="应符合GB/T14691的规定"/>
+                <Rule Name="字体大小" VerType="-" Value="极限偏差的数字的字号应比基本尺寸的数字的字号小一号"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="尺寸注法" CheckFun="DimensionCheck_1" RepairFun="" Description="规定了机械制图中尺寸注法的要求" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="尺寸注法标准" VerType="-" Value="应符合GB/T4458.4—2003的规定"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="线性尺寸公差注法" CheckFun="LinearToleranceCheck_1" RepairFun="" Description="规定了线性尺寸公差的标注方法" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="公差带代号标注" VerType="-" Value="公差带的代号应注在基本尺寸的右边"/>
+                <Rule Name="极限偏差标注" VerType="-" Value="上偏差应注在基本尺寸的右上方；下偏差应与基本尺寸注在同一底线上"/>
+                <Rule Name="上下偏差数字对齐" VerType="-" Value="上下偏差的数字的字号应比基本尺寸的数字的字号小一号"/>
+                <Rule Name="同时标注公差带代号和极限偏差" VerType="-" Value="后者应加圆括号"/>
+                <Rule Name="上下偏差小数点对齐" VerType="-" Value="上下偏差的小数点必须对齐"/>
+                <Rule Name="偏差为零的标注" VerType="-" Value="用数字"0"标出，并与下偏差或上偏差的小数点前的个位数对齐"/>
+                <Rule Name="对称公差标注" VerType="-" Value="偏差数字可以只注写一次，并应在偏差数字与基本尺寸之间注出符号“±”，且两者数字高度相同"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="线性尺寸公差附加符号注法" CheckFun="AdditionalSymbolCheck_1" RepairFun="" Description="规定了线性尺寸公差的附加符号注法" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="单个方向极限标注" VerType="-" Value="在该极限尺寸的右边加注符号"max"或"min""/>
+                <Rule Name="不同公差标注" VerType="-" Value="用细实线分开，并按规定的形式分别标注其公差"/>
+                <Rule Name="包容要求标注" VerType="-" Value="在尺寸公差的右边加注符号“ⓔ”"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="装配图配合注法" CheckFun="AssemblyFitCheck_1" RepairFun="" Description="规定了装配图中配合的标注方法" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="配合代号标注" VerType="-" Value="必须在基本尺寸的右边用分数的形式注出，分子位置注孔的公差带代号，分母位置注轴的公差带代号"/>
+                <Rule Name="相配零件极限偏差标注" VerType="-" Value="孔的基本尺寸和极限偏差注写在尺寸线的上方;轴的基本尺寸和极限偏差注写在尺寸线的下方"/>
+                <Rule Name="标准件配合标注" VerType="-" Value="可以仅标注该零件的公差带代号"/>
+                <Rule Name="外购件配合标注" VerType="-" Value="应按规定的形式标注"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="角度公差标注方法" CheckFun="AngleToleranceCheck_1" RepairFun="" Description="规定了角度公差的标注方法" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="角度公差标注" VerType="-" Value="其基本规则与线性尺寸公差的标注方法相同"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

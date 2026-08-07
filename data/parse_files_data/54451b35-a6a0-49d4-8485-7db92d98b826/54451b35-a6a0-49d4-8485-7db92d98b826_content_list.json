@@ -1,0 +1,336 @@
+[
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "国际标准ISO7-1：1994《用螺纹密封的管螺纹第1部分：尺寸、公差和标记》规定了两种配合形式  \n的螺纹，即：圆柱内螺纹与圆锥外螺纹(“柱/锥\")和圆锥内螺纹与圆锥外螺纹(\"锥/锥\")。本标准等效采  \n用了ISO7-1：1994标准中圆锥内螺纹与圆锥外螺纹配合方面的技术内容。本标准代替了GB/T7306—1987《用螺纹密封的管螺纹》中圆锥内螺纹与圆锥外螺纹配合方面的  \n技术内容。本标准与GB/T7306—1987相比较，主要变化如下：将旧标准中“柱/锥”和\"锥/锥\"配合螺纹的技术内容分别放人两个新标准中进行规定；—新标准中，内螺纹基准平面位置与其大端面分离，基准平面位于大端面以内半个螺距处；—新标准采用螺纹特征代号R和Rz，将两种配合中所使用的圆锥外螺纹明显地区分开来；一简化了螺纹副的标记方法。本标准从实施之日起，同时代替GB/T7306—-1987的部分内容。本标准由国家机械工业局提出。本标准由全国螺纹标准化技术委员会归口。本标准由机械工业部机械科学研究院负责起草，河南第一工具厂、江苏省竹簧机械厂、乐泰(中国)  \n有限公司、西安公路交通大学等单位参加起草。本标准主要起草人：李晓滨、赵建敏、张建生、汤炜、李江生、柴志祥。",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "ISO前言",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ISO(国际标准化组织)是由各国标准化机构(ISO成员国)所组成的世界联盟。一般通过ISO技术  \n委员会来进行准备国际标准的工作。如果对已成立技术委员会的工作项目感兴趣，各成员国则有权派代  \n表参加该技术委员会。与ISO有联系的政府和非政府国际组织也可参加相应工作。有关所有电工技术标准化方面的事情，ISO将与国际电工技术委员会(IEC)紧密合作。被技术委员会采纳的国际标准草案(DIS)要向各成员国发放，进行投票表决。要使其成为正式发布  \n的国际标准，需获得至少75%参加投票成员国的赞成。国际标准ISO7-1是由ISO/TC5/SC5螺纹或平端对焊接头、螺纹、螺纹的检验分技术委员会提出  \n的。本标准为第三版本，第二版本(ISO7-1:1982)由其代替并作废。第三版本较第二版本有技术方面的  \n修改。在用螺纹密封的管螺纹总标题下，ISO7由如下部分组成：--一第1部分：尺寸、公差和标记——第2部分：用极限量规所进行的检验ISO7第1部分的附录A为提示的附录。",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "55°密封管螺纹第2部分：圆锥内螺纹与圆锥外螺纹",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Pipe threads with 55 degree thread angle where pressure-tight joints are made on the threadsPart 2:Taper internal and externai threads ",
+        "text_level": 0,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "GB/T 7306.2—2000 eqv ISO 7-1:1994 ",
+        "text_level": 0,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "部分代替GB/T7306-1987",
+        "page_idx": 2,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准规定了牙型角为55°螺纹副本身具有密封性的圆锥内螺纹和圆锥外螺纹的牙型、尺寸、公差和标记。本标准适用于管子、阀门、管接头、旋塞及其他管路附件的螺纹联结。允许在螺纹副内添加合适的密封介质，例如在螺纹表面缠胶带、涂密封胶等。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "2引用标准",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "下列标准所包含的条文，通过在本标准中引用面构成为本标准的条文。本标准出版时，所示版本均为有效。所有标准都会被修订，使用本标准的各方应探讨使用下列标准最新版本的可能性。GB/T14791—1993螺纹术语(neqISO5408：1983)",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3定义及代号",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1定义",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "除补充下面两条术语外，标准中所使用的其他螺纹术语均符合GB/T14791的规定。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3.1.1参照平面reference plane ",
+        "text_level": 3,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "量规检验螺纹时，读取检验数值(基准平面的位置偏差)所参照的可见平面。它是内螺纹的大端面或外螺纹的小端面。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3.1.2容纳长度accommodation length ",
+        "text_level": 3,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "从内螺纹大端面到妨碍外螺纹旋入的第一个障碍物间的轴向距离。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3.2代号",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "D——内螺纹在基准平面上的大径；  \nd——外螺纹在基准平面上的大径(基准直径);  \nD—内螺纹在基准平面上的中径；  \nd—外螺纹在基准平面上的中径；  \nD——内螺纹在基准平面上的小径；  \nd--一外螺纹在基准平面上的小径；  \nn—每25.4mm轴向长度内所包含的螺纹牙数；  \np-—螺距；  \nH-—原始三角形高度；",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "2000-12-01实施 ",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "h---—螺纹牙高；  \nr--螺纹牙顶和牙底圆弧半径；  \nT-—外螺纹基准距离(基准平面位置)公差；  \nT-—内螺纹基准平面位置公差。",
+        "page_idx": 3,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "4设计牙型",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "圆锥螺纹的设计牙型应符合图1的规定。其左、右两牙侧的牙侧角相等，螺纹锥度为1：16，相关尺寸按下列公式计算：",
+        "page_idx": 3,
+        "text_level": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/54451b35-a6a0-49d4-8485-7db92d98b826/183f75116777c44a227e6ae5e85da7ae9ce1a5a0ba98198c607670185b226ec9.jpg",
+        "img_caption": [
+            "图1圆锥螺纹的设计牙型"
+        ],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5基本尺寸",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.1螺纹中径和小径的基本尺寸按下列公式计算：",
+        "text_level": 2,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.2圆锥外螺纹基准平面的理论位置位于垂直于螺纹轴线、与小端面(参照平面)相距一个基准距离的平面内(见图2);圆锥内螺纹基准平面的理论位置位于垂直于螺纹轴线、深入端面(参照平面)以内0.5P的平面内（见图3）。",
+        "text_level": 2,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.3圆锥外螺纹和圆锥内螺纹各主要尺寸的分布位置分别见图2和图3。其基本尺寸应符合表1的规定。",
+        "text_level": 2,
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/54451b35-a6a0-49d4-8485-7db92d98b826/2558682c3055de92b62f4a95525f9bb7e637d8a98620f16644484718f2e7078e.jpg",
+        "img_caption": [
+            "图2圆锥外螺纹上各主要尺寸的分布位置"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "6倒角",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "圆锥外螺纹小端面和圆锥内螺纹大端面的倒角轴向长度不得大于1P。",
+        "page_idx": 4,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "7公差 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.1圆锥外螺纹基准距离的极限偏差(士T/2)应符合表1第9、10栏的规定。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.2圆锥内螺纹基准平面位置的极限偏差(士T/2)应符合表1第18、19栏的规定。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8螺纹长度 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8.1圆锥外螺纹的有效螺纹长度不应小于其基准距离的实际值与装配余量之和。对应基准距离为最大、基本和最小尺寸的三种条件，表1第16、15和17栏分别给出了相应情况所需的最小有效螺纹长度。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8.2当圆锥内螺纹的尾部未采用退刀结构时，其最小有效螺纹长度应能容纳具有表1第16栏长度的圆锥外螺纹；当圆锥内螺纹的尾部采用退刀结构时，其容纳长度应能容纳具有表1第16 栏长度的圆锥外螺纹，其最小有效螺纹长度应不小于表1第17栏规定长度的80%，见图3。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/54451b35-a6a0-49d4-8485-7db92d98b826/4dd5a657344c92b2ed5c37a2d7ed4568f3b92afd5ecf39653cc348383684da29.jpg",
+        "img_caption": [
+            "图3圆锥内螺纹上各主要尺寸的分布位置"
+        ],
+        "img_footnote": [
+            "419 "
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "9标记",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "9.1管螺纹的标记由螺纹特征代号和尺寸代号组成。",
+        "page_idx": 5,
+        "text_level": 2
+    },
+    {
+        "type": "text",
+        "text": "螺纹特征代号：Rc—表示圆锥内螺纹；",
+        "page_idx": 5,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "Rz—表示与圆锥内螺纹配合的圆锥外螺纹。",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "螺纹尺寸代号为表1第1栏所规定的分数或整数。",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "标记示例：尺寸代号为3/4的右旋圆锥内螺纹的标记为Rc3/4 ",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "尺寸代号为3的右旋圆锥外螺纹的标记为R3 ",
+        "page_idx": 5,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "9.2当螺纹为左旋时，应在尺寸代号后加注“LH”。",
+        "text_level": 2,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "标记示例：尺寸代号为3/4的左旋圆锥内螺纹的标记为Rc3/4LH ",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "9.3表示螺纹副时，螺纹的特征代号为\"Rc/R”。前面为内螺纹的特征代号，后面为外螺纹的特征代号，中间用斜线分开。",
+        "text_level": 2,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "标记示例：由尺寸代号为3的右旋圆锥内螺纹与圆锥外螺纹所组成的螺纹副的标记为Rc/R3 ",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/54451b35-a6a0-49d4-8485-7db92d98b826/a209ebb56fe9d84d776d86b41bf43ba97782054c1bf35034f42ff1154a0f70f0.jpg",
+        "table_caption": [
+            "表1螺纹的基本尺寸及其公差"
+        ],
+        "table_footnote": [
+            "420 "
+        ],
+        "page_idx": 6
+    }
+]

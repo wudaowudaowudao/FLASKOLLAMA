@@ -1,0 +1,18 @@
+<SpecificationCheck>
+    <CheckGroup Name="xxxxx检查" DocType="Standard">
+        <RuleItem Name="xx系列" CheckFun="ScaleCheck_1" RepairFun="" Description="本标准规定了xxxxx，适用于xxxxx。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="xxx" VerType="-" Value="xxxx"/>
+                <Rule Name="xxx" VerType="-" Value="xxxxx"/>
+                <Rule Name="xxx" VerType="-" Value="1:1, 2:1, 5:1, 1:2, 1:5, 1:10"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="xxx方法" CheckFun="MarkingCheck_1" RepairFun="" Description="比例符号应以“:”表示，并按规定位置标注比例，必要时允许在同一视图中的铅垂和水平方向标注不同的比例。" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="xxxx" VerType="-" Value=":"/>
+                <Rule Name="xxx" VerType="-" Value="xxxx"/>
+                <Rule Name="xx" VerType="-" Value="xxxx"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

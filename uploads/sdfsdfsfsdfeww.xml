@@ -1,0 +1,30 @@
+<SpecificationCheck>
+    <CheckGroup Name="技术制图标题栏检查" DocType="Standard">
+        <RuleItem Name="标题栏基本要求" CheckFun="BasicRequirementCheck" RepairFun="" Description="GB/T10609的本部分规定了技术图样中标题栏的基本要求、内容、尺寸与格式。本部分适用于技术图样中的标题栏。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="标题栏存在性" VerType="-" Value="每张技术图样中均应有标题栏"/>
+                <Rule Name="标题栏位置" VerType="-" Value="标题栏在技术图样中应按GB/T14689中所规定的位置配置"/>
+                <Rule Name="字体要求" VerType="-" Value="标题栏中的字体，签字除外应符合GB/T14691中的要求"/>
+                <Rule Name="线型要求" VerType="-" Value="标题栏的线型应按GB/T17450中规定的粗实线和细实线的要求绘制"/>
+                <Rule Name="日期格式" VerType="-" Value="标题栏中的年月日应按照GB/T7408的规定格式填写"/>
+                <Rule Name="缩微复制要求" VerType="-" Value="需缩微复制的图样，其标题栏应满足GB/T10609.4 的要求"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="标题栏内容组成" CheckFun="ContentCompositionCheck" RepairFun="" Description="标题栏一般由更改区,签字区、其他区、名称及代号区组成，也可按实际需要增加或减少。" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="更改区组成" VerType="-" Value="更改区一般由更改标记、处数、分区、更改文件号、签名和年月日等组成"/>
+                <Rule Name="签字区组成" VerType="-" Value="签字区一般由设计、审核、工艺、标准化、批准、签名和年月日等组成"/>
+                <Rule Name="其他区组成" VerType="-" Value="其他区一般由材料标记、阶段标记、重量、比例和共张 第张和投影符号等组成"/>
+                <Rule Name="名称及代号区组成" VerType="-" Value="名称及代号区一般由单位名称、图样名称、图样代号和存储代号等组成"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="标题栏填写规则" CheckFun="FillingRuleCheck" RepairFun="" Description="标题栏的填写应遵循相关规定。" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="更改区填写顺序" VerType="-" Value="更改区中的内容应按由下而上的顺序填写，也可根据实际情况顺延，或放在图样中其他的地方，但应有表头"/>
+                <Rule Name="标记填写" VerType="-" Value="按照有关规定或要求填写更改标记"/>
+                <Rule Name="处数填写" VerType="-" Value="填写同一标记所表示的更改数量"/>
+                <Rule Name="分区填写" VerType="-" Value="必要时，按照有关规定填写"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

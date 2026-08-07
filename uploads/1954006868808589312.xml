@@ -1,0 +1,84 @@
+<SpecificationCheck>
+    <CheckGroup Name="技术制图图纸幅面和格式检查" DocType="Standard">
+        <RuleItem Name="图纸幅面尺寸" CheckFun="ScaleCheck_1" RepairFun="" Description="本标准规定了图纸的幅面尺寸和格式，以及有关的附加符号。本标准适用于技术图样(包括原图、底图和复制图等)及有关技术文件。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="基本幅面尺寸A0" VerType="-" Value="841×1189"/>
+                <Rule Name="基本幅面尺寸A1" VerType="-" Value="594×841"/>
+                <Rule Name="基本幅面尺寸A2" VerType="-" Value="420×594"/>
+                <Rule Name="基本幅面尺寸A3" VerType="-" Value="297×420"/>
+                <Rule Name="基本幅面尺寸A4" VerType="-" Value="210×297"/>
+                <Rule Name="加长幅面尺寸A3×3" VerType="-" Value="420×891"/>
+                <Rule Name="加长幅面尺寸A3×4" VerType="-" Value="420×1189"/>
+                <Rule Name="加长幅面尺寸A4×3" VerType="-" Value="297×630"/>
+                <Rule Name="加长幅面尺寸A4×4" VerType="-" Value="297×841"/>
+                <Rule Name="加长幅面尺寸A4×5" VerType="-" Value="297×1051"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="图框格式" CheckFun="FrameCheck_1" RepairFun="" Description="在图纸上必须用粗实线画出图框，其格式分为不留装订边和留有装订边两种，但同一产品的图样只能采用一种格式。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="不留装订边图框e值A0-A2" VerType="-" Value="20"/>
+                <Rule Name="不留装订边图框e值A3-A4" VerType="-" Value="10"/>
+                <Rule Name="留有装订边图框c值A0-A2" VerType="-" Value="10"/>
+                <Rule Name="留有装订边图框c值A3-A4" VerType="-" Value="5"/>
+                <Rule Name="留有装订边图框a值" VerType="-" Value="25"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="标题栏" CheckFun="TitleCheck_1" RepairFun="" Description="每张图纸上都必须画出标题栏。标题栏的格式和尺寸按 GB/T 10609.1 的规定。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="标题栏位置" VerType="-" Value="右下角"/>
+                <Rule Name="X型图纸标题栏长边方向" VerType="-" Value="与图纸长边平行"/>
+                <Rule Name="Y型图纸标题栏长边方向" VerType="-" Value="与图纸长边垂直"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="对中符号" CheckFun="SymbolCheck_1" RepairFun="" Description="为了使图样复制和缩微摄影时定位方便，对表1和表2所列的各号图纸，均应在图纸各边长的中点处分别画出对中符号。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="对中符号线宽" VerType="-" Value="≥0.5mm"/>
+                <Rule Name="对中符号长度" VerType="-" Value="伸入图框内约5mm"/>
+                <Rule Name="对中符号位置误差" VerType="-" Value="≤0.5mm"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="方向符号" CheckFun="SymbolCheck_2" RepairFun="" Description="对于按5.3规定使用预先印制的图纸时，为了明确绘图与看图时图纸的方向，应在图纸的下边对中符号处画出一个方向符号。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="方向符号线型" VerType="-" Value="细实线"/>
+                <Rule Name="方向符号形状" VerType="-" Value="等边三角形"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="剪切符号" CheckFun="SymbolCheck_3" RepairFun="" Description="为使复制图样时便于自动切剪，可在图纸(如供复制用的底图)的四个角上分别绘出剪切符号。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="剪切符号类型一" VerType="-" Value="直角边边长为10mm的黑色等腰三角形"/>
+                <Rule Name="剪切符号类型二" VerType="-" Value="线宽2mm，线长10mm的粗线段"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="投影符号" CheckFun="SymbolCheck_4" RepairFun="" Description="第一角画法的投影识别符号和第三角画法的投影识别符号。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="投影符号线型" VerType="-" Value="粗实线和细点画线"/>
+                <Rule Name="粗实线线宽" VerType="-" Value="≥0.5mm"/>
+                <Rule Name="投影符号位置" VerType="-" Value="标题栏中名称及代号区的下方"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="图幅分区" CheckFun="PartitionCheck_1" RepairFun="" Description="必要时，可以用细实线在图纸周边内画出分区。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="分区数目" VerType="-" Value="必须取偶数"/>
+                <Rule Name="分区长度范围" VerType="-" Value="25mm~75mm"/>
+                <Rule Name="分区编号-垂直方向" VerType="-" Value="大写拉丁字母从上到下"/>
+                <Rule Name="分区编号-水平方向" VerType="-" Value="阿拉伯数字从左到右"/>
+                <Rule Name="分区代号格式" VerType="-" Value="字母在前、数字在后"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="米制参考分度" CheckFun="ScaleCheck_2" RepairFun="" Description="对于用作缩微摄影的原件，可在图纸的下边设置不注尺寸数字的米制参考分度。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="米制参考分度线型" VerType="-" Value="粗实线"/>
+                <Rule Name="米制参考分度线宽" VerType="-" Value="≥0.5mm"/>
+                <Rule Name="米制参考分度总长" VerType="-" Value="100mm"/>
+                <Rule Name="米制参考分度格数" VerType="-" Value="10格"/>
+                <Rule Name="米制参考分度格高" VerType="-" Value="5mm"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="预先印制的图纸" CheckFun="PreprintCheck_1" RepairFun="" Description="图纸可以预先印制，预先印制的图纸一般应具有图框、标题栏和对中符号三项基本内容。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="预先印制图纸基本内容" VerType="-" Value="图框、标题栏、对中符号"/>
+                <Rule Name="可选内容" VerType="-" Value="剪切符号、图幅分区、米制参考分度"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

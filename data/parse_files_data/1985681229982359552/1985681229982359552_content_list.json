@@ -1,0 +1,2410 @@
+[
+    {
+        "type": "text",
+        "text": "Q/CRRC ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中国中车股份有限公司企业标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Q/CRRC J \\*\\*\\*-2022 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "轨道车辆仿真分析规范一结构强度第3部分：机车与客运车辆转向架构架",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Simulation Specification for Rolling stock—Structural strength ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Part 3: Bogie Frame of Locomotives and Passenger Vehicles ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中车股份有限公司 发布",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "目次",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1范围 1  \n2 规范性引用文件 1  \n3 术语和定义 1  \n4 坐标系和单位制. 5  \n5 构架强度仿真分析流程 6  \n6模型前处理 7  \n7边界条件施加 8  \n8工况组合. 9  \n9模型检查 9  \n10 分析类型 9  \n11结果评估 10  \n12 仿真分析与试验对比， · · · 11  \n13 报告编制.. 11  \n附录A 13  \n附录B 14  \n附录C 16  \n附录D 25",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本文件按照GB/T1.1—2020《标准化工作导则 第1部分：标准化文件的结构和起草规则》的规定起草。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本文件由中国中车股份有限公司科技质量部提出并归口。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本文件起草单位：中车长春轨道客车股份有限公司、中车唐山机车车辆有限公司、中车青岛四方机车车辆股份有限公司、中车南京浦镇车辆有限公司、中车株洲电力机车有限公司、中车大连机车车辆有限公司、中车大同电力机车有限公司、中车大连机车研究所有限公司、中车永济电机有限公司。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本文件主要起草人：程亚军、张晓艳、郑长国、王玉光、张明、薛宁鑫、李杨、李幸人、汤黎明、刘余龙、桑尚、金鑫、赵鑫、李秉鑫",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本文件为首次发布。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "机车车辆构架强度仿真分析规范",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本文件规定了机车车辆构架结构强度仿真分析流程、模型前处理、边界条件施加、工况组合、仿真分析类型、结果评估、仿真与试验对比方法等内容。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本文件适用于机车、动车组、城市轨道车辆、铁路客车构架的静强度与疲劳强度评估，特种车辆如磁悬浮、单轨车辆等构架强度仿真分析可参照本文件执行。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2规范性引用文件",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "下列文件中的内容通过文中的规范性引用而构成本文件比不可少的条款。凡是注日期的引用文件，仅该日期对应的版本适用于本文件；不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "GB/T4549.2-2004铁道车辆词汇第2部分：走行装置  \nGB/T31054-2014机械产品计算机辅助工程有限元数值计算术语  \nGB/T33582-2017机械产品结构有限元力学分析通用规则  \nTB/T3548-2019机车车辆强度设计及试验鉴定规范-总则  \nTB/T3549.1-2019机车车辆强度设计及试验鉴定规范-转向架第1部分：转向架构架  \nQCRRCJ63-2020轨道交通装备结构有限元模型前处理规范",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3术语和定义 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "GB/T 31054-2014、GB/T 33582-2017、GB/T 4549.2-2004、TB/T 3548-2019 及 TB/T 3549.1-2019 界定的以及下列术语定义适用于本文件。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.1 ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "计算机辅助工程 computer aided engineering(CAE)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "运用计算机技术和数值分析技术（有限单元法、有限差分法或离散元法等）获取物理系统的应力场、温度场或电磁场等物理场响应量的过程和方法，常用于评估系统功能和性能，优化结构、工艺或成本等目的。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "[来源：GB/T 31054-2014，2.1.1]",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "有限单元法 finite element method (FEM)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "将连续的求解域离散为有限个单元，并在给定约束条件下，利用有限单元的近似解逼近真实物理系统的数值分析方法。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "[来源：GB/T 31054-2014，2.1.2]",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.3 ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "有限元分析 finite element analysis (FEA)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "基于有限单元法的结构性能分析。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "[来源：GB/T 31054-2014，2.1.3]",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.4单元element具有几何、物理属性的最小求解域。[来源：GB/T31054-2014，2.1.4]",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.5 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "节点node   \n单元之间的铰接点。   \n注：每个单元仅在节点处和相邻单元及外部发生联系。 [来源：GB/T31054—2014，2.1.5] ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.6 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "前处理 preprocessing  \n几何模型处理、有限单元划分、物理参数设置和边界条件施加的过程。[来源：GB/T 31054-2014，2.1.6]",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.7求解 solve设定求解环境（或条件）和寻求近似解的过程。[来源：GB/T31054-2014，2.1.7]",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.8后处理 post-processing对求解结果进行检查、分析和评估等处理的过程。[来源：GB/T 31054-2014，2.1.8]",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.9 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "有限元建模 finite element modeling ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "构建有限元模型的过程，包括几何模型构建和（或）处理、材料属性定义、网格划分、边界条件施加等步骤。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "[来源：GB/T 33582—2017，3.1] ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.10 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "边界条件 boundary condition",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "描述机械产品结构在给定工况下，求解域边界上几何以及物理条件，如力、温度、速度、位移等载荷的数据信息。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "[来源：GB/T 33582—2017，3.3] ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.11 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "应力集中 stress concentration   \n结构局部过渡区域刚度急剧变化引起的应力数值明显增高的现象。 [来源：GB/T 33582—2017，3.4] ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3.12 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "约束constraint减少系统自由度的各种限制条件。[来源：GB/T 31054-2014，2.2.11]",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.13 ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "多点约束 multi-point constraint ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "定义一种节点自由度的耦合关系，以一个节点的自由度为标准值，其它指定的节点的自由度与标准值建立关系。常用于表征一些特定的物理现象，如刚性连接、铰接、滑动等，也可以用于不相容单元之间的载荷传递。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.14 ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "位移 displacement  \n表征物体上一点相对于某参考系的位置变化的时间变量。[来源：GB/T 31054-2014，2.2.12]",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.15 ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "载荷load施加在物体上或系统上作用力系。[来源：GB/T 31054-2014，2.2.14]",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.16强度strength描述结构抵抗破坏的能力。[来源：GB/T 31054-2014，4.1.5]",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.17疲劳强度 fatigue strength结构在交变载荷作用下抵抗疲劳失效的能力。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.18应力 stress结构某点受到的单位面积内力。[来源：GB/T 31054-2014，2.4.1]",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.19利用率utilization测试或计算应力与许用应力的比值。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.20 ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "质量单元 mass element  \n只具备质量属性的单元。  \n[来源：GB/T 31054-2014，2.3.11]",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.21弹簧单元 spring element结构之间具有弹簧约束作用的单元。[来源：GB/T 33852-2017，2.3.10]",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.22 ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "杆bar长度远大于其他方向尺寸的构件。[来源：GB/T 31054-2014，3.1.4]",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.23 ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "梁beam承受横向载荷，以弯曲变形为主的杆结构。[来源：GB/T 31054-2014，3.1.3]",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.24板/壳　plane/shell厚度方向尺寸远小于长度或宽度方向尺寸的结构。[来源：GB/T 31054-2014，4.1.4]",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.25 ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "实体solid body 由面或棱边构成封闭体积的三维几何体。 [来源：GB/T 33582—2017，3.16] ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.26高阶单元 high order element使用二次或更高次函数描述边界的单元。[来源：GB/T 33852-2017，3.17]",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.27 ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "低阶单元low order element使用一次函数描述边界的单元。[来源：GB/T 33852-2017,定义3.18]",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.28 ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "转向架bogie  \n支撑车体并能相对车体回转的走行装置。  \n注：通常包括构架、轮对轴箱装置、悬挂装置、牵引装置和基础制动装置等，动力转向架还包括驱动装置。[来源：GB/T 4549.2-2004，2.2]",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.29 ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "转向架构架bogie frame  \n在转向架中用于联系轴箱并传递作用力的整体焊接部件，一般位于一系悬挂和二系悬挂之间。[来源：GB/T 4549.2-2004，3.1]",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "3.30超常载荷 exceptional load偶尔发生，不影响机车车辆完整性和正常运用的最大载荷。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "注：例如机车车辆在调车时产生的冲击载荷等。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "3.31 ",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "运营载荷 in-service load经常发生，不影响机车车辆完整性和正常运用，但会对机车车辆的疲劳性能产生影响的载荷。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "4坐标系和单位制",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "4.1坐标系",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "整体坐标系为笛卡尔直角坐标系，符合右手定则。X向为车辆纵向，运行方向为正；Y向为车辆横向，向右为正；乙向为车辆垂向，向下为正。构架坐标系如图1所示，图中符号说明见表1。",
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/a3f0151da9e878601855f6616f61b23470b75724c42130b7d9836647e8131547.jpg",
+        "img_caption": [
+            "图1转向架构架坐标系"
+        ],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/a3b75650cd532657517a167d7b330f89a251fd85b5360065dcdad3097a50d89d.jpg",
+        "table_caption": [
+            "表1坐标系符号说明表"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>符号</td><td>方向</td><td>定义</td></tr><tr><td>x</td><td>纵向</td><td>指向运行前进方向</td></tr><tr><td>y</td><td>横向</td><td>与前进方向垂直，与轨道平面平行</td></tr><tr><td></td><td>垂向</td><td>垂直于轨道平面</td></tr><tr><td>x</td><td>侧滚</td><td>绕×轴方向的转动</td></tr><tr><td></td><td>点头</td><td>绕轴方向的转动</td></tr><tr><td></td><td>摇头</td><td>绕轴方向的转动</td></tr><tr><td>１</td><td>扭曲</td><td>侧梁绕）轴相对转动产生的变形</td></tr><tr><td>２</td><td>菱形</td><td>侧梁相对运动产生的剪切</td></tr></table></body></html>\n\n",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "4.2单位制",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "本文件的所有参数采用国际单位制（SI）的基本单位及其导出单位，表2给出了常用的单位制。",
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/36a4a2cd4de25fefa17d4ec76cf9e7f736d0960dc33abcea3c5090f5082e2627.jpg",
+        "table_caption": [
+            "表2常用单位制"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>名称</td><td>长度</td><td>力</td><td>质量</td><td>时间</td><td>应力</td><td>密度</td><td>加速度</td></tr><tr><td rowspan=\"2\">单位</td><td>mm</td><td>N</td><td>t</td><td>s</td><td>MPa</td><td>t/mm3</td><td>mm/s²</td></tr><tr><td>m</td><td>N</td><td>kg</td><td></td><td>Pa</td><td>kg/m²</td><td>m/s²</td></tr></table></body></html>\n\n",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "5构架强度仿真分析流程",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "构架结构强度仿真流程包括几何模型建立、几何模型等效、有限元建模、材料属性设置、边界条件施加、模型检查、求解分析、结果评价、报告生成、仿真分析与试验对比等，流程如图2所示。",
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/2810e7bf72b8f118a9d0e96fb5af605769d285b5c29256248408b6c8ba0ff9fc.jpg",
+        "img_caption": [
+            "图2构架强度仿真分析流程"
+        ],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6模型前处理",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.1几何模型等效 ",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "转向架构架结构强度分析的几何模型建议采用几何导入法生成，通过基于CAD软件创建的三维实体图纸文件导入有限元前处理软件的方法进行建模。导入的几何模型需要进行适度简化，简化的等效原则如下：",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "（a）几何模型简化不应改变结构的基本特征、传力路径、刚度、质量分布等；（b）为便于载荷、约束等边界条件的施加，建议将车轴、轴箱可采用梁单元或杆单元模拟，轴箱  \n与构架连接的一系悬挂采用弹簧单元模拟，制动单元吊座、减振器座等位置可通过柔性连接的方式进  \n行加载，由于电机吊座、齿轮箱吊座由于连接刚度较大，可以通过建立电机壳体三维网格的方式尽可  \n能的模拟出电机座的刚度，或采用刚性单元或梁单元进行加载；（c）建议保留一系簧座、二系簧座、横梁与侧梁连接处、电机吊座、齿轮箱吊座等应力集中部位  \n的角焊缝;（d）对于无关紧要的细节特征，如凸台、凹槽、沉孔、退刀槽、越程槽、注胶槽等，需要做清除  \n处理；（e）如对于某些设备使用质量单元模拟，应确保其质量、质心位置、转动惯量与实际一致。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.2网格划分",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.2.1网格离散 ",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "有限元模型由零维单元（如质量）、一维单元（如梁、杆等）、二维单元、三维单元构成，单元  \n的类型根据分析软件进行选用，构架主体可根据实际情况采用实体单元或壳单元，网格离散原则如下：（a）采用实体单元进行建模时，优先选用六面体单元，关键位置宜至少划分三层体单元，对于结  \n构复杂位置的单元离散可采用四面体和其他单元类型划分，关键区域应进行细化，在粗细网格之间应  \n有过渡单元，应保证简化方式应对计算结果影响较小；（b）采用壳单元进行建模时，优先选用四边形单元，应避免集中出现翘曲单元和三角形单元，关  \n键部位不应由两个及以上的三角形单元连接；单元法向应保持连续；对于横跨纵向中心面的部件，  \n建议用纵向中心面将部件分割为两部分，保持结构网格对称;（c）应保证壳单元、实体单元、梁单元等连接处自由度一致;（d）设置接触时，刚度较大的结构单元应作为目标单元。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.2.2网格尺寸及数量",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "采用实体单元离散时，低阶单元尺寸推荐采用 $5\\sim8\\mathrm{{mm}}$ ，选用高阶单元尺寸推荐采用 $10\\mathrm{\\sim}15\\mathrm{mm}$ ，需要保证板厚方向至少有三层节点，关键位置至少划分三层实体单元。模型离散数量节点数建议为150万至350万，具体结构应根据计算需求进行网格细化。构架壳单元网格模型基准尺寸为8至 $10\\mathrm{mm}$ ，模型离散数量节点数建议为80万至150万。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.2.3单元质量标准要求",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "对单元进行质量检查，主要检查单元长宽比、雅可比、最小与最大内角数值。模型检查时需保证结构重点关注区域的单元质量，非重点关注区域的单元质量可适当降低。常用单元质量的具体要求见",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "附录A。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.2.4孔离散要求 ",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "除关键螺栓等连接孔应保留外，其余的工艺孔、过孔（根据实际情况限定临界直径）及小型附属件的螺栓连接孔均可忽略。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "直径小于 $10\\mathrm{mm}$ 的圆孔，应根据受力情况判定采用4节点方式离散或忽略；直径大于等于 $10\\mathrm{mm}$ 的圆孔，至少应采用6节点；如对圆孔区域较关注，宜采用10节点以上；不应出现奇数节点孔，孔周围不应出现三角形单元或三棱柱单元。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.2.5倒角处理要求",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "关键部位尺寸不小于 $10\\mathrm{mm}$ 的圆角/倒角，可生成至少两排网格单元；尺寸小于 $10\\mathrm{mm}$ 的圆角/倒角，可生成一排网格单元或取消倒角。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.3材料属性设置 ",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "转向架构架主体结构通常采用金属材料，金属材料一般需要考虑的要素包括：",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "（a）按各向同性材料考虑；  \n（b）材料进入屈服阶段要考虑塑性变形;  \n（c）常用材料性能包括密度、弹性模量、剪切模量、泊松比、屈服强度、抗拉强度和延伸率等。  \n转向架构架常用材料及其力学性能参见TB/T3548的附录B《机车车辆常用材料及其力学性能》。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "7边界条件施加",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "7.1总则及符号",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "7.1.1总则 ",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "本文件涉及不同类别的转向架构架。某些转向架可能不适合于下列规定的分类，不在本文件讨论范围。一类：非心盘承载转向架构架。二类：心盘承载转向架构架。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "7.1.2 符号",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "为便于本文件应用，转向架结构设计参数采用附录B中的符号。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "7.2载荷 ",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "仿真分析载荷依据相关标准结合设计参数和实际运用工况确定，主要分为超常载荷与模拟运营载荷。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "超常载荷主要包括最大垂向载荷、最大横向载荷、最大菱形载荷、最大扭曲载荷、调车冲击载荷、电机短路载荷、紧急制动载荷、设备最大惯性载荷、减振器最大载荷、转向架起吊、整车起吊等。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "模拟运营载荷主要包括车辆正常运营时的垂向载荷、横向载荷、菱形载荷、扭曲载荷、牵引载荷、制动载荷、设备惯性载荷、减振器载荷等。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "载荷计算见附录C。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "7.3约束 ",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "7.3.1原则 ",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "载荷及边界条件的施加应保证结构的受力被真实模拟。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "7.3.2要求",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "构架强度仿真分析可以在车轮、车轴中心处施加约束，不能过约束或欠约束，应允许车轮在轨道上自由滚动。在模拟脱轨工况的约束时，需释放一个车轮处的所有约束。构架强度仿真分析一般约束方式可以参照图3进行约束。",
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/c16acaa4ec2262e3954fae1d3a824dd7c7bfe061296993f7d846080d78bcc939.jpg",
+        "img_caption": [
+            "图3构架强度仿真分析约束示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "8工况组合",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "工况组合包括静强度载荷工况组合与疲劳强度载荷工况组合。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "静强度工况依据相关标准并考虑车辆实际运用状态进行合成。疲劳强度工况依据采用的疲劳评估方法、疲劳载荷获取方式以及车辆运用状态确定。静强度与疲劳强度工况组合见附录D。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "9模型检查",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "9.1一致性检查",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "有限元模型建立后应对比几何模型与有限元模型是否合理、一致，如焊缝连接关系、材料与板厚属性、螺栓连接等。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "9.2单元质量检查",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "检查仿真模型中是否出现单元长宽比、单元翘曲角、雅可比、内角异常的情况。若存在异常，应及时修正，以保证仿真模型的单元质量符合单元质量的要求。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "9.3连接方法检查",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "检查仿真模型中的焊点、焊缝、螺栓等连接结构建模方法是否与设计模型一致。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "9.4边界条件检查",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "边界条件完成后应对照设定的载荷工况检查载荷大小、约束位置。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "10分析类型",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "10.1静强度分析",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "研究构架结构在超常载荷作用下的响应，如应力等，评估其抵抗破坏的能力。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "10.2疲劳强度分析 ",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "研究构架结构在运营载荷作用下的响应，评估其抵抗疲劳失效的能力。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11结果评估 ",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11.1静强度评估 ",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11.1.1评估原则 ",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "静强度工况下的材料特性数据应从标准或其他技术文件中选取。进行设计评估时，应通过分析在超常载荷工况下结构不产生永久变形、不稳定或断裂，通常采用屈服强度 $\\mathrm{R_{e}}$ 或非比例延伸率为 $0.2\\%$ 时的延伸强度 $\\mathrm{R}_{\\mathrm{p}0.2}$ 进行评估。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11.1.2评估方法",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "利用有限元方法进行静强度分析，在第8章规定的各静强度工况组合作用下，应按下列指标对构架做出评定：",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "构架各部位计算应力应小于材料的许用应力，构架的利用率不应大于1。",
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "text": "$$\nU=\\frac{\\sigma_{\\mathrm{c}}\\mathrm{S}}{\\mathrm{R_{\\mathrm{L}}}}{}\\leq1\n$$",
+        "text_format": "latex",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "式中：",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "$U$ 一利用率;",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "$\\sigma_{\\mathrm{c}}$ 一仿真计算得到的应力，单位为兆帕（MPa）；",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "$S$ 一安全系数;",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "$R_{\\mathrm{L}}$ 一屈服强度 $\\mathrm{R_{e}}$ 或非比例延伸率为 $0.2\\%$ 时的延伸强度 $\\mathrm{R}_{\\mathrm{p}0.2}$ ，单位为兆帕（ $\\mathbf{MPa}$ ）。  \n构架材料为韧性材料，计算应力选用VonMises应力。",
+        "page_idx": 13
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\sigma_{\\mathrm{e}}=\\sqrt{\\frac{1}{2}[\\left(\\sigma_{\\mathrm{1}}-\\sigma_{\\mathrm{2}}\\right)^{2}+\\left(\\sigma_{\\mathrm{2}}-\\sigma_{\\mathrm{3}}\\right)^{2}+\\left(\\sigma_{\\mathrm{3}}-\\sigma_{\\mathrm{1}}\\right)^{2}]}\n$$",
+        "text_format": "latex",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "式中：",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "$\\sigma_{\\mathrm{e}}$ —Von-Mises 应力，单位：兆帕（MPa）；  \n$\\sigma_{\\mathrm{i}}$ 一主应力（ $^{;\\mathrm{i=1},2,3,}$ ），单位：兆帕（MPa）。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11.2疲劳强度评估 ",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11.2.1评估原则 ",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "疲劳强度评估时的材料特性数据应从标准或其他技术文件中选取。进行设计评估时，应查找经过10",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "验证的数据，如果没有可用数据，应通过适当实验获得这些数据。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "疲劳强度应按照以下原则得出的S-N曲线进行疲劳强度评定：",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "（a）可靠度宜达 $97.5\\%$ ，但至少为 $95\\%$   \n（b）按零部件或结构几何形状进行细节分类；  \n（c）通过试验技术和已有经验整理来自小比例试样的极限值，确保对全尺寸零部件的适用性。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "11.2.2评估方法",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "应使用以下方法中的一种证明构架的疲劳强度，评价方法根据材料可用数据情况选取：",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "（a）疲劳极限法：运营载荷工况作用下，应力不大于材料或焊缝的疲劳极限。当疲劳极限出现在不大于 $10^{7}$ 次循环时，取该疲劳极限。当材料或焊缝没有规定疲劳极限或疲劳极限出现在大于 $10^{7}$ 次循环时，疲劳极限取 $10^{7}$ 次循环时的疲劳强度。（b）累积损伤法：根据已知的损伤累积法则（如Palmgren-Miner）计算每个运营载荷作用 $10^{7}$ 次循环产生的损伤，累积所有运营载荷产生的损伤得到总损伤，总损伤均应低于1。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "12仿真分析与试验对比",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "12.1确定对比对象",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "建议采用构架型式试验的静态试验结果或线路动应力试验的测试结果与仿真分析结果进行对比验证。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "由于一般试验测点都是按照TB/T3548-2019 中9.2.1中的原则进行布置，验证部位应在试验测点中选取确定，选择结构关键部位，例如设备安装座、构件连接接头附近以及易产生应力集中的几何突变部位。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "如果人工对比，建议对比验证点至少选择10个以上；若有专门的验证软件，可以选择更多的验证点。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "12.2对比方法及误差分析",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "仿真分析与试验对比具体步骤如下：",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "（a）位移对比分析；（b）选择应力在材料 $40\\%$ 屈服应力以上的位置或测试结果大于40MPa的位置，输出该位置的方向应力、主应力及Von-Mises应力；（c）分析与试验对比结果误差大于 $15\\%$ 的位置应进行原因分析，给出合理解释，输出对比报告。由于大部分仿真计算在设计阶段进行，还未得到试验结果，应尽可能在已有相似产品中建立试验与仿真计算之间的相互关系，将其应用到仿真计算中。如条件允许，建议开展仿真模型的验证和确认工作，通过试验来确认仿真分析模型的精度与可靠性。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "13报告编制 ",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "13.1报告内容",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "仿真分析报告应包括分析对象介绍、计算模型、载荷工况、评估准则、仿真结果、焊缝应力等级、模态分析结果、结论及建议等内容。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "13.2编写要求",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "计算对象包括结构简介，如主要结构、部件组成方式和材质等。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "计算模型包括模型简化、网格划分、各类型单元和节点总数等。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "载荷工况包括载荷计算参数、载荷及约束情况、考核工况情况等，可配以图例。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "评估准则包括评估方法及应满足的相关评估指标等。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "仿真结果应包括静强度仿真结果和疲劳强度仿真结果及各工况下应力情况，同时应根据疲劳强度的仿真结果给出焊缝的应力等级。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "模态分析结果包括模态频率及振型图等。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "结论及建议包括对仿真结果的是否满足相关标准和设计的要求。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "附录A ",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "(资料性附录）",
+        "page_idx": 16
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/102638f099263e6f52be674b0d67459d9e9be0732d8f85e80c4aae2b803dba88.jpg",
+        "table_caption": [
+            "常用单元质量要求"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"4\">二维单元</td><td colspan=\"4\">三维单元</td></tr><tr><td colspan=\"3\">名称</td><td>要求</td><td colspan=\"3\">名称</td><td>要求</td></tr><tr><td colspan=\"3\">翘曲（Warpage）</td><td><5°</td><td colspan=\"3\">翘曲（Warpage）</td><td><5°</td></tr><tr><td colspan=\"3\">长宽比（Aspect Ratio)</td><td><5:1</td><td colspan=\"3\">长宽比（Aspect Ratio)</td><td><5:1</td></tr><tr><td colspan=\"3\">扭曲（Skew)</td><td><60°</td><td colspan=\"3\">扭曲（Skew)</td><td><60°</td></tr><tr><td colspan=\"3\">锥形（Taper）</td><td><0.5</td><td colspan=\"3\">不规则度（Tetra Collapse）</td><td>>0.5</td></tr><tr><td colspan=\"3\">雅可比（Jacobian）</td><td>>0.5</td><td colspan=\"3\">雅可比（Jacobian） 最小</td><td>>0.5</td></tr><tr><td rowspan=\"3\">最小与 最大内 角</td><td rowspan=\"2\">三角形</td><td>最小</td><td>20° 120°</td><td rowspan=\"3\">最小与最 大内角</td><td rowspan=\"2\" colspan=\"2\">三角形</td><td>20°</td></tr><tr><td>最大</td><td></td><td>120°</td></tr><tr><td rowspan=\"2\">四边形</td><td>最小</td><td>45°</td><td rowspan=\"2\">四边形</td><td>最小</td><td>45°</td></tr><tr><td>最大</td><td>135°</td><td>最大</td><td>135°</td></tr></table></body></html>\n\n",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "附录B ",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "(资料性附录）",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/a35fd345d113800290743bde04b244e48d17a524df11b6bd79525516806757ad.jpg",
+        "table_caption": [
+            "符号定义"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>符号</td><td>单位</td><td>描述</td></tr><tr><td>m+</td><td rowspan=\"8\">t</td><td>转向架重量</td></tr><tr><td>Mv</td><td>AW0（整备）工况下空车重量，含转向架重量</td></tr><tr><td>P1</td><td>AW3（超员）工况下人员及行李重量</td></tr><tr><td>P2</td><td>AW2（满员）工况下人员及行李重量</td></tr><tr><td>mmot</td><td>电机重量</td></tr><tr><td>mgear</td><td>齿轮箱联轴节质量</td></tr><tr><td>mb</td><td>制动缸质量</td></tr><tr><td>mo</td><td>轮对质量</td></tr><tr><td>nb</td><td rowspan=\"2\">/</td></tr><tr><td>ne</td></tr><tr><td>K1</td><td rowspan=\"8\">每转向架轮对数 N/mm</td><td>一系钢簧（或橡胶弹簧）垂向刚度</td></tr><tr><td>K2</td><td>-系钢簧（或橡胶弹簧）横向刚度</td></tr><tr><td>K3</td><td>一系钢簧（或橡胶弹簧）纵向刚度</td></tr><tr><td>Kz1</td><td>一系定位座节点（转臂定位）垂向刚度</td></tr><tr><td>Kz2</td><td>一系定位座节点（转臂定位）横向刚度</td></tr><tr><td>Kz3</td><td>一系定位座节点（转臂定位）纵向刚度</td></tr><tr><td>Ky1</td><td>二系空簧/旁承横向刚度（超常)</td></tr><tr><td>Ky2</td><td>二系空簧/旁承横向刚度(运营)</td></tr><tr><td>Ki'</td><td>转向架抗扭曲载荷刚度</td></tr><tr><td>Q</td><td>t</td><td>轴重</td></tr><tr><td></td><td rowspan=\"2\">rad</td><td>超常扭杆最大扭转角</td></tr><tr><td>##</td><td>运营扭杆最大扭转角</td></tr><tr><td>dy1</td><td rowspan=\"6\">mm</td><td>二系横向止挡自由间隙</td></tr><tr><td>dy2</td><td>二系横向止挡最大压缩量</td></tr><tr><td>e</td><td>轴距</td></tr><tr><td></td><td>轴颈中心距离</td></tr><tr><td>L1</td><td></td></tr><tr><td>L2</td><td>轮对滚动圆间距</td></tr><tr><td>Dmax</td><td></td><td>车轮直径 (新)</td></tr></table></body></html>\n\n",
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/2aa534a6f284e95f3c0a0343a7a6bc7aa8d5e4b625acc5c0b692ad9feae07aa8.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>符号</td><td>单位</td><td>描述</td></tr><tr><td>Dmin</td><td rowspan=\"4\"></td><td>车轮直径 (全磨耗)</td></tr><tr><td>r</td><td>制动盘有效摩擦半径</td></tr><tr><td>2b</td><td>抗侧滚扭杆轴承安装座跨距</td></tr><tr><td>l</td><td>齿轮箱吊杆至车轴中心距离</td></tr><tr><td>Ty_mot1</td><td rowspan=\"3\">N-m</td><td>启动扭矩</td></tr><tr><td>Ty_mot_b</td><td>制动扭矩</td></tr><tr><td>Ty mot s</td><td>短路扭矩</td></tr><tr><td>g</td><td rowspan=\"3\">m/s?</td><td>重力加速度，取9.81m/s²</td></tr><tr><td>a1</td><td>紧急制动减速度</td></tr><tr><td>a2</td><td>常用制动减速度</td></tr><tr><td>K。</td><td>N-m/rad</td><td>抗侧滚扭杆装置刚度</td></tr><tr><td>Fy_1d</td><td rowspan=\"4\">N</td><td>二系横向减振器载荷</td></tr><tr><td>F=_vd2</td><td>二系垂向减振器载荷</td></tr><tr><td>Fz_vd1</td><td>一系垂向减振器载荷</td></tr><tr><td>Fx_ad</td><td>抗蛇行减振器载荷</td></tr><tr><td>p</td><td rowspan=\"5\">/</td><td>齿轮箱传动比</td></tr><tr><td>μ</td><td>踏面制动闸瓦的最小动摩擦系数</td></tr><tr><td>n</td><td>制动装置数量</td></tr><tr><td>α</td><td>侧滚系数</td></tr><tr><td>β</td><td>浮沉系数</td></tr><tr><td>20b</td><td>mm</td><td>两侧旁承横向间距</td></tr></table></body></html>\n\n",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "附录C ",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "(资料性附录） 载荷计算 ",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "C.1超常载荷 ",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "C.1.1垂向载荷 ",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "非心盘承载构架：",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "垂向载荷作用在构架空簧上，载荷计算见公式（1）。",
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{z\\mathrm{lmax}}=F_{z2\\mathrm{max}}={\\frac{F_{z\\mathrm{max}}}{2}}={\\frac{1.4g{\\big(}M_{\\nu}+P_{\\mathrm{l}}-n_{b}m^{+}{\\big)}}{2n_{b}}}\n$$",
+        "text_format": "latex",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "心盘承载构架：",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "（a）垂向载荷由心盘和旁承共同承担，见公式（2）。",
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{z p\\mathrm{max}}=2.0\\times F_{z\\mathrm{max}}=\\frac{2.0g\\big(M_{\\nu}+P_{\\mathrm{1}}-n_{b}m^{+}\\big)}{2n_{b}}\n$$",
+        "text_format": "latex",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "对于采用两级悬挂的转向架构架，超常载荷系数可由2.0减小到1.4。",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "（b）考虑车体侧滚影响，载荷施加到心盘和一侧旁承上。心盘上的垂向载荷见公式（3）。",
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{\\mathrm{{zpmax}}}=1.5{\\times}F_{\\mathrm{{zmax}}}(1-\\alpha)\n$$",
+        "text_format": "latex",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "旁承上的垂向载荷见公式（4）。",
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z1\\mathrm{max}}}=F_{_{z2\\mathrm{max}}}=1.5{\\times}F_{_{z\\mathrm{max}}}\\alpha\n$$",
+        "text_format": "latex",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "其中，侧滚系数α=0.3× $\\alpha=0.3\\times\\frac{1700}{2\\delta_{b}}.$ ",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "对于两级悬挂转向架构架，超常载荷系数可由1.5减小到1.4。",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "C.1.2横向载荷 ",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "非心盘承载构架：横向载荷由空气弹簧和横向止挡共同承担，分别作用在空气弹簧座和横向止挡处。",
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{y\\mathrm{lmax}}=F_{y\\mathrm{2max}}={\\frac{F_{y{\\mathrm{max}}}}{2}}=15000+{\\frac{\\left(M_{\\nu}+P_{\\mathrm{l}}\\right)g}{3n_{e}n_{b}}}\n$$",
+        "text_format": "latex",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "对于三轴转向架，通常认为中间轴不传递横向力。",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "心盘承载构架：横向载荷由旁承和横向止挡共同承担，分别作用在旁承座和横向止挡处。两轴转向架公式同（5）。",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "对于三轴转向架，作用在构架上的横向总载荷见公式（6），可以按端轴 $37.5\\%$ 、中间轴 $25\\%$ 分配，也可以根据可靠的数据和经验进行分配。",
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{y{\\mathrm{max}}}={\\frac{8}{3}}{\\left(15000+{\\frac{{\\bigl(}M_{\\nu}+P_{1}{\\bigr)}g}{3n_{e}n_{b}}}\\right)}\n$$",
+        "text_format": "latex",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "每个空气弹簧座或旁承座上的载荷见公式（7）。",
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{y_{-}s p r i n g}}=K_{_{y1}}\\big(d_{_{y1}}+d_{_{y2}}\\big)\n$$",
+        "text_format": "latex",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "横向止挡上的横向载荷见公式（8）。",
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{y\\_s t o p}=F_{y\\mathrm{max}}-2F_{y\\_s p r i n g}\n$$",
+        "text_format": "latex",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "C.1.3扭曲载荷 ",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "扭曲载荷 $F_{\\nu}$ 按转向架通过轨道最大扭曲量 $10\\text{\\textperthousand}$ 考虑，作用于构架的轴箱弹簧座，见公式（9）。",
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\n{\\cal F}_{w}=\\frac{1}{4}\\Biggl(\\frac{L_{2}\\cdot10\\%\\cdot e}{L_{1}}\\Biggr)\\frac{K_{1}\\cdot K_{1}^{'}}{K_{1}+K_{1}^{'}}\n$$",
+        "text_format": "latex",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "其中：由于 $K_{1}^{'}{>}>K_{1}$ （偏于安全），因此取 $\\frac{\\boldsymbol{K}_{1}\\cdot\\boldsymbol{K}_{1}^{'}}{K_{1}+K_{1}^{'}}\\approx\\boldsymbol{K}_{1}$ ",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "扭曲载荷也可以直接在车轮位置施加位移，即轨道最大扭曲量的 $10\\text{\\textperthousand}$ 6",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "C.1.4菱形载荷 ",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "菱形载荷施加在转向架端轴的车轮位置，左右两侧方向相反。客车构架载荷计算见公式（10），机车构架载荷计算见公式（11）。",
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{x1\\mathrm{max}}}=0.4\\times\\frac{\\left(M_{_{\\nu}}+P_{_{1}}\\right)g}{8}\n$$",
+        "text_format": "latex",
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{x1\\mathrm{max}}=0.4\\times\\frac{\\left(F_{z\\mathrm{max}}+m^{+}g\\right)}{2n_{e}}\n$$",
+        "text_format": "latex",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "C.1.5抗侧滚载荷 ",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "抗侧滚载荷作用在抗侧滚扭杆安装座处，载荷计算见公式（12）。",
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z\\_b a r1}}=-F_{_{z\\_b a r2}}={\\frac{K_{\\theta}\\times\\theta_{_{1}}}{2b}}\n$$",
+        "text_format": "latex",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "C.1.6调车冲击载荷 ",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "动力分散动车组或者地铁车辆调车冲击载荷最大加速度取 $3\\mathrm{g}$ 进行计算，见公式（14）。",
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z1_{-}k}}=F_{_{z2_{-}k}}=\\frac{F_{_{z_{-}k}}}{2}=\\frac{g\\big(M_{_{\\nu}}-n_{_{b}}m^{+}\\big)}{2n_{_{b}}}\n$$",
+        "text_format": "latex",
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{x_{-}\\operatorname*{max}}}=3\\times m^{+}g\n$$",
+        "text_format": "latex",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "C.1.7电机启动载荷 ",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "电机启动扭矩见公式（15）。",
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nT_{y\\_m o t1}=1.3\\times T_{y\\_m o t\\_t}\n$$",
+        "text_format": "latex",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "电机牵引纵向力见公式（16），施加在牵引拉杆座。",
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{x_{-}m o t1}}=\\frac{1.3{\\times}T_{_{y_{-}m o t_{-}}t}{\\times}\\rho}{D_{\\mathrm{min}}/2}\n$$",
+        "text_format": "latex",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱吊杆垂向力见公式（17）。",
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z_{-}r e d1}}=\\frac{1.3\\times T_{_{y_{-}m o t_{-}t}}\\times\\left(1+\\rho\\right)}{l}\n$$",
+        "text_format": "latex",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "C.1.8电机短路载荷 ",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "电机短路扭矩见公式（18）。",
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nT_{y\\_m o t2}=T_{y\\_m o t\\_s}\n$$",
+        "text_format": "latex",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "电机牵引纵向力见公式（19），施加在牵引拉杆座。",
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{x_{-}m o t2}}=\\frac{T_{_{y_{-}m o t\\_s}}\\times\\rho}{D_{\\mathrm{min}}/2}\n$$",
+        "text_format": "latex",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱吊杆垂向力见公式（20）。",
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z_{-}r e d2}}=\\frac{T_{_{y\\_m o t_{-}s}}\\times(1+\\rho)}{l}\n$$",
+        "text_format": "latex",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "C.1.9紧急制动载荷 ",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "（a）盘形制动",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "转向架制动纵向力见公式（21），施加在牵引拉杆座。",
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{x_{-}D}}=1.3\\cdot Q\\cdot a_{\\scriptscriptstyle1}\n$$",
+        "text_format": "latex",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "每个制动单元垂向力见公式（22）。",
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z_{-}B}}=\\frac{F_{_{x_{-}D}}\\times D_{\\operatorname*{max}}/2}{n r}\n$$",
+        "text_format": "latex",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "（b）踏面制动",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "转向架制动纵向力见公式（23），施加在牵引拉杆座。",
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{x_{-}D}}=1.3\\cdot Q\\cdot a_{\\scriptscriptstyle1}\n$$",
+        "text_format": "latex",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "每个制动单元垂向力见公式（24）。",
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z_{-}T B U}}=F_{_{x_{-}D}}/n\n$$",
+        "text_format": "latex",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "每个制动单元纵向力见公式（25）。",
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{X\\_T B U}}=F_{_{z\\_T B U}}/\\mu\n$$",
+        "text_format": "latex",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "C.1.10 空车脱轨载荷",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "当转向架一个车轮 $100\\%$ 减载时分析转向架脱轨时的情况，见公式（26）。",
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{z}^{'}={\\frac{g}{2n_{b}}}(M_{\\nu}^{\\mathbf{\\nu}}-n_{b}m^{\\mathbf{\\nu}})\n$$",
+        "text_format": "latex",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "C.1.11设备惯性载荷",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "（a）轴悬式牵引电机和齿轮箱：  \n电机质量为 ${{m}_{{{\\it m o t}}}}$ ，考虑垂向加速度 $20\\mathrm{g}$ ，横向加速度 $10\\mathrm{g}$ ，纵向加速度 $5\\mathrm{g}$ 0电机垂向惯性载荷见公式（27）。",
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_z}=(1\\pm20)\\times m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "电机横向惯性载荷见公式（28）。",
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_y}=10m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "电机纵向惯性载荷见公式（29）。",
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_x}=5m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱质量为 ${{m}_{\\it{s e a r}}}$ ，考虑垂向加速度 $20\\mathrm{g}$ 0",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱垂向惯性载荷见公式（30）。",
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{g e a r\\_z}=(1\\pm20)\\times{\\frac{1}{3}}\\times m_{g e a r}g\n$$",
+        "text_format": "latex",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "（b）架悬式牵引电机和齿轮箱：",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "电机质量为 ${{m}_{{{\\it m o t}}}}$ ，考虑垂向加速度 $5\\mathrm{g}$ ，横向加速度 $3\\mathrm{g}$ ，纵向加速度 $3\\mathrm{g}$ 0",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "电机垂向惯性载荷见公式（31）。",
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_z}=(1\\pm5)m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "电机横向惯性载荷见公式（32）。",
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_y}=3m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "电机纵向惯性载荷见公式（33）。",
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_x}=3m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱质量为 $\\ m_{g e a r}$ ，考虑垂向加速度 $5\\mathrm{g}$ 0",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱垂向惯性载荷见公式（34）。",
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{g e a r\\_z}=(1\\pm5)\\times m_{g e a r}g\n$$",
+        "text_format": "latex",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "（c）制动装置",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "制动装置及其他构架连接设备，按照TB/T3548中6.3.6中相关要求确定。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "制动缸垂向惯性载荷见公式（35）。",
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{b_{-}z}}=(1\\pm a_{b_{-}z})m_{b}g\n$$",
+        "text_format": "latex",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "制动缸横向惯性载荷见公式（36）。",
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{b_{-}y}=a_{b_{-}y}m_{b}g\n$$",
+        "text_format": "latex",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "制动缸纵向惯性载荷见公式（37）。",
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{b_{-}x}=3m_{b}g\n$$",
+        "text_format": "latex",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "C.1.12减振器载荷 ",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "二系垂向减振器的垂向力为： $2F_{z\\_\\nu d2}$ 二系横向减振器的横向力为： $2F_{y\\_t d}$ 一系垂向减振器的横向力为： $2{\\cal F}_{z_{-}\\nu d I}$ 抗蛇行减振器的纵向力为： $2F_{x\\_a d}$ 0",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "C.1.13起吊载荷 ",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "起吊时取加速度 $2\\mathrm{g}$ 0转向架起吊时，在构架吊耳座施加起吊载荷 $2m^{+}g$ ，在轮对起吊座施加起吊载荷 2mog。整车起吊时，在构架垂向止挡座施加起吊载荷 $2m^{+}g$ ，在轮对起吊座施加起吊载荷 2mg。",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "C.2 模拟运营载荷 ",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "C.2.1 垂向载荷 ",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "非心盘承载构架：",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "垂向载荷作用在构架空簧上，载荷计算见公式（38）。",
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{z1}=F_{z2}={\\frac{F_{z}}{2}}={\\frac{\\left(M_{\\nu}+1.2P_{2}-n_{b}m^{+}\\right)g}{2n_{b}}}\n$$",
+        "text_format": "latex",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "心盘承载构架：",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "（a）垂向载荷由心盘和旁承共同承担，见公式（39）。",
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{z p}=F_{z}=\\frac{g\\big(M_{\\nu}+1.2P_{2}-n_{b}m^{+}\\big)}{2n_{b}}\n$$",
+        "text_format": "latex",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "（b）考虑车体侧滚影响，载荷施加到心盘和一侧旁承上。",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "心盘上的垂向载荷见公式（40）。",
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{\\mathrm{zp}}=F_{\\mathrm{z}}(1{-}\\alpha)\n$$",
+        "text_format": "latex",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "旁承上的垂向载荷见公式（41）。",
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{z1}=F_{z2}=F_{z}\\alpha\n$$",
+        "text_format": "latex",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "其中，侧滚系数α=0.2×- $\\alpha=0.2\\times\\frac{1700}{2\\delta_{b}}$ ",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "C.2.2 横向载荷 ",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "非心盘承载构架：横向载荷由空气弹簧和横向止挡共同承担，分别作用在空簧座和横向止挡处。",
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{y1}}=F_{_{y2}}=\\frac{F_{_{y}}}{2}=\\frac{F_{_{z}}+m^{+}g}{4n_{e}}\n$$",
+        "text_format": "latex",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "对于三轴转向架，通常认为中间轴不传递横向力。",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "心盘承载构架：横向载荷由旁承和横向止挡共同承担，分别作用在旁承座和横向止挡处。",
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{y1}=F_{y2}=\\frac{F_{y}}{2}=0.1{\\times}(F_{z}+m^{+}g)\n$$",
+        "text_format": "latex",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "对于三轴转向架，作用在构架上的横向总载荷见公式（44），可以按端轴 $37.5\\%$ 、中间轴 $25\\%$ 分配，也可以根据可靠的数据和经验进行分配。",
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{y}=0.265\\times(F_{z}+m^{+}g)\n$$",
+        "text_format": "latex",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "每个空气弹簧座/旁承座上的载荷，见公式（45）。",
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{y\\_s p r i n g}=K_{y2}\\big({d}_{y1}+{d}_{y2}\\big)\n$$",
+        "text_format": "latex",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "横向止挡上的横向载荷，见公式（46）。",
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{y_{-}s t o p}}=F_{_{y}}-2F_{_{y_{-}s p r i n g}}\n$$",
+        "text_format": "latex",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "C.2.3 扭曲载荷 ",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "扭曲载荷 $F_{_{w}}$ 按转向架通过轨道最大扭曲量 $5\\text{\\textperthousand}$ 考虑，作用于构架的轴箱弹簧座，见公式（47）。",
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_w}=\\frac{1}{4}\\Bigg(\\frac{L_{2}\\cdot5\\%\\cdot e}{L_{1}}\\Bigg)\\frac{K_{1}\\cdot K_{1}^{'}}{K_{1}+K_{1}^{'}}\n$$",
+        "text_format": "latex",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "扭曲载荷也可以直接在车轮位置施加位移，即轨道最大扭曲量 $5\\text{\\textperthousand}$ 0",
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL_{\\scriptscriptstyle w}=5\\%0\\cdot e\n$$",
+        "text_format": "latex",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "C.2.4 菱形载荷 ",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "菱形载荷施加在转向架端轴的车轮位置，左右两侧方向相反。客车构架载荷计算见公式（49），机车构架载荷计算见公式（50）。",
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{x1}=0.2\\times\\frac{\\left(M_{\\scriptscriptstyle V}+P_{2}\\right)g}{8}\n$$",
+        "text_format": "latex",
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{x1}=0.2\\times\\frac{\\left(F_{z}+m^{+}g\\right)}{2n_{e}}\n$$",
+        "text_format": "latex",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "C.2.5 抗侧滚载荷",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "抗侧滚载荷作用在抗侧滚扭杆安装座处，载荷计算见公式（51）。",
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z\\_b a r1}}=-F_{_{z\\_b a r2}}={\\frac{K_{\\theta}\\times\\theta_{2}}{2b}}\n$$",
+        "text_format": "latex",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "C.2.6 电机启动载荷 ",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "电机启动扭矩见公式（52）。",
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nT_{y\\_m o t1}=1.1\\times T_{y\\_m o t\\_t}\n$$",
+        "text_format": "latex",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "电机牵引纵向力见公式（53），施加在牵引拉杆座。",
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{x_{-}m o t1}}=\\frac{1.1{\\times}T_{_{y_{-}m o t_{-}}t}{\\times}\\rho}{D_{\\mathrm{min}}/2}\n$$",
+        "text_format": "latex",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱吊杆垂向力见公式（54）。",
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z_{-}r e d1}}=\\frac{1.1{\\times}T_{_{y_{-}m o t_{-}t}}{\\times}\\left(1+\\rho\\right)}{l}\n$$",
+        "text_format": "latex",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "C.2.7 电机制动载荷",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "电机制动扭矩见公式（55）。",
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nT_{y_{-}m o t b}=1.1{\\times}T_{y_{-}m o t_{-}b}\n$$",
+        "text_format": "latex",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "电机制动纵向力见公式（56），施加在牵引拉杆座。",
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{x_{_-}m o t b}}=\\frac{1.1{\\times}T_{y\\_m o t\\_b}{\\times}\\rho}{D_{\\mathrm{min}}/2}\n$$",
+        "text_format": "latex",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱吊杆垂向力见公式（57）。",
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z_{-}r e d b}}=\\frac{1.1{\\times}T_{_{y_{-}m o t_{-}b}}{\\times}\\left(1+\\rho\\right)}{l}\n$$",
+        "text_format": "latex",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "C.2.8 常用制动载荷 ",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "（a）盘形制动",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "转向架制动纵向力见公式（58），施加在牵引拉杆座。",
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{x_{-}D}=\\frac{1}{2}{\\times}1.1{\\times}a_{2}{\\times}\\frac{M_{\\nu}+1.2P_{2}}{n_{b}}\n$$",
+        "text_format": "latex",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "每个制动单元垂向力见公式（59）。",
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z_{-}B}}=\\frac{F_{_{x_{-}D}}\\times D_{\\operatorname*{max}}/2}{r}\n$$",
+        "text_format": "latex",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "（b）踏面制动",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "转向架制动纵向力见公式（60），施加在牵引拉杆座。",
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{x_{-}D}=\\frac{1}{2}{\\times}1.1{\\times}a_{2}{\\times}\\frac{M_{\\nu}+1.2P_{2}}{n_{b}}\n$$",
+        "text_format": "latex",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "每个制动单元法向力见公式（61）。",
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{z_{-}T B U}}=F_{_{x_{-}D}}/4\n$$",
+        "text_format": "latex",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "每个制动单元纵向力见公式（62）。",
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{X\\_T B U}}=F_{_{z\\_T B U}}/\\mu\n$$",
+        "text_format": "latex",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "C.2.9 设备惯性载荷",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "22 ",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "（a）轴悬式牵引电机和齿轮箱：",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "电机质量为 ${{m}_{{{\\it m o t}}}}$ ，考虑垂向加速度 $6\\mathrm{g}$ ，横向加速度 $5\\mathrm{g}$ ，纵向加速度 $2.5\\mathrm{g}$ 0",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "电机垂向惯性载荷见公式（63）。",
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_z}=(1\\pm6)~m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "电机横向惯性载荷见公式（64）。",
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_y}=5m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "电机纵向惯性载荷见公式（65）。",
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_x}=2.5m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱质量为 $\\displaystyle{m_{g e a r}}$ ，考虑垂向加速度 $6\\mathrm{g}$ 0",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱垂向惯性载荷见公式（66）。",
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{g e a r\\_z}=(1\\pm6)\\times{\\frac{1}{3}}\\times m_{g e a r}g\n$$",
+        "text_format": "latex",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "（b）架悬式牵引电机和齿轮箱：",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "电机质量为 ${{m}_{{{\\it m o t}}}}$ ，考虑垂向加速度 $3\\mathrm{g}$ ，横向加速度 $1\\mathrm{g}$ ，纵向加速度 $2\\mathrm{g}$ 0",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "电机垂向惯性载荷见公式（67）。",
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_z}=(1\\pm3)m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "电机横向惯性载荷见公式（68）。",
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_y}=m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "电机纵向惯性载荷见公式（69）。",
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{m o t\\_x}=2m_{m o t}g\n$$",
+        "text_format": "latex",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱质量为 $\\displaystyle{m_{g e a r}}$ ，考虑垂向加速度 $3\\mathrm{g}$ 。",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "齿轮箱垂向惯性载荷见公式（70）。",
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{g e a r\\_z}=(1\\pm3)\\times m_{g e a r}g\n$$",
+        "text_format": "latex",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "（c）制动装置",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "制动装置及其他构架连接设备，按照TB/T3548中6.3.6中相关要求确定。  \n制动缸垂向惯性载荷见公式（71）。",
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{_{b_{-}z}}=(1\\pm a_{b_{-}z})m_{b}g\n$$",
+        "text_format": "latex",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "制动缸横向惯性载荷见公式（72）。",
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{b_{-}y}=a_{b_{-}y}m_{b}g\n$$",
+        "text_format": "latex",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "制动缸纵向惯性载荷见公式（73）。",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "C.2.10 减振器载荷 ",
+        "text_level": 1,
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "二系垂向减振器的垂向力为：1.5Fz_vd2;  \n二系横向减振器的横向力为：1.5Fy_td;  \n一系垂向减振器的横向力为：1.5Fz_vdl;  \n抗蛇行减振器的纵向力为：1.5Fx_ad。",
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\nF_{b\\_x}=2.5m_{b}g\n$$",
+        "text_format": "latex",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "D.1动车构架超常载荷工况 ",
+        "text_level": 1,
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "动车构架超常载荷工况，见表D.1。",
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "附录D ",
+        "text_level": 1,
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "(资料性附录） 载荷工况 ",
+        "page_idx": 28
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/d301d72d576729c3711412346456f2ced310fa31083297d2a71bf4ca305204ee.jpg",
+        "table_caption": [
+            "表D.1超常载荷工况组合表-动车构架"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"3\">工 况 编号</td><td colspan=\"2\">ML01</td><td colspan=\"2\">ML02[]</td><td colspan=\"2\">ML03[2]</td><td>ML04[3]</td><td>ML05[4]</td><td>ML06[5]</td><td>ML07[6</td><td colspan=\"2\">ML08</td><td colspan=\"2\">ML09</td><td colspan=\"2\"></td></tr><tr><td colspan=\"2\">垂向载荷</td><td colspan=\"2\">横向载荷</td><td colspan=\"2\">抗侧滚扭杆载荷</td><td>扭转</td><td>纵向载荷</td><td>菱形载荷</td><td colspan=\"2\">制动载荷</td><td colspan=\"2\">齿轮箱吊杆</td><td colspan=\"2\">电机扭矩</td><td rowspan=\"2\">备注</td></tr><tr><td>侧</td><td>侧</td><td>二系簧</td><td>止挡</td><td>扭杆座</td><td>扭杆座</td><td>车轮</td><td>牵引拉杆座</td><td>车轮</td><td>垂向 纵向</td><td>齿轮箱</td><td>齿轮箱</td><td>电机</td><td>电机</td></tr><tr><td>1</td><td>Fz1max</td><td>F22max</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>直线</td></tr><tr><td>2</td><td>F=lmax</td><td>F2max</td><td>F y_spring</td><td>Fy_stop</td><td>- F=_bar1</td><td>-F=_bar2</td><td>Lw</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>曲线</td></tr><tr><td>3</td><td>Flmax</td><td>F2max</td><td>F y_spring</td><td>Fy_sop</td><td>-F=_bar1</td><td>-F=_bar2</td><td>- Lw</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>与扭</td></tr><tr><td>4</td><td>F2lmax</td><td>F=2max</td><td>-Fy_pring</td><td>-Fy_sop</td><td>Fz_bar1</td><td>Fz_bar2</td><td>Lw</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>转载 荷叠</td></tr><tr><td>5</td><td>F=1max</td><td>F2max</td><td>-Fy_spring</td><td>-Fy_stop</td><td>F = bar1</td><td>F=_bar2</td><td>- Lw</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>加</td></tr><tr><td>6</td><td>Falmax</td><td>F=2 max</td><td></td><td></td><td></td><td></td><td></td><td></td><td>Fxlmax</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>7</td><td>F=lmax</td><td>F22max</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-Fximax</td><td></td><td></td><td></td><td></td><td></td><td></td><td>菱形</td></tr><tr><td>8</td><td>F1_k</td><td>F=2_k</td><td></td><td></td><td></td><td></td><td></td><td>Fx_max</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>调车</td></tr><tr><td>9</td><td>F21_k</td><td>F=2_k</td><td></td><td></td><td></td><td></td><td></td><td>-Fr_max</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>冲击</td></tr><tr><td>10</td><td>Falmax</td><td>F22max</td><td></td><td></td><td></td><td></td><td></td><td>Fx_D</td><td></td><td>-F_TBU</td><td>FTBU</td><td></td><td></td><td></td><td></td><td>紧急</td></tr><tr><td>11</td><td>Fa1max</td><td>F2max</td><td></td><td></td><td></td><td></td><td></td><td>-FxD</td><td></td><td>-F=_TBU</td><td>-Fx_TBU</td><td></td><td></td><td></td><td></td><td>制动</td></tr><tr><td>12</td><td>Fzlmax</td><td>F2max</td><td></td><td></td><td></td><td></td><td></td><td>Fx_mo11 + Fx_mo12</td><td></td><td></td><td></td><td>-Fz_red2</td><td>F=_redi</td><td>Ty_mot2</td><td>Ty_motl</td><td>电机</td></tr></table></body></html>\n\n",
+        "page_idx": 28
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/6ce99e2a1b71811108b5c9f0fd7ea91163a9c09c9f28020bc19d8ce911634374.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"3\">工 况</td><td colspan=\"2\">ML01</td><td colspan=\"2\">ML02[1]</td><td colspan=\"2\">ML03[2]</td><td>ML04[3]</td><td>ML05[4]</td><td>ML06[5]</td><td colspan=\"2\">ML07[6]</td><td colspan=\"2\">ML08</td><td colspan=\"2\">ML09</td><td rowspan=\"2\"></td></tr><tr><td colspan=\"2\">垂向载荷</td><td colspan=\"2\">横向载荷</td><td colspan=\"2\">抗侧滚扭杆载荷</td><td>扭转</td><td>纵向载荷</td><td>菱形载荷</td><td colspan=\"2\">制动载荷</td><td colspan=\"2\">齿轮箱吊杆</td><td colspan=\"2\">电机扭矩</td></tr><tr><td>编号 侧</td><td>侧</td><td>二系簧</td><td>止挡</td><td>扭座</td><td>座</td><td></td><td>牵引拉杆座</td><td>车轮</td><td>垂向</td><td>纵向</td><td>齿轮箱</td><td>齿轮箱</td><td>电机</td><td>电机</td><td>备注</td></tr><tr><td>13</td><td>Flmax</td><td>F2max</td><td></td><td></td><td></td><td></td><td></td><td>F._mon +Fx mri2</td><td></td><td></td><td></td><td>F=r2</td><td>-F=_edl</td><td>-Ty_mor2</td><td>-Ty_mol</td><td></td></tr><tr><td>14[7]</td><td>F=1_k</td><td>F22_k</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>脱轨</td></tr></table></body></html>\n\n",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "注：[1] 表中为单个二系簧承担的载荷，两侧应同时施加，方向相同；横向止挡载荷均为压力，正负值代表作用在不同的止挡座。",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "[2]抗侧滚扭杆载荷为垂向载荷，作用在安装座处。",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "[3] 扭转载荷，表中数值为单个车轮处施加的位移。若施加到轴箱处需按照公式（9）进行转换。",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "[4]纵向载荷，表中数值为转向架所对应的纵向载荷。",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "[5]菱形载荷，表中数值为对应一位车轮处载荷，若施加在轴箱处或其它位置，需进行转换。",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "[6]制动载荷，表中仅列出构架沿着正向行驶时，构架前方制动装置的制动力",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "[7]脱轨工况在车轮 $(X+Y-)$ 释放所有约束。",
+        "page_idx": 29
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/55dee9847efa09dcdfdb214224bcd344230f780dbf616e88bfb4eedcde09cd03.jpg",
+        "table_caption": [
+            "表D.1（续）超常载荷工况组合表-动车构架"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"3\">工 况 编 号</td><td colspan=\"2\">ML01</td><td colspan=\"3\">ML10[8]</td><td colspan=\"3\">ML11[8]</td><td>ML12[8]</td><td>ML13[9]</td><td>ML14[9]</td><td>ML15[9]</td><td>ML16[10]</td><td></td></tr><tr><td colspan=\"2\">垂向载荷</td><td colspan=\"3\">制动惯性</td><td colspan=\"3\">电机惯性</td><td>齿轮箱惯性</td><td>一系垂向 减振器</td><td>二系横向 减振器</td><td>二系垂向 减振器</td><td>抗蛇行 减振器</td><td>备注</td></tr><tr><td>侧梁 (Y+)</td><td>侧梁 (Y-)</td><td>纵向</td><td>横向</td><td>垂向</td><td>纵向</td><td>横向</td><td>垂向</td><td>垂向</td><td>垂向</td><td>横向</td><td>垂向</td><td>纵向</td><td></td></tr><tr><td>15</td><td>Fzlmax</td><td>F=2max</td><td>Fb_x</td><td>Fby</td><td>Fb_=</td><td>Fmot_x</td><td>F mot_></td><td>Fmot _=</td><td>F gar _-</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>16</td><td>Fzlmax</td><td>F22max</td><td>-Fb_x</td><td>Fb_)</td><td>Fb_2</td><td>- F mot_x</td><td>Fmot_y</td><td>F mot _2</td><td>F gear _</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>17</td><td>Fzlmax</td><td>F22max</td><td>Fb_</td><td>-Fb_</td><td>Fb_=</td><td>Fmot_x</td><td>-Fmot_y</td><td>Fmot_2</td><td>Fgar _2</td><td></td><td></td><td></td><td></td><td>设备惯</td></tr></table></body></html>\n\n",
+        "page_idx": 29
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/61092f2ed4871d74508b0b62a187f447efdff417b02d9125e231d1a56eeda9b4.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"3\">工 况编 号</td><td colspan=\"2\">ML01</td><td colspan=\"3\">ML10[8]</td><td colspan=\"3\">ML11[8]</td><td>ML12[8]</td><td>ML13[9]</td><td>ML14[9]</td><td>ML15[9]</td><td>ML16[10] </td><td rowspan=\"3\"></td></tr><tr><td colspan=\"2\">垂向载荷</td><td colspan=\"3\">制动惯性</td><td colspan=\"3\">电机惯性</td><td>齿轮箱惯性</td><td>二系横</td><td>二</td><td>抗行</td><td>备注</td></tr><tr><td>侧梁 (Y+)</td><td>侧梁 (Y-)</td><td>纵向</td><td>横向</td><td>垂向</td><td>纵向</td><td>横向</td><td>垂向 垂向</td><td>垂向</td><td>横向</td><td>垂向</td><td>纵向</td><td></td></tr><tr><td>18</td><td>Fzlmax</td><td>F2max</td><td>-Fb_x</td><td>-Fb_)</td><td>F=</td><td>-F mot_x</td><td>- Fmot _</td><td>Fmot_2</td><td>F gear _=</td><td></td><td></td><td></td><td></td><td rowspan=\"5\"></td></tr><tr><td>19</td><td>Fz1max</td><td>F=2max</td><td>F_x</td><td>F_</td><td>-Fb_=</td><td>Fmot_x</td><td>Fmot _></td><td>- Fmot _-</td><td>-F gear _=-</td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td>Fz1max</td><td>Fz2max</td><td>-Fb_x</td><td>Fb_</td><td>-Fb_=</td><td>-Fmot_x</td><td>Fmot _</td><td>- Fmot _2</td><td>- F gear_=-</td><td></td><td></td><td></td><td></td></tr><tr><td>21</td><td>Fzlmax</td><td>F2max</td><td>Fb_x</td><td>-Fb_</td><td>-Fb_=</td><td>Fmot_x</td><td>- Fmot_></td><td>-Fmot _</td><td>-F gear_=-</td><td></td><td></td><td></td><td></td></tr><tr><td>22</td><td>Fzlmax</td><td>F22max</td><td>-Fb_x</td><td>-Fb_</td><td>-Fb_=</td><td>- Fmot_</td><td>- Fmot_y</td><td>-Fmot _=</td><td>- F gear_</td><td></td><td></td><td></td><td></td></tr><tr><td>23</td><td>Fz1max</td><td>Fz2max</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>F=_vd</td><td>Fy_d</td><td>F=vd2</td><td>Fx_ad</td><td>减振器</td></tr><tr><td>24</td><td>F=1max</td><td>F22max</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-Fz_vd1</td><td>-Fy1d</td><td>-Fz_vd2</td><td>-Fx_ad</td><td>工况</td></tr><tr><td colspan=\"3\">25</td><td colspan=\"10\">转向架起吊工况</td></tr><tr><td colspan=\"12\">26 整车起吊工况 起吊</td></tr><tr><td colspan=\"14\">[8]设备惯性载荷，表中仅列出安装在X正向设备的惯性载荷组合，安装X负向设备的惯性载荷方向相反。 [9]对应的每个减振器同时同向施加，考虑2倍系数。</td></tr><tr><td colspan=\"14\">[10] 抗蛇行减振器载荷，表中数值为单个减振器载荷，若单侧梁上有两个减振器，则同时同向施加，考虑2倍系数。</td></tr></table></body></html>\n\n",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "D.2动车构架运营载荷工况 ",
+        "text_level": 1,
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "动车构架运营载荷工况，见表D.2。  \n表中侧滚系数 $\\alpha=0.1$ ，沉浮系数 $\\beta=0.2$ ，如果已知线路质量明显偏差或者车辆在非常大的欠超高条件下，可以使用更大的值。",
+        "page_idx": 30
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/fe3864642471aff5a584239ae22b0725461a68c44e8369a25f9cd27678e483f1.jpg",
+        "table_caption": [
+            "表D.2运营载荷工况组合表-动车构架"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>工</td><td colspan=\"2\">ML01</td><td colspan=\"2\">ML02[1]</td><td colspan=\"2\">ML03[2]</td><td>ML04[3]</td><td>ML05[4] ML06[5]</td><td colspan=\"2\">ML07[6]</td><td colspan=\"2\">ML08</td><td colspan=\"2\">ML09</td><td></td></tr><tr><td>况编</td><td colspan=\"2\">垂向载荷</td><td colspan=\"2\">横向载荷</td><td colspan=\"2\">抗侧滚扭杆载荷</td><td>扭转</td><td>纵向载荷</td><td>形载</td><td colspan=\"2\">制动载荷</td><td colspan=\"2\">齿轮箱吊杆</td><td colspan=\"2\">电机扭矩 备注</td></tr><tr><td>号</td><td>侧梁(Y+)</td><td>侧梁(Y-)</td><td>二系簧</td><td>止挡</td><td>扭杆座</td><td>扭杆座</td><td>车轮</td><td>牵引拉杆座</td><td>车轮</td><td>垂向</td><td>纵向</td><td>齿轮箱 齿轮箱</td><td>电机</td><td>电机 (X-)</td><td colspan=\"2\"></td></tr><tr><td>1</td><td>F=1</td><td>F=2</td><td></td><td></td><td>(Y+)</td><td>(Y-)</td><td>(X+Y-)</td><td></td><td>(X+Y-)</td><td></td><td></td><td>(X+)</td><td>(X-)</td><td>(X+)</td><td colspan=\"2\"></td></tr><tr><td>2</td><td>(1+α-β)F21</td><td>(1-α-β)F=2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td rowspan=\"8\"></td></tr><tr><td>3</td><td>(1+α-β)F=1</td><td>(1-α-β)F=2</td><td>Fy_sprng</td><td>F_o</td><td>-F=_br</td><td>-F=_bar2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>(1+α+β)F=1</td><td>(1-α+β)F=2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>(1+α+β)F21</td><td>(1-α+β)F=2</td><td>Fy_sprng</td><td>Fy_so</td><td>-F=_bar1</td><td>-F=_bar2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>(1-α-β)F=1</td><td>(1+α-β)F2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>7</td><td>(1-α-β)F1</td><td>(1+α-β)F=2</td><td>-Fy_spring</td><td>-F_sto</td><td>F=_bar1</td><td>F=_bar2</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>(1-α+β)F=1</td><td>(1+α+β)F=2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td>(1-α+β)F=1</td><td>(1+α+β)F=2</td><td>-Fy_sprin</td><td>-Fy_sop</td><td>F= barl</td><td>F=_bar2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td>(1+α-β)F21</td><td>(1-α-β)F=2</td><td>Fy_spring</td><td>Fy_stop</td><td>-F=barl</td><td>-F=br2</td><td>Lw</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td>(1+α+β)F1</td><td>(1-α+β)F=2</td><td>Fy_sping</td><td>F_so</td><td>-F=_bar1</td><td>-F=br2</td><td>L</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td>(1-α-β)F21</td><td>(1+α-β)F=2</td><td>-Fy_spring</td><td>-Fystop</td><td>F=_bar1</td><td>F=_bar2</td><td>Lw</td><td></td><td></td><td></td><td></td></tr><tr><td>13</td><td>(1-α+β)F21</td><td>(1+α+β)F=2</td><td>-Fy_sping</td><td>-Fy_stop</td><td>-F=bar1 F=_bar1</td><td>F=_bar2</td><td>Lw</td><td></td><td></td><td></td><td></td></tr><tr><td>14</td><td>(1+α-β)F=1</td><td>(1-α-β)F=2 (1-α+β)F=2</td><td>F_pring</td><td></td><td>-F=_bar</td><td>-F=or2 -F= bar2</td><td>- Lw</td><td></td><td></td><td></td><td></td></tr><tr><td>15</td><td>(1+α+β)F1</td><td>(1+α-β)F=2</td><td>Fy_pring -Fy_pring</td><td>F_ -Fyo</td><td>F=_bar</td><td>F=_bar2</td><td>-Lw</td><td></td><td></td><td></td><td></td></tr><tr><td>16</td><td>(1-α-β)F21</td><td></td><td></td><td></td><td></td><td></td><td>- Lw</td><td></td><td></td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 31
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/03900853a5553fb044a586bd65dc529b39aa9a6ed8af08962e882608cd92964a.jpg",
+        "table_caption": [
+            "Q/CRRC J\\*\\*\\*-2022 "
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>工</td><td colspan=\"2\">ML01</td><td colspan=\"2\">ML02[1]</td><td colspan=\"2\">ML03[2]</td><td>ML04[3]</td><td>ML05[4]</td><td>ML06[5]</td><td colspan=\"2\">ML07[6]</td><td colspan=\"2\">ML08</td><td colspan=\"2\">ML09</td><td colspan=\"2\"></td></tr><tr><td>况编</td><td colspan=\"2\">垂向载荷</td><td colspan=\"2\">横向载荷</td><td colspan=\"2\">抗侧滚扭杆载荷</td><td>扭转</td><td></td><td>纵向载荷</td><td>菱形载</td><td colspan=\"2\">制动载荷</td><td colspan=\"2\">齿轮箱吊杆</td><td colspan=\"2\">电机扭矩</td><td>备注</td></tr><tr><td>号</td><td>侧梁(Y+)</td><td>侧梁(Y-)</td><td>二系簧</td><td>止挡</td><td></td><td></td><td>轮</td><td>牵引拉杆座</td><td></td><td>轮</td><td>垂向</td><td>纵向</td><td>齿轮箱</td><td>齿轮</td><td>电机</td><td>电机</td><td></td></tr><tr><td>17</td><td>(1-α+β)F1</td><td>(1+α+β)F=2</td><td>-Fy_prin</td><td>-Fsop</td><td>F=_bar1</td><td>Fz_bar2</td><td>- Lw</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>18</td><td>F=1</td><td>F22</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>Fx1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>19</td><td>F=1</td><td>F2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-Fx1</td><td></td><td></td><td></td><td></td><td></td><td></td><td>菱形</td></tr><tr><td>20</td><td>F=1</td><td>F=2</td><td></td><td></td><td></td><td></td><td></td><td></td><td>Fx_D</td><td></td><td>-F=TBU</td><td>F×_TBU</td><td></td><td></td><td></td><td></td><td>机械</td></tr><tr><td>21</td><td>F1</td><td>F=2</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-Fx_D</td><td></td><td>-F=TBU</td><td>-Fx_TBU</td><td></td><td></td><td></td><td></td><td>制动</td></tr><tr><td>22</td><td>F=1</td><td>F=2</td><td></td><td></td><td></td><td></td><td></td><td></td><td>2Fx_motb</td><td></td><td></td><td></td><td>-F=_redb</td><td>F=_edb</td><td>Ty_motb</td><td>Ty_motb</td><td>电制</td></tr><tr><td>23</td><td>F=1</td><td>F2</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-2Fx_motb</td><td></td><td></td><td></td><td>F=edb</td><td>-F=_redb</td><td>-Ty_mob</td><td>-Ty_mob</td><td>动</td></tr><tr><td>24</td><td>F21</td><td>F=2</td><td></td><td></td><td></td><td></td><td></td><td></td><td>2Fx_mol</td><td></td><td></td><td></td><td>-F=_redl</td><td>F=_red</td><td>Ty_motl</td><td>Ty_moil</td><td>电机</td></tr><tr><td>25</td><td>F1</td><td>F2</td><td></td><td></td><td></td><td></td><td></td><td></td><td>-2Fx_motl</td><td></td><td></td><td></td><td>F=_redl</td><td>-Fz_red1</td><td>-Ty_mot1</td><td>-Ty_mor</td><td>牵引</td></tr></table></body></html>\n\n",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "注：[1] 表中为单个二系簧承担的载荷，两侧应同时施加，方向相同；横向止挡载荷均为压力，正负值代表作用在不同的止挡座。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "[2]抗侧滚扭杆载荷为垂向载荷，作用在安装座处。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "[3] 扭转载荷，表中数值为单个车轮处施加的位移。若施加到轴箱处需按照公式（9）进行转换。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "[4]纵向载荷，表中数值为转向架所对应的纵向载荷。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "[5]菱形载荷，表中数值为对应一位车轮处载荷，若施加在轴箱处或其它位置，需进行转换。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "[6]制动载荷，表中仅列出构架沿着正向行驶时，构架前方制动装置的制动力。",
+        "page_idx": 32
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681229982359552/584e9b4f187116ba5fb6255bad6a8fe4adae761bf5d157d4fcfb55a68512a729.jpg",
+        "table_caption": [
+            "表D.2（续）运营载荷工况组合表-动车构架"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"3\">工 况 编 号</td><td colspan=\"2\">ML01</td><td colspan=\"3\">ML10[7]</td><td colspan=\"3\">ML11[7]</td><td>ML12[7]</td><td>ML13[8]</td><td>ML14[8]</td><td>ML15[8]</td><td>ML16[9]</td><td rowspan=\"3\"></td></tr><tr><td colspan=\"2\">垂向载荷</td><td colspan=\"3\">制动惯性</td><td colspan=\"3\">电机惯性</td><td rowspan=\"2\">齿轮箱惯性</td><td>一系垂向 二系横向 减振器 减振器</td><td>二系垂向 减振器</td><td>抗蛇行</td><td>减振器 备注</td></tr><tr><td>侧梁 (Y+)</td><td>侧梁 (Y-)</td><td>纵向</td><td>横向</td><td>垂向</td><td>纵向 横向</td><td>垂向</td><td>垂向</td><td>垂向</td><td>横向</td><td>垂向</td><td>纵向</td></tr><tr><td>26</td><td>F21</td><td>F22</td><td>Fb_x</td><td>Fb_)</td><td>Fb_=</td><td>Fmot_x</td><td>Fm_</td><td>Fmot _=</td><td>Fgear _=</td><td></td><td></td><td></td><td></td><td rowspan=\"6\">设备惯</td></tr><tr><td>27</td><td>F1</td><td>F=2</td><td>-Fb_x</td><td>Fb_</td><td>Fb_=</td><td>- Fmot_x</td><td>Fmot _y</td><td>Fmot _2</td><td>F gear_=</td><td></td><td></td><td></td><td></td></tr><tr><td>28</td><td>F1</td><td>F22</td><td>F_x</td><td>-F</td><td>Fb_=</td><td>Fmo_</td><td>- Fmot_</td><td>Fmot _=</td><td>Fgear _=</td><td></td><td></td><td></td><td></td></tr><tr><td>29</td><td>F21</td><td>F=2</td><td>-Fb_x</td><td>-Fb_</td><td>Fb_=</td><td>-Fmo1_x</td><td>-Fmot_y</td><td>Fmot _=</td><td>Fgear_:</td><td></td><td></td><td></td><td></td></tr><tr><td>30</td><td>F1</td><td>F22</td><td>Fb_x</td><td>F</td><td>-Fb_=</td><td>Fmot_x</td><td>Fmot></td><td>- F mot_=</td><td>- Fgear_=</td><td></td><td></td><td></td><td></td></tr><tr><td>31</td><td>F=1</td><td>F22</td><td>-Fb_</td><td>F_</td><td>-Fb_=</td><td>-Fmo_x</td><td>Fmot_y</td><td>-Fmot_:</td><td>-F gea :</td><td></td><td></td><td></td><td>性载荷</td></tr><tr><td>32</td><td>F1</td><td>F=2</td><td>Fb_x</td><td>-Fb_)</td><td>-Fb_2</td><td>Fmo1_x</td><td>-Fmot_</td><td>-F mo1_:</td><td>-F geoa :</td><td></td><td></td><td></td><td></td></tr><tr><td>33</td><td>F1</td><td>F22</td><td>-Fb_x</td><td>-Fb_</td><td>-Fb_2</td><td>- Fmot_x</td><td>-Fmot_></td><td>-Fmot _=</td><td>- F gear_2</td><td></td><td></td><td></td><td></td></tr><tr><td>34</td><td>F1</td><td>F22</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>F=_wd1</td><td>Fy_d</td><td>F=vd2</td><td>Fx_ad</td></tr><tr><td>35</td><td>F1</td><td>F22</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>-F=d1</td><td>-Fy_d</td><td>-F=2</td><td>-Fx_ad 减振器</td></tr></table></body></html>\n\n",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "[7]设备惯性载荷，表中仅列出安装在X正向设备的惯性载荷组合，安装X负向设备的惯性载荷方向相反。  \n[8]对应的每个减振器同时同向施加，考虑1.5倍系数。  \n[9] 抗蛇行减振器载荷，表中数值为单个减振器载荷，若单侧梁上有两个减振器，则同时同向施加，考虑1.5倍系数。",
+        "page_idx": 33
+    }
+]

@@ -1,0 +1,2295 @@
+[
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T 131—2006/1SO 1302:2002   \n代替GB/T 131—1993 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "产品几何技术规范(GPS)技术产品文件中表面结构的表示法",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Geometrical Product Specifications （GPS)— Indication of Surface texture in technical Product documentation ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "(ISO 1302:2002,IDT) ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家质量监督检验检疫总局中国国家标准化管理委员会",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "发布",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "目次",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "前言  \n1 范围  \n2 规范性引用文件  \n3 术语和定义 2  \n4 标注表面结构的图形符号 2  \n5 表面结构完整图形符号的组成 4  \n6 表面结构参数的标注 5  \n7 加工方法或相关信息的注法 8  \n8 表面纹理的注法 9  \n9 加工余量的注法… 10  \n10 表面结构要求及数值标注方法的总结 11  \n11 表面结构要求在图样和其他技术产品文件中的注法 . 11  \n附录A（规范性附录） 图形符号的比例和尺寸… 16  \n附录B(资料性附录) 表面结构符号、代号的含义 18  \n附录C (资料性附录) 表面结构要求的标注示例· 21  \n附录D (资料性附录) 控制表面功能的最少标注 · 24  \n附录E (资料性附录) 表面结构参数代号 26  \n附录F (资料性附录) 评定长度ln 28  \n附录G (资料性附录) 传输带和取样长度 29  \n附录H (资料性附录) 本标准的重要性.…. 31  \n附录I(资料性附录) 标准的演变 32  \n附录」(资料性附录) 在GPS矩阵模式中的位置·… 34  \n参考文献 ： 35",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准等同采用ISO1302：2002《产品几何技术规范（GPS）技术产品文件中表面结构的表示法》(英文版)。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "为便于使用，本标准作下列编辑性修改：",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "一 删除了国际标准的前言和导言；—将一些适用于国际标准的表述改为适用于我国标准的表述，如：国际标准的标注示例中的",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Ra0.3和 $R z$ 0.9等，改为 $R a$ 0.2和 $R z\\:\\:\\:0.8$ 等。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准遵循1996和1997年以来发布的(GPS)表面结构系列标准制订。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准代替GB/T131—1993《机械制图表面粗糙度符号、代号及其注法》。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准与20世纪80 年代的国家标准相比，技术内容上有很大变化。如标准中的某些标注示例已全部重新解释。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准的附录A 是规范性附录,附录B、附录C、附录D、附录E、附录F、附录 G、附录 H、附录I和附录」是资料性附录。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准由全国产品尺寸和几何技术规范标准化技术委员会归口。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准起草单位：机械科学研究院中机生产力促进中心、中国计量科学研究院、时代集团公司、江苏技术师范学院。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准主要起草人：王欣玲、高思田、王忠滨、强毅、王槐德、杨东拜、陈景玉。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "产品几何技术规范(GPS)技术产品文件中表面结构的表示法",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本标准规定了技术产品文件中表面结构的表示法，技术产品文件包括图样、说明书、合同、报告等。同时给出了表面结构标注用图形符号和标注方法。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本标准适用于对表面结构有要求时的表示法。表示法涉及到下面的参数：",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "a）轮廓参数，与GB/T3505标准相关的参数有：11 $R$ 轮廓(粗糙度参数);----W轮廓(波纹度参数);一 $P$ 轮廓(原始轮廓参数)。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "b) 图形参数，与GB/T18618标准相关的参数有：粗糙度图形;波纹度图形。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "c）与GB/T18778.2和GB/T18778.3相关的支承率曲线参数。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "本标准不适用于对表面缺陷（如孔、划痕等)的标注方法，如对表面缺陷有要求时，参见GB/T 15757。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2规范性引用文件",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "下列文件中的条款通过本标准的引用而成为本标准的条款。凡是注日期的引用文件，其随后所有的修改单(不包括勘误的内容)或修订版均不适用于本标准，然而，鼓励根据本标准达成协议的各方研究是否可使用这些文件的最新版本。凡是不注日期的引用文件，其最新版本适用于本标准。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "GB/T1182—1996形状和位置公差通则、定义、符号和图样表示法(eqvISO1101:1996)",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "GB/T 3505—2000产品几何量技术规范（GPS）表面结构轮廓法表面结构的术语、定义及  \n参数（eqv ISO 4287:2000)GB/T 4458.4—2003机械制图尺寸注法GB/T6062-—2002产品几何量技术规范(GPS）表面结构轮廓法接触（触针)式仪器的标称  \n特性（eqvISO3274:1996)GB/T10610—1998产品几何量技术规范（GPS）表面结构轮廓法评定表面结构的规则和  \n方法(eqv ISO 4288:1996)GB/T 13361—-1992 技术制图通用术语(neqISO102091:1992)GB/T 14691.4—2005 技术产品文件字体第4部分：拉丁字母表的区别标识与特殊标识  \n(ISO) 3098-2:2000,IDT)GB/T15757-2002产品几何量技术规范（GPS）表面缺陷术语、定义及参数（eqvISO8785：  \n1998)GB/T 18618--2002 产品几何量技术规范（GPS) 表面结构 轮廓法 图形参数  \n(eqv ISO 12085:1996)GB/T18777-2002产品几何量技术规范（GPS）表面结构轮廓法相位修正滤波器的计量",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "特性（eqvISO11562：1996)",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "GB/T18778.1—2002产品几何量技术规范（GPS）表面结构轮廓法具有复合加工特征的  \n表面第1部分：滤波和一般测量条件(eqvISO13565-1：1996）GB/T18778.2—2003产品几何量技术规范（GPS）表面结构轮廓法具有复合加工特征的  \n表面第2部分：用线性化的支承率曲线表征高度特性(IDTISO13565-2：1996)GB/T18778.3—2006产品几何技术规范(GPS）表面结构轮廓法具有复合加工特征的表  \n面第3部分：用概率支承率曲线表征的高度特性(idtISO13565-3：1998)GB/T18780.1—2002产品几何量技术规范（GPS）几何要素第1部分：基本术语和定义  \n(eqv ISO 14660-1:1998)ISO81714-1：1999技术产品文件图形符号设计第1部分：基本规则",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3术语和定义 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "GB/T 6062、GB/T: 3505.GB/T 10610,GB/T 13361,GB/T 1877 GB/T 18618、GB/T 18778.2、GB/T 18778.3、GB/T18780.1中确立的术语和定义适用于本标准1",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.1基本图形符号basit graphical symbol对表面结构有要求的图形符号，简称基本符号（见图1）。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2 ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "扩展图形符号expanded graphical symbol对表面结构有指定要求（去除材料或不去除材料）的图形符号，简称扩展符号（见图2和图3)。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.3 ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "完整图形符号 cotnplete graphicnl symbol",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "对基本图形符号或扩展图形符号扩充后的图形符号，简称完整符号，用于对表面结构有补充要求的标注，见图4。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.4 ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "88表面（结构）参数surface(texture)parameter表示表面微观几何特性的参数，注：表面结构参数见附录",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.5（表面）参数代号（surfaee）parametersymbol表示表面结构参数类型的代号。注：参数代号由字母和数字组成（如RaRamax， $\\boldsymbol{W}\\boldsymbol{z}$ ，Wz1max，AR,Rpk,Rpq）。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4标注表面结构的图形符号",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.1 概述",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "在技术产品文件中对表面结构的要求可用几种不同的图形符号表示。每种符号都有特定含义。4.2、4.3中的图形符号应附加对表面结构的补充要求，其形式有数字、图形符号和文本（见第5章～第8章)。在特殊情况下，图形符号可以在技术图样中单独使用以表达特殊意义。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.2基本图形符号",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "基本图形符号由两条不等长的与标注表面成60°夹角的直线构成，如图1所示。图1所示的基本图形符号仅用于简化代号标注（图23、图26）没有补充说明时不能单独使用。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "如果基本图形符号与补充的或辅助的说明一起使用（见5章），则不需要进一步说明为了获得指定的表面是否应去除材料（见4.3.1）或不去除材料（见4.3.2）。",
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/5b019621691ba6ec84cbb842732d27b9768a0c0f8b3b9d9d0628a7c28e30514b.jpg",
+        "img_caption": [
+            "图1表面结构的基本图形符号"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3扩展图形符号",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3.1要求去除材料的图形符号",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "在基本图形符号上加一短横，表示指定表面是用去除材料的方法获得，如通过机械加工获得的表面(见图2)。",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/be8aeba6b6058b6efda0f96b55d78dfacf2e7c25efd339b139fc066ef65d69b4.jpg",
+        "img_caption": [
+            "图2表示去除材料的扩展图形符号"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3.2 不允许去除材料的图形符号",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "在基本图形符号上加一个圆圈，表示指定表面是用不去除材料方法获得，如图3所示。",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/8df52c7c06b6f0ce7ece0a16fe5dceae5b835703bdf0f46426c7af75a0210957.jpg",
+        "img_caption": [
+            "图3表示不去除材料的扩展图形符号"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.4 完整图形符号",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "当要求标注表面结构特征的补充信息时，应在如图1～图3所示的图形符号的长边上加一横线（见图4)。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "在报告和合同的文本中用文字表达图4 符号时，用APA 表示图4a),MRR 表示图4b),NMR 表示图4c)。",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/7442a29cb3af31d63849ff9b914a564fac1a9688eb0e110f9717487a2b94d02c.jpg",
+        "img_caption": [
+            "图4完整图形符号"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.5工件轮廓各表面的图形符号",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "当在图样某个视图上构成封闭轮廓的各表面有相同的表面结构要求时，应在图4的完整图形符号上加-圆圈，标注在图样中工件的封闭轮廓线上，如图5所示。如果标注会引起歧义时，各表面应分别标注。",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/05e8d42c1e57d9dfed71b166a6a04ee7ede3bbb595639eb92f4c4b9e5b44d05c.jpg",
+        "img_caption": [
+            "图5对周边各面有相同的表面结构要求的注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "注：图示的表面结构符号是指对图形中封闭轮廓的六个面的共同要求（不包括前后面）。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5表面结构完整图形符号的组成",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5.1 概述",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "为了明确表面结构妻求，除了标注表面结构参数和数值外，必要时应标注补充要求，补充要求包括传输带、取样长度、加工工艺、表面纹理及方向、加工余量等。为了保证表面的功能特征，应对表面结构参数规定不同要求。参见附录D。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5.2表面结构补充要求的注写位置",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "在完整符号中；对表面结构的单一要求和补充要求应注写在图6所示的指定位置。",
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/f0ff54f46dd0b66175cd8b4a03cd73762df7811c044e084401087356bc978870.jpg",
+        "img_caption": [
+            "图 6 补充要求的注写位置（a\\~e）"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "表面结构补充要求包括",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "表面结构参数代号；  \n数值；  \n传输带/取样长度。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "图6中位置 $\\mathsf{a}{\\sim}\\mathsf{e}$ 分别注写以下内容：",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "a）位置a注写表面结构的单一要求",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "根据第6章标注表面结构参数代号、极限值和传输带或取样长度。为了避免误解，在参数代号和极限值间应插人空格。传输带或取样长度后应有一斜线“/”，之后是表面结构参数代号，最后是数值。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "示例 $1\\colon0.0025\\substack{-0.8/R z}$ 6.3（传输带标注）。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "示例 $\\scriptstyle2\\colon-0,8/R z$ 6.3（取样长度标注）。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "对图形法应标注传输带，后面应有一斜线“/”，之后是评定长度值，再后是一斜线“/”，最后是表面结构参数代号及其数值。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "示例 $3:0.008{\\cdot}0.5/16/R$ 10 ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "注：传输带是两个定义的滤波器之间的波长范围，见GB/T6062和GB/T18777；对于图形法，是在两个定义极限值之间的波长范围（见GB/T18618）。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "b）位置a和b注写两个或多个表面结构要求",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "在位置a注写第一个表面结构要求，方法同a)。在位置b注写第二个表面结构要求。如果要注写第三个或更多个表面结构要求，图形符号应在垂直方向扩大，以空出足够的空间。扩大图形符号时，a和b的位置随之上移（见C.5)。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "c）位置注写加工方法  \n注写加工方法、表面处理、涂层或其他加工工艺要求等。如车、磨、镀等加工表面(见第7章)。d）位置d注写表面纹理和方向  \n注写所要求的表面纹理和纹理的方向，如\" $\\c=$ ”“X”、“M\"（见第8章）。  \ne）位置e注写加工余量  \n注写所要求的加工余量，以毫米为单位给出数值(见第9章)。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "6表面结构参数的标注",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "6.1概述",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "给出表面结构要求时，应标注其参数代号和相应数值，并包括要求解释的以下四项重要信息：",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "三种轮廓 $(R,W,P)$ 中的一种;  \n轮廓特征；  \n满足评定长度要求的取样长度的个数；  \n要求的极限值。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "标注三类表面结构参数时应使用完整符号。参数定义见GB/T 3505、GB/T 18618、GB/T18778.2、GB/T18778.3，表面结构参数类型见表1。",
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/4be4e92ac29a9fa9e4148c1802dcba37cee90f9f56243a0b90527dbdf6426197.jpg",
+        "table_caption": [
+            "表1表面结构参数类型一览表"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"4\"></td><td colspan=\"7\">参数</td></tr><tr><td rowspan=\"2\" colspan=\"3\">轮廓</td><td rowspan=\"2\">图形参数</td><td colspan=\"3\">支承率曲线</td></tr><tr><td>线性</td><td colspan=\"2\">概率</td></tr><tr><td>R</td><td>W</td><td>P</td><td>R</td><td>W</td><td>R</td><td>R</td><td>P</td></tr><tr><td>代号</td><td>见E.2</td><td>见E.2</td><td>见E.2</td><td>见E.3</td><td>见E.3</td><td>见E.4.2</td><td>见E.4.3</td><td>见E.4.3</td></tr><tr><td>评定长度</td><td>见F.2</td><td>见F.2</td><td>见F.2</td><td>见F.3</td><td>见F.3</td><td>见F.4</td><td>见F.4</td><td>见F.4</td></tr><tr><td>公差带</td><td colspan=\"8\">见6.4</td></tr><tr><td>传输带</td><td>见G.2</td><td>见G.2</td><td>见G.2</td><td>见G.3</td><td>见G.3</td><td>见G.4</td><td>见G.4</td><td>见G.4</td></tr></table></body></html>\n\n",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "6.2参数代号的标注 ",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "见附录E。如果附录E中标注参数代号后无“max”，这表明引用了给定极限的默认定义或默认解释( $16\\%$ 规则，见GB/T 10610—1998 中5.2)。否则应用最大规则解释其给定极限(GB/T 10610-1998中5.3)。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "6.3 评定长度 $(l n)$ 的标注 ",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "6.3.1 概述",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "若所标注参数代号后没有\"max\"（如附录F)，这表明采用的是有关标准中默认的评定长度。  \n若不存在默认的评定长度时，参数代号中应标注取样长度的个数。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "6.3.2 轮廓参数 $(\\mathbf{GB}/\\mathbf{T}~3505)$ 0 ",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "- $\\cdot R$ 轮廓 ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "见F.2。如果评定长度内的取样长度个数不等于5(默认值，见GB/T10610—-1998的4.4),应在相应参数代号后标注其个数。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "示例：Rp3、Ru3、R3、Rc3、R3、Ra3、..·RSm3、….（要求评定长度为3个取样长度）。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "—--W轮廓",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "见F.2。取样长度个数应在相应波纹度参数代号后标注， 示例：Wz5或Wa3. ",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$P$ 轮廓 ",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "见F.2。 $P$ 参数的取样长度等于评定长度（见GB/T35052000的3.1.9)，并且评定长度等于测量长度。因此，在参数代号中无需标注取样长度个数。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.3.3 图形参数（GB/T18618）",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "见F.3。如果评定长度与默认数 $16\\ \\mathrm{mm}$ 不同，应将其数值标注在两斜线“/\"中问。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "示例：0.008-0.5/12/R10。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "注：评定长度的概念及其在图形参数中的意义与其他表面结构参数不同.不存在取样长度的概念。因此，在图形参数的参数代号中、无需标注取样长度个数.",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.3.4基于支承率曲线的参数（GB/T18778.2和GB/T18778.3) ",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "8 \\*+ +\\* $R$ 轮廓 ",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "见F.4。如果评定长度内的取样长度个数不等于5(默认值)（见GB/T18778.1—2002的7）、应在相应参数代号后标注其个数。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "示例：Rk8、Rpk3、Ruk8、Rpq8、Ru8、Rmq8（要求评定长度为8个取样长度）。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "根据GB/T18778.2和GB/T18618定义的 $R$ 轮廓基于线性支承率曲线的参数（如参数Rke、Rpke、Rvke等），应根据6.3.3标注评定长度。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": ":一i $\\cdot i^{,}$ 轮廓 ",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "见F.4。 $P$ 参数的取样长度等于评定长度，并H评定长度等于测量长度（见GB/T35052000的1.9)，因此，在参数代号中无需标注取样长度个数。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.4极限值判断规则的标注 ",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.4.1 概述 ",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "表面结构要求中给定极限值的判断规则有两种(分别见GB/T10610—1998的5.2和5.3)：",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "a) $16\\%$ 规则；  \nb) 最大规则。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$16\\%$ 规则是所有表面结构要求标注的默认规则。当应用于附录E中的某个参数代号时（见图7）.$16\\%$ 规则即用于该参数代号代表的表面结构要求。如果最大规则应用于表面结构要求，则参数代号中应加上“max”（见图8）。最大规则不适用于图形参数。",
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/8975077334144fa57ae0b0bf61450f63d4350882c111c960e3e09e033ec06931.jpg",
+        "img_caption": [
+            "图7当应用 $16\\%$ 规则（默认传输带）时参数的标注 "
+        ],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/1d7d15487110f79812f3131d664db285ab2a852afc19d500c88312003e8246d3.jpg",
+        "img_caption": [
+            "图8当应用最大规则(默认传输带)时参数的注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.4.2 轮廓参数（GB/T3505) ",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "$16\\%$ 规则和最大规则均适用于（B/T3505中定义的轮廓参数。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.4.3 图形参数（GB/T18618）",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "图形参数只采用 $16\\%$ 规则（见GB/T18618 2002的5.4)。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.4.4基于支承率曲线的参数(GB/T18778.2和GB/T18778.3) ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "16%规则和最大规则均适用于GB/T 18778.2 和 GB/T18778.3中定义的与支承率曲线相关的参数。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.5传输带和取样长度的标注 ",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.5.1 概述",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "当参数代号中没有标注传输带时(如图7、图8)，表面结构要求采用默认的传输带(默认传输带定义见附录G)。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "如果表面结构参数没有定义默认传输带、默认的短波滤波器或默认的取样长度(长波滤波器)，则表面结构标注应该指定传输带，即短波滤波器或长波滤波器，以保证表面结构明确的要求。传输带应标注在参数代号的前面，并用斜线“/\"隔开。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "传输带标注包括滤波器截止波长(mm)，短波滤波器在前，长波滤波器在后，并用连字号“\"隔开(图9)。",
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/2ca0fc07cf18db91d549b5097a8ecba28f08505d375a0df164dd06215843f666.jpg",
+        "img_caption": [
+            "图9与表面结构要求相关的传输带的注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "在某些情况下，在传输带中只标注两个滤波器中的一个。如果存在第个滤波器，使用默认的截止波长值。如果只标注一个滤波器，应保留连字号“-\"来区分是短波滤波器还是长波滤波器。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "示例1：0.008 知波滤波器标注。  \n示例2：-0.23 长波滤波器标注。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.5.2 轮廓参数（GB/T3505）",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "R轮廓 ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "见（.2。如果标注传输带，可能只需要标注长波滤波器入（如0.8)。短波滤波器入s值由GB/T60622002的4.4表1中给定。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "如果要求控制用于粗糙度参数的传输带内的短波滤波器和长波滤波器，二者应与参数代号起标注，",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "示例：0.008-0.8",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "--—W轮廓 ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "见G.2，波纹度应标注传输带，即给出两个截止波长。传输带可根据（GB/TI0610规定的表面粗糙度默认的同一表面的截止波长值 $\\lambda_{t}.$ 确定，传输带可表示为c $n\\not\\times\\lambda c,n$ 的值由设计者选择(见图10)。",
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/173ba87d96c9aab744f78be0fe68a28ddccac7fd76e001de76981879f17a0f0d.jpg",
+        "img_caption": [
+            "图10基于表面粗糙度默认的截止波长值c的波纹度传输带注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$t^{\\gamma}$ 轮廊 ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "见G.2。应标注短波滤波器的截止波长值 $\\lambda{s}$ a ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "在默认情况 $\\operatorname{F},l^{\\prime}$ 参数没有任何长波滤波器(取样长度)。如果对工件功能有要求，对 $P^{-}$ 参数可以标注长波滤波器(取样长度)。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "示例： $\\boldsymbol{\\cdot}\\boldsymbol{\\mathrm{5}}/P\\boldsymbol{\\approx}$ 225",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.5.3 图形参数（GB/T18618）",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "粗糙度轮廓 ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "见①.3。如果相应的组合 $(\\lambda s\\lrcorner\\lambda)$ 取自GB/T18618—2002的表1，就不必标注评定长度值，但仍应标出两条斜线。如果不标注短波长度界限值，默认值是 $\\lambda s{=}0.008\\ \\mathrm{mm},$ 。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "波纹度轮廓",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "见G.3。短波长度界限 $\\boldsymbol{\\Lambda}$ 和长波长度界限 $\\boldsymbol{\\it B}$ 应该起标注。如果相应的组合（A、B）取白 GB/T18618一2002的表1，就不必标注评定长度值，但仍应标出两条斜线。如果不标注短波长度界限 值，默认值是 $A\\cdots0.5\\ \\mathrm{rnm},B=2.5\\ \\mathrm{mm}$ ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.5.4基于支承率曲线的参数（GB/T18778.2和GB/T18778.3) ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "—— $\\boldsymbol{k}$ 轮廓",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "见G.4、只有一对默认的和一对非默认的标准化值。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "$P$ 轮廓 ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "见G.4。如果根据GB/T18778.3标注 $P$ 参数，短波滤波器入5应与参数代号起标注，以保证明确的要求。默认情况下， $P$ 参数没有任何长波滤波器（取样长度）。如果对工件功能有要求，应对 ${\\bf\\nabla}_{l^{\\prime}}$ 参数标注长波滤波器（取样长度）。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.6单向极限或双向极限的标注 ",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.6.1 概述",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "标注单向或双向极限以表示对表面结构的明确要求。偏差与参数代号应一起标注，参数值和传输带的定义见6.2、6.3、6.4和6.5。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.6.2表面结构参数的单向极限",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "当只标注参数代号、参数值和传输带时，它们应默认为参数的上限值 $(16\\%$ 规则或最人化规则的极限值)；当参数代号、参数值和传输带作为参数的单向下限值 $(16\\%$ 规则或最大化规则的极限值)标注时，参数代号前应加L。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "示例：LRa0.32 ",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.6.3表面参数的双向极限 ",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "在完整符号中表示双向极限时应标注极限代号，上限值在上方用U表示，下极限在下方用工表示，上下极限值为 $16\\%$ 规则或最大化规则的极限值（见图11)，如果同-参数具有双向极限要求，在不引起歧义的情况下，可以不加U、L。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "「下极限值可以用不同的参数代号和传输带表达。",
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/90ec9624c5e44c0103a6d4517ebb0542356b97fa72bee3ed3544e1a0afcab677.jpg",
+        "img_caption": [
+            "图11 双向极限的注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "7加工方法或相关信息的注法",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "轮廓曲线的特征对实际表面的表面结构参数值影响很大。标注的参数代号、参数值和传输带只作为表面结构要求，有时不一定能够完全准确地表示表面功能。加1工艺在很大程度上决定了轮廓曲线的特征，因此，-般应注明加工工艺。加工工艺用文字按图12和图13所示方式在完整符号中注明。图13表示的是镀覆的示例，使用了GB/T13911中规定的符号。",
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/13482d94fdf3a3857b217fb4bf1b3987c357661b09f20aca499f731ea4aba02b.jpg",
+        "img_caption": [
+            "图12加工工艺和表面粗糙度要求的注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/2a8db339a937d18218d7f905be4d62fac582bcf3b3602954ce9530fbeb01abb1.jpg",
+        "img_caption": [
+            "图13镀覆和表面粗糙度要求的注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "8表面纹理的注法",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "表面纹理及其方向用表2中规定的符号按照图14标注在完整符号中，采用定义的符号标注表面纹理(如图14中的垂直符号)不适用于文本标注。",
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/62ae024fa7d90734eb079ec825142a1465dea911890784bbe11c26bde04a0326.jpg",
+        "img_caption": [
+            "图14垂直于视图所在投影面的表面纹理方向的注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "：纹理方向是指表面纹理的主要方向·通常由加工工艺决定。表2中的符号包括了表面结构所要求的与图样平面相应的纹理及其方向。",
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/3076d568ecd166d51933cac7c3006052ccfd42d523ca7bed471cfeabdc0f8bac.jpg",
+        "table_caption": [
+            "表2表面纹理的标注"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>符 号</td><td>解释和示例</td></tr><tr><td></td><td>纹理平行于视图所在的投影面 纹理方向</td></tr><tr><td>上 X 相交</td><td>纹理垂直于视图所在的投影面 纹理方向 纹理呈两斜向交叉且与视图所在的投影面 纹理方向</td></tr></table></body></html>\n\n",
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/55146c35980b21fc40a49b50ecae5c89eedba4ad856077fdb922962eed30c3d1.jpg",
+        "table_caption": [
+            "表2(续)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>符 号</td><td colspan=\"2\">解释和示例</td></tr><tr><td>M</td><td></td><td></td></tr><tr><td>C</td><td>敏理呈近似同心圆且圆心与表面中心相关</td><td></td></tr><tr><td>R</td><td>纹理呈近似放射状且与表面圆心相关</td><td></td></tr><tr><td>P</td><td>纹理呈微粒、凸起，无方向</td><td></td></tr><tr><td colspan=\"4\">注：如果表面纹理不能清楚地用这些符号表示，必要时，可以在图样上加注说明。</td></tr></table></body></html>\n\n",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "9 加工余量的注法",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "在同一图样中，有多个加工工序的表面可标注加工余量，例如，在表示完工零件形状的铸锻件图样中给出加工余量（见图15）。图15中给出加工余量的这种方式不使用于文本。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "加工余量可以是加注在完整符号上的唯一要求。加工余量也可以同表面结构要求一起标注（见图15)。",
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/7e038fbf4f3d1a89692cae4e66a2274401b2b9e368055a20c5ba0cc29cc6498f.jpg",
+        "img_caption": [
+            "图15在表示完工零件的图样中给出加工余量的注法（所有表面均有 $\\3\\ \\mathrm{mm}$ 加工余量）"
+        ],
+        "img_footnote": [],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "10表面结构要求及数值标注方法的总结",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "技术图样上标注的表面结构要求由图1～图5中至少-个符号和相关的要求按第5章～第9章中的规定进行标注。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "独立使用图形符号作为表面结构要求只有在下列情况时才有意义：",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "根据I1.3进行简化标注时；",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "--当图1表示的基本符号使用在加工工艺的图样中；",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "\"对于后者，解释如下：",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "不管是通过不去除材料的方法或其他方法获得的特定表面，灯断其合格与否，其状态由最后-道加T.T序确定，并根据GB/T18779.1一2002判定－个特定的表面是否符合表而结构要求。此外，应考虑本标准的解释规则和相关的标准规定。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11表面结构要求在图样和其他技术产品文件中的注法",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11.1 概述",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "表面结构要求对每表面一般只标注·次，并尽可能注在相应的尺寸及其公差的同一视图上。除非另有说明，所标注的表面结构要求是对完工零件表面的要求（见附录C)。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11.2表面结构符号、代号的标注位置与方向",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11.2.1 概述",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "总的原则是根据GB/T4458.4的规定，使表面结构的注写和读取方向与尺寸的注写和读取方向一致(见图16)。",
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/e2ce3eb2312dd554dc2cd5885d21e64132e905747aa454116933baa8c67dd3af.jpg",
+        "img_caption": [
+            "图16表面结构要求的注写方向"
+        ],
+        "img_footnote": [],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "11.2.2 标注在轮廓线上或指引线上",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "表面结构要求可标注在轮廓线上，其符号应从材料外指向并接触表面。必要时，表面结构符号也可用带箭头或黑点的指引线引出标注（见图17、图18）。",
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/86978659dbe15df847603af0149325cb551a90bcb3aa4e3bbff326117109ff0e.jpg",
+        "img_caption": [
+            "图17 表面结构要求在轮廊线上的标注"
+        ],
+        "img_footnote": [],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/398ca01f6a0e75f5d5ec8dd99184b1e9b73cf22bdf03bd8d92449db8044d6873.jpg",
+        "img_caption": [
+            "图18用指引线引出标注表面结构要求"
+        ],
+        "img_footnote": [],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "11.2.3 标注在特征尺寸的尺寸线上",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "在不致引起误解时，表面结构要求可以标注在给定的尺寸线上（见图19）",
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/6ef4a9f052e72b3aa58f6ae3a74caa76e8cae331602787bb90352766b9393ca0.jpg",
+        "img_caption": [
+            "图19表面结构要求标注在尺寸线上"
+        ],
+        "img_footnote": [],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "11.2.4标注在形位公差的框格上",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "表面结构要求可标注在形位公差框格的上方，如图20a）和b）。",
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/86424af65b5ffdfec8a284c954a1244afe12019e29cd110baec9395de66e23bd.jpg",
+        "img_caption": [
+            "图20表面结构要求标注在形位公差框格的上方"
+        ],
+        "img_footnote": [],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "11.2.5 标注在延长线上",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "表面结构要求可以直接标注在延长线上，或用带箭头的指引线引出标注(见图17和图 21)。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "11.2.6 标注在圆柱和棱柱表面上",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "圆柱和棱柱表面的表面结构要求只标注一次(见图21)。如果每个棱柱表面有不同的表面结构要求，则应分别单独标注（见图22）。",
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/f317df62e39b340d014926933b39356c5705dcd644dc311ea4d87cb3eec57fbf.jpg",
+        "img_caption": [
+            "图21表面结构要求标注在圆柱特征的延长线上"
+        ],
+        "img_footnote": [],
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/3f5e6946a6f3ac7683b0549583a3fb2e7c4311b4e697ed2fd79a135a2bbc6171.jpg",
+        "img_caption": [
+            "图 22圆柱和棱柱的表面结构要求的注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "11.3 表面结构要求的简化注法",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "11.3.1有相同表面结构要求的简化注法",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "如果在工件的多数(包括全部)表面有相同的表面结构要求，则其表面结构要求可统-标注在图样的标题栏附近。此时(除全部表面有相同要求的情况外)，表面结构要求的符号后面应有：",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "-在圆括号内给出无任何其他标注的基本符号（见图23)；  \n--在圆括号内给出不同的表面结构要求（见图24）。",
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/4b1a1acd9ccbc291daaf7824e0c793366eb745f0a3d029ed8074efe3ef7719ae.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/b522f1649508a535b4602c65a384500babbd4c65e5b7fbdd4b73efff3f949453.jpg",
+        "img_caption": [
+            "图 23大多数表面有相同表面结构要求的简化注法（一）"
+        ],
+        "img_footnote": [],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "图 24大多数表面有相同表面结构要求的简化注法(二)",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "不同的表面结构要求应直接标注在图形中（见图23和24)。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "11.3.2多个表面有共同要求的注法",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "11.3.2.1 概述",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "当多个表面具有相同的表面结构要求或图纸空间有限时，可以采用简化注法。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "11.3.2.2用带字母的完整符号的简化注法",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "可用带字母的完整符号，以等式的形式，在图形或标题栏附近，对有相同表面结构要求的表面进行简化标注（见图25）。",
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/2e4d067b7a94f3d9862114224d5899245aa711459907559688e6378ead84129a.jpg",
+        "img_caption": [
+            "图 25在图纸空间有限时的简化注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "11.3.2.3只用表面结构符号的简化注法",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "可用图1、图2和图3的表面结构符号，以等式的形式给出对多个表面共同的表面结构要求（见图26～图28)。",
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/1a8df7bffad154f2dad4b34897dcbe388e4e526cf1507cee7a16fae12cd5bf8c.jpg",
+        "img_caption": [
+            "图 26未指定工艺方法的多个表面结构要求的简化注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/d2b016211ba265c28691af76018b3c72864b592ced7d82e8f537b2fe5bfd7b57.jpg",
+        "img_caption": [
+            "图27 要求去除材料的多个表面结构要求的简化注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/c9c0504a7c9707a692a06daafbf182fd311886bc0481bbd83fbeac377f05f3ee.jpg",
+        "img_caption": [
+            "图 28不允许去除材料的多个表面结构要求的简化注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "11.4两种或多种工艺获得的同一表面的注法",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "由几种不同的工艺方法获得的同一表面，当需要明确每种工艺方法的表面结构要求时，可按图 29、C.8进行标注。",
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/d196cbb7e83918bb5db353b767b68f66c47f4973e174a21cac47ca00ae5ae4a7.jpg",
+        "img_caption": [
+            "图29 同时给出镀覆前后的表面结构要求的注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "附录A (规范性附录） 图形符号的比例和尺寸 ",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "A.1一般要求",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "为了协调本标准中的符号尺寸与技术图样中的其他符号的尺寸，应采用ISO 81714-1:1999 中给出的规则。",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "A.2 比例",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "应根据图A. $1\\sim\\mathsf{A}.3$ 画出基本图形符号和附加部分(见第4章)。图 $\\mathrm{A}.2\\mathrm{c})\\sim\\mathrm{g})$ 中的符号形状与GB/T 14691(B型，直体)中相应的大写字母相同，尺寸见A.3。图A.1b)符号的水平线长度取决于其上下所标注内容的长度。",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "图A.3中在\"a”、“b”、“d\"和\"e\"区域中的所有字母高应该等于h。",
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/f22e7bcd5a5fed690b7705921315a9b6ca613d48bb131d3315e09b66845b5a42.jpg",
+        "img_caption": [
+            "图A.1"
+        ],
+        "img_footnote": [],
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/dbc1306af51dc3daded52b5774c2452c88d3584af32e22d9fc4084af7f744b90.jpg",
+        "img_caption": [
+            "图A.2"
+        ],
+        "img_footnote": [],
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/684873ef19d725846defad011a0fd11be8d4ebb4bb66daa9e73ce6fcc69ce857.jpg",
+        "img_caption": [
+            "图A.3"
+        ],
+        "img_footnote": [],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "注：在位置“a”～“e\"处注写表面结构要求（见图7～图15)。",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "在图A.3区域c中的字体可以是大写字母、小写字母或汉字，这个区域的高度可以大于 $h$ ，以便能够写出小写字母的尾部。",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "A.3 尺寸 ",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "图形符号和附加标注的尺寸见表A.1。",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "单位为毫米",
+        "page_idx": 19
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/d8b40f47b11ee7d5f1a55960db4a6f177dd996bd90fac5852650f059be1a9c77.jpg",
+        "table_caption": [
+            "表A.1 尺寸"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>数字和字母高度h(见GB/T14690)</td><td>2.5</td><td>3.5</td><td>5</td><td>7</td><td>10</td><td>14</td><td>20</td></tr><tr><td>符号线宽d'</td><td>0.25</td><td>0.35</td><td>0.5</td><td>0.7</td><td>1</td><td>1.4</td><td>2</td></tr><tr><td>字母线宽d</td><td>3.5</td><td>5</td><td>7</td><td></td><td></td><td></td><td>28</td></tr><tr><td>高度H 高度H(最小值)a</td><td>7.5</td><td>10.5</td><td>15</td><td>10 21</td><td>14 30</td><td>20 42</td><td>60</td></tr><tr><td colspan=\"8\">aH取决于标注内容。</td></tr></table></body></html>\n\n",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "附录B(资料性附录)表面结构符号、代号的含义",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "B.1表面结构符号(表B.1)",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/772f4f1da491609242641742b38ffed622447d1af59b0fdae28d3380c46c3285.jpg",
+        "table_caption": [
+            "表B.1"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>No</td><td>符 号</td><td>含 义</td></tr><tr><td>B.1.1</td><td>√</td><td>基本图形符号，未指定工艺方法的表面，当通过一个注释解释时可单独 使用(见4.2)</td></tr><tr><td>B.1.2</td><td></td><td>扩展图形符号，用去除材料方法获得的表面；仅当其含义是“被加工表 面\"时可单独使用</td></tr><tr><td>B.1.3</td><td>#</td><td>扩展图形符号，不去除材料的表面，也可用于表示保持上道工序形成的 表面·不管这种状况是通过去除材料或不去除材料形成的</td></tr></table></body></html>\n\n",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "B.2表面结构代号(表B.2)",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/eebe78eadcabce8e05fbba31b9a3eaf660dca3c856123433c7bba47bfdf2f0f6.jpg",
+        "table_caption": [
+            "表B.2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>No</td><td>符 号</td><td>含义/解释</td></tr><tr><td>B.2.1</td><td>R 0.4</td><td>表示不允许去除材料，单向上限值，默认传输带，R轮廓，粗 糙度的最大高度0.4μm.评定长度为5个取样长度（默认)， “16%规则\"(默认)</td></tr><tr><td>B.2.2</td><td>R≈max 0.2</td><td>表示去除材料，单向上限值,默认传输带，R 轮廓，粗糙度最 大高度的最大值0.2μm,评定长度为5个取样长度(默认)“最 大规则”</td></tr><tr><td>B.2.3</td><td>0.008-0.8/Ra 3.2</td><td>表示去除材料，单向上限值，传输带0.008-0.8mm，R轮廓， 算术平均偏差3.2μm,评定长度为5个取样长度(默认),“16% 规则\"(默认)</td></tr><tr><td>B.2.4</td><td>-0.8/Ra33.2</td><td>表示去除材料，单向上限值，传输带：根据GB/T6062，取样 长度0.8μm(s默认0.0025 mm）,R轮廓，算术平均偏差 3.2μm，评定长度包含3个取样长度，“16%规则”(默认)</td></tr><tr><td>B.2.5</td><td>U Ra max 3.2 L Ra 0.8</td><td>表示不允许去除材料，双向极限值，两极限值均使用默认传 输带，R轮廓，上限值：算术平均偏差3.2μm，评定长度为5个 取样长度(默认)，“最大规则”,下限值：算术平均偏差0.8μm, 评定长度为5个取样长度(默认)，“16%规则”默认)</td></tr><tr><td>B.2.6</td><td>0.8-25/Wz310</td><td>表示去除材料，单向上限值，传输带0.8-25mm.W 轮廓，波 纹度最大高度10μm,评定长度包含3个取样长度，“16%规则” (默认）</td></tr></table></body></html>\n\n",
+        "page_idx": 20
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/489ee7d547e4215232e51845c4d6feaaaa9a0cb26bcb5fb0caf8812dec5304be.jpg",
+        "table_caption": [
+            "表B.2 (续)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>No</td><td>符 号</td><td>含义/解释</td></tr><tr><td>B.2.7</td><td>0.008-/Pt max 25</td><td>表示去除材料，单向上限值，传输带入s=0.008 mm，无长波滤 波器，P轮廓，轮廓总高25μm，评定长度等于工件长度(默认)， “最大规则”</td></tr><tr><td>B.2.8</td><td>0.0025-0.1//Rx 0.2</td><td>度图形最大深度0.2μm，“16%规则\"(默认) 表示任意加工方法，单向上限值，传输带入s=0.0025mm， A=0.1mm，评定长度3.2mm（默认），粗糙度图形参数，粗糙</td></tr><tr><td>B.2.9</td><td>/10/R 10</td><td>表示不允许去除材料，单向上限值，传输带s=0.008mm(默 认),A=0.5 mm(默认),评定长度10 mm，粗糙度图形参数，粗 糙度图形平均深度10μm，“16%规则\"(默认)</td></tr><tr><td>B.2.10</td><td>W1</td><td>表示去除材料，单向上限值，传输带A=0.5 mm(默认)， B=2.5 mm(默认),评定长度16 mm(默认)，波纹度图形参数， 波纹度图形平均深度1mm，“16%规则\"(默认)</td></tr><tr><td>B.2.11</td><td>-0.3/6/AR 0.09</td><td>表示任意加工方法，单向上限值，传输带s=0.008mm（默 糙度图形平均间距0.09mm，“16%规则\"(默认) 认)，A=0.3mm(默认)，评定长度6mm，粗糙度图形参数，粗</td></tr><tr><td colspan=\"3\">注：这里给出的表面结构参数，传输带/取样长度和参数值以及所选择的符号仅作为示例。</td></tr></table></body></html>\n\n",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "B.3带有补充注释的符号(表B.3) ",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "表B.3的标注可以与表B.2中相应图形符号一起使用。",
+        "page_idx": 21
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/a757837faeac451e3f20a2b485f7e16019b422dde235e49be5b68f85de35a4d6.jpg",
+        "table_caption": [
+            "表B.3"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>No</td><td>符 号</td><td>含 义</td></tr><tr><td>B.3.1</td><td>铣</td><td>加工方法：铣削(见5.2)</td></tr><tr><td>B.3.2</td><td></td><td>表面纹理：纹理呈多方向(见第8章)</td></tr><tr><td>B.3.3</td><td></td><td>对投影视图上封闭的轮廓线所表示的各表面有相同的表面结构要求 (见4.5)</td></tr><tr><td>B.3.1</td><td></td><td>加工余量3mm(见5.2)</td></tr><tr><td colspan=\"3\">注：这里给出的加工方法·表面纹理和加工余量仅作为示例。</td></tr></table></body></html>\n\n",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "B.4简化符号（表B.4) ",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/a5d1fb534f95a5615f58d794c5a5b91e205a87d54276d5e8f7c786dbd0be352b.jpg",
+        "table_caption": [
+            "表B.4"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>No</td><td>符 号</td><td>含 义</td></tr><tr><td>B.4.1</td><td></td><td rowspan=\"2\">符号及所加字母的含义由图样中的标注说明（见11.3.1 和11.3.2.2)</td></tr><tr><td>B.4.2</td><td>y Z</td></tr></table></body></html>\n\n",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "附录C（资料性附录）表面结构要求的标注示例",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "表面结构要求的标注示例见表C.1。",
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/0e147fa20079af0f35ef29c7716ee4c765d630ad5de333f3acee2b91e1253974.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 23
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/47eb51a0b8fb4d9accba90f27a093db47076899d5c485f6b7ac135d03267d922.jpg",
+        "table_caption": [
+            "表C.1 (续)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>No</td><td>要 求</td><td></td><td>示 例</td></tr><tr><td>C.4</td><td>表面粗糙度： 一单向上限值； -Rz=0.8 μm; \"16%规则\"(默认)(GB/T 10610)； —默认传输带(GB/T 10610 和 GB/T 6062)； 一默认评定长度(5×c)(GB/T 10610); 一表面纹理没有要求；</td><td></td><td>Cu/Ep·Ni5bCr0.3r Rz 0.8</td></tr><tr><td>C.5</td><td>一表面要求对封闭轮廓的所有表面有效 表面粗糙度： 一单向上限值和一个双向极限值： 1）单向Ra=1.6 μm a）“16%规则\"(默认)(GB/T 10610)； b）传输带-0.8 mm(^s 根据 GB/T 6062 确定); c）评定长度 5×0.8=4 mm(GB/T 10610); 2）双向Rx a）上限值Rz=12.5μm; b）下限值 Rz=3.2 μm; c）“16%规则\"默认)； d）上下极限传输带均为-2.5 mm (s 根据 GB/T 6062 确定)； e）上下极限评定长度均为5×2.5=12.5 mm (即使不会引起争议,也可以标注U和L符号)。 表面处理：钢件，镀镍/铬</td><td></td><td>Fe/Ep·Nil0bCr0.3r -0.8/Ru 1.6 U -2.5/Rz 12.5 L -2.5/Rz 3.2</td></tr><tr><td>C.6</td><td>表面结构和尺寸可以标注在同一尺寸线上： 键槽侧壁的表面粗糙度： ----个单向上限值; --- Ra=6.3 μm; —“16%规则\"(默认)(GB/T10610)； 一默认评定长度(5×c)(GB/T6062); ---默认传输带(GB/T 10610 和 GB/T 6062)； 表面纹理没有要求； 一去除材料的工艺。 倒角的表面粗糙度： -一个单向上限值; ---.Ra =3.2 μm; -“16%规则\"(默认)(GB/T10610)； ---默认评定长度5×c(GB/T6062)； 一默认传输带(GB/T 10610 和 GB/T 6062); 一表面纹理没有要求； 去除材料的工艺</td><td>C2 A| A|</td><td>nd/ A-A</td></tr></table></body></html>\n\n",
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/fc9bd5033e6bac7bed3e8fc313da927fc4bca8def4dee1e29ccadd3e623c137d.jpg",
+        "table_caption": [
+            "表C.1 (续)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>No</td><td>要 求</td><td>示 例</td></tr><tr><td>C.7</td><td>表面结构和尺寸可以标注为： 一起标注在延长线上，或 一分别标注在轮廓线和尺寸界线上。 示例中的三个表面粗糙度要求为： 一单向上限值； 一分别是:Ra=1.6 μm,Ra=6.3 μm,Rz=12.5 μm; —“16%规则\"（默认(GB/T10610)； 一默认评定长度3X入c(GB/T6062)； 一默认传输带(GB/TL0610和GB/T6062)； 一表面纹理没有要求； 一去除材料的工艺 表面结构-尺寸和表面处理的标注：</td><td>1.0 Ra R3 Rz 12.5 6.3</td></tr><tr><td>第一道工序： 单向上限值； —R1. 6 μm; C.8 第二道工序： 第三道工序， —Rz=</td><td>示例是三个连续的加工工序. “6%规则\"（默认)(GB/T 10610): 一默认评定长度(5X入c>(GB/T6062)； 一默达传输带(GB/T10610和GB/T6062)： 一表面纹理没有要求； 一去除材料的工艺。 一键铭，无其他表面结构要求。 一个单向上限值,仅对长为 50 mm的柱表面有效t 一\"16%规则（默认)(GB/T10610)； 一默认评定长度（5Xc）（GB/T6062）； 一默认传输带(GB/T10610和GB/T6062)； 一表面纹理没有要求； 一磨削加工工艺</td><td>Fe/Ep·Cr50 磨 Rz 6.3 Rz 1.6 4.68 50</td></tr></table></body></html>\n\n",
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\n-\n$$",
+        "text_format": "latex",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "附录D ",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "(资料性附录）控制表面功能的最少标注",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "表面结构要求通过几个不同的控制元素建立，它们可以是图样中标注的一部分或在其他文件中给出的文本标注，这些元素见图D.1。",
+        "page_idx": 26
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/b6e4b766050b9e3213c0175b3dc896d689fe043e8811dfc469d02ebfb27898d1.jpg",
+        "img_caption": [
+            "图D.1技术产品文件中表面结构要求标注的控制元素"
+        ],
+        "img_footnote": [],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "α上限或下限符号U或L.详见6.6。  \nb 滤波器类型\"X\"。标准滤波器是高斯滤波器(GB/T 18777)。以前的标准滤波器是 2RC 滤波器。将来也可能对其他的滤波器进行标准化。在转换期间，在图样上标注滤波器类型对某些公司比较方便。滤波器类型可以标注为“高斯滤波器\"或 $\\\"2\\mathrm{RC}\\\"\\$ 。滤波器名称并没有标准化，但这里所建议的标注名称是明确的，无争议的。  \nC 传输带标注为短波或长波滤波器，详见6.5。  \nd 轮廓(R、W或 $P$ )，详见6.2。  \nC 特征/参数，详见6.2。  \nf 评定长度包含若干取样长度，详见6.3。当使用图形参数时，评定长度标注在表面结构参数代号前两个斜线之间见6.3.3。  \n极限判断规则 $\\leftarrow16\\%$ 规则\"或“最大化规则\"),详见6.4。  \nh 以微米为单位的极限值。  \ni加工工艺类型·详见4.3和4.4。  \n）表面结构纹理，详见第8章。  \nk 加工工艺.详见第7章。",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "经验证明，所有这些元素对于表面结构要求和表面功能之间形成明确关系是必要的。只有在很少的情况下，当不会导致歧义时，其中的一些元素才可以省略。而多数元素对于设置仪器的测量条件（图I).1中b、c、d、e、f)是必要的，其余元素对于明确评价测量结果并与所要求的极限进行比较也是必要的。",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "在某些情况下，标注多个表面结构参数是必要的，这些参数可能是轮廓或特征，或两者都有，目的是",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "在图样要求和表面功能之间建立明确的关系。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "并不是所有的表面结构参数和表面功能之间都存在一种普遍适用的关系。某些参数与表面类型或表面功能或同时与两者存在很强的相关性。通常存在两个主要参数组用于如下的两个主要类型表面。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "单工序表面",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "经过一道加工工序得到的表面（如车削，铣，刨或喷涂)。用于这些表面的参数在GB/T 3505 和GB/T18618 中定义。在某些情况下，GB/T18778.2中定义的参数可用于单工序表面。用于单工序表面的参数不适用于双工序表面。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "一双工序表面",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "经过两道加工工序得到的表面，两道工序得到的表面纹理都部分存在并且对表面功能都有影响（如部分重叠的磨削表面，超精加工或镗磨)。这些表面的参数在GB/T18778.2 和GB/T18778.3中定义。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "表面结构参数和表面功能之间关系的密切程度以及何种参数适合于控制一个特定的表面功能，可根据文献和经验确定。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "为了简化表面结构要求的标注，同时能够明确表达图样标注及表面功能之间的关系，定义了一系列的默认值，例如，极限值判断规则、传输带和评定长度。有了默认定义便可更加简化表面结构标注（如Ru1.6和 $R z\\quad6.3)$ ，但这只是指无歧义部分。适合于所有参数的默认定义原则目前尚未确定。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "每个标准都包含默认定义的信息。如果默认定义不存在，全部的信息都应该标注在图样的表面结构要求中。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "当表面结构参数存在默认定义时，标注有如下的两种可能性。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "a）使用全部默认定义(标准中给出)，在图样中只用一个简化注法。  \nb）在图样中标注所有可能的要求和细节，详细的要求根据表面结构要求和表面功能之间已知的客观关系确定。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "a)项的优点在于能减少标注并且节约图样空间，但它不能保证按照标准的默认定义作出的选择适合于具体的表面功能控制任务。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "b)项的情况通常应用于对工件功能重要的表面，即表面结构对功能是关键的。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "选择GB/T10610中定义的默认传输带时需特别注意。选择默认传输带的规则对测量表面参数值也许有很大的影响。根据GB/T10610 的规则，表面的细微变化也许导致测量参数值达 $50\\%$ 的变化。这种情况下，如果表面结构对工件功能有重要作用，则必须在图形符号中标注出传输带。这时绝不能使用默认滤波器。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "加工工艺以及某些情况下的表面纹理对表面功能和图样中的表面结构要求之间的关系有非常重要的作用。对相同的表面功能，两种不同的加工工艺常有它们自己的“表面结构尺度”。当采用两种不同的加工工艺时，为了得到相同的表面功能，表面的测量参数值的差异可能会超过 $100\\%$ 。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "对两个或多个表面结构参数值作比较时，只有在这些值有相同的测量条件时才有意义，相同的测量条件是指传输带、评定长度和加工工艺等相同。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "附录E  \n（资料性附录）  \n表面结构参数代号",
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "E. 1 概述",
+        "text_level": 1,
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "三个主要的表面结构参数组已经标准化并与完整符号一起使用。在 GB/T 3505、GB/T 18618、GB/T 18778.2 和 GB/T 18778.3中可以找到这些参数的定义。它们的参数代号见表E.1～表 E.9。",
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "E.2 根据GB/T3505中定义的轮廓参数",
+        "text_level": 1,
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "表E.1、表E.2 和表E.3给出了 $\\mathrm{GB/T}3505$ 中定义的表面结构参数代号。GB/T3505中定义的轮廓参数是针对三种表面轮廓的 $(R,W$ 和 $P$ 轮廓)。轮廓参数是使用 $\\mathrm{GB/T~18618}$ 中高斯滤波器定义的。",
+        "page_idx": 28
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/ca057f0c75903951307be9b4da634564300a373c297f4dc3198158b5a79048e2.jpg",
+        "table_caption": [
+            "表E.1根据 $\\mathbf{GB/T}3505$ 标准中定义的 $\\pmb{R}$ 轮廓参数代号"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\"></td><td colspan=\"8\">高度参数</td><td rowspan=\"2\"></td><td rowspan=\"2\">间距 参数</td><td rowspan=\"2\">混合 参数</td><td rowspan=\"2\" colspan=\"5\">曲线和相关参数</td></tr><tr><td colspan=\"5\">峰谷值</td><td colspan=\"4\">平均值</td></tr><tr><td>R轮廓 参数 （粗糙度 参数)</td><td></td><td>RpRuRzRcRtRa</td><td></td><td></td><td></td><td></td><td></td><td>Rq</td><td>Rsk</td><td>Rku</td><td>RSm</td><td>R△qRmr(c)</td><td></td><td>Roc Rmr</td></tr></table></body></html>\n\n",
+        "page_idx": 28
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/ce443c3856dd349502de93394b31cbf79c1b4bb996fd2b23533ccaf2af0d590b.jpg",
+        "table_caption": [
+            "表E.2根据GB/T3505中定义的W轮廓参数代号"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\"></td><td colspan=\"9\">高度参数</td><td rowspan=\"2\">间距 参数</td><td rowspan=\"2\">混合 参数</td><td rowspan=\"2\" colspan=\"5\">曲线和相关参数</td></tr><tr><td colspan=\"5\">峰谷值</td><td colspan=\"4\">平均值</td></tr><tr><td>W轮廓 参数 （波纹度 参数)</td><td></td><td>Wp|WuWzWcWtWa</td><td></td><td></td><td></td><td></td><td>Wq</td><td></td><td>Wsk</td><td>Wku</td><td>WSm</td><td>W△q</td><td>Wmr(c) Woc</td><td>Wmr</td></tr></table></body></html>\n\n",
+        "page_idx": 28
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/6a2d864f1d968db96c8abd2acf9769937fa8411972b87fce50caeb9eede50bce.jpg",
+        "table_caption": [
+            "表E.3根据GB/T3505中定义的 $P$ 轮廓参数代号"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\"></td><td rowspan=\"2\">高度参数</td><td colspan=\"8\"></td><td rowspan=\"2\">间距 参数</td><td rowspan=\"2\">混合 参数</td><td rowspan=\"2\" colspan=\"4\">曲线和相关参数</td></tr><tr><td colspan=\"4\">峰谷值</td><td colspan=\"4\">平均值</td></tr><tr><td>P轮廓 参数 （原始轮 廓参数)</td><td></td><td></td><td></td><td></td><td></td><td>PpPuPxPcPtPaPq</td><td></td><td>Psk</td><td>Pku</td><td>PSm</td><td>P△q</td><td>Pmr(c)</td><td>Poc</td><td>Pmr</td></tr></table></body></html>\n\n",
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "E.3根据GB/T18618中的图形参数",
+        "text_level": 1,
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "表 E.4和表E.5 给出了GB/T18618 中定义的表面结构参数代号。GB/T18618 中定义的参数仅适用于粗糙度和波纹度轮廓。",
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "注：注意 GB/T18618 中定义的 $R$ 和W轮廓是根据图形参数滤波方法定义的，而不是采用GB/T 3505、GB/T18778.2和GB/T18778.3中定义的参数体系中所使用的滤波方法。",
+        "page_idx": 28
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/5c551c170f1c2b0b5d3cadf78a5282fd71bed06d04f03acbc70ba5ccdc1b514a.jpg",
+        "table_caption": [
+            "表E.4根据GB/T18618 中定义的粗糙度轮廓图形参数"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td></td><td colspan=\"4\">参 数</td></tr><tr><td>粗糙度轮廓 (粗糙度图形参数）</td><td>R</td><td>Rx</td><td>AR</td><td>一</td></tr></table></body></html>\n\n",
+        "page_idx": 29
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/60689dcc1a056ff5dd2bdec87572a31f72d60a98a8756fd6162398cdcb452003.jpg",
+        "table_caption": [
+            "表E.5根据GB/T18618中定义的波纹度轮廓图形参数"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td></td><td colspan=\"4\">参 数</td></tr><tr><td>波纹度轮廓 (波纹度图形参数)</td><td>W</td><td>Wx</td><td>AW</td><td>Wte</td></tr></table></body></html>\n\n",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "E.4基于GB/T18778.2、GB/T18778.3和 GB/T 18618支承率曲线的参数",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "E.4.1 概述 ",
+        "text_level": 1,
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "两个不同的参数体系与支承率曲线相关：",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "a) 基于线性支承率曲线的参数；  \nb) 基于概率支承率曲线的参数。",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "E.4.2基于线性支承率曲线的参数",
+        "text_level": 1,
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "表 E.6和表E.7给出了与线性支承率曲线相关的参数代号，这些参数通过两个不同的滤波方法，即 GB/T 18778.1和 GB/T18618仅针对 $R$ 轮廓定义。",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "表E.6基于GB/T18778.1和GB/T18778.2线性支承率曲线的 $\\pmb{R}$ 轮廓参数",
+        "page_idx": 29
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/1df1a1e6eb72f266d564de98229cbb551a111744a7845154f33d62cf35febd40.jpg",
+        "table_caption": [
+            "表E.7基于GB/T18778.2和GB/T18618线性支承率曲线的 $\\pmb{R}$ 轮廓参数"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td></td><td colspan=\"4\">参 数</td></tr><tr><td>根据GB/T18778.2的粗糙度轮廓参数 （滤波器根据GB/T18778.1选择)</td><td>Rk</td><td>Rpk</td><td>Ruk</td><td>Mrl</td><td>Mr2</td></tr></table></body></html>\n\n",
+        "page_idx": 29
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/b3e0a2bc58f29c7a43ee80aedd56b2f2b17c550a58fa681c034c640455f09c95.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td></td><td colspan=\"4\">参 数</td></tr><tr><td>根据GB/T18778.2的粗糙度轮廓参数 (滤波器根据GB/T18618)</td><td>Rke</td><td>Rpke</td><td>Ruke</td><td>Mrle</td><td>Mr2e</td></tr><tr><td colspan=\"6\">注：所加的\"e\"表示已经根据GB/T18618进行了滤波。</td></tr></table></body></html>\n\n",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "E.4.3基于概率支承率曲线的参数",
+        "text_level": 1,
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "表 E.8和表E.9 给出了根据GB/T18778.3 给出的与概率支承率曲线相关的参数代号。这些参数针对 $R$ 轮廓和 $P$ 轮廓定义。",
+        "page_idx": 29
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/74fd636fdab49b9b1c6fe7a9cc49c215745b5efdf363bc3faa85381e9bb6320e.jpg",
+        "table_caption": [
+            "表E.8基于GB/T18778.3概率支承率曲线的 $\\pmb{R}$ 轮廓代号"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td></td><td colspan=\"3\">参 数</td></tr><tr><td>粗糙度轮廓 (滤波器根据GB/T18778.1)</td><td>Rpq</td><td>Ruq</td><td>Rmq</td></tr></table></body></html>\n\n",
+        "page_idx": 29
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/2b26f3b80386c25835dba7cb6ab4df9d785ce4e14fa35542639f397f4a026314.jpg",
+        "table_caption": [
+            "表E.9基于GB/T18778.3概率支承率曲线的 $P$ 轮廓代号"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td></td><td>参</td><td colspan=\"2\">数</td></tr><tr><td>原始轮廓滤波入s</td><td>P pq</td><td>Poq</td><td>Pmq</td></tr></table></body></html>\n\n",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "附录F (资料性附录） 评定长度ln ",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "F.1 概述",
+        "text_level": 1,
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "评定长度是在评定图样上表面结构要求时所必须的一段长度。部分参数是基于取样长度定义的;另一部分参数是基于评定长度定义的（见 GB/T 3505、GB/T18618、GB/T 18778.2 和GB/T18778.3)。当参数基于取样长度定义时，在评定长度内取样长度的个数是非常重要的。取样长度见附录G。",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "F.2根据GB/T3505定义的轮廓参数",
+        "text_level": 1,
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "GB/T3505所定义的轮廓参数的默认评定长度在GB/T10610中定义。$R$ 轮廓：粗糙度参数默认评定长度在GB/T10610—1998的4.4 和第7章中定义。默认评定长度 $\\lfloor n$ ，由5个取样长度 $l r$ 构成： $l n{=}5\\times l r$ 。这表示表E.1中列出的参数代号的含义为一个评定长度等于5个取样长度。  \n-—W轮廓：波纹度参数目前不存在标准默认评定长度。  \n一 $P$ 轮廓：原始轮廓参数默认评定长度在GB/T10610—1998的4.4中定义为测量长度。",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "F.3根据GB/T18618定义的图形参数",
+        "text_level": 1,
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "在GB/T18618—2002的5.2中给出的图形参数默认评定长度是 $\\stackrel{\\prime}{A}=0.5\\ \\mathrm{mm}$ 和 $B{=}2.5~\\mathrm{mm}$ ）$16~\\mathrm{mm}$ 。评定长度与传输带极限值相联系（见G.3）。",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "F.4根据GB/T18778.2和GB/T18778.3定义的支承率曲线参数",
+        "text_level": 1,
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "一 $R$ 轮廓：与支承率曲线相关的 $R$ 轮廓参数默认评定长度在GB/T18778.1—2002第7章中定义为5个取样长度： $l n{=}5\\times l r$ 。这表示表E.6和E.8中列出的参数代号的含义为一个评定长度等于5个取样长度。  \n一 $P$ 轮廓：原始轮廓参数默认评定长度在GB/T10610—1998的4.4中定义为测量长度。  \n附录G  \n（资料性附录）  \n传输带和取样长度",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "G.1 概述",
+        "text_level": 1,
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "一般而言，表面结构定义在传输带中，传输带的波长范围在两个定义的滤波器(见GB/T6062)之间或图形法(GB/T18618)的两个极限值之间。这意味着传输带即是评定时的波长范围。传输带被一个截止短波的滤波器(短波滤波器)和另一个截止长波的滤波器(长波滤波器)所限制。滤波器由截止波长值表示。滤波器和传输带特性在GB/T18777中定义。图形法极限和组合算法在GB/T18618中定义（见G.3)。",
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "注：长波滤波器的截止波长值也就是取样长度，",
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "G.2 根据GB/T3505定义的轮廊参数",
+        "text_level": 1,
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "GB/T3505定义的轮廓参数默认取样长度在GB/T10610中定义。$\\cdot R$ 轮廓： $R$ 轮廓传输带的截止波长值代号是 $\\lambda s$ （短波滤坡器）和 $\\lambda_{C}$ （长波滤波器）， $\\lambda_{C}$ 表示取样长度。4粗糙度参数默认传输带由GB/T10610—1998第7章和 $\\mathrm{\\bfGB/T}\\ 6062\\mathrm{\\cdots}200\\mathrm{\\bf\\dot{2}}$ 的4.4共同定义。GB/T10610定义默认长波滤波器 $\\lambda_{C}$ ，而 $\\mathrm{GB/T~6062}$ 定义与 $\\lambda_{C}$ 相关的默认短波滤波器 $\\lambda_{S}$ 。-W轮廊：W轮廓传输带的截止波长值代号是 $\\lambda_{C}$ （短波滤波器）和入f（长波滤披器） $,\\lambda f$ 表示取样长度。W轮廓传输带没有定义默认值，也没有定义 $\\lambda_{C}$ 和入f 的比率。1 $P$ 轮廓：P轮廓传输带的截止波长值代号是入s（短波滤波器)，长波滤波器无规定代号。$P$ 轮廓短波滤波器的截止波长值 $\\lambda_{5}$ 没有定义默认值。",
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "G.3 根据GB/T18618定义的图形参数",
+        "text_level": 1,
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "图形参数短波滤波器的截止波长值 $\\lambda_{S}$ 的默认值为评定长度值（见GB/T18618—2002的5.2）。",
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "G.3.1 粗糙度轮廓 ",
+        "text_level": 1,
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "评定粗糙度参数传输带的极限值是-s，短波波长（见GB/T6062和GB/T18618）极限值A，长波波长（见GB/T18618）。",
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "G.3.2 波纹度轮廓 ",
+        "text_level": 1,
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "评定波纹度参数的传输带的极限值是极限值A，短波波长（见GB/T18618）；极限值B，长波波长（见GB/T18618）。",
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "G.4基于GB/T18778.2和GB/T18778.3的线性支承率曲线参数",
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "一 $\\cdot R$ 轮廓： $R$ 轮廓传输带的截止波长值代号是 $\\lambda{s}$ （短波滤波器）和根据GB/T18778.1定义的 $\\lambda_{C}$ （长波滤波器）。",
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "根据GB/T18778.1,R轮廓仅使用两个不同的取样长度(长波滤波器)，默认传输带定义的截止波长值 $\\lambda c{=}0.8~\\mathrm{mm}$ （长波滤波器）和 $\\lambda s{=}0.002\\ 5\\ \\mathrm{\\mm}$ （短波滤波器）。当不标注传输带时，这个传输带就用于与支承率曲线相关的 $R$ 参数。",
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "GB/T 131—2006/ISO 1302:2002 ",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "GB/T18778.1中给出的第二个标准传输带(特殊定义)是 $0.\\ 008\\ \\mathrm{mm}{\\sim}2.\\ 5\\ \\mathrm{mm}$ ，这是在GB/T6062中定义的一个标准传输带。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "1 $P$ 轮廓：根据GB/T18778.1定义的 $P$ 轮廓传输带的截止波长值代号是 $\\lambda s$ (短波滤波器）。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "$P$ 参数默认情况下没有长波滤波器。  \n$P$ 轮廓短波滤波器的截止波长值入；没有定义默认值。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "附录H ",
+        "text_level": 1,
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "（资料性附录）本标准的重要性",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "本标准的修订是为与1997年以来发布的表面结构的国家标准一致。",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "新版本的表面结构标准中规范性引用文件是 GB/T 6062、GB/T 3505、GB/T19067.1、GB/T 19067.2、GB/T18777、GB/T 18618、GB/T 19600、GB/T 18778.1、GB/T 18778.2和GB/T 18778.3.",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "本标准不适用表面缺陷，表面缺陷国家标准是GB/T15757。",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "1997年以来发布的新版本表面结构标准相比20世纪80年代的标准内容变化很大。这些变化的重要性和影响如下：",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "重新定义了表面结构测量仪器(GB/T6062)；带导头的仪器不再是标准仪器。表面结构参数的“真值”由绝对测量仪器确定。采用了不同的滤波特征(GB/T 18777.数字相位修正高斯滤波器)定义了新的滤波器。原来的2RC模拟滤波器不再是标准滤波器。除已有的 $R_{\\sun}$ 轮廓或粗糙度轮廓外，还定义了两个新的表面结构轮廓[W轮廓（波纹度轮廓)和$P$ 轮廓(原始轮廓)]。三个表面结构轮廓构成几乎所有表面结构参数的基础，如 $R a$ ： $W a$ 和$P a$ ,见附录 E,GB/T 3505 和 GB/T 18778.3.表面结构(三种轮廓)现在通过一个传输带定义(短波和长波滤波器)，而不是仅通过一个“截止滤波器\"(长波滤波器)来定义，见附录G、GB/T6062和GB/T18777.表面结构参数标注的写法已经改变。参数代号现在为大小写斜体（如 $R a$ 和 $R z$ )，下角标如 $R_{*}$ 和 $R_{z}$ 不再使用。一几乎所有的表面结构代号和参数名称已经改变(GB/T3505)。原来的表面粗糙度参数 $R_{z}$ （十点高度）已经不再被认可为标准代号。新的Rz为原R，的定义，原 $\\cdot R_{s}$ 的符号不再使用。-已经定义并标准化了三组（类）新的表面结构参数（GB/T18618、GB/T18778.2和GB/T 18778.3)。这些新的参数部分具有自己的滤波系统(GB/T 18618和 GB/T 18778.1)。-与以前具有默认定义的参数 $(R_{*},R_{y}$ 和 $\\scriptstyle{\\mathcal{R}}_{s}$ )相比，现在具有默认定义的参数数量已大为增加，默认定义包括极限判断规则、滤波和评定长度，见GB/T10610、GB/T18618和GB/T18778.1。而所有的W参数和 $P$ 参数都没有默认定义。",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "原来的标准与1997年以来发布的新版本相比变化很大，若根据新标准评定旧图样中的表面要求可能会有问题。企业需要决定如何将旧图样从旧标准向新标准过渡。旧图样仍可以按旧版本GB/T131解释。",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "最重要的一个变化是采用高斯滤波器代替了2RC滤波器。高斯滤波器在实际中应用了很多年，对于绝大多数的表面，这两种滤波器所导致的测量值的差异小于 $5\\%\\sim10\\%$ 。然而在某些极特殊的情况下，与2RC滤波器相比，高斯滤波器的测量值可能会小 $37\\%$ 以上。",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "绝大多数情况下，尤其是用于光滑表面时，使用传输带(而不是只使用截止波长值)会导致测量值的微弱减小。传输带的优点是测量不确定度大为减少、测头半径的影响和不同仪器的差别大为降低。",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "附录】（资料性附录）标准的演变",
+        "text_level": 1,
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "I.1表面结构要求图样标注的演变",
+        "text_level": 1,
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "表面结构要求图样标注从GB/T131演变到现在，已是第三版，如表I.1所示。",
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "GB/T131中表面结构符号的详细解释在其他表面结构标准中，而不在GB/T 131 中。不同的GB/T131版本所涉及到的国家标准为：",
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "—-GB/T131—2006，第三版，参照1996 年和1997年发布的ISO表面结构标准；—GB/T131—-1993,第二版，参照1992年发布的ISO表面粗糙度标准；—GB/T 131—1983和相关标准GB/T1031—-1983，不包含解释符号的详细信息（见表I.1中的脚标c和d)。",
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "如果正确使用不同版本 GB/T131中的标注规则，就不会误解表面结构要求的详细规则和含义。",
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "使用GB/T131—1983的代号标注的图样不能满足1992年以来发布的表面粗糙度国家标准的要求。",
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "使用GB/T131—1993年的代号标注的图样不能满足1997年以来发布的表面结构国家标准的要求。",
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "I.2位置“x\"和“a” ",
+        "text_level": 1,
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "应避免在新图样中\"x\"位置（见图I.1)标注表面结构要求和在\"a\"位置上（在原来的版本GB/T131中给出)标注相关取样长度，并且表面结构要求总是包括参数代号和说明极限的数值。",
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "注：原来在\"x\"位置上有足够的空间用于标注：",
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "---单独给出的极限数值，这意味着是 $R a$ 参数的极限值（根据GB/T131的1983，1993的版本)。或者：—任何表面结构参数代号和给出的极限数值（根据GB/T131—1993)。",
+        "page_idx": 34
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/c50b2843fa2df363036e4528a673d85c535e4193eb73d24a9a306877795eebb2.jpg",
+        "table_caption": [
+            "表I.1表面结构要求的图形标注的演变"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\"></td><td colspan=\"4\">GB/T131的版本</td></tr><tr><td>1983(第一版)a</td><td>1993(第二版)b</td><td>2006(第三版)c</td><td>说明主要问题的示例</td></tr><tr><td>a</td><td>1.6/</td><td>1.6 1.6</td><td>Ru 1.6</td><td>Ra只采用“16%规则”</td></tr><tr><td>b</td><td>Ry3.2 <</td><td>Ry 3.2 Ry3.2</td><td>R 3.2</td><td>除了Ra“16%规则”的 参数</td></tr><tr><td>C</td><td></td><td>1.6 max</td><td>Ra max 1.6</td><td>“最大规则”</td></tr><tr><td>d</td><td>1.6 0.8</td><td>1.6 0.8</td><td>0.8/Ru 1.6</td><td>Ra加取样长度</td></tr></table></body></html>\n\n",
+        "page_idx": 34
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/3cbbd9425d73b4776c08755f19aa90c1667a41973fc280ff2dcecdd9ef74a5b2.jpg",
+        "table_caption": [
+            "表I.1 (续)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\"></td><td colspan=\"4\">GB/T131的版本</td></tr><tr><td>1983(第一版)a</td><td>1993(第二版)b</td><td>2006(第三版)℃</td><td>说明主要问题的示例</td></tr><tr><td>C</td><td>_d</td><td>_d</td><td>0.025-0.8/Ra 1.6</td><td>传输带</td></tr><tr><td>f</td><td>Ry3.2 0.8</td><td>Ry 3.2 0.8</td><td>-0.8/R 6.3</td><td>除Ra外其他参数及取样 长度</td></tr><tr><td>g</td><td>1.6 Ry 6. 3</td><td>1.6 Ry 6.3</td><td>Ra 1.6</td><td>Ra及其他参数</td></tr><tr><td>h</td><td>d</td><td>Ry3.2</td><td>Rz36.3</td><td>评定长度中的取样长度个 数如果不是5</td></tr><tr><td>j</td><td>_d</td><td>_d</td><td>L Ra 1.6</td><td>下限值</td></tr><tr><td>k</td><td>3. 2</td><td>3. 2</td><td>LRu 3.2</td><td>上、下限值</td></tr></table></body></html>\n\n",
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "a 既没有定义默认值也没有其他的细节，尤其是",
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "一无默认评定长度；-无默认取样长度；无 $45\\%$ 规则”或“最大规则”。",
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "b在 GB/T 3505—1983 和 GB/T 10610—1989中定义的默认值和规则仅用于参数 $R_{\\mathrm{s}}\\cdot R_{\\mathrm{s}}$ 和 $R_{z}$ (十点高度)。此外.GB/T131—1993中存在着参数代号书写不一致问题，标准正文要求参数代号第二个字母标注为下标，但在所有的图表中，第二个字母都是小写，而当时所有的其他表面结构标准都使用下标。",
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "’新的 $R z$ 为原 $R_{\\mathbf{y}}$ 的定义，原 $\\boldsymbol{R_{y}}$ 的符号不再使用。  \nd表示没有该项。",
+        "page_idx": 35
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/a9ddd39414760b962bc336033e6414fdf71484092f21da95ee9853a7b0a78eee.jpg",
+        "img_caption": [
+            "图I.1“x\"和“a\"的位置"
+        ],
+        "img_footnote": [],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "附录J(资料性附录）在GPS矩阵模式中的位置",
+        "text_level": 1,
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "J.1 概述",
+        "text_level": 1,
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "GPS矩阵模式的详细说明见GB/Z20308—2006(总体规划) ",
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "J.2本标准的信息及使用",
+        "text_level": 1,
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "本标准通过在技术图样和文本中的明确规范提供了控制表面结构的工具。",
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "本标准为表面结构标准链中相关标准提供了所需的表面结构标注规则。本标准便于设计者明确地标注出对表面结构的具体要求，又便于正确理解、实现及检验给定的表面结构要求。",
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "本标准也帮助设计者正确使用其他新的GPS表面结构标准。",
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "本标准给出了表面结构标准化的演变过程。表面结构标准变化的信息非常重要，自从GB/T 131一1993发布以来，所有的其他表面结构标准都已更新并发布实施，这些标准发生了巨大变化，引人了全新的概念，在许多方面改变了表面结构表征的涵义。",
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "J.3在GPS矩阵模式中的位置",
+        "text_level": 1,
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "本标准是—项GPS通用标准，它影响GPS 通用标准链中第1个环节，即在总的产品几何技术规范体系中的粗糙度轮廓、波纹度轮廓和原始轮廓部分(见图J.1)。",
+        "page_idx": 36
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/b7739a0e42d40daa067549c0c9c5fffe6598329e7da5f52b189fda7af1ea9387.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>GPS 基础 标准</td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 36
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1996036837591900160/0998dcea79928b5049b570ec38962598ef399a178d13b3c694e22360b7127677.jpg",
+        "img_caption": [
+            "图J.1"
+        ],
+        "img_footnote": [],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "参考文献",
+        "text_level": 1,
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "［1］ISO1456：(待出版)，金属沉积法镀层镍加铬和铜加镍加铬电沉积镀层  \n[2]GB/T19067.1—2003产品几何量技术规范（GPS）表面结构轮廓方法测量标准第1部分：实物测量标准(ISO5436-1:2000,IDT)  \n[3］GB/T19067.2—2004产品几何量技术规范（GPS）表面结构轮廓方法测量标准第2部分：软件测量标准(ISO5436-2：2001，IDT)  \n[4］GB/T19600—2004产品几何量技术规范(GPS）表面结构轮廓方法接触式(触针式)仪器的校准(ISO12179:2000,IDT)  \n[5］GB/Z 20308—2006产品几何技术规范(GPS）总体规划(ISO/TR14638:1995,MOD)",
+        "page_idx": 37
+    }
+]

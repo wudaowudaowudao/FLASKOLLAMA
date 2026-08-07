@@ -1,0 +1,2767 @@
+[
+    {
+        "type": "text",
+        "text": "HTM50100车铣加工中心",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "使用说明书(机械部分)",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "沈阳机床 （集团) 有限责任公司沈阳第一机床厂有限公司",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "HTM50100车铣加工中心",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "使用说明书签署单",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "（供中国科学院沈阳自动化所专用）",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "编制:凌爽  \n检查：  \n标审：  \n审核：  \n批准：  \n版本:Ver.1.0/2020.10  \n电子文档：",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "使用须知",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "使用机床之前，请仔细阅读本说明书。只有完全理解说明书的全部内容，才能保证机床安全运转。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "在开机之前，应将运输中卸下的罩、盖等安装好,防水处应加密封胶。否则，可能使机床不能正常开车。同时将危及人身及设备的安全。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本机床为了安全运输，对Y轴、乙轴都进行了固定。安装位置如图1所示。用户在使用本机床之前，必须将上述装置拆掉，否则，将造成机床的损坏。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本说明书是根据现有模块编写的，以后若增加新的模块，将随时修改本说明书。如果用户的说明书损坏或丢失需要更换新说明书，请注意上述问题。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本说明书虽经仔细核对，难免有用户不解之处，如果使用中出现什么疑点，不正确的解释，或是有遗漏之处，请与我厂营销部取得联系。",
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/fcf0b4ff5fc1ad682d9f0490d6b416a8d288483ae4a2eee08b4a8b0c10baa48f.jpg",
+        "img_caption": [
+            "图1机床移动部件运输固定位置示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "安装须知",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "为了确保机床的安全运行，在安装时应注意下述几点：",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1 接线",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1.1．所使用的电气接线性能应等于或超过规定的性能等级。  \n1.2．不允许将任何可能产生线路干扰的动力电缆接到配电盘上，如电焊机、高频淬火机等。  \n1.3．应由熟练的电气人员来连接动力线。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "2 接地",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "所使用的接地线横截面积，接地电阻，接地注意事项等参看GB5226.1-2002标准。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "接地按下列方法进行：",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "单独接地方法：",
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/138d26f499287087dc572faa4280e407c5c3b3811f8c386f3a5cba1e1a179a1f.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "共用接地方法：",
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/ca4d6399beb477b5caa386bc4794ed1fed1cac04506d3d85c22dc11513700166.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "注意：绝对不允许用下列方法对几个设备接地：",
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/fe7ba9d09d1552268fea8e539123caaf24923aee82ebb1afdb3d1fa276941b15.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "环保须知",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "机床最终报废时，必须遵循下列规定：",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1对于不能回收或再利用的废电池、电气元件、橡胶件等有毒、有害或不能降解的废弃物，必须送到当地指定回收部门或指定排放地点。2对于不能回收或再利用的润滑油、冷却液等污染环境的废液，必须送到当地指定排污地点排放。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "目录  \n1 概述  \n1.1 本说明书的适用范围与目的  \n1.2 产品型号组成的含义  \n1.3 产品的主要用途  \n1.4 机床的精度，  \n1.5 机床的使用环境.  \n1.6 机床对环境的影响 2  \n2 安全防护须知. 3  \n2.1 对上机操作、维修人员的要求  \n2.2 基本操作要求  \n2.3 接通电源之前的要求 4  \n2.4 接通电源之后的要求  \n2.5 常规检查  \n2.6 温升 5  \n2.7 开机前的准备工作  \n2.8 工作中注意事项 6  \n2.9 中断加工  \n2.10 完成加工之后，  \n2.11 安全保护装置  \n2.12 维修前的准备工作  \n2.13 维修操作，  \n2.14 维修后的处理  \n2.15 其它说明.  \n3 吊运与安装 10  \n3.1 安装前的准备工作 .10  \n3.1.1环境要求(机床方面) .10  \n3.1.2 环境要求(NC方面) 10  \n3.1.3 电源入口 10  \n3.2 吊运 11  \n3.3 如何安装， 11  \n3.3.1 安装 .12  \n3.4 内部装置连接的检查 ..12  \n3.5 操作前的检查. .12  \n3.6 床身水平的最终调整. .13  \n3.7 安装后的维护及内部装置连接的检查 .13  \n3.7.1 安装最初阶段的维护 13  \n3.7.2 检查内部装置的连接情况 .14  \n3.7.3 检查电气控制板 ....14  \n3.8 机床占地面积及地基图（见图4） ..15  \n4 机床的技术参数， 16  \n4.1 技术参数说明 ...16  \n4.2 技术参数表 .16  \n4.3 主轴功率扭矩图. ..17  \n4.3.1 主轴功率—转速图. ..17  \n4.3.2 主轴扭矩—转速图 18  \n4.4 主轴头联接尺寸图. .18  \n5 机床结构 19  \n5.1 机床布局 .19  \n5.2 机床的传动系统及轴承分布. 20  \n5.3 机床部件简介， 20  \n5.3.1 床头 20  \n5.3.2 尾台 21  \n5.3.3 3.3卡盘 22  \n5.3.4X轴、Y轴、乙轴.. ..22  \n5.3.5 刀具检测装置， 25  \n5.3.6B轴系统. 25  \n5.3.7 刀库和换刀机械手， .26  \n5.3.8 液压系统 27  \n5.3.9 气动系统. 28  \n5.3.10 润滑系统 30  \n5.3.11 冷却系统 ......30  \n5.3.12 排屑器. ..30  \n6 机床的使用和安全防护 32  \n6.1 机床的使用 32  \n6.2 安全防护 ...32  \n6.3 设置必要的安全警告标牌  \n7 检查与维修， .33  \n7.1 常规检查 33  \n7.2 定期检查 34  \n7.3 润滑、液压、冷却装置的检查与维修 ..34  \n7.3.1 润滑表. .34  \n7.3.2 导轨及丝杠润滑装置的主要维修项目 .35  \n7.3.3 脂润滑部分 35  \n7.3.4 冷却装置 36  \n7.4 机床的调整与维修 36  \n7.4.1 主轴箱 .36  \n7.4.2 卡盘 38  \n7.4.3 机床零点. .39  \n7.4.4 间隙. 40  \n7.4.5 滚珠丝杠副的主要参数， 41  \n7.4.6 机床的其它维修 41  \n7.4.7 电器维修 41  \n7.5 常见故障排除 42  \n7.5.1 常见故障及产生原因 42  \n7.5.2 I/O 诊断显示检查 .43  \n7.5.3 液压系统， 44  \n8 刀具配置 45  \n8.1 刀具系统. 45  \n9 附件、备件、易损件 46  \n9.1 本机床提供的标准附件 .46  \n9.2 本机床提供的选用标准附件 46  \n9.3 易损件. 46",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "1概述",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1.1 本说明书的适用范围与目的",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "本说明书是为配置国产广数GSK988TD系统的车铣中心而编写、准备的。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "在本说明书的第2部分，提供了操作本机床的安全须知，操作者可以把它作为日常工作的检查条目。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "在第3部分“吊运与安装”中提供了安装本机床的方法和应注意的内容。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "在第4部分“技术参数”和第5部分“机床结构”中提供了操作本机床预先应该理解的内容。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "在第7部分“检查与维修”中为操作者提供了操作和维修本机床所需要的知识和方法。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "在第8部分“刀具配置”中提供了机床的加工范围及刀具干涉等内容。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "如果出现本说明书所未提及的故障，请与我厂营销处联系。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1.2 产品型号组成的含义",
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/e6eb93de023370852ba608bcb0abd8022abc5979995e6328304b788ce30fbb47.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1.3 产品的主要用途",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "HTM50100 车铣加工中心是一种具有高转速、高精度、高刚性的复合加工机床，由于具有Y 轴和B轴功能，因此机床加工工艺范围广，采用的刀具种类和规格较多，不仅具有车床的全部功能，还能够进行铣、钻等加工，该车铣中心的显著特点是铣削加工叶片螺旋面、加工偏心零件、铣削斜面等，特别适用于军工、航空航天、汽车、石油、能源等加工制造行业的复杂零件的加工，零件经一次装卡可加工完成全部或大部分工序，大大提高了工作效率，保证零件的加工精度。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1.4 机床的精度",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "本机床的精度符合中华人民共和国机械行业标准JB/T10889.1-2008《卧式车铣复合加工中心第1部分：精度检验》和JB/T10889.2-2008《卧式车铣复合加工中心第2部分：技术条件》。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "1.5 机床的使用环境",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "本机床适合在下述规定的实际环境和运行条件中使用。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 环境空气温度： $5^{\\circ}\\mathrm{C}\\sim40^{\\circ}\\mathrm{C}$ 范围内;  \n$\\bullet$ 湿度：最高温度 $40^{\\circ}\\mathrm{C}$ ，相对湿度不超过 $50\\%$ 范围内，且湿度变化的原则是不应引起冷凝$\\bullet$ 海拔高度： $1000\\mathrm{m}$ 以下。  \n$\\bullet$ 大气污染：没有过分的灰尘、酸气、腐蚀气体和盐分。$\\bullet$ 辐射：避免阳光直射或热辐射机床而引起环境温度的变化。  \n$\\bullet$ 安装位置远离振动源和易燃、易爆物品。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "1.6 机床对环境的影响",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "本机床空运转噪声声压级 $\\leqslant83\\mathrm{dB}$ （A)，采用全防护结构，无有害气体或液体排放。因此对环境无不良影响。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "2安全防护须知",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "本机床在供货时带有一些安全设备以防止操作人员与设备受伤害或损坏。操作者在开机前还应弄懂机床各种标牌内容及下述规定再上机操作。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "本说明书中所列入的安全注意事项，按导致机床、人身事故的伤害程度，分为三个等级叙述。对危险性较高的安全注意事项，操作时应特别注意。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "危险表示对高度危险要警惕，如不遵守本标记的事项，易导致死亡。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "警售表示对中度危险要警惕，如不遵守本标记的事项，会对机床、人身造成重大损伤。  \n注意表示对轻度危险要关注，如不遵守本标记的事项，会对机床及人身造成损伤。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "2.1 对上机操作、维修人员的要求",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 使用本机床的操作人员应是经过培训的且具有操作本机床资格的人员。操作人员上机前，应仔细阅读本《使用说明书》，并完全理解使用说明书中的内容，具备操作使用本机床的能力后方可操作。$\\bullet$ 维修人员应由有资格的或具备专业维修能力人员来承担，以免发生意外。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "2.2 基本操作要求",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "危险 ",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 在控制面板、电机、变压器、端子盒里有高压标记的零件及部件，均带有高压接线柱，是非常危险的。禁止没有电工资格（上岗证）者触及这些器件。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 为了安全而设置的罩壳、开关、门之类的设施，未经本公司许可，禁止拆卸，更换。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "不要用湿手去触摸开关，否则会造成短路，危及人身安全。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "警",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 应当非常熟悉急停按钮开关的位置，以便在任何需要时，无须寻找就会按到它。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 在安放保险丝之前，一定要将机床断电。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 当电源部分出现故障时，应立即扳断主电路开关。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 如果一项任务需由两个以上的人员来完成，在操作的每一个步骤上都应当规定出协调的信号，必须在给出规定的信号并接受后才能进行下一步工作。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 为防止跌倒事故，要及时擦除洒落在地面上的油和水，经常保持干燥的地面和通道。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 禁止不带手套处理切削液，当人员不慎接触到润滑液、冷却液、制冷剂等液体时，需采用以下措施：",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "当皮肤接触时：用酸性肥皂和大量清水清洗。  \n当溅入眼晴时，用大量清水至少冲洗15分钟。  \n当误食入口时，应立即去医院就诊。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "特殊人群防护装备：使用化学物质设施时，需用防毒面具。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 机床操作人员在上岗之前必须进行安全操作培训，直至能安全操作后，才可操作本机床。  \n且必须是一人操作。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 禁止戴着手套操作机床。（处理刀具、工件及清除切屑、清扫机床时必须戴手套。)",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "注意",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 操作人员应佩戴安全眼镜，必须穿戴适合操作的服装、安全鞋及安全帽，禁止穿宽松外衣、佩戴戒指、手镯和手表等各种饰物。  \n$\\bullet$ 长发者必须将长发卷绕在防护帽内，避免被机器卷入。  \n$\\bullet$ 装卸准备时，必须戴皮手套之类的安全防护工具，但按动操作面板上的开关、键、按钮时，不得戴手套。  \n$\\bullet$ 如因喝酒、吃药、生病等原因而缺乏正常的判断思维能力者，禁止操作机床。  \n$\\bullet$ 使用推荐的液压油、润滑油、恒温冷却水和油脂或认可的等同性能的液压油、润滑油、恒温冷却水和油脂。  \n$\\bullet$ 要使用具有合适电流值的保险丝，停电时必须立即切断总电源开关。  \n$\\bullet$ 要防止NC 装置、操作盘、电气控制盘受到冲击，否则，会引起故障使机床不能正常工作。$\\bullet$ 不要随意改变参数、数值或其他电气装置。必须改变时，应该在改变前将原始数据记录下来，以便在需要时恢复到原始数据。  \n$\\bullet$ 不要弄脏、刮伤、弄掉或移动警告标牌。如果标牌上的字迹已变得模糊不清或遗失了，应向厂方订购新的标牌。  \n$\\bullet$ 要有足够的工作空间，以避免产生危险。  \n$\\bullet$ 水或油能使地面打滑造成危险，为防止出现意外事故，工作地面应保持洁净干燥。$\\bullet$ 接近机床的工作台应结实牢固,以防止事故发生。要避免物件从工作台上滑下。  \n$\\bullet$ 在操作开关之前，一定要确认，不要弄错。  \n$\\bullet$ 不要随意触及开关。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "2.3 接通电源之前的要求",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "危险 ",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "电缆、线圈、电线如有损坏，会产生漏电，引发触电事故。因此，使用之前应进行检查。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "警",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "一定要弄懂说明书和编程手册中所规定的内容。对每一个功能和操作过程都要弄清楚。$\\bullet$ 应穿防油的绝缘鞋、工作服和配带其它安全防护设施。$\\bullet$ 将所有NC装置、操作盘及电气控制盘的门和盖都关上。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "注意",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "从工厂送电开关到机床总电源开关之间的电缆线要有足够的横截面以满足电力的要求。$\\bullet$ 露在地面上的电缆必须有防护设施，以防止出现短路。$\\bullet$ 机床拆箱后第一次使用或在长期停机后再启动之前，每个滑动部件必须重新上油。应使润滑泵连续工作，直到油从刮屑板处渗出为止。$\\bullet$ 应将油箱的油灌到油标处，必要时需进行检查并注油。$\\bullet$ 应将恒温冷却箱的冷却水灌到水标处，必要时需进行检查并注入规定的冷却水。$\\bullet$ 有关润滑点、油的种类及油量，冷却水的种类及水量，请参见各自有关的说明标牌。$\\bullet$ 各个开关及操作手柄应当灵活，平滑好用，应检查其动作。$\\bullet$ \\*当给机床送电时，依次接通工厂送电开关、机床总电源开关及操作板上的电源开关（置到“ON\"位置）。$\\bullet$ 检查冷却液的液量，必要时添加冷却液。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "2.4 接通电源之后的要求",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "当操作板上的电源开关置于“ON”（接通）位置时（按上述中\\*项要求进行接通）应检查READY（准备）灯是否亮。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "2.5 常规检查",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "警告",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "在检查皮带的松紧度时，千万不要将手指伸到皮带和皮带轮之间。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "注意] ",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "应检查压力表上反映的读数是否正确。$\\bullet$ 检查电机、B轴等其它部件，确保没有不正常的噪声。$\\bullet$ 检查机床各部分的润滑情况。$\\bullet$ 检查防护罩及安全保护装置是否处于正常工作状态。$\\bullet$ 检查供气的气源是否达到使用要求。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "2.6 温升 ",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "注意",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 给机床升温，尤其是给主轴和进给轴进行升温，应该在机床的自动操作状态下，以最大速度的一半或三分之一使机床运转 $10{\\sim}20$ 分钟，达到稳定温升。  \n$\\bullet$ 在自动操作时，机床上每个运动部件都要按程序自动运作，与此同时，检查各个运动部件的运作情况。  \n$\\bullet$ 如果机床闲置了很长时间，不要一开车就进行加工，一定要对机床采取升温。这是因为机床长期闲置后油润滑不充分，很可能使滑动部件受到磨损，导致机床部件热膨胀，影响加工精度。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "2.7 开机前的准备工作",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "警告",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "工装应确保符合机床的技术参数、尺寸和型号。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 刀具磨损过度或损坏，直接影响工件加工或损坏机床，因此开机前应将这些刀具换下。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 加工区要有良好的照明，以便于安全检测。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 机床或设备周围的工具及其它物品应存放有序，保持环境整洁及通道畅通。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 工具或其它任何物品都不要摆放在主轴箱、铣头、盖或类似的位置上。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 如果重型的圆柱件中心孔太小，加载后，工件很可能会跳出顶尖。所以，一定要注意中心孔规格及角度。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "注意",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "工件长度应在限定的范围内，以防止发生干涉。$\\bullet$ 刀具安装后，应进行试运转。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "2.8 工作中注意事项",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "危险 ",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 不要披着长发操作机床，一定要戴工作帽后再工作。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 工件必须夹牢。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 要在停机状态下调整冷却液的喷嘴。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 不要用手或以其它方式触摸旋转中的工件及主轴。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 在自动加工过程中，不要打开机床门。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 在进行重载加工时，应防止切屑堆积，因为热的切屑可能引发火灾。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "警告",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "操作开关时不得戴手套，否则，很可能引起误动作等。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 铣头、主轴停止运动后，才允许从机床上卸下工件。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 在切削加工过程中不要清理切屑。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 操作机床时，不要打开机床防护门。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "注意",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 重型工件需要移动时，要二人或二人以上一起工作，以免发生危险。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 操作叉式升降机、吊车或类似设备及吊钩的人员必须经过培训并获得认可。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 操作叉式升降机、吊车或类似设备，一定当心，不要碰撞周围的设施。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 吊运缆绳及吊环、吊钩，必须具有足够的强度以满足吊运负载的要求，并严格限制在安全规定之内。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 应该用刷子清理刀头上的切屑，不得用裸手去清理。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 安装或卸下刀具都应在停车状态下进行。  \n$\\bullet$ 对镁合金进行加工时，操作者应配戴防毒面具。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "2.9 中断加工",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "注意",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "在完成加工件后，需要暂时离开机床时，将操作板上的电源开关关闭，同时也应将主线路开关关闭。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "2.10 完成加工之后",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "注意",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "停机前，不得进行清理工作。  \n$\\bullet$ 停机后，一定要进行清理。清除铁屑，擦净门、盖、窗等。  \n$\\bullet$ 将机床各部件返回初始位置。  \n$\\bullet$ 检查刮屑器有无损坏，若有损坏，及时更换。  \n$\\bullet$ 检查冷却液、冷却水、液压油和润滑油的污染情况，如污染较重，要及时更换。  \n$\\bullet$ 检查冷却液、冷却水、液压油和润滑油的使用量，如有必要，及时填加。  \n$\\bullet$ 清理水箱过滤器、过滤网。  \n$\\bullet$ 在下班离开机床之前，应将操作板上的电源开关，机床主线路开关及车间送电开关关闭。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "2.11 安全保护装置",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 前后防护及冷却防护。  \n$\\bullet$ 超行程极限开关。  \n$\\bullet$ 卡盘保护，尾座保护及刀具保护（NC软件由用户参数设定)。  \n$\\bullet$ 存储行程限制装置（NC软件)。  \n$\\bullet$ 急停按钮开关。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "2.12 维修前的准备工作",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "警",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "未经允许不得擅自做任何维修工作，维修作业必须由专业人员进行。$\\bullet$ 更换零部件、易损件（密封、油封、〇型圈、轴承、油及油脂等）必须经预先安排方可进行。$\\bullet$ 准备记录预防措施和正确的维修方法。$\\bullet$ 必须遵守操作说明书上的顺序和操作方法开动机床。如有疑问及不明之处，直接像本公司销售部门询问。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "注意] ",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "详细阅读并弄懂说明书中规定的安全防护措施。",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 详细阅读本说明书中相关内容，并弄懂有关原理、结构及包含的注意事项。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 必须当维修负责人在场时确认维修作业的结果。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 必须将维修的内容及维修的结果记载在维修日记上，以便接受检查和调阅。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 维修作业记录必须保管一定的时期。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "2.13 维修操作",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "险 ",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "·凡是与维修工作无关人员不应当操作主线路开关或操作板上的控制电源ON（通）开关。为此，在这样的开关上或其他相应的地方挂上“不得扳动开关，机床正在处于维修状态”或相似告戒字样。这类告戒字样指示牌应显而易见，并容易摘取又不易脱落。$\\bullet$ 维修机床时，带电作业是危险的，原则上，在维修期间主电路开关应自始至终处于关闭状态。$\\bullet$ 未经本公司许可，禁止将超程限位开关，联锁限位开关，接近开关及挡块拆卸更换。若无视该警告，不仅会导致机床的误动作及损伤，还会造成重大伤亡事故。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "警告",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 维修作业时必须戴安全帽。  \n$\\bullet$ 电气维修工作应由熟悉业务的人员来承担并应同负责人员保持密切联系，不要自行决定。  \n$\\bullet$ 行程极限装置、接近开关及包括功能部件等互锁机构都不要卸掉或修改。  \n$\\bullet$ 高空作业所使用的梯子或升降架，为安全起见每天都要加以维修和控制。  \n$\\bullet$ 应该使用合格厂家生产的保险丝、缆线等。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "2.14维修后的处理",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "警告",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 维修工作完成后，应对工作环境等进行清理和安排，各零部件上的水、油都应擦掉，以提供良好的工作环境。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 卸下的所有件及清理下的废油都应放到远离机床的地方以确保安全。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "注意",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 维修人员应当检查机床的操作是否安全。  \n$\\bullet$ 对维修和检查的数据应做记录并保存，以备将来参考。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "2.15 其它说明",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "注意",
+        "text_level": 1,
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "卡盘高速运转时，卡爪必须夹持工件以防止运转中夹爪甩出产生危险。$\\bullet$ 定期检查卡爪螺钉是否可靠拧紧，如发现螺钉失效应及时更换。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "3吊运与安装",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "3.1 安装前的准备工作",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "3.1.1 环境要求 (机床方面)",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "机床不应安装到以下的位置：",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 温度有明显变化的地方，如机床的安装位置直接或靠近热源。  \n$\\bullet$ 湿度大的地方。  \n$\\bullet$ 灰尘太大、太脏的地方。  \n$\\bullet$ 机床周围有振源的地方。  \n$\\bullet$ 地面软而不坚实的地方。",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "[注] ",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 如果安装时有避不开的振动源，应先在机床周围挖防振沟或类似的措施以防振。",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 如果机床只能在软而不坚实的地面上安装，必须采取打桩的形式或相类似措施以增强土质的支撑能力，这样才能防止机床下沉或出现倾斜现象。",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "3.1.2 环境要求（NC方面)",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 见GB5226.1-2002标准。 ",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ NC 系统使用了一个安全性很高的电池，以保证在断电的情况下继续保存加工程序、存储的有关数据等。尽管如此，考虑到电池用完后，会出现错误操作或其它一些问题，所以应将加工程序、刀具数据或参数等数据存储在外部设备中。",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "3.1.3 电源入口",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "电源：操作者左侧、电箱底部（见图2)。",
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/97be2b8339ccd64040d14385b2eeee839fdb82320d721193927f360d2f32b903.jpg",
+        "img_caption": [
+            "图2机床左视图"
+        ],
+        "img_footnote": [],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "3.2 吊运 ",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/1197b13d7437a7b54350829f70816de75133418f4f1cdfd5a3dde769d2a7f55f.jpg",
+        "img_caption": [
+            "图3机床吊运示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "在机床的床身上有四个吊耳，两个吊装孔，整体起吊时，在吊装孔内分别穿入120直径吊杠，四条吊绳一端挂在吊杠上，另一端系在吊架上，吊架上再系四条 $\\cdot\\Phi40\\mathrm{mm}$ 的钢丝绳，钢丝绳分别系在吊钩上（见图3)。每条吊绳的承载能力要大于6吨，吊车的吊运能力要大于20吨。",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "吊运机床时，应特别小心，避免机床、NC 系统、刀库等受到冲击。在吊运机床之前，应检查各部位是否牢固不动，机床上有无不该放置的物品等。",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "应按以下要求吊运机床：",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 安装吊绳前应将吊绳分别挂在吊杠端头上。$\\bullet$ 安装好吊绳后，检查吊绳是否绷紧，是否有使机床倾斜的可能，经确认后，方可吊运。$\\bullet$ 在吊运机床时，不要使吊绳与机床直接接触，应在吊绳和机床接触部分垫入废布或木块以防止吊绳摩擦损坏机床表面。$\\bullet$ 要让被吊运机床在纵横向上保持平衡，因此，在机床刚吊离地面时就应使机床确保平衡。$\\bullet$ 吊运机床必须使用我厂提供的专用吊具。$\\bullet$ 当机床是由两名以上人员同时进行起吊工作时，应采取相互间给出事先规定好的信号来协同工作。",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "3.3 如何安装",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "对于机床来说，安装的方法对机床的功能有极大的影响。如果一台机床的导轨是精密加工的，而该机床安装不好，则使其不能达到原始精度。这样，就很难获得所需要的加工精度，大多数故障",
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "都是因安装不当而引起的。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "必须仔细的阅读安装步骤，并按照规定的安装要求来安装机床，这样才能使机床进行高精度的加工。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "3.3.1 安装",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "3.3.1.1地基",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "安装机床应首先选择一块平整的地方，然后根据第3.1节的规定安装环境进行安装，根据地基图决定安装空间。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "占地面积包括机床主机本身的占地和附属设备占地。此要求已在地基图中作了规定。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "3.3.1.2临时水平调整 ",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "1）吊起机床，将地脚螺钉放入调水平地脚垫铁孔中。2）然后将机床慢慢地放下，让地脚螺栓按地基图的规定穿过调整垫铁并进入床身底部的地脚螺栓孔中。3) 从吊杠中取出吊绳。4) 将楔铁打入床身的下面进行临时性水平调整，做到粗调平。5) 完成调整后，用水泥将地脚螺栓固定。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "3.4 内部装置连接的检查",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "完成调水平工作后，开机前要检查下列各项：",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 确保地线连接无误。  \n$\\bullet$ 拧紧终端连接的螺钉。  \n$\\bullet$ 重新检查各连接器是否接紧。  \n$\\bullet$ 确保继电器和计时器连接正确。  \n$\\bullet$ 确保计时器和其它仪表所设定的数值准确无误。  \n$\\bullet$ 确保NC 装置中的印刷线路板牢固无松动。  \n$\\bullet$ 检查并确保输入电源相序正确。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "3.5 操作前的检查",
+        "text_level": 1,
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "完成内部装置连接后，应按以下规定对机床的机械系统和电气系统加以检查。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "机床检查",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "机床各部有无损坏  \n有无遗失零件或附件  \n润滑油、液压油、冷却水、冷却液是否已供到机床各个部位  \n液压管路和气动管路是否全部接好  \n供气气源是否满足本机床的使用要求",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "接通电气前后的电气系统检查：参看第2部分安全须知。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 机床处于长期停机状态下的注意事项：机床安装后或机床长期停机后重新开动机床时，应先手动启动润滑泵若干次，使滑动表面有充分润滑油。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 安装、运输、包装卸下的零件。机床安装以后，应将那些用于吊运机床的板、螺栓及其它物品卸下后保存好。■ 应将那些为了包装而卸下的并分开包装的附件安装到原来位置上。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "清洁 ",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "为了防锈，机床的滑动表面和一些金属件表面已涂上了一层防锈剂。在运输过程中土、灰尘、砂粒和脏物等很可能进入防锈涂层中，所以，一定要将各部分上的防锈涂层清理干净，否则不能开动机床。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "在清理时，用经过处理的油将抹布浸湿，擦掉防锈剂，擦净后在每个滑动部件上加一薄层润滑油。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "[注]: ",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "在清理时，要注意防止脏油进入机床内。  \n用过的废油布应投入规定的地方。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 将电源接至主电源开关上。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "打开机床电箱门，将电源的连接器接到电箱底板上，将主电源线直接接到电箱里面的主电源接线台上，并接好地线。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "3.6 床身水平的最终调整",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "地脚孔中的水泥固化后，用调整垫铁重新调整水平。  \n床身水平的检查项目及允差，见机床的合格证。  \n水平调整合格后，应将地脚螺栓与床身地脚孔牢牢地拧紧，以确保水平不变。所用水平仪最小刻度为 $0.02\\mathrm{mm}/1000\\mathrm{mm}$ 0",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "3.7 安装后的维护及内部装置连接的检查",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "为了长期地保持机床的精度及保证机床处于正常的良好工作状态，必须对机床给予适当的维护。认真地观察机床的工作状态，定期检查和及时地更换磨损件能够防止机床产生意外的故障。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "3.7.1 安装最初阶段的维护 ",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "机床安装后的最初阶段，由于地基地面的变化和地基不稳定的固化等因素，床身水平会有明显的变化。这会严重地影响机床精度。另一方面，由于最初的磨损等原因，机床极易受到污染，诱发机床故障。为了长期地保持机床的精度及保证机床处于正常的良好工作状态，必须对机床给予适当的维护。认真地观察机床的工作状态，定期检查和及早地更换磨损件能够防止机床产生意外的故障。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "机床安装的最初阶段维护保养措施如下：",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 试车",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "机床安装完成后，一定要非常谨慎地试车。试车时间约为80小时，在整个试运转期间不应使",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "用大负荷试车。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 检查最初阶段床身水平情况 ",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "安装后的6个月内，至少每个月检查一次床身水平和地基。如果发现不正常的现象，应及时调整以确保达到床身的水平精度要求。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 6个月后，可视情况变化适当地延长检查周期，待变化稳定到一定程度，一年可进行一次或二次的定期检查。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "3.7.2 检查内部装置的连接情况",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "检查NC装置、主机、液压装置、控制板及其它装置，确保它们的电气连接正确。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 连接器有无松动  \n各装置间的相互电气连接是否正确，检查每个连接点是否出现松动，若有松动应拧紧。$\\bullet$ 接线端螺钉是否松动  \n检查机床接口和控制板上的电气设备的接线端的螺钉，如有松动，将其拧紧。  \n$\\bullet$ 检查微型开关上的接线端子的螺钉和安装螺钉有无松动，如有将其拧紧。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "3.7.3 检查电气控制板",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "检查电气控制板之前，一定要先关闭机床的电源。然后对各部加以检查。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 接线端螺钉和焊接件",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "检查每一个电气设备上的端子螺钉，如有松动应拧紧，对继电器板上的焊接件应用手轻轻地拉动以确认其是否焊牢。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 消弧器",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "检查每个消弧器，如有变色，应及时更换。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 清理",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "如果电气控制板内有灰尘、切屑、脏物或相类似的杂物会引发故障，应细心地清除。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 如果空气过滤网变黑，说明已受污染。应该拆下用水轻轻地加以清洗。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "3.8 机床占地面积及地基图（见图4) ",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/2c4503038b3c3586514799f3d813d876bb2f290431d494534b88729660b596cc.jpg",
+        "img_caption": [
+            "图4机床占地面积及地基图"
+        ],
+        "img_footnote": [],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "4机床的技术参数",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "4.1 技术参数说明",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "本车铣加工中心选用国产广数GSK988-TD数控系统。",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "4.2 技术参数表",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/8b223709f535002936a64502ada335422fb409b6bbbdca32230cd65e2e0ce081.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td></td><td></td><td></td><td></td></tr><tr><td>项目</td><td>单位</td><td>规格</td><td>备注</td></tr><tr><td colspan=\"4\">基本规格参数：</td></tr><tr><td>床身上最大回转直径</td><td>mm</td><td>Φ720</td><td></td></tr><tr><td>最大加工直径</td><td>mm</td><td>500</td><td></td></tr><tr><td>最大车削长度</td><td>mm</td><td>1000</td><td></td></tr><tr><td>X轴行程</td><td>mm</td><td>-20/+520</td><td></td></tr><tr><td>Y轴行程</td><td>mm</td><td>-100/+150</td><td></td></tr><tr><td>Z轴行程</td><td>mm</td><td>1200</td><td></td></tr><tr><td>B轴转角</td><td>。</td><td>-100°/+100°</td><td></td></tr><tr><td colspan=\"4\">车削电主轴（主传动）参数：</td></tr><tr><td>车削主轴功率 (额定)</td><td>kW</td><td>22</td><td></td></tr><tr><td>车削主轴扭矩 (最大)</td><td>N. m</td><td>340</td><td></td></tr><tr><td>车削主轴最高转速</td><td>r/min</td><td>2000</td><td></td></tr><tr><td>车削主轴通孔直径</td><td>mm</td><td>80</td><td></td></tr><tr><td>车削主轴头型号</td><td></td><td>A2-8</td><td></td></tr><tr><td>卡盘直径</td><td>mm</td><td>Φ254</td><td></td></tr><tr><td>C 轴最小编程增量</td><td>。</td><td>0.001</td><td></td></tr><tr><td colspan=\"4\">铣削电主轴（刀具主轴）参数：</td></tr><tr><td>铣削主轴功率 (额定)</td><td>kW</td><td>11</td><td></td></tr><tr><td>铣削主轴扭矩 (额定)</td><td>N. m</td><td>145</td><td></td></tr><tr><td>铣削主轴锁紧扭矩</td><td>N. m</td><td>1000</td><td></td></tr><tr><td>铣削主轴最高转速</td><td>r/min</td><td>4000</td><td></td></tr><tr><td colspan=\"4\">B轴参数：</td></tr><tr><td>B轴功率 (额定)</td><td>kW</td><td>1.5</td><td></td></tr><tr><td>B轴扭矩 (最大)</td><td>N. m</td><td>696</td><td>用于插补加工</td></tr></table></body></html>\n\n",
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/4dcafd2fdcc22b4f6ea6ab54629114a53f6120fa807fcd30b0a65cfac4382a91.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>B轴锁紧扭矩</td><td>N. m</td><td>1200</td><td>用于固定角度加工</td></tr><tr><td>B 轴最高转速</td><td>r/min</td><td>20</td><td></td></tr><tr><td>最小编程增量</td><td>。</td><td>0.001</td><td></td></tr><tr><td colspan=\"4\">伺服进给轴参数：</td></tr><tr><td>X 轴快移速度</td><td>m/min</td><td>15</td><td></td></tr><tr><td>Y轴快移速度</td><td>m/min</td><td>12</td><td></td></tr><tr><td>Z1轴快移速度</td><td>m/min</td><td>15</td><td></td></tr><tr><td>各进给轴最小编程增量</td><td>mm</td><td>0.001</td><td></td></tr><tr><td colspan=\"4\">机床其它配置参数：</td></tr><tr><td>刀具存储能力</td><td>把</td><td>36</td><td></td></tr><tr><td>最大刀具长度</td><td>mm</td><td>300</td><td></td></tr><tr><td>最大刀具直径</td><td>mm</td><td>Φ60</td><td></td></tr><tr><td>最大刀具重量</td><td>kg</td><td>8</td><td></td></tr><tr><td>刀具接口形式</td><td></td><td>HSK 63A</td><td></td></tr><tr><td>电压</td><td>V</td><td>380V± 10%</td><td></td></tr><tr><td>电流</td><td>Hz</td><td>50Hz±1%</td><td></td></tr><tr><td>总用气量</td><td>L/min</td><td>500</td><td></td></tr><tr><td>用电总功率</td><td>Kw</td><td>80</td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "4.3 主轴功率扭矩图",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "4.3.1 主轴功率—转速图",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "广数公司的ZJY265A-22BM电机的功率—转速图",
+        "page_idx": 25
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/c2c00c0b1c93e93165b69880fe383890dac4dc8c9bb7c1d73baf64128b961950.jpg",
+        "img_caption": [
+            "图5电机特性曲线图"
+        ],
+        "img_footnote": [],
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "电机特性曲线说明（见图5和图6)：",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "曲线S1额定输出功率 $22\\mathrm{kW}$ ，此时额定输出力矩为 $140\\mathrm{N.m}$ o曲线 S2 为30分钟最大功率曲线，此时最大功率为 $30\\mathrm{kW}$ ，最大力矩为 $165.5\\mathrm{N.m}$ 8",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "4.3.2 主轴扭矩一转速图(见图6) ",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/8dc2027028ba32dd4d77e9a9ce332f78814d0c47103062bc44db4594cc645bec.jpg",
+        "img_caption": [
+            "图6扭矩一转速图"
+        ],
+        "img_footnote": [],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "4.4 主轴头联接尺寸图",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "主轴法兰盘联接尺寸(见图7)",
+        "page_idx": 26
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/a8c5aee7fb803cc94344e8da0d7a442510cc1aa8d5d9aa1cdab1e97386a057b8.jpg",
+        "img_caption": [
+            "图7主轴法兰盘结构图"
+        ],
+        "img_footnote": [],
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "5机床结构",
+        "text_level": 1,
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "5.1 机床布局 (见图8）",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "正面",
+        "text_level": 1,
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/204a4eb02679e910c120f5345de57202a3e273587b7f8554cb24dd381aa41c96.jpg",
+        "img_caption": [
+            "后面"
+        ],
+        "img_footnote": [],
+        "page_idx": 27
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/caec287bea70b31adda5fff02f6b6a9663bb7591b3367b75dcfc37f8cbfddb7c.jpg",
+        "img_caption": [
+            "图8机床外观图"
+        ],
+        "img_footnote": [],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "5.2 机床的传动系统及轴承分布（见图9）",
+        "text_level": 1,
+        "page_idx": 28
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/051e6bb997eaa241aa13602534f4d5be90046df6bf837e027b647d98527f141a.jpg",
+        "img_caption": [
+            "图9机床的直线轴传动系统及轴承分布图"
+        ],
+        "img_footnote": [],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "5.3 机床部件简介",
+        "text_level": 1,
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "5.3.1 床头",
+        "text_level": 1,
+        "page_idx": 28
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/dbddc161483877f1a0efacf49c7758be71273f35124f028bc9b69201360419e2.jpg",
+        "img_caption": [
+            "图10床头结构示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "本机床车削主轴采用皮带驱动，最高转速 $2000\\mathrm{r/min}$ ，通过编码器直联结构进行角度速度反馈，",
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "保证车削主轴的高动态特性；车削主轴后端布置高低压液压控制的车削主轴任意位置锁紧机构，保证了工件任意角度定位进行铣、钻加工时的锁紧刚性，并为C轴插补加工提供减振阻尼，主轴结构紧凑，布局合理，具有刚性好，回转精度高等优点。",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "车削主轴具有C轴功能，能与其它线性轴进行插补加工，C轴功能通过系统功能来实现。",
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "5.3.2 尾台",
+        "text_level": 1,
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "5.3.2.1尾台结构",
+        "text_level": 1,
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "本机床的尾台采用上、下分体斜挂式，这种方式便于装配和调整；尾台套筒由液压驱动，尾台套筒直径为 $\\Phi\\:120\\$ ，行程为140，可参加编程，并配有顶紧发信号装置，安全可靠；套筒内装有活主轴，选用死顶尖即可，顶尖为M5，活主轴的轴承采用我厂数控车床的配置方式，是经大批量生产检验过的。这样配置方式刚性好，承重大。",
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/e89a26448968f2236e1aa6b6c361635e143198079998cc33f1c1469d16d52852.jpg",
+        "img_caption": [
+            "图11尾台结构示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "5.3.2.2尾台移动",
+        "text_level": 1,
+        "page_idx": 29
+    },
+    {
+        "type": "text",
+        "text": "尾台的移动是通过床鞍拖动来实现的，可参与机床编程控制；移动时，滑鞍移动到位后，行程开关发信号，液压插销伸出，尾台锁紧底板松开，尾台与床鞍联接，由床鞍带动到指定位置，液压插销后退，液压底板锁紧固定，进行加工。",
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/64ba82c3f28533d7021b57f762a56433c248dc1600b3eb37ff7c1841b2646360.jpg",
+        "img_caption": [
+            "图12尾台移动结构示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "5.3.3 卡盘 ",
+        "text_level": 1,
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "卡盘安装在主轴前端面的法兰盘上（见图13)，旋转油缸装于主轴的后端，两者通过拉杆连接起来。当旋转油缸中的活塞向前移动时，卡爪通过卡盘内部的楔形柱塞结构张开，活塞缩回时，卡爪收缩。旋转油缸由缸体、旋转组件、连接板等组成，油缸还装有“安全锁机构”能够在压力源出现问题而造成供油压力失常的情况下，维持油缸内部的固定压力。",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "卡爪的结构形式必须与所卡的工件形状相适应，为了保证卡盘安全使用，保持其高精度及使用寿命，对卡盘及油缸的使用及维护都做了一些必要的规定及限制，因此，要仔细阅读卡盘及油缸的操作、维护手册，并按手册中所要求的去做。如果用户在生产过程中，需要购买卡盘的软、硬卡爪，可以根据卡盘的型号直接向卡盘生产厂家订货，也可以与我们联系，协助用户采购。",
+        "page_idx": 30
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/c04e35633306898883c488f90c0815d8a4a0edaf781ce055a27fbceabb2ab192.jpg",
+        "img_caption": [
+            "图13卡盘结构示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "5.3.4X轴、 $\\mathbf{z}$ 轴、Y轴 ",
+        "text_level": 1,
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "HTM50100 车铣加工中心融合了车削中心与卧式加工中心的优点，采用X、Y、乙三个直线轴正交结构，加大的Y轴行程很好地扩展了机床的加工空间。立柱在床鞍上下移动形成X轴，采用伺服电机直接驱动，丝杠支撑端采用丝杠专用角接触轴承，采用一端固定，一端支撑布置结构。滑板在立柱上下运动形成Y轴，丝杠支撑为一端固定，一端浮动。滑鞍由伺服电机驱动，左右移动形成Z轴，丝杠采用预拉伸结构，保证加工精度。",
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "X 轴由伺服电机带动滚珠丝杠传动，轴承布置形式采用一端固定，一端支撑结构，采用伺服电机直接驱动丝杠，中间传递环节少，传动效率高，响应速度快，结构紧凑。",
+        "page_idx": 31
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/b1f091a8f9adb1d08a3d78d02504ff2f22a7ee6acc13faba3811019526306d55.jpg",
+        "img_caption": [
+            "图14.1X轴结构示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Z 轴由伺服电机带动滚珠丝杠传动，轴承布置形式采用一端固定，一端支撑结构，丝杠采用预拉伸结构，能保证加工精度；采用伺服电机直接驱动丝杠，中间传递环节少，传动效率高，响应速度快，结构紧凑。",
+        "page_idx": 31
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/99534f418618602b328715d110ac601ac1ec447d4c3f27245091a1cf32f2da15.jpg",
+        "img_caption": [
+            "图14.2Z 轴结构示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 31
+    },
+    {
+        "type": "text",
+        "text": "Y轴是绝对丫轴，安装在立柱内，并由伺服电机通过同步带轮带动驱动丝杠上下运动，轴承布置形式采用一端固定，一端浮动结构，丝杠采用预拉伸结构，能保证加工精度；Y轴配备液压锁紧机构，在进行车削加工时，能保证车削力不会传递到Y轴丝杠上，提高机床整机刚性。",
+        "page_idx": 31
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/5eed42f94cf61ca9cb6c0e979b038931686a4272c342c3292567cb7a2122d10d.jpg",
+        "img_caption": [
+            "图14.3Y轴结构示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "5.3.4.1返零原则 ",
+        "text_level": 1,
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "在铣头移动范围内，有一个叫机床零点的参考位置。NC 装置确立的机床座标系，将这个机床零点作为参考点，用以控制刀具的位移。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "HTM50100车铣中心的三个直线进给轴的伺服电机和各个旋转进给轴均采用绝对编码器形式，调好机床三个直线进给方向的零点后，NC装置能够保存该零点位置，所以接通NC 装置电源后，不必进行“零点返回操作”",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "如果因为某种原因引起机床零点位置变化，则应将零点重新调整到正确位置。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "5.3.4.2刀具设定",
+        "text_level": 1,
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "操作者编程时，可把机床零点作为参考点来进行。这种编程方式使用起来不太方便。操作者可根据G50设定工件座标系来进行编程，相关内容请参考系统操作手册。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "5.3.4.3Z轴偏置",
+        "text_level": 1,
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "在实际编程中，将加工后工件的右端面设定为参考点，称之为“加工程序零点”。乙轴偏置是指参考程序零点和加工程序零点之间的距离，通过“Z座标偏置”将这个值输入到NC 装置中，工件座标系统的参考点就从参考程序零点移到了加工程序零点。",
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "5.3.5 刀具检测装置",
+        "text_level": 1,
+        "page_idx": 33
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/60ace62738138dae71f63844bba6d3c26d01f32fdd5b4bf071100cf98c7fee80.jpg",
+        "img_caption": [
+            "图15刀具检测装置示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "刀具检测装置用来检测及确定刀盘上各刀具刀尖点位置及自动补偿刀具的磨损(见图15)。",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "本机床可选配雷尼绍/波龙刀具检测系统，具有检测精度高，操作方便等特点。可实现快速、精确且自动的刀具设定和识别。持续监控刀具数据，避免因刀具磨损和刀具破损对后续刀具和工件造成损失。刀具检测装置固定在床头箱上，测量时，刀尖移过来与传感器接触，即可检测出刀尖位置。",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "刀具检测装置的参数设定请参看“机床控制参数表”。",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "5.3.6 B轴系统",
+        "text_level": 1,
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "HTM50100的B轴系统具有转位速度快、重复定位精度高、许用扭矩大等特点，大大加强了本机床的铣削的能力。B轴的功能是带动刀具主轴在 $\\pm100^{\\circ}$ 范围内摆动，B轴有以下三种工作状态：",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "（1）带动刀具主轴每 $5^{\\circ}$ 转位；",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "首先定位锁紧油缸动作将锁紧齿盘脱开，转动B轴至 $5^{\\circ}$ 的整数倍，刀具到达预定位置后B轴伺服电机停止，定位锁紧油缸动作将锁紧齿盘与定齿盘和动齿盘啮合，使刀具主轴精确定位并锁紧。",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "（2）带动刀具主轴任意位置转位",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "首先定位锁紧油缸动作将锁紧齿盘脱开啮合，转动B轴，刀具到达预定位置后B轴伺服电机停止，任意位置锁紧油缸动作将B轴锁紧，使刀具主轴在任意位置定位并锁紧。",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "（3）带动刀具主轴做插补运动",
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "首先定位锁紧油缸动作将锁紧齿盘脱开啮合，任意位置锁紧油缸动作将B轴松开，B轴伺服电机带动铣头在 $\\pm100^{\\circ}$ 范围内摆动，实现插补加工。",
+        "page_idx": 33
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/eaaf1d3b7ac16bb9af6f8e91a5cbba4f8c8dd4124af20bcfbe02ec8dac568e66.jpg",
+        "img_caption": [
+            "图16B轴结构示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "其中：1—减速机2—涨套3—B轴电机4—检测杆5—同步带轮6—轴承7—轴承 8—上盖 9—锁紧套10—外套11—立柱轴12—锁紧齿盘13—外套14—定齿盘15—动齿盘 16—中心轴套17—转台轴承18—轴承 19—中心轴 20—伞齿轮 21—齿轮22—过渡齿 轮23—齿轮 ",
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "5.3.7 刀库和换刀机械手",
+        "text_level": 1,
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "刀库由呼和刀库按我厂要求设计制作，标准配置36把刀具，最大刀具长度 $300\\mathrm{mm}$ ，装刀直径$\\Phi60\\mathrm{mm}$ ，刀具接口为HSK63A。刀库转位由伺服电机驱动，转动平稳速度快，其刀对刀的换刀时间为3秒。为了更好的掌握本机床的刀库和换刀机械手结构和换刀原理，请仔细阅读刀库和换刀机械手使用说明书，并按说明书中所要求的去做。",
+        "page_idx": 34
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/2bfc5ba58e5209af218d424858a5030d2fa1ff20b7db8c71b3027241da12416e.jpg",
+        "img_caption": [
+            "图17刀库结构示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "5.3.8 液压系统",
+        "text_level": 1,
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "HTM50100车铣中心采用先进的液压技术，实现以下的液压动作：主轴刹车、卡盘卡紧、B轴锁紧、尾台锁紧、松刀拉刀等。为了更好的掌握本机床的液压功能，请仔细阅读液压系统使用说明书，并按说明书中所要求的去做。",
+        "page_idx": 35
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/11838c704b1dbe2e6431fd8ae380b31c2d8feb07ffaa3d39b353473fd7f46ca3.jpg",
+        "img_caption": [
+            "液压站阀组"
+        ],
+        "img_footnote": [],
+        "page_idx": 35
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/9866d166778d1173dcc77c58ad05b1bdea3ce510aadfae41c4a7b0b4d5c9d485.jpg",
+        "img_caption": [
+            "图18液压系统原理图"
+        ],
+        "img_footnote": [],
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "5.3.9 气动系统",
+        "text_level": 1,
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "使用说明：本机床采用FESTO进口气动元件。主要实现：",
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "1）刀具主轴气密封，防止冷却液及铁屑溅入刀具主轴前端，影响使用性能。  \n2）刀具主轴锥孔清洁，防止换刀时刀具拉紧不可靠。  \n3）传动部件伞齿轮处的油气润滑功能。",
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "4）刀库门、外防护气动门等移动。",
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "本机床的气动系统由空气组合元件开关阀 HE-D-MINI、过滤减压阀LFR-3/8-D-MINI-MPA、气路板VABM-L1-18S-G38-3等元件组成，通过两位电磁方向阀VUVG-L18-P53C-T-G14-1P3、VUVG-L18-T32C-AT-G14-1P3等组成。",
+        "page_idx": 36
+    },
+    {
+        "type": "text",
+        "text": "空气组合元件可以充分过滤空气中的油污和水分，提高元件的可靠性和使用寿命。该组合元件具有自动排水功能，同时可以对气源进行二次调压（见图19气动系统原理图)。",
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 注意事项",
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "尼龙管切断后去毛刺插入接口内，一定要插到底即可达到连接和密封的要求。  \n拆卸气管时，用拇指将接头卡套压进，轻轻用力即可将气管拔出。  \n开机后应察看气动系统的气动压力是否正常。",
+        "page_idx": 37
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/167663c92c2d9abd93cb9e804b8b482b164845cc63388ad14895de72d95943a4.jpg",
+        "img_caption": [
+            "图19气动系统原理图"
+        ],
+        "img_footnote": [],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "5.3.10润滑系统",
+        "text_level": 1,
+        "page_idx": 38
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/3d8ff7083c765054a06f2c85a08ab43e3f292726ce57b7c967249b0858dcaa4e.jpg",
+        "img_caption": [
+            "图20润滑泵安装位置示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "采用定量卸压式集中润滑装置，由VERSAIII $\\mathrm{\\Phi(m10x1,380V)}$ 型电动稀油润滑泵给润滑系统的各个润滑点供油，油泵在设定时间内运行，系统压力随着上升，计量件开始动作供油，系统压力达到额定压力时计量件供油完毕。当油泵停止时，主管路自动卸压，使计量件复位充油，准备下次循环供油。",
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "润滑泵安装在机床床身右侧（见图20)，可根据系统实际需油量设定运行时间与间歇时间，它具有自动卸压、自动供油与油位发讯功能，并在设定时间内，系统未能达到额定压力时，能自动发讯，每次向各润滑点提供的油量由安装在管端的定量计量件加以控制，从而保证各润滑点的油量均衡。开机后应察看润滑压力是否正常。",
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "5.3.11冷却系统",
+        "text_level": 1,
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "可选配油冷机对液压站进行油温控制，油冷机为选配附件。",
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "铣削主轴冷却水分为内外水冷两部分水路；外冷用于切削加工时工件及刀具冷却机切屑的冲洗；内冷用于内冷刀具加工时冷却出水。",
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "冷却水由排屑器上的冷却泵引出后，分成两路通过管路送到铣削箱前部喷嘴及刀具内部管路，冷却水的通断通过电气控制冷却泵电机启停来实现。",
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "5.3.12排屑器",
+        "text_level": 1,
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "机床配备刮板自动排屑器，用M指令启动排屑器，用M指令停止排屑。排屑器上手动开关，可实现排屑器的手动启停及正反转设置。",
+        "page_idx": 38
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/a528714a25d7187e251d87e7f6a239f889636def1abcadf485b4057dc262fcbb.jpg",
+        "img_caption": [
+            "图21自动排屑器示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 39
+    },
+    {
+        "type": "text",
+        "text": "6机床的使用和安全防护",
+        "text_level": 1,
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "6.1 机床的使用",
+        "text_level": 1,
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "机床的启动及运行过程中的操作程序、停机操作程序、操作方法和注意事项及容易出现的错误操作和防范措施见本机床《电气使用说明书》。",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "6.2 安全防护",
+        "text_level": 1,
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "$\\blacktriangle$ 全封闭防护  \n本机床具有全封闭防护罩防护，并考虑多项安全保护措施。  \n乙轴采用多层拉式防护罩，采用左右布置式设计，使排屑方便及冷却液易于收集。",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "$\\blacktriangle$ X轴、Y轴、乙轴设有软超程保护。由于某种原因(操作失误、编程数据错误、伺服故障等)使铣头在某一方向的移动超出了限定的范围，数控系统会立即进入急停状态，发出报警并停止铣头的移动。",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "$\\blacktriangle$ 冷却泵安装在排屑器水箱上，具有多层过滤，使冷却液得到了充分的净化，避免冷却回路堵塞。",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "$\\blacktriangle$ 机床电气设计符合GB5226.1电气标准。电路的动力回路，均有过流、短路保护，机床相关动作都有相应的互锁，以保障设备和人身安全。",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "$\\blacktriangle$ 电气系统具有自诊断功能，操作及维修人员可根据指示灯及显示器等随时观察到机床各部分的运行状态。",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "$\\blacktriangle$ 电气柜",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "电气柜标准配置采用全封闭式，用空调器散热，并在电气柜内预留一定空间以便于扩展功能。",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "意外断电或发生故障时的保护",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "当机床遇到外部突然断电或自身故障时，由于控制电路的特殊设计，机床可动进给轴，冷却电机等如已在“启动”状态者，将进入“停止”状态；如已在“停止”状态的则不可自行进入启动状态，确保了机床的安全。另外由于机床计算机内的控制程序是“固化”在芯片中的，而零件加工程序是由电池供电保护的，所以，意外断电或故障时，不会丢失计算机内存储的程序菜单。",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "$\\blacktriangle$ 机床具有报警装置及紧急停止按钮，可防止各种突发故障给机床造成损坏。由于软件的合理设计，报警可通过显示器显示文字及报警号，通过操作面板的指示灯指示；机床根据情况将报警的处理方式分为三类：对紧急报警实行“急停”；对一般报警实行“进给保持”；对操作错误只进行“提示”。",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "6.3 设置必要的安全警告标牌",
+        "text_level": 1,
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "本机床尽管采取了诸多安全防护措施，但仍存在一些潜在的、不明显的危险，为提示操作者，本机床设置了必要的安全警告标牌。安全警告标牌有：安全说明标牌、防护门警告标牌、主轴警告标牌以及当心触电标牌等。",
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "7检查与维修 ",
+        "text_level": 1,
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "7.1 常规检查",
+        "text_level": 1,
+        "page_idx": 41
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/0fe466c00b54bf79122b82d03b1a420c12455919babbf4adbd122a3684ff8404.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>序号</td><td>检查位置</td><td>检查项目</td><td>备注</td></tr><tr><td></td><td>润滑部位的油位表</td><td>● 是否有足够的油量？ ● 油是否明显地污染？</td><td>如果油量不足，请增添。</td></tr><tr><td>２</td><td>冷却液面</td><td>● 冷却液面是否合适？ 冷却液是否有明显的污染？ ● 油盘过滤网是否堵塞？</td><td>必要时应增添</td></tr><tr><td>３</td><td>导轨</td><td>：● 润滑油是提充足？</td><td></td></tr><tr><td>4</td><td>压力表</td><td>：● 压压不？</td><td>5MPa</td></tr><tr><td>5</td><td>管路、机床外观</td><td>是否有油泄露？ 是否有气泄露？ ● 是否有冷却液泄露？</td><td></td></tr><tr><td>６</td><td>电机、刹车盘及其它- 些旋转件</td><td>● 是否有噪声和振动？ ● 是否出现不正常的发热现象？</td><td></td></tr><tr><td>7</td><td>移动部件</td><td>●● 是是声和振动常？</td><td></td></tr><tr><td>8</td><td>操作盘</td><td>：● 开关和手柄的功能是否正常？</td><td></td></tr><tr><td>9</td><td>安全装置</td><td>功能是否发挥正常？</td><td></td></tr><tr><td>10</td><td>冷却风扇</td><td>● 电箱、液压站的风扇转不转？</td><td></td></tr><tr><td>11</td><td>外部电线、缆线</td><td>● 有无断线处？ ● 绝缘包皮有无破损？</td><td></td></tr><tr><td>12</td><td>清理</td><td>● 清理卡盘表面、铣头和导轨防护板并 清除切屑</td><td>在结束工作时进行</td></tr><tr><td>13</td><td>卡盘润滑</td><td>● 用油脂喷嘴润滑主卡爪</td><td>按卡盘说明书进行</td></tr><tr><td>14</td><td>机床的加工精度</td><td>● 机床的加工精度是否保持在规定的 要求之内？</td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "7.2 定期检查",
+        "text_level": 1,
+        "page_idx": 42
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/625dee973909ca060e1f051b9d5432c30ae9d442fd8c19ee1e7f55d43e0bbe01.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>序号</td><td colspan=\"2\">检查部位</td><td>维修项目</td><td>间隔</td></tr><tr><td>１</td><td>液压系统</td><td>液压装置 管接头</td><td>● 更换液压油，清理过滤器和磁铁等 ● 漏油检查</td><td>6个月 6个月</td></tr><tr><td>２</td><td>润滑系统</td><td>润滑装置 管路</td><td>清理滤油器 ● 检查管路是否漏油，堵塞和破裂</td><td>一年 6个月</td></tr><tr><td>３</td><td>冷却泵</td><td>水箱水泵</td><td>● 清理过滤器 ● 更换冷却液，清理水箱</td><td>适时进行 适时进行</td></tr><tr><td>4</td><td>铣削主轴</td><td>声音，振动，温 升，绝缘电阻</td><td>● 检查轴承等处的不正常声音，不正常的振 动和温升情况 ● 测量绝缘电阻值，检查是否存在低值</td><td>一个月 6个月</td></tr><tr><td>５</td><td>X轴、Y轴、 乙轴、B轴</td><td>声音，振动和温 升</td><td>● 检查轴承等处的不正常声音，不正常的振 动和温升情况</td><td>一个月</td></tr><tr><td>６</td><td>卡盘</td><td>转油缸</td><td>：● 拆转并将卡内的切屑清理出去</td><td>个月</td></tr><tr><td>7</td><td>操作盘</td><td>电气装置及接 线螺钉</td><td>● 检查电气装置是否有异味，变色；连接面 是否有磨损以及连接螺钉的松紧情况</td><td>6个月</td></tr><tr><td>8</td><td>内部装置的连 接</td><td>控制箱，机床等 各装置间的电 气连接</td><td>● 检查并紧固继电器等接线螺钉 ● 检查并重新紧固继电器等接线端子上的 螺钉</td><td>6个月</td></tr><tr><td>9</td><td>电气装置</td><td>限位开关 传感器电磁阀</td><td>检查并重新紧固安装螺钉和接线端子螺 钉 ● 通过具体的操作检查其功能和动作情况</td><td>6个月 1个月</td></tr></table></body></html>\n\n",
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "7.3 润滑、液压、冷却装置的检查与维修",
+        "text_level": 1,
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "7.3.1 润滑表",
+        "text_level": 1,
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "各部润滑，应按规定提供适量的润滑油，并按下列润滑表（见图22）规定进行。",
+        "page_idx": 42
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/79d635d39fc65429d06a8688c7a8c861c632e842dd33164c680d52754e2dab4d.jpg",
+        "img_caption": [
+            "图22润滑图表"
+        ],
+        "img_footnote": [],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "7.3.2 导轨及丝杠润滑装置的主要维修项目",
+        "text_level": 1,
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 加油",
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 滤油器的清理或更换 ",
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "$\\overline{\\bullet}$ 清理或更换油箱中的滤油器应每年进行一次。从油箱中取出油泵时就会看到滤油器，取出泵后，不要忘记对油箱内部的清理。",
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "■确保每个润滑点都得到润滑油，如果某一点没有供到润滑油的话，可能是因为润滑油路漏油或管端计量件堵塞，堵塞的计量件不能再用，应更换新的计量件。",
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "润滑油回收 ",
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "润滑导轨及丝杠的润滑油，一部分沿床身防护板流至冷却液箱中，一部分流至床身回油槽内。",
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "7.3.3 脂润滑部分",
+        "text_level": 1,
+        "page_idx": 43
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/495a086dbb9b78cce3502e61ba89f68534150a93080abd86d3e9326a92fa0c8b.jpg",
+        "table_caption": [
+            "注1：大修时提供"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>件名及型号</td><td>推荐用油脂</td><td>油脂量</td></tr><tr><td>主轴、尾座、丝杠等轴承</td><td rowspan=\"3\">高速主轴轴承润滑脂</td><td>适量（空间体积的15%)</td></tr><tr><td>轴上的“O”型环槽</td><td>适量 (注1)</td></tr><tr><td>卡盘</td><td>按说明书要求进行</td></tr></table></body></html>\n\n",
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "注意：要按规定的油脂量注入轴承及其它部位，因为油量的多少会影响轴承的使用寿命。",
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "7.3.4 冷却装置",
+        "text_level": 1,
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "水箱的维修内容如下：冷却液液面  \n一般情况下，冷却液液量为：350升。  \n$\\bullet$ 冷却液添加及更换",
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "当冷却液喷嘴喷出的液量减少时，应立即检查冷却箱中的液面及过滤装置，若发现冷却液不足，应该添加冷却液，并使液面超过冷却泵吸入口，如果过滤器堵塞，及时清理过滤器，如果冷却液太脏了，应将箱内的全部冷却液换掉，同时还应将冷却箱内部加以清理。",
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "当冷却液喷嘴喷出的液量减少时，还应检查冷却管路中的各接头处是否漏水，若漏水应及时更换管接头。",
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 冷却箱中过滤器及过滤网的清理。 ",
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "过滤网：取下冷却箱中过滤网清洗或更换。 ",
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "过滤器：打开过滤器，清理里面的滤网或更换。",
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "7.4 机床的调整与维修 ",
+        "text_level": 1,
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "7.4.1 主轴箱 ",
+        "text_level": 1,
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "本机床的主轴系统为单主轴结构，带有C轴分度功能。主轴后端装有刹车盘，液压钳，进行刹车制动及带阻尼加工；在主轴后端同时装有高分辨率绝对式编码器等，实现主轴转速及角度等参数读取，实现机床零件加工功能。",
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "7.4.1.1C 轴刹车",
+        "text_level": 1,
+        "page_idx": 44
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/40afaa24da7bc7c92b33a4b2263fc18a9fd9896977d06d53941300a11527b751.jpg",
+        "img_caption": [
+            "图23刹车盘安装示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "在钻孔、攻丝等加工过程中电主轴用电刹车提供的力偶矩较小，可能使电主轴产生抖动，影响",
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "加工质量，为防止类似情况发生，在主轴上增加刹车装置（见图23)。",
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "刹车盘还起到一种低压阻尼作用，当电主轴切换到C轴功能时，C轴转速较低，进行插补加工时，可能会发生抖动，我们在电主轴的刹车盘上加上一个较小的力偶矩，对主轴的运动起到一种阻尼作用，得到较好的加工效果。",
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "7.4.1.2位置编码器的调整",
+        "text_level": 1,
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "位置编码器出厂时已调整完毕，用户无需再行调整。",
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "7.4.1.3液压系统冷却温度的调整(选配）",
+        "text_level": 1,
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "入水口温度控制在大于等于室温。  \n请详见冷却机使用说明书，并按说明书中所要求的去做。",
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "7.4.1.4主轴位置精度的调整",
+        "text_level": 1,
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "土山前红灯。囚此，儿须用尸目丹做炯，如木囚大的哑狸或兵匕原囚使土失去精度不得不去调整主轴的话，请按以下规定的步骤进行调整：",
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "1）将一个长 $300\\mathrm{mm}$ 、直径 $100\\mathrm{mm}$ 的圆棒（试验件）装到卡盘上。2）将实验件切圆。3）用千分表测量其圆柱度（图24中A、B两点)。4）将千分表放在实验件的B处，使其读数为零。5）松开主轴箱上的紧固螺钉。6）用装在主轴箱侧端的调整块两侧的调整螺栓进行主轴中心线的调整。调整时，先松开一侧累栓，拧动另一侧螺栓，使主轴箱移动。如果试验件自B处尺寸较大，移动主轴箱使主轴靠进表的触头；如果B处尺寸较小，则移动主轴箱使主轴远离表的触头。要根据千分表读数仔细调整。7）主轴中心线调整完毕后，紧固主轴箱固定螺钉，然后拧紧两个调整螺栓，由于拧紧螺栓过程中，主轴中心线有可能发生变化，所以应观察千分表，仔细紧固螺栓。8）上述过程结束后，进行圆柱车削。其圆柱度应在规定的公差之内。如超出规定，应重复 3)\\~8)步骤，直到合格为止。",
+        "page_idx": 45
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/d4afcc854794dbee9e168e087d71df4cfed6b62b67c90d137578342281ac1c6d.jpg",
+        "img_caption": [
+            "圆柱度允差按合格证规定为200长度上： $0.01\\mathrm{mm}$ 0",
+            "图24主轴中心线调整示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "7.4.2 卡盘 ",
+        "text_level": 1,
+        "page_idx": 46
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/2ce00ef9ddc7daa7dc24f4220609861a9f7cd004d8c05688fb73b8f60c1a19b3.jpg",
+        "img_caption": [
+            "图25卡盘结构示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "卡盘的拆装与清理（见图25）",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "为了保持卡盘的精度，卡盘润滑工作很重要。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "使用润滑油枪，每日一次的向卡盘底爪油嘴注油。注油后用风枪或类似的工具清洁卡盘体及底爪导轨面。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "卡盘长期工作后，在其内部会积一层细屑，易引发底爪行程不到位等一系列故障，应根据“定期检查”一节，将卡盘从主轴上卸下，至少每6个月一次，如果车削铸铁，每2个月至少一次或多次卸下卡盘，做彻底的清理。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "1) 从主轴上卸下卡盘。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 使底爪闭合（底爪推向卡盘体中心方向)，机床停电，取下卡爪。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 将卡盘端部的外盖拆下。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "用铰链或类似的工装支持卡盘。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "用卡盘专用扳手转动连接螺钉，使其与拉杆分离。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 将卡盘固定螺钉松开，取下卡盘。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "2）卡盘的清理，请详见“卡盘操作，维护手册”。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "3）在主轴上安装卡盘。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 用液压油向前移动油缸活塞（卡盘压力调整在 $0.4{\\sim}0.5\\mathrm{MPa},$ 。$\\bullet$ 支持住卡盘拧入连接螺钉，将卡盘拉杆连接起来$\\bullet$ 用固定螺钉将卡盘固定在主轴法兰盘上。$\\bullet$ 拧动连接螺钉，使卡爪外端面与卡盘体一致。",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "4）卡盘的拆卸与清理详见“卡盘操作，维护手册” ",
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "7.4.3 机床零点",
+        "text_level": 1,
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "7.4.3.1返回零点操作",
+        "text_level": 1,
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "在铣头运动范围内，有一个叫“机床零点”的参考位置。NC 装置建立的座标系，就把这个机床零点做为参考点，用以对铣头的定位进行控制。该车铣中心的三个直线进给轴的AC 伺服电机均采用绝对编码器形式，调好机床三个直线进给方向的零点后，NC 装置能够保存该零点位置，所以接通NC装置电源后，不必进行“零点返回操作”。该车铣中心的B轴和C轴也都采用绝对式编码器形式，不必进行“零点返回操作”。",
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "除非编码器输入轴与滚珠丝杠的相关位置发生变化，否则，机床的零点位置设定好后就永远不会变化。",
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "7.4.3.2机床零点的重新设定",
+        "text_level": 1,
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "当编码器输入轴与滚珠丝杠之间的相关位置发生变化时，例如，当弹性连轴节被重新调整后或机械挡块因某种原因移动时，机床零点将不在原来的位置上，这种情况下，要按以下步骤重新确定机床零点。",
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 47
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/d18c7687d45ca3114c0484be7e531b66603a0347eb0aadcf26907a012422aa38.jpg",
+        "img_caption": [
+            "图26X轴零点设定示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "1）将千分表放在主轴端部，压向安装在刀具主轴的检棒上，指针调为“0”。",
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "2）将“0”输入到零点移动值参数。  \n3）旋转主轴，调整X轴坐标，使多位置测量的千分表读数平均值在0\\~0.01范围内。  \n按下操作板上的返零键。  \n5）向 ${\\bf\\Sigma}^{\\omega}+\\bf{\\Sigma}^{\\prime\\prime}\\Sigma{\\bf{X}}$ 方向移动铣头，位置值变为“0\"。  \nX轴零点设定完成。  \n$\\bullet$ Y轴零点确定及设定步骤",
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "方法同X轴零点设定。",
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "1) 将千分表放在主轴端部，压向安装在刀具主轴的检棒上，指针调为“0”。  \n2）将“0”输入到零点移动值参数。  \n3）旋转主轴，调整丫轴坐标，使多位置测量的千分表读数平均值在 $0{\\sim}0.01$ 范围内。  \n4）按下操作板上的返零键。  \n5）向 $\\ensuremath{\\mathbf{\\Sigma}}^{\\omega}+\\ensuremath{\\mathbf{\\Sigma}}^{\\prime\\prime}\\mathrm{\\boldmath~Y~}$ 方向移动铣头，位置值变为“0”。  \nY轴零点设定完成。  \n$\\bullet$ 乙轴零点确定及设定步骤1）将铣头在乙轴方向上移动一定距离，测量刀具与卡盘端面的距离，直到测量的值接近$200\\mathrm{mm}$ 即可。  \n2）按下操作板上的返零键。  \n3）向 $\\ensuremath{\\mathbf{\\Sigma}}^{66}+\\ensuremath{\\mathbf{\\Sigma}}^{9}\\ensuremath{\\mathbf{\\Sigma}}Z$ 方向移动铣头，位置值变为“0”。  \nZ轴零点设定完成。  \n各轴零点具体设定方法可见《电气使用说明书》。",
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "7.4.4 间隙 ",
+        "text_level": 1,
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "安装在X轴、Y轴、乙轴上的编码器与铣头之间因存在着如下的误差环节，诸如：丝杠与螺母之间的间隙，丝杠弯曲及某些部位的弹性变形等等，使NC 装置发出的指令值与铣头实际移动值之间产生误差。",
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "7.4.4.1间隙的补偿 ",
+        "text_level": 1,
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "如果间隙太小，轴承等类零件上就会出现过载，从而会缩短这些零件的使用寿命。此外，过小的间隙也是机床工作期间产生噪声及爬行，直接影响加工质量的原因。因此，要考虑适当加大其间隙问题。为了补偿由于上述驱动系统而产生的误差，本机床的数控装置中配置了间隙补偿器。",
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "机床出厂前，间隙补偿量已定在最佳位置上，但机床长期工作后这个补偿量也会变得不适宜。因此，要重新设定这个量。可以通过改变寄存在NC 装置内的参数来重新设定间隙补偿量。",
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "7.4.4.2间隙检测步骤（见图27）",
+        "text_level": 1,
+        "page_idx": 48
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/9e3e44d37209c9c216ebe5ff64a59f54c1d7d87def682f096524852f8f0409b2.jpg",
+        "img_caption": [
+            "图27间隙检测图"
+        ],
+        "img_footnote": [],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "1）从 $\"+\"$ 侧向“－”侧快速移动约 $50\\mathrm{mm}$ ；",
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "2）将千分表装在“ $+\\vartriangleleft$ 侧的表面上，并将指针调为“ $\\mathbf{\\boldsymbol{0}}^{\\prime\\prime}$ ，",
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "3）然后快速向“－”侧再移动约 $50\\mathrm{mm}$ 。",
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "4）向反向，即从“一”侧向“ $+^{\\prime\\prime}$ 侧快速移动与3)同样的距离 $(50\\mathrm{mm})$   \n5）读出千分表的读数，即为间隙量。",
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "7.4.5 滚珠丝杠副的主要参数",
+        "text_level": 1,
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "X轴：导程： $12\\mathrm{mm}$ 基本直径： $50\\mathrm{mm}$ 额定动载荷：68500N  \nY轴： 导程： $10\\mathrm{mm}$ 基本直径： $40\\mathrm{mm}$ 额定动载荷：61600N  \n乙轴： 导程： $12\\mathrm{mm}$ 基本直径： $50\\mathrm{mm}$ 额定动载荷：68500N",
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "7.4.6机床的其它维修 ",
+        "text_level": 1,
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 床身水平检查",
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "机床安装后的前六个月每月检查一次床身的水平情况。如水平超差，就应调到正常值。六个月后，可根据需要不定期进行检查，如果客观条件没有多大变化，一年检查一至二次即可。",
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 刮屑器的检查 ",
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "安装在每个滑动部位上的刮屑器用以防止切屑进入导轨内并保证润滑油均匀润滑。请注意：切屑和类似的东西会引起刮屑器边缘破损，所以，一旦发现刮屑器破损应立即更换。",
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 密封涂层",
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "机床在出厂前，切削区都是密封的以防止漏水。如发现漏水，应该使用标准工具涂密封胶。",
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "7.4.7 电器维修 ",
+        "text_level": 1,
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "7.4.7.1电气元件检查",
+        "text_level": 1,
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "定期检查电气元件及控制器。",
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "7.4.7.2X轴、Y轴、 $\\mathbf{z}$ 轴、B轴和刀库伺服电机检查",
+        "text_level": 1,
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "定期进行检查和维修。",
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "7.4.7.3机床各部分电气连接的检查",
+        "text_level": 1,
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "检查NC 装置，机床主机，液压装置、控制箱等各部分电气连接有无松动。  \n$\\bullet$ 连接器  \n检查各连接器的连接有无松动，如有，应重新拧紧。  \n$\\bullet$ 接线端子的螺钉  \n检查继电器和每个操作板上各电气件接线端子螺钉是否松动，如有松动，请重新拧紧。",
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "7.4.7.4控制箱的检查",
+        "text_level": 1,
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "检查控制箱时，应切断电源  \n$\\bullet$ 接线端子螺钉及焊点  \n检查电气件接线螺钉，如有松动重新拧紧，轻轻拉动继电器板上的焊接部分，检查是否焊牢。$\\bullet$ 空气开关  \n检查空气开关是否失效。  \n$\\bullet$ 消孤器  \n检查消孤器，更换变色的消孤器。  \n$\\bullet$ 清理  \n认真清理可能引发故障的灰尘和碎屑。  \n$\\bullet$ 空气过滤网  \n用水轻轻地清洗空气过滤网上的灰尘和污物。",
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "7.5 常见故障排除 ",
+        "text_level": 1,
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "7.5.1 常见故障及产生原因",
+        "text_level": 1,
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.1冷却液不能流出",
+        "text_level": 1,
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 操作板上冷却液开关设定是否正常。M指令代码是否有误。  \n$\\bullet$ 冷却泵吸入口是否完全插入冷却液中。  \n$\\bullet$ 切屑盘过滤网、过滤器和泵吸入过滤器有无堵塞。  \n$\\bullet$ 冷却泵电机是否工作。  \n$\\bullet$ 在控制板上，冷却泵电机热继电器接线是否脱落。",
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.2主轴箱异常温升 ",
+        "text_level": 1,
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 主轴箱负载过大或机械元件损坏。  \n$\\bullet$ 主轴轴承预紧力设置不适当。",
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.3X轴、Y轴和Z轴零点消失 ",
+        "text_level": 1,
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ NC装置供电电池没电。",
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.4重复定位精度不好",
+        "text_level": 1,
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 导轨润滑不适当。  \n$\\bullet$ 联轴器螺钉及涨紧套螺钉松动。",
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.5卡盘的卡爪不工作",
+        "text_level": 1,
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 调整卡紧力的减压阀设定值不正确;  \n$\\bullet$ 卡爪张开/闭合电磁阀工作不正常;  \n$\\bullet$ 脚踏开关功能失常；  \n$\\bullet$ 与脚踏开关动作相关的继电器工作不正常;",
+        "page_idx": 50
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 楔形块和卡爪没卡住。",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.6液压卡爪行程小 ",
+        "text_level": 1,
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 内部是否有大量的切屑;  \n$\\bullet$ 旋转油缸和连杆是否有松动。",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.7精加工件出现形状误差 ",
+        "text_level": 1,
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ （加工盘类件时）  \n主轴箱定心不适当（加工轴类件时）  \n尾台顶尖定心不适当  \n$\\bullet$ 是否达到了良好的安装精度。",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.8第二主轴箱或尾台不能正常移动",
+        "text_level": 1,
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 锁紧油缸是否将第二主轴箱体(或尾台)锁紧在导轨上。  \n$\\bullet$ 第二主轴箱体(或尾台)移动部分的润滑不好，会使其卡住。",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.9在X轴、Y轴、、Z轴移动时显示“伺服滞后过度”报警 ",
+        "text_level": 1,
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 连轴器松动。  \n$\\bullet$ 直线导轨有卡住现象等。  \n$\\bullet$ 滑动面润滑不好（油路堵塞)。",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.10 润滑系统",
+        "text_level": 1,
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "润滑系统无油或某些润滑点无油 ",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 油路报警是否工作正常。  \n$\\bullet$ 润滑油箱的油量太少。  \n$\\bullet$ 润滑点端部计量件失效，须换新的计量件。",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.11气动系统",
+        "text_level": 1,
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 气源压力是否符合工作要求。  \n$\\bullet$ 气动管路是否漏气。",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "7.5.2 I/O诊断显示检查",
+        "text_level": 1,
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "在设定机床零点或进行故障排除时，可以对由机床输入的信号进行DIAGNOSIS（诊断）显示检查，例如，限位开关等的ON/OFF（通/断）信号的诊断显示检查。也可以对由NC 装置向机床输出的信号进行诊断显示检查。",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "I/O（输入/输出）的检查步骤 ",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 显示DIAGNOSIS（诊断）显示。  \n$\\bullet$ 在光标处输入待诊断的地址，然后按动ENTER（输入）键。",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "例如为了检查并掌握某个具体的限位开关是关还是开时，按着上述步骤调用地址，在这个地址",
+        "page_idx": 51
+    },
+    {
+        "type": "text",
+        "text": "中，来自这个限位开关的输入信号得到显示。然后，检查并确定哪一个按相关的位数1或0被显示。",
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "7.5.3 液压系统 ",
+        "text_level": 1,
+        "page_idx": 52
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/ff0d325ee8640fd0088faae39cb08a204eec4e4914a36606b6557bd62cbbfdd3.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>故障名称</td><td>产生原因</td><td>处理方法</td></tr><tr><td rowspan=\"4\">系统压力 建立不起 来</td><td>1.变量泵的变量机构卡死在低压区</td><td>调整检修油泵的变量机构</td></tr><tr><td>2.系统中某部有严重的泄漏</td><td>仔细检查各部泄油情况</td></tr><tr><td>3.油面太低吸不上油</td><td>加油</td></tr><tr><td>4.油泵反向旋转或油泵损坏</td><td>检查电机接线及油泵</td></tr><tr><td rowspan=\"3\">噪音</td><td>1.油面太低或吸油管漏气</td><td>加油，检查吸油管密封情况</td></tr><tr><td>2.电机、油泵联轴器不同心</td><td>调整电机、油泵使之同心</td></tr><tr><td>3.油泵不良</td><td>检修或更换</td></tr><tr><td rowspan=\"2\">工作循环 不正常</td><td>1.电接点压力表调整不当或失灵</td><td>检查，调整或更换电接点压力表</td></tr><tr><td>2.电磁阀阀芯卡死或电磁铁失灵</td><td>清洗滑阀，修理或更换电磁铁</td></tr></table></body></html>\n\n",
+        "page_idx": 52
+    },
+    {
+        "type": "text",
+        "text": "8 刀具配置",
+        "text_level": 1,
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "8.1 刀具系统",
+        "text_level": 1,
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "本车铣中心配备的刀具接口为HSKA63刀具接口，用户在选刀时，请参见刀具样本自己选择，也可与我们联系协助选刀（见图28)。",
+        "page_idx": 53
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/d7da8d6765c565d0cec9bf22d6d26e4b5f895eb1448b04715714c8f75d0aa3fc.jpg",
+        "img_caption": [
+            "图28刀具系统图"
+        ],
+        "img_footnote": [],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "9附件、备件、易损件",
+        "text_level": 1,
+        "page_idx": 54
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/6a36bb63e514303bcfa1bb6c6cbd67d03b1e26bb05094d0a93b628fb93b24554.jpg",
+        "table_caption": [
+            "9.1 本机床提供的标准附件"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>序号</td><td>附件名称</td><td>型号规格</td><td>数量</td><td>备注</td></tr><tr><td>１</td><td>机床工作灯</td><td></td><td>2个</td><td></td></tr><tr><td>2</td><td>调整垫铁及螺栓</td><td></td><td>11套</td><td></td></tr><tr><td>3</td><td>冷却排屑装置</td><td></td><td>1套</td><td>沈阳机床</td></tr><tr><td>4</td><td></td><td></td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "9.2 本机床提供的选用标准附件(选配)",
+        "text_level": 1,
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "1、 卡具 随机  \n2、 刀具 随机",
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "9.3 易损件",
+        "text_level": 1,
+        "page_idx": 54
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/2003299800019263488/1e4ce7eb0013ace3d288e1fe5e615b9656aa895f1351ab41c70fdf96feebeaa1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>序号</td><td>型号</td><td>名称</td><td>数量</td><td>供货商</td></tr><tr><td>1</td><td>HTD-1952-8M-85</td><td>同步带</td><td>1</td><td>欧皮特</td></tr><tr><td>2</td><td>HTD-880-8M-30</td><td>同步带</td><td>1</td><td>欧皮特</td></tr><tr><td>3</td><td>HTD-1064-8M-40</td><td>同步带</td><td>1</td><td>欧皮特</td></tr><tr><td>4</td><td>WDA32/110410</td><td>旋转四氟组合密封圈</td><td>6</td><td>德氏封</td></tr><tr><td>5</td><td>94X3 NBR70</td><td>0型密封圈</td><td>1</td><td>德氏封</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 54
+    },
+    {
+        "type": "text",
+        "text": "厂址：沈阳经济技术开发区开发大路17甲1号邮政编码：110142售后服务电话：（024）25190623（国内）（0086-24）25132068（国外）",
+        "page_idx": 55
+    }
+]

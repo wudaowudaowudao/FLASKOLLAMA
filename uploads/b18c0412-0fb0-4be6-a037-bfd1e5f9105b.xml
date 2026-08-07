@@ -1,0 +1,86 @@
+<SpecificationCheck>
+    <CheckGroup Name="机械制图剖面区域的表示法检查" DocType="Standard">
+        <RuleItem Name="范围" CheckFun="ContentCheck_1" RepairFun="" Description="GB/T4457的本部分规定了机械图样中各种剖面符号及其画法。本部分适用于机械图样的剖视图和断面图中剖面区域表示。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="适用范围" VerType="-" Value="机械图样的剖视图和断面图中剖面区域表示"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="规范性引用文件" CheckFun="ContentCheck_1" RepairFun="" Description="下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本(包括所有的修改单)适用于本文件。GB/T 4457.4—2002机械制图图样画法图线GB/T17453—2005技术制图图样画法剖面区域的表示法" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="引用文件1" VerType="-" Value="GB/T 4457.4—2002机械制图图样画法图线"/>
+                <Rule Name="引用文件2" VerType="-" Value="GB/T17453—2005技术制图图样画法剖面区域的表示法"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="一般规定" CheckFun="ContentCheck_1" RepairFun="" Description="本部分是对 GB/T17453 的补充。在剖视图和断面图中，一般采用剖面符号填充表示剖面区域。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="补充标准" VerType="-" Value="GB/T17453"/>
+                <Rule Name="表示方法" VerType="-" Value="剖面符号填充"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="剖面符号" CheckFun="ContentCheck_1" RepairFun="" Description="常用的剖面符号如表1所示。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="符号来源" VerType="-" Value="表1"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="金属零件剖面线" CheckFun="LineCheck_1" RepairFun="" Description="在同一金属零件的图中，剖视图、断面图中的剖面线，应画成间隔相等、方向相同且一般与剖面区域的主要轮廓或对称线成45°的平行线(见图1)。必要时,剖面线也可画成与主要轮廓线成适当角度(见图2)。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="剖面线角度" VerType="-" Value="45°"/>
+                <Rule Name="剖面线方向" VerType="-" Value="相同"/>
+                <Rule Name="剖面线间隔" VerType="-" Value="相等"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="相邻辅助零件" CheckFun="ContentCheck_1" RepairFun="" Description="相邻辅助零件(或部件),不画剖面符号(见图3)。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="处理方法" VerType="-" Value="不画剖面符号"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="大剖面区域" CheckFun="ContentCheck_1" RepairFun="" Description="当剖面区域较大时，可以只沿轮廓的周边画出剖面符号(见图4)。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="处理方法" VerType="-" Value="沿轮廓周边画出剖面符号"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="无断裂边界线剖面线" CheckFun="ContentCheck_1" RepairFun="" Description="如仅需画出被剖切后的一部分图形，其边界又不画断裂边界线时，则应将剖面线绘制整齐（见图5)。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="处理方法" VerType="-" Value="绘制整齐"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="涂色或点阵代替剖面符号" CheckFun="ContentCheck_1" RepairFun="" Description="在零件图中也可以涂色或点阵代替剖面符号。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="替代方法" VerType="-" Value="涂色或点阵"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="特殊材料剖面符号" CheckFun="ContentCheck_1" RepairFun="" Description="木材、玻璃、液体、叠钢片、砂轮及硬质合金刀片等剖面符号，也可在外形视图中画出一部分或全部作为材料类别的标志（见图6）。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="材料类别" VerType="-" Value="木材、玻璃、液体、叠钢片、砂轮及硬质合金刀片"/>
+                <Rule Name="表示方法" VerType="-" Value="在外形视图中画出"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="装配图剖面线" CheckFun="LineCheck_1" RepairFun="" Description="在装配图中，相邻金属零件的剖面线，其倾斜方向应相反，或方向一致而间隔不等(见图4、图5)。同一装配图中的同一零件的剖面线应方向相同、间隔相等。当绘制剖面符号相同的相邻非金属零件时，应采用疏密不一的方法以示区别。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="金属零件剖面线方向" VerType="-" Value="相反或一致"/>
+                <Rule Name="金属零件剖面线间隔" VerType="-" Value="不等"/>
+                <Rule Name="同一零件剖面线" VerType="-" Value="方向相同、间隔相等"/>
+                <Rule Name="非金属零件处理" VerType="-" Value="疏密不一"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="接合件剖面符号" CheckFun="ContentCheck_1" RepairFun="" Description="当绘制接合件的图样时，各零件的剖面符号应按4.7的规定绘制（见图7、图8、图9)。当绘制接合件与其他零件的装配图时，如接合件中各零件的剖面符号相同，一般可作为一个整体画出(见图10)。如不相同，应分别画出。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="处理方法" VerType="-" Value="按4.7规定绘制"/>
+                <Rule Name="相同符号处理" VerType="-" Value="作为一个整体画出"/>
+                <Rule Name="不同符号处理" VerType="-" Value="分别画出"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="嵌入或粘贴材料剖面符号" CheckFun="ContentCheck_1" RepairFun="" Description="由不同材料嵌入或粘贴在一起的成品，用其中主要材料的剖面符号表示。例如，夹丝玻璃的剖面符号，用玻璃的剖面符号表示;复合钢板的剖面符号，用钢板的剖面符号表示。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="表示方法" VerType="-" Value="主要材料剖面符号"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="狭小面积剖面区域" CheckFun="ContentCheck_1" RepairFun="" Description="在装配图中，宽度小于或等于2mm 的狭小面积的剖面区域，可用涂黑代替剖面符号(见图11)。如果是玻璃或其他材料，而不宜涂黑时，可不画剖面符号。当两邻接剖面区域均涂黑时，两剖面区域之间宜留出不小于0.7mm的空隙(见图12)。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="处理方法1" VerType="-" Value="涂黑代替剖面符号"/>
+                <Rule Name="处理方法2" VerType="-" Value="不画剖面符号"/>
+                <Rule Name="空隙要求" VerType="-" Value="不小于0.7mm"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

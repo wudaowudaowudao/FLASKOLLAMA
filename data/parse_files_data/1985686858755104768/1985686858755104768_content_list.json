@@ -1,0 +1,1153 @@
+[
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T 28791—2024   \n代替GB/T 28791—2012 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "机车车辆标志 车辆及动车组",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sign of rolling stock—Vehicle and EMU/DMU ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "国家市场监督管理总局国家标准化管理委员会",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "发布",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "目次",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "前言 m1 范围  \n2规范性引用文件  \n3术语和定义  \n4标志分类 25基本要求 6制造要求 87设置要求 8附录A (资料性) 旅客服务标志 9附录B（资料性）工作管理标志 41附录C (资料性) 车外标志设置…· 76",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本文件按照GB/T1.1—2020《标准化工作导则第1部分：标准化文件的结构和起草规则》的规定起草。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本文件代替GB/T 28791—2012《铁道车辆标志》,与 GB/T 28791—2012相比，除结构调整和编辑性改动外，主要技术变化如下：",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "a) 增加了标志的术语和定义(见第3章);  \nb) 更改了标志的分类(见第4章，2012年版的第4章);  \nc) 增加了标志的总体要求(见5.1);  \nd) 增加了标志的外观和表面要求（见5.1.2、6.6、6.7）；  \ne) 增加了安全标志的要求（见5.1.3)；  \nf) 增加了有触电危险场所标志的材料要求(见6.2);  \ng) 增加了标志的设置要求（见第7章）。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "请注意本文件的某些内容可能涉及专利。本文件的发布机构不承担识别专利的责任。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本文件由国家铁路局提出并归口。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本文件起草单位：中车青岛四方车辆研究所有限公司、中国铁道科学研究院集团有限公司标准计量研究所、中车长春轨道客车股份有限公司、中车青岛四方机车车辆股份有限公司、中车唐山机车车辆有限公司、中车南京浦镇车辆有限公司、中车长江车辆有限公司、中车齐齐哈尔车辆有限公司、青岛四方阿尔斯通铁路运输设备有限公司。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本文件主要起草人：陈平、刘芷言、陈萌、徐力、王剑博、巩巧琴、邱利伟、杨泽东、雷青平、吕倩、侯立新、单宝珠、王家兴。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "本文件于2012年首次发布，本次为第一次修订。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "机车车辆标志 车辆及动车组",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "本文件规定了铁路客车、货车及动车组标志的标志分类、基本要求、制造要求与设置要求。本文件适用于铁路客车、货车及动车组旅客服务标志与工作管理标志，其他轨道交通车辆参照使用。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2规范性引用文件",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "下列文件中内容通过文中的规范性引用而构成本文件必不可少的条款。其中，注日期的引用文件，仅该日期对应的版本适用于本文件;不注日期的引用文件，其最新版本(包括所有的修改单)适用于本文件。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "GB190危险货物包装标志  \nGB/T191包装储运图示标志  \nGB/T2893（所有部分）图形符号安全色和安全标志  \nGB2894—2008安全标志及其使用导则  \nGB/T4549.1铁道车辆词汇第1部分：基本词汇  \nGB/T 4549.11 铁道车辆词汇第11部分：专用货车附属设备  \nGB/T10001.1—2012公共信息图形符号第1部分：通用符号  \nGB/T10001.3—2021公共信息图形符号第3部分：客运货运符号  \nGB/T 10001.9—2021 公共信息图形符号第9部分：无障碍设施符号  \nGB/T10478液化气体铁路罐车  \nGB13495.1—2015 消防安全标志第1部分：标志  \nGB/T 15565—2020 图形符号术语  \nGB/T 15720 中国盲文  \nGB/T 17695 印刷品用公共信息图形标志  \nGB/T 20501.1 公共信息导向系统导向要素的设计原则与要求第1部分：总则  \nGB/T 20501.2 公共信息导向系统导向要素的设计原则与要求第2部分：位置标志  \nGB/T 37333 铁道客车及动车组无障碍设施通用技术条件",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3术语和定义 ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "GB/T 4549.1、GB/T 4549.11 和 GB/T 15565—2020 界定的以及下列术语和定义适用于本文件。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.1 ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "标志sign  \n由文字、图形或特定颜色形成的传递特定信息的视觉、触觉构型。［来源：GB/T15565—2020，3.1.1，有修改]",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.2旅客服务标志passenger service sign向旅客公众传递服务、安全信息的标志。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.3 ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "工作管理标志 work management sign",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "向经过专业培训的工作人员传递信息，为工作人员标明车辆技术参数、设备位置和工作区域及有关管理信息的标志。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "4标志分类 ",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "4.1车辆标志按照使用对象可分为旅客服务标志与工作管理标志。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "4.2车辆标志按照在车上的设置位置可分为车外标志与车内标志。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "4.3标志编号宜由标志位置代码、标志类型代码和标志顺位代码构成，各代码含义如下：",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/7f3d2c08db672f04c1e295bb248a84a85b252559dfc09d16d23031c615d3db94.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "4.4旅客服务标志分类与常用位置见表1，工作管理标志分类与常用位置见表2，其他使用位置也可根据车辆具体设计要求而确定。",
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/4b5c3ee9dc5aa9cd59707b3f2b086710c10a368375b614888d5684a3a8baf8d8.jpg",
+        "table_caption": [
+            "表1旅客服务标志"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>通用位置</td><td>编号</td><td>标志名称</td><td>编号</td><td>标志名称</td><td>编号</td><td>标志名称</td></tr><tr><td>车外侧部区域 WL100～WL199</td><td>WL100</td><td>列车区间牌</td><td>WL101</td><td>外顺车号</td><td>WL102</td><td>带有无障碍设施的 车厢</td></tr><tr><td rowspan=\"10\">车内端部区域 NL200~NL399</td><td>NL200</td><td>内顺车号</td><td>NL216</td><td>禁止通行</td><td>NL233</td><td>禁止放重物15 kg</td></tr><tr><td>NL201</td><td>当心夹手1</td><td>NL217</td><td>禁止烟火</td><td>NL234</td><td>蜂鸣器</td></tr><tr><td>NL202</td><td>当心夹手2</td><td>NL218</td><td>请勿触摸</td><td>NL235</td><td>监控标识</td></tr><tr><td>NL203</td><td>小心台阶</td><td>NL219</td><td>请勿踩踏</td><td>NL236</td><td>开门1</td></tr><tr><td>NL204</td><td>当心碰头</td><td>NL220</td><td>请勿坐卧</td><td>NL237</td><td>开门2</td></tr><tr><td>NL205</td><td>紧急按钮1</td><td>NL221</td><td>紧急出口</td><td>NL238</td><td>儿童购票标准1.2 m</td></tr><tr><td>NL206</td><td>紧急按钮2</td><td>NL222</td><td>高压危险</td><td>NL239</td><td>儿童购票标准1.5 m</td></tr><tr><td>NL207</td><td>危险勿动1</td><td>NL223</td><td>注意安全</td><td>NL240</td><td>保持安静1</td></tr><tr><td>NL208</td><td>危险勿动2</td><td>NL224</td><td>紧急呼救1</td><td>NL241</td><td>保持安静2</td></tr><tr><td>NL209</td><td>紧急制动危险勿动</td><td>NL225</td><td>紧急呼救2</td><td>NL242</td><td>NC小心烫伤</td></tr><tr><td>NL210</td><td></td><td>紧急呼叫按钮</td><td>NL226</td><td>禁止吸烟</td><td>NL243</td><td>按压出水1</td></tr><tr><td>NL211</td><td></td><td>紧急开门阀</td><td>NL227</td><td>请勿吸烟</td><td>NL244</td><td>按压出水2</td></tr><tr><td>NL212</td><td></td><td>灭火器</td><td>NL228</td><td>禁止倚靠</td><td rowspan=\"2\">NL245</td><td rowspan=\"2\">电热水器按钮操作 说明</td></tr><tr><td>NL213</td><td>旅客止步</td><td>NL229</td><td>大件行李</td><td></td></tr><tr><td rowspan=\"2\">NL214</td><td></td><td rowspan=\"2\">禁止入内(非工作人员 禁止入内)</td><td>NL230</td><td>行包专用柜</td><td>NL246</td><td>一次性纸杯</td></tr><tr><td></td><td>NL231</td><td>禁止放重物</td><td>NL247</td><td>可回收垃圾</td></tr><tr><td></td><td>NL215</td><td>禁止携带危险品</td><td>NL232</td><td>禁止放重物5kg</td><td>NL248</td><td>其他垃圾</td></tr></table></body></html>\n\n",
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/fe379696847448222cb2e539ea8490d7ccabbfb2632716468ee2a6e5b7386217.jpg",
+        "table_caption": [
+            "表1旅客服务标志 (续)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>通用位置</td><td>编号</td><td>标志名称</td><td>编号</td><td>标志名称</td><td>编号</td><td>标志名称</td></tr><tr><td rowspan=\"15\"></td><td>NL249</td><td>医疗点</td><td>NL267</td><td>无障碍卫生间1</td><td rowspan=\"2\">NL287</td><td rowspan=\"2\">禁止向便器内扔 杂物1</td></tr><tr><td>NL250</td><td>出风口1</td><td>NL268</td><td>无障碍卫生间2</td></tr><tr><td>NL251</td><td>出风口2</td><td>NL269</td><td>坐便器垫圈纸1</td><td rowspan=\"2\">NL288</td><td rowspan=\"2\">禁止向便器内扔 杂物2</td></tr><tr><td>NL252</td><td>衣帽间</td><td>NL270</td><td>坐便器垫圈纸2</td></tr><tr><td>NL253</td><td>电源插座</td><td>NL271</td><td>冲水按钮1</td><td>NL289</td><td>冲水踏板</td></tr><tr><td>NL254</td><td>废物箱1</td><td>NL272</td><td>冲水按钮2</td><td>NL290</td><td>卫生间锁闭</td></tr><tr><td>NL255</td><td>废物箱2</td><td>NL273</td><td>延时冲水</td><td>NL291</td><td>锁门</td></tr><tr><td>NL256</td><td rowspan=\"2\">禁止将烟头扔进容 器内</td><td>NL274</td><td>卫生间门按钮</td><td>NL292</td><td>播音室</td></tr><tr><td></td><td>NL275</td><td>纸巾1</td><td>NL293</td><td>茶炉室</td></tr><tr><td>车内端部区域 NL257 NL200～NL399</td><td>请勿丢弃废弃物</td><td>NL276</td><td>纸巾2</td><td>NL294</td><td>锅炉室</td></tr><tr><td>NL258</td><td>请勿将杂物扔进容器</td><td>NL277</td><td>卫生纸1</td><td>NL295</td><td>洗脸室</td></tr><tr><td>NL259</td><td>请将卫生纸及杂物 扔进废物箱</td><td>NL278</td><td>卫生纸2</td><td>NL296</td><td>列车办公席</td></tr><tr><td>NL260</td><td></td><td>NL279</td><td>婴儿护理台1</td><td>NL297</td><td>吸烟处</td></tr><tr><td>NL261</td><td>干手器1</td><td>NL280</td><td>婴儿护理台2</td><td>NL298</td><td>旋转扶手操作说明</td></tr><tr><td>NL262</td><td>干手器2</td><td>NL281</td><td>婴儿护理台操作说明</td><td>NL299</td><td>翻转行李架使用说明</td></tr><tr><td>NL263</td><td>非饮用水1</td><td>NL282</td><td>洗手液1</td><td>NL300</td><td>感应门</td></tr><tr><td>NL264</td><td>非饮用水2</td><td>NL283</td><td>洗手液2</td><td>NL301</td><td>轮椅固定带</td></tr><tr><td>NL265</td><td>卫生间1</td><td>NL284</td><td>感应出水1</td><td>NL302</td><td>司机先行</td></tr><tr><td>NL266</td><td>卫生间2</td><td>NL285</td><td>感应出水2</td><td>一</td><td></td></tr><tr><td>NL400</td><td>卫生间3 请您调整座椅角度时，</td><td>NL286</td><td>禁扔杂物</td><td>一</td><td></td></tr><tr><td rowspan=\"11\"></td><td></td><td>提示后排旅客</td><td>NL411</td><td>耳机插座</td><td>NL422</td><td>温度调节</td></tr><tr><td>NL401 NL402</td><td>Wi-Fi标识</td><td>NL412</td><td>供氧设备</td><td>NL423</td><td>风量调节 音量调节</td></tr><tr><td>NL403</td><td>静音车厢</td><td>NL413</td><td>贵重物品保管</td><td>NL424</td><td>软卧包间呼叫按钮</td></tr><tr><td>NL404</td><td>紧急逃生窗操作说明</td><td>NL414</td><td>残障人士专用区域</td><td>NL425</td><td></td></tr><tr><td>NL405</td><td>紧急破窗锤</td><td>NL415</td><td>残障人士专用席位</td><td>NL426</td><td>电灯开关</td></tr><tr><td>NL406</td><td>座位号1 座位号2</td><td>NL416 NL417</td><td>餐车桌牌号</td><td>NL427 NL428</td><td>允许吸烟 请勿向书报架内扔杂物</td></tr><tr><td>NL407</td><td>座位号3</td><td>NL418</td><td>软卧包间号 软卧铺位号1</td><td>NL429</td><td>请勿向窗外扔东西</td></tr><tr><td>NL408</td><td></td><td></td><td>软卧铺位号2</td><td>NL430</td><td>请勿开窗</td></tr><tr><td></td><td>座位号4</td><td>NL419</td><td></td><td></td><td></td></tr><tr><td>NL409</td><td>座位号5</td><td>NL420</td><td>硬卧铺位号</td><td></td><td></td></tr><tr><td>NL410</td><td>座位号6</td><td>NL421</td><td>空调</td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/cbe5943c21425408defbf8972d6036ca23b66b3d9081f8d16e807c52f4c07d7c.jpg",
+        "table_caption": [
+            "表2工作管理标志"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>通用位置</td><td>编号</td><td>标志名称</td><td>编号</td><td>标志名称</td><td>编号</td><td>标志名称</td></tr><tr><td rowspan=\"4\">车外头部区域 WG100～WG199</td><td>WG100</td><td>国徽</td><td>WG104</td><td>开闭罩</td><td>WG108</td><td>库用插座</td></tr><tr><td>WG101</td><td>路徽</td><td>WG105</td><td>列车管</td><td>WG109</td><td>检修口/供电插座</td></tr><tr><td>WG102</td><td>产权牌</td><td>WG106</td><td>列车管</td><td></td><td></td></tr><tr><td>WG103</td><td>和谐号(头部)</td><td>WG107</td><td>连接器</td><td>一</td><td>一</td></tr><tr><td rowspan=\"11\">车外端部区域 WG200～WG299</td><td>WG200</td><td>制造商铭牌</td><td>WG210</td><td>网络</td><td>WG220</td><td>电空制动</td></tr><tr><td>WG201</td><td>禁止攀登1</td><td>WG211</td><td>控制</td><td>WG221</td><td>严禁带电操作</td></tr><tr><td>WG202</td><td>禁止攀登2</td><td>WG212</td><td>车钩中心线</td><td>WG222</td><td>配属1</td></tr><tr><td>WG203</td><td>禁止踩踏外风挡1</td><td>WG213</td><td>当心触电</td><td>WG223</td><td>配属2</td></tr><tr><td>WG204</td><td>禁止踩踏外风挡2</td><td>WG214</td><td>小间隙车钩</td><td>WG224</td><td>定检1</td></tr><tr><td>WG205</td><td>轴端位号</td><td>WG215</td><td>密接式车钩</td><td>WG225</td><td>定检2</td></tr><tr><td>WG206</td><td>接地点</td><td>WG216</td><td>尾车</td><td>WG226</td><td>定检3</td></tr><tr><td>WG207</td><td>通信控制</td><td>WG217</td><td>门锁开关方向指示</td><td>WG227</td><td>定员、自重、载重、 全长、换长1</td></tr><tr><td>WG208</td><td>通信</td><td>WG218</td><td>电源接口1</td><td>WG228</td><td>定员、自重、载重、 全长、换长2</td></tr><tr><td>WG209</td><td>重联</td><td>WG219</td><td>电源接口2</td><td>WG229</td><td>自重、载重、定员、 换长</td></tr><tr><td></td><td></td><td></td><td></td><td>WG326</td><td></td></tr><tr><td rowspan=\"11\">车外侧部区域 WG300～WG399</td><td>WG300</td><td>列车长度</td><td>WG313</td><td>速度1</td><td></td><td>联运</td></tr><tr><td>WG301</td><td>顶车位</td><td>WG314</td><td>速度2</td><td>WG327</td><td>“人\"字</td></tr><tr><td>WG302</td><td>定位</td><td>WG315</td><td>严禁溜放</td><td>WG328</td><td>“特\"字</td></tr><tr><td>WG303</td><td>型号列号</td><td>WG316</td><td>严禁敲击</td><td>WG329</td><td>禁止上驼峰</td></tr><tr><td>WG304</td><td>车型车号1</td><td>WG317</td><td>集中载重</td><td>WG330</td><td>货车型号和车号(大)</td></tr><tr><td>WG305</td><td>车型车号2</td><td>WG318</td><td>载重、自重、容积和换长</td><td>WG331</td><td>货车型号和车号(小)</td></tr><tr><td>WG306</td><td>手动缓解停放制动</td><td>WG319</td><td>当心中毒</td><td>WG332</td><td>厂、段修</td></tr><tr><td>WG307</td><td>注水口</td><td>WG320</td><td>装载介质</td><td>WG333</td><td>严禁溜放与冲击</td></tr><tr><td>WG308</td><td>排污口</td><td>WG321</td><td>进气压力</td><td>WG334</td><td>复兴号(侧部)</td></tr><tr><td>WG309</td><td>注砂口</td><td>WG322</td><td>容积表号</td><td>WG335</td><td>CR(复兴号侧部)</td></tr><tr><td>WG310</td><td>注油口</td><td>WG323</td><td>“超”字</td><td>WG336</td><td>和谐号(侧部)</td></tr><tr><td>WG311 WG312</td><td>吊装位 车型车号定员</td><td>WG324 WG325</td><td>“关\"字 “卷\"字</td><td>WG337 WG338</td><td>CRH(侧部) 狮子头(侧部)</td></tr></table></body></html>\n\n",
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/2fabb228e62abf5cc50ce125d730da21536a5a9ed264eca3f8e8aa62ac7516de.jpg",
+        "table_caption": [
+            "表2工作管理标志 (续)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>通用位置</td><td>编号</td><td>标志名称</td><td>编号</td><td>标志名称</td><td>编号</td><td>标志名称</td></tr><tr><td rowspan=\"4\">裙板区域、转向 架区域、车顶区 WG400～WG499</td><td>WG400</td><td>设备1</td><td>WG404</td><td>轴箱号</td><td>WG408</td><td>踩踏危险1</td></tr><tr><td>WG401</td><td>设备2</td><td>WG405</td><td>转向架区域铭牌</td><td>WG409</td><td>踩踏危险2</td></tr><tr><td>WG402</td><td>缓解阀1</td><td>WG406</td><td>转向架区域吊装位</td><td>一</td><td>一</td></tr><tr><td>WG403</td><td>轴报分线盒号</td><td>WG407</td><td>安全碰锁</td><td>一</td><td>一</td></tr><tr><td rowspan=\"20\">车内端部区域</td><td>NG500</td><td>方向</td><td>NG520</td><td>过渡车钩</td><td>NG540</td><td>行李员办公室</td></tr><tr><td>NG501</td><td>开关分区</td><td>NG521</td><td>洁具柜</td><td>NG541</td><td>行车备品室</td></tr><tr><td>NG502</td><td>脚踏翻板说明</td><td>NG522</td><td>停车请勿使用</td><td>NG542</td><td>行李室</td></tr><tr><td>NG503</td><td>停放制动隔离</td><td>NG523</td><td>请放水冲洗</td><td>NG543</td><td>电话</td></tr><tr><td>NG504</td><td>空气制动隔离</td><td>NG524</td><td>储存柜</td><td>NG544</td><td>机械师室1</td></tr><tr><td>NG505</td><td>制动</td><td>NG525</td><td>洁具柜(带洗池)</td><td>NG545</td><td>机械师室2</td></tr><tr><td>NG506</td><td>塞拉门操作规程</td><td>NG526</td><td>洁具柜(不带洗池)</td><td>NG546</td><td>通信信号柜</td></tr><tr><td>NG507</td><td>紧急解锁手柄操作</td><td>NG527</td><td>发电室</td><td>NG547</td><td>6A及CMD柜</td></tr><tr><td>NG508</td><td>说明 紧急断电</td><td>NG528</td><td>冷却室</td><td>NG548</td><td>控制电源柜</td></tr><tr><td>NG509</td><td>紧急断电按钮，仅在 意外漏电及火灾情况</td><td>NG529</td><td>厨房配电箱</td><td>NG549</td><td>低压电气柜</td></tr><tr><td>NG500～NG599 NG510</td><td>下使用 工具箱</td><td>NG530</td><td>卧具柜</td><td>NG550</td><td>工程室</td></tr><tr><td>NG511</td><td>电气柜</td><td>NG531</td><td>内有列尾装置</td><td>NG551</td><td>配电箱</td></tr><tr><td>NG512</td><td>PIS柜</td><td>NG532</td><td>厨房1</td><td>NG552</td><td>隔离解锁</td></tr><tr><td>NG513</td><td>ATP柜</td><td>NG533</td><td>厨房2</td><td>NG553</td><td>站台补偿器隔离锁</td></tr><tr><td>NG514</td><td>空调柜</td><td>NG534</td><td>监控室</td><td>NG554</td><td>站台补偿器操作说明</td></tr><tr><td>NG515</td><td>配电柜</td><td>NG535</td><td>备品柜</td><td>NG555</td><td>停放制动模块</td></tr><tr><td>NG516</td><td>制动管风表</td><td>NG536</td><td>车辆备品柜</td><td>NG556</td><td>制动控制单元</td></tr><tr><td>NG517</td><td>总风管风表</td><td>NG537</td><td>客运备品柜</td><td>NG557</td><td>电动/手动转换开关</td></tr><tr><td>NG518</td><td></td><td>NG538</td><td>乘务员室</td><td>NG558</td><td>车门指示灯</td></tr><tr><td>NG519</td><td>垃圾小车 受电弓控制柜</td><td>NG539</td><td>乘务员专座</td><td>NG559</td><td>停放制动操作说明</td></tr><tr><td rowspan=\"4\">客室区域 NG600～NG699</td><td>NG600</td><td>车种编号和定员</td><td>NG604</td><td>储藏室</td><td>NG608</td><td>空调出风口</td></tr><tr><td>NG601</td><td>内有手制动</td><td>NG605</td><td>工具室</td><td>NG609</td><td>电暖气</td></tr><tr><td>NG602</td><td>监控系统柜</td><td>NG606</td><td>工具柜</td><td>NG610</td><td>缓解阀2</td></tr><tr><td>NG603</td><td>配电室</td><td>NG607</td><td>手动/自动转换开关</td><td>NG611</td><td>空调温度传感器</td></tr></table></body></html>\n\n",
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/7447d0169f5822369b67171c90a26e1e31aee3141a9eb80e7efa5ee2e225ff7a.jpg",
+        "table_caption": [
+            "表2工作管理标志 (续)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>通用位置</td><td>编号</td><td>标志名称</td><td>编号</td><td>标志名称</td><td>编号</td><td>标志名称</td></tr><tr><td rowspan=\"3\">司机室区域 NG700～NG799</td><td>NG700</td><td>遮阳帘手动开关</td><td>NG703</td><td>禁止坐踏</td><td>NG706</td><td>司机室</td></tr><tr><td>NG701</td><td>逃生梯</td><td>NG704</td><td>禁放餐饮</td><td></td><td></td></tr><tr><td>NG702</td><td>遮阳帘操作警告</td><td>NG705</td><td>司乘重地勿人</td><td></td><td></td></tr><tr><td colspan=\"3\">注：标志编号仅作为标志检索用。</td><td colspan=\"4\"></td></tr></table></body></html>\n\n",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5基本要求",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5.1 总体要求",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5.1.1标志应根据版面信息内容进行合理排布，包括标志中的各元素，如文字、图形符号，以及各元素的大小、比例和位置等。  \n5.1.2标志中的图形与文字应清晰、整洁、醒目，表面无孔洞和影响使用的缺陷。  \n5.1.3“禁止烟火\"\"危险勿动\"等安全标志应符合GB/T 2893（所有部分）、GB 2894和GB13495.1中的规定。  \n5.1.4标志存在不同型式时，相同车型车辆传递相同信息宜采用统一型式;不同类型标志应有明显区分，不应引起误会和混淆。  \n5.1.5对于未规定尺寸的各图形标志可根据需要对规定的图案成比例放大或缩小制作，但不应修改图案。  \n5.1.6标志可以组合使用，组合后的标志之间宜保持适当距离。  \n5.1.7旅客服务标志的图例见附录A，不应反色。  \n5.1.8旅客服务标志与工作管理标志的型式分别见附录A与附录B,电子显示屏除外。  \n5.1.9根据车辆设计要求，如采用本文件未列入的其他标志时，宜参照本文件的相关规定，并不应对本文件规定的标志的设置和辨识造成干扰。 SZNC",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5.2 文字",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5.2.1 排布要求",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5.2.1.1标志中需要中外文对照表示时，可采用中外文并列显示，排列方式为中文在上，外文在下;既有图形又有文字要求时，宜图形在左，文字在右，或图形在上，文字在下。  \n5.2.1.2当标志有中英文两种文字时，以中文字高()为基准,大写英文字高宜为 $0.35h\\sim0.8h$ ，中英文文字间的行距宜为 $0.2h\\sim0.5h$ 。  \n5.2.1.3当标志中文字多行排列时，以中文字高(h)为基准，文字间行距宜为 $0.4h$ ;英文多行排列时，文字间行距宜为 $0.2h$ 。  \n5.2.1.4必要时标志中的字宽可根据使用需要确定。  \n5.2.1.5其他外文设计可参考以上要求。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5.2.2 字体要求",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5.2.2.1车内标志的字体应容易识别并能在观察距离处清晰分辨。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "5.2.2.2客车车外标志的中文字体宜采用宋体，英文和数字宜采用Arial-Regular 字体。  \n5.2.2.3动车组车外标志的中文字体宜采用黑体，英文和数字宜采用Helvetica Condensed 字体。  \n.2.2.4货车车外标志宜采用黑体或宋体，英文和数字宜采用Helvetica Condensed 字体。  \n5.2.2.5标志中可增设少数民族文字标志和盲文。使用盲文时，应符合 GB/T 15720 和 GB/T 37333的规定。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.2.3 其他要求",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.2.3.1标志中有拼音时，拼音要求与英文字母要求相同。  \n5.2.3.2文字的其他要求应符合GB/T 20501.1和GB/T 20501.2 的规定。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.3 图形",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.3.1标志中图形符号应符合 GB 190、GB/T 191、GB/T 2893.1、GB 2894、GB/T 10001.1、GB/T 10001.3、GB/T 10001.9、GB/T 17695、GB/T 20501.1 与 GB/T 20501.2 的规定。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.3.2标志中的箭头宽度不应超过图形标志尺寸的0.6倍，箭杆长度可视具体情况而定。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.3.3标志中的箭头方向不应指向图形标志，标志横向布置应符合如下规定：",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "a) 箭头指向左方(含左上、左下)，图形标志应位于右方；  \nb) 箭头指向右方（含右上、右下)，图形标志应位于左方；  \nc) 箭头指向上方或指向下方，图形标志宜位于右方。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "标志纵向布置，箭头指向下方(含左下、右下)时，图形标志位于上方，其余情况图形标志均应位于下方。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.4颜色",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.4.1标志颜色应合理设置，应与周围环境相协调，应根据周围环境因素选择标志的颜色（除已限定颜色的标志外)及设置方式。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.4.2非安全类标志不应使用GB/T 2893.1中给出的安全色、对比色和图形符号颜色组合，具体要求如下：",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "禁止：红色、白色、黑色;  \n指令：蓝色、白色、白色；  \n警告：黄色、黑色、黑色;  \n提示：绿色、白色、白色;  \n消防安全：红色、白色、白色。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.4.3标志具体颜色要求分别见附录A与附录B。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.5 货车标志专用要求",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "5.5.1装运危险货物的罐车危险标志按铁路危险货物运输管理有关规定执行，液化气体罐车的特殊标志按GB/T10478执行。  \n5.5.2货车标志与背景的颜色宜按表3配置。如采用表3规定之外的标志处颜色，则应采用与标志处颜色反差较大的标志颜色。  \n5.5.3装有旋转车钩车体端部面漆颜色应与非旋转车钩车体端部油漆颜色区分开，且在端部涂打“旋转车钩端”。",
+        "page_idx": 12
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/b5460d672a37280f7501de05c1ad4ee8f2e3a151a031e635eafd9f143192cfeb.jpg",
+        "table_caption": [
+            "表3货车标志颜色与背景色"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置</td><td colspan=\"3\">颜色</td></tr><tr><td>标志处背景</td><td>绿色或蓝色</td><td>白色、黄色、银白色或灰色</td><td>黑色或铁红色</td></tr><tr><td>标志</td><td>黄色</td><td>黑色</td><td>白色</td></tr></table></body></html>\n\n",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "6制造要求",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "6.1标志应采用环保耐久、耐清洗、不褪色、防眩光的材料制作，不应采用受潮或遇水会变形、变质及易燃的材料。  \n6.2有触电危险的场所设置的标志应使用绝缘材料。  \n6.3车辆上标志可使用刻印、铸字、涂打、贴附等形式。  \n6.4旅客服务标志宜采用不干胶膜材料制作。  \n6.5采用不干胶膜材料制作的旅客服务标志应粘贴平整无气泡;在- $-40\\mathrm{~}^{\\circ}\\mathrm{C}\\sim60\\mathrm{~}^{\\circ}\\mathrm{C}$ 的列车停放环境下和运行过程中应保持牢固。  \n6.6白色灰背胶黏膜标志、蓄光型自发光膜标志和透明膜标志，外观应平整光滑，表面不应有凹凸缺陷、缺角、起泡、裂纹、脱落等现象，不应出现折痕、皱纹、自卷、撕裂和黏接剂渗出的现象，不应有图案或文字不清晰、印字毛边、不完整、脱墨、少墨、漏印、重叠、错位等现象。  \n6.7不锈钢板、聚碳酸酯(PC)板与聚氯乙烯(PVC)板标志,板面不应有明显的划伤、斑点、孔眼、气泡、水纹、异物等现象。  \n6.8制造商铭牌宜用金属制作，其内容应至少包括制造商名称和制造年份，型式与尺寸可由制造商确定，铭牌型式与安装不应对其他车辆标志产生干扰。",
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "7设置要求",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "7.1车辆标志的具体位置与相互距离尺寸应符合规定程序批准的图样中的规定。  \n7.2由于车辆结构存在差异，各种车型可根据设备和设施的具体位置确定标志设置位置。  \n7.3标志安装位置应易于观察。  \n7.4标志设置应牢固可靠，不应产生倾斜、移动、卷翘和摆动等现象。标志设置后，不应有造成人体任何伤害的潜在危险。  \n7.5动车组外部侧面标志位置示意图见附录C中图C.1、图C.2，客车外部侧面标志位置示意图见图C.3，客车、动车组外部端面标志位置示意图见图C.4，货车外部侧面标志位置示意图见图 $\\mathrm{C}.5\\sim$ 图C.7。",
+        "page_idx": 13
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/c323501ef6ae475b2477d6ba5e8a6a80e22ba7def663238a617b82206a272124.jpg",
+        "table_caption": [
+            "（型菜粥）",
+            "",
+            "",
+            ""
+        ],
+        "table_footnote": [
+            ""
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td></td><td>适用车种</td></tr><tr><td>车外侧部区域</td><td>WL100</td><td>列车区间牌</td><td colspan=\"2\">北京西 175/T176</td><td>含义：旅客列车区间牌 规格：1000 mm×200 mm 颜色：根据列车外观设计</td><td>客车、动车组</td></tr><tr><td>车外侧部区域</td><td>WL101</td><td>外顺车号</td><td></td><td>颜色：红色</td><td>含义：旅客列车外顺号牌 规格：150 mm×140 mm</td><td>客车</td></tr><tr><td>车外侧部区域</td><td>WL102</td><td>带有无障碍设施的车厢</td><td></td><td>含义：带有无障碍设施的车厢 规格:80 mm×80 mm/152 mm×139 mm 颜色：黑色 来源：GB/T10001.9—2021，序号01</td><td></td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 14
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/ec6f570a7430d24cc3fb850f1bcec44b43c7813cbeebc233b6d578fe15865b6c.jpg",
+        "table_caption": [
+            "因好)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL200</td><td>内顺车号</td><td></td><td>含义：旅客列车内顺号牌 规格:80 mm×80 mm 颜色：红色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL201</td><td>当心夹手1</td><td>当心夹手 andamicig</td><td>含义：车门处当心夹手标识 规格：87mm×70 mm 颜色：黑色、黄色 来源：GB 2894—2008，编号 2-20</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL202</td><td>当心夹手2</td><td>当心夹手 Handarinching</td><td>含义：车门处当心夹手标识 规格：87mm×70 mm 颜色：黑色、黄色 来源：GB2894—2008，编号2-20</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 15
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/23447e0ca1129aceb03fe8131f3aaa29025648b8ebe7934c339b9818174d2ef4.jpg",
+        "table_caption": [
+            "（ （)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>5 标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL203</td><td>小心台阶</td><td>小心台阶 Caution Watch Your Step</td><td>含义：小心台阶标识 规格：87mm×70 mm 颜色：黑色、黄色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL204</td><td>当心碰头</td><td>当心碰头 Warning Overhead Obstacles</td><td>含义：当心碰头标识 规格：87mm×70 mm 颜色：黑色、黄色 来源：GB 2894—2008，编号2-16</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL205</td><td>紧急按钮1</td><td></td><td>含义：列车紧急停车按钮标识 规格：60 mm×40 mm 颜色：红色、白色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 16
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/316165a840d2293a144ab7e20ce5344fece2669594df3aceda7f71913387595f.jpg",
+        "table_caption": [
+            "（ （)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL206</td><td>紧急按钮2</td><td></td><td>含义：列车紧急停车按钮标识 规格：60 mm×40 mm 颜色：红色、白色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL207</td><td>危险勿动1</td><td>危险勿动</td><td>含义：危险勿动标识 规格：314 mm×142 mm 颜色：黑色、红色、黄色 说明：背胶印刷，白色显示部分透明</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL208</td><td>危险勿动2</td><td></td><td>含义：危险勿动标识 规格：100mm×50 mm 颜色：红色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/dc1e4f2233e1ee4afa7d08f3066bb10aeaea5871a1549befb6dd5629163a05ab.jpg",
+        "table_caption": [
+            "（（)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td></td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL209</td><td>紧急制动 危险勿动</td><td></td><td>紧急制动 危险勿动 Emergency Brake No Touching</td><td>含义：紧急制动危险勿动标识 规格：95mm×60mm 颜色：黑色、红色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL210</td><td>紧急呼叫按钮</td><td>ny wal Buton</td><td></td><td>含义：紧急呼叫按钮标识 规格：80 mm×50 mm 颜色：红色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL211</td><td>紧急开门阀</td><td></td><td>国</td><td>含义：紧急开门阀标识 规格：80 mm×50 mm 颜色：红色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL212</td><td>灭火器</td><td>灭火器 Fire Extinguisher</td><td></td><td>含义：灭火器标识 规格：60 mm×60 mm 颜色：白色、红色 来源：GB/T 13495.1—2015,编号 3-12</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 18
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/67bf931954a1cd90309633c2da1899a19469754eb330dd45fb527cbc0d5519ab.jpg",
+        "table_caption": [
+            "（ （)乙"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL213</td><td>旅客止步</td><td>旅客止步 Staff Only</td><td>含义：旅客止步标识 规格：300 mm×100 mm 颜色：黑色、红色 来源：GB/T10001.1—2012，序号101</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL214</td><td>禁止入内(非工作人员 禁止入内)</td><td></td><td>含义：非工作人员禁止入内标识 规格：380 mm×100 mm 颜色：黑色、红色 来源：GB/T 10001.1—2012,序号101</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL215</td><td>禁止携带危险品</td><td>N8 391831906 86846</td><td>含义：禁止携带危险品乘车标识 规格：270 mm×95 mm 颜色：红色</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL216</td><td>禁止通行</td><td>穴</td><td>含义：禁止通行标识 规格：300 mm×100 mm 颜色：黑色、红色 来源：GB 2894—2008，编号1-16</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL217</td><td>禁止烟火</td><td></td><td>含义：禁止烟火标识 规格：500 mm×200 mm 颜色：黑色、红色 来源：GB2894—2008，编号1-2</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL218</td><td>请勿触摸</td><td>请勿触摸 No Touching</td><td>含义：请勿触摸标识 规格：60 mm×60 mm 颜色：黑色、红色 来源：GB/T 10001.1—2012,序号105</td><td>客车、动车维</td></tr></table></body></html>\n\n",
+        "page_idx": 19
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/fd23a66c204608cfc1c9dfd56070d558476c2e98eb039f8e2af19830f5ef45ce.jpg",
+        "table_caption": [
+            "（ （)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL219</td><td>请勿踩踏</td><td>请勿踩踏 No Stepping</td><td>含义：请勿踩踏标识 规格：60 mm×60 mm 颜色：黑色、红色 来源：GB/T10001.1—2012，序号106</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL220</td><td>请勿坐卧</td><td>请勿坐卧 No Siting or Lying</td><td>含义：请勿坐卧标识 规格：60 mm×60 mm 颜色：黑色、红色 来源：GB/T10001.1—2012，序号102</td><td>客车、动车组</td></tr><tr><td>车内区域、 客室区域</td><td>NL221</td><td>紧急出口</td><td>紧急出口 Emergency Exit</td><td>含义：紧急逃生通道标识 规格：110绿色40 mm 来源：GB 2894—2008，编号4-1 说明：蓄光型自发光膜</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL222</td><td>高压危险</td><td>高压危险 Danger High Voltage</td><td>含义：高压危险标识 规格：87mm×70mm 颜色：黑色、黄色 来源：GB 2894—2008，编号2-7</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 20
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/3449f3ab7c146a57d9b8e9b3a005959745df349c7276a700ab8b96816642b11b.jpg",
+        "table_caption": [
+            "（ （)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL223</td><td>注意安全</td><td>注意安全 Warning Danger</td><td>含义：注意安全标识 规格：87mm×70mm 颜色：黑色、黄色 来源：GB2894—2008，编号2-1 说明：货车使用时，标志位置可根据要求设置</td><td>客车、货车 动车组</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL224</td><td>紧急呼救1</td><td>紧急呼救按钮 Emergency Button</td><td>含义：紧急呼救标识 规格：105mm×35mm 颜色：黑色、红色 来源：GB/T10001.1—2012，序号100</td><td>客车、动车</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL225</td><td>紧急呼救2</td><td>紧急呼救按钮 Emergency Button</td><td>含义：紧急呼救标识 规格：60mm×60mm 颜色：黑色、红色 来源：GB/T 10001.1—2012，序号100</td><td>客车、动车</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL226</td><td>禁止吸烟</td><td></td><td>含义：禁止吸烟场所标识 规格：87mm×70 mm 颜色：黑色、红色 来源：GB2894—2008，编号1-1</td><td>客车、动车</td></tr></table></body></html>\n\n",
+        "page_idx": 21
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/9e7220497aa5198ef02d2298714c5fca865d38a51f3a35e78bb19066b63f5e0d.jpg",
+        "table_caption": [
+            "（（)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL227</td><td>请勿吸烟</td><td></td><td>含义：禁止吸烟场所标识 规格：80 mm×80 mm 颜色：黑色、红色 来源：GB/T10001.1—2012，序号111</td><td>客车、动车组</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL228</td><td>禁止倚靠</td><td>小 禁上特</td><td>含义：禁止倚靠标识 规格：87mm×70 mm 颜色：黑色、红色 来源：GB2894—2008，编号1-21</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL229</td><td>大件行李</td><td>大件行李 Heavy Luggage</td><td>含义：列车存放旅客大件行李的处所标识 规格：87 mm×70 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL230</td><td>行包专用柜</td><td>行包专用柜 Baggage Cabinet</td><td>含义：存放行包的处所标识 颜色：黑色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 22
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/0b96c8db844aa054eadf0f7aab0be2cea64b264e81ab76d6709b920f32a89e98.jpg",
+        "table_caption": [
+            "（ （)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL231</td><td>禁止放重物</td><td>禁止放重物 No Heavy Luggage</td><td>含义：禁止放重物标识 规格:87 mm×70 mm 颜色：黑色、红色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL232</td><td>禁止放重物5kg</td><td>5kg 一 禁止放重物 No Heavy Luggage</td><td>含义：禁止放重物5kg标识 规格：87mm×70 mm 颜色：黑色、红色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL233</td><td>禁止放重物15 kg</td><td>15kg 禁止放重物 No Heavy Luggage</td><td>含义：禁止放重物15kg标识 规格：87 mm×70 mm 颜色：黑色、红色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 23
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/474f940f089237bb1028f52720e2ab2e98a222068c806aa7029f1fd759057e92.jpg",
+        "table_caption": [
+            "（ （)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL234</td><td>蜂鸣器</td><td>听到蜂鸣器发生时 请联络乘务员 Plunse contacth cew uponbue</td><td>含义：蜂鸣器标识 规格：80 mm×50 mm 颜色：黑色、红色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NL235</td><td>监控标识</td><td>图像采集区域 Video</td><td>含义：图像采集区域标识 规格：87 mm×70 mm 颜色：黑色 来源：GB/T10001.1—2012，序号085</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL236</td><td>开门1</td><td>开门 Open the Door</td><td>含义：推车门标识 规格：60 mm×60 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL237</td><td>开门2</td><td>开门 Open the Door</td><td>含义：推车门标识 规格：60 mm×60 mm 颜色：黑色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/beb9bd8873fa0b02bbd92fae88648b2c7a4c8a724a74ee8704a03e84034ae251.jpg",
+        "table_caption": [
+            "（ （)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL238</td><td>儿童购票标准1.2 m</td><td>hildTicketStandard 儿童购票标准1.2m</td><td>含义：儿童购票标准1.2m标识 规格：150 mm×50 mm 颜色：黑色、红色</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL239</td><td>儿童购票标准1.5m</td><td>Child Ticket Standard 儿童购票标准1.5m</td><td>含义：儿童购票标准1.5m标识 规格：150mm×50 mm 颜色：黑色、红色</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL240</td><td>保持安静1</td><td>温馨提示 为使司机专心驾驶，请保持安静！ Quiet</td><td>含义：保持安静标识 规格：225mm×56 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号 099</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL241</td><td>保持安静2</td><td>保持安静 Quiet</td><td>含义：保持安静标识 规格：300mm×100 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号099</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL242</td><td>小心烫伤</td><td>温馨提示 为了您和他人的安全 小心烫伤请接半杯开水 Cawar</td><td>含义：小心烫伤标识 规格：90mm×50 mm 颜色：黑色、黄色 来源：GB2894—2008，编号2-20</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL243</td><td>按压出水1</td><td>按压出水 Push</td><td>含义：列车电茶炉按压出水标识 规格：120mm×35 mm 颜色：黑色、红色</td><td>客车、动车</td></tr></table></body></html>\n\n",
+        "page_idx": 25
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/d4192280a3a6f6a3668581e4dc36a5fb0abaeb3b681a88aa8ae9fb3e71c5d52a.jpg",
+        "table_caption": [
+            "（ （)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL244</td><td>按压出水2</td><td>按压出水 Push</td><td>含义：按压出水标识 规格：120 mm×35 mm 颜色：黑色、红色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL245</td><td>电热水器按钮操作说明</td><td>先按压三解锁按钮，再按压绿色接水按钮</td><td>含义：电热水器按钮操作说明标识 规格：150 mm×30 mm 颜色：黑色、红色、绿色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL246</td><td>一次性纸杯</td><td>一次性纸杯 Disposable Paper Cup</td><td>含义：一次性纸杯标识 规格：50 mm×50 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL247</td><td>可回收垃圾</td><td>可回收垃圾 Recyclable</td><td>含义：可回收垃圾放置位置 规格：60 mm×60 mm 颜色：黑色、蓝色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL248</td><td>其他垃圾</td><td>其他垃圾 Otherwaste</td><td>含义：其他垃圾放置位置 规格：60 mm×60 mm 颜色：黑色、灰色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 26
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/f38878dfa99b8aca00fcace8af175a3c52e857834839a971902b0721adc8d1cf.jpg",
+        "table_caption": [
+            "（"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL249</td><td>医疗点</td><td>医疗点 Clinic</td><td>含义：列车医药救助的处所标识 规格：87mm×70mm 颜色：黑色、绿色 来源：GB/T10001.1—2012，序号116</td><td>客车、动车组</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL250</td><td>出风口1</td><td>出风口 Air Outlet</td><td>含义：出风口标识 规格：60mm×20mm 颜色：红色、黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL251</td><td>出风口2</td><td>出风口 Air Outlet</td><td>含义：出风口标识 规格：100mm×50mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL252</td><td>衣帽间</td><td>衣帽间 Cloakroom</td><td>含义：衣帽间标识 规格：87mm×70 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号 052</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 27
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/0821ddb562f3f8628188cd17435b731edf0f67097f5b197c91d61144a74dd85b.jpg",
+        "table_caption": [
+            "（"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL253</td><td>电源插座</td><td>_ AC220 电源插座 Electrical Outlet</td><td>含义：小型电器设备充电装置标识 规格：60 mm×60 mm 颜色：黑色</td><td>客车、动车</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL254</td><td>废物箱1</td><td>废物箱 Rubbish Bin</td><td>含义：存放垃圾、废物的容器标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T 10001.1—2012,序号095</td><td>客车、动车</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL255</td><td>废物箱2</td><td>废物箱 Rubbish Bin</td><td>含义：存放垃圾、废物的容器标识 规格：120 mm×35 mm 颜色：黑色 来源：GB/T10001.1—2012,序号095</td><td>客车、动车</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL256</td><td>禁止将烟头扔进容器内</td><td>禁止将烟头扔进容器内 Do Not Throw Cigarette Buttinto Bin</td><td>含义：禁止将烟头扔进容器内标识 规格：120 mm×35 mm 颜色：黑色、红色</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL257</td><td>请勿丢弃废弃物</td><td>请勿丢弃废弃物 Do Not Throw Rubbish</td><td>含义：请勿丢弃废弃物标识 规格：87 mm×70 mm 颜色：黑色、红色 来源：GB/T10001.1—2012，序号113</td><td>客车、动车</td></tr></table></body></html>\n\n",
+        "page_idx": 28
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/ee9dce271753ea3c5d8c822d532f80c7a578994962c37a9e9a6538282a42740b.jpg",
+        "table_caption": [
+            "（ （)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域、 客室区域</td><td>NL258</td><td>请勿将杂物扔进容器</td><td>请勿将杂物扔进容器 Do Not Throw Waste into Container</td><td>含义：请勿将杂物扔进容器标识 规格：87 mm×70 mm 颜色：黑色、红色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL259</td><td>请将卫生纸及杂物扔进 废物箱</td><td>请将卫生纸及杂 物扔进废物箱 Do Not Throw Waste Ples to oWaste Bin.</td><td>含义：请将卫生纸及杂物扔进废物箱标识 规格：150 mm×80 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL260</td><td>干手器1</td><td>干手器 Hand Dryer</td><td>含义：干手器标识 规格：120mm×35mm 颜色：黑色 来源：GB/T 10001.1—2012，序号025</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL261</td><td>干手器2</td><td>干手器 Hand Dryer 公</td><td>含义：干手器标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T10001.1—2012，序号025</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 29
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/7b613b76cfc4675de637fe99b7e1877e528ab7aa39a772dcdaef006e37ee742c.jpg",
+        "table_caption": [
+            "（ （)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL262</td><td>非饮用水1</td><td>非饮用水 Not for Drinking</td><td>含义：非饮用水标识 规格：60 mm×60 mm 颜色：黑色、红色 来源：GB/T10001.1—2012，序号114</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL263</td><td>非饮用水2</td><td>非饮用水 Not for Drinking</td><td>含义：非饮用水标识 规格：120mm×30mm 颜色：黑色、红色 来源：GB/T10001.1—2012，序号114</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL264</td><td>卫生间1</td><td>卫生间 Toilet</td><td>含义：卫生间标识 规格：87 mm×70 mm 颜色：黑色 来源：GB/T 10001.1—2012,序号017</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL265</td><td>卫生间2</td><td>卫生间 Toilet</td><td>含义：坐式卫生间标识 规格：87mm×70 mm 颜色：黑色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 30
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/e75cb914a29b4cd50cabf7fb97a7af847c61ea2a33f6ceb31b043e9edf8cee96.jpg",
+        "table_caption": [
+            "（ （)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL266</td><td>卫生间3</td><td>卫生间 Toilet</td><td>含义：蹲式卫生间标识 规格：87mm×70 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL267</td><td>无障碍卫生间1</td><td>无障碍卫生间 Wheelchair Accessible Restroom</td><td>含义：无障碍卫生间标识 规格：90 mm×70 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL268</td><td>无障碍卫生间2</td><td>无障碍卫生间 Wheelchair Accessible Toilet</td><td>含义：无障碍卫生间标识 规格：87mm×70mm 颜色：黑色 来源：GB/T10001.9—2021,序号09</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 31
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/5410cd6a13313145c40882209d38df7b9713ea3c3820cc8f0d220d696aefa6a2.jpg",
+        "table_caption": [
+            "（（)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL269</td><td>坐便器垫圈纸1</td><td>坐便器垫圈纸 Toilet Seat Covers</td><td>含义：用于隔离坐便器病菌、细菌的垫纸标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T10001.1—2012，序号021</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL270</td><td>坐便器垫圈纸2</td><td>坐便器垫圈纸 Toilet Seat Covers</td><td>含义：用于隔离坐便器病菌、细菌的垫纸标识 规格：120mm×35 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号021</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL271</td><td>冲水按钮1</td><td>冲水按钮 Flush Button</td><td>含义：卫生间内冲水按钮标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T10001.1—2012，序号018</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL272</td><td>冲水按钮2</td><td>冲水按钮</td><td>含义：卫生间内冲水按钮标识 规格：120mm×35 mm 来源：GB/T10001.1—2012，序号018</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL273</td><td>延时冲水</td><td>延时冲水只需按一次！ Delayed Flush.Press Once Only!</td><td>含义：延时冲水只需按一次标识 规格：105 mm×35 mm 颜色：黑色</td><td>客车、动车</td></tr></table></body></html>\n\n",
+        "page_idx": 32
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/e1062ea6c088aa2b75fae3e2c77ceeb33a7773d0262d3c4615e03c5183d361f7.jpg",
+        "table_caption": [
+            "（）（"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL274</td><td>卫生间门按钮</td><td>卫生间门按钮 Toilet Button</td><td>含义：卫生间门按钮标识 规格：60 mm×60 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL275</td><td>纸巾1</td><td>纸巾 Facial Tissue</td><td>含义：纸巾标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号020</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL276</td><td>纸巾2</td><td>纸巾 Facial Tissue</td><td>含义：纸巾标识 规格：120 mm×35 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号020</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL277</td><td>卫生纸1</td><td>卫生纸 Toilet Paper</td><td>含义：卫生纸标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号019</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 33
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/ba706d410f367afb327057460704a099d72711512f5480d33fcced385fb122b3.jpg",
+        "table_caption": [
+            "（） )"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL278</td><td>卫生纸2</td><td>卫生纸 Toilet Paper</td><td>含义：卫生纸标识 规格：120mm×35mm 颜色：黑色 来源：GB/T10001.1—2012，序号019</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL279</td><td>婴儿护理台1</td><td>婴儿护理台 Baby Changing Table</td><td>含义：为婴儿更换尿布护理设施标识 规格：60 mm×60 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL280</td><td>婴儿护理台2</td><td>婴儿护理台 Baby Changing Table</td><td>含义：为婴儿更换尿布护理设施标识 规格：120 mm×35 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL281</td><td>婴儿护理台操作说明</td><td>使不要婴儿护理台时，请在娶儿放, 使用后，请复位。 请勿在婴儿护理台上放置重物【最大负荷15KG]。 婴儿护理台操作说明 Instruction of Baby Changing Table</td><td>含义：婴儿护理台操作说明标识 规格：108 mm×80 mm 颜色：黑色 说明：中英文内容仅供参考</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL282</td><td>洗手液1</td><td>洗手液 Hand Lotion</td><td>含义：清洁洗手液标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T10001.1—2012，序号024</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 34
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/a0f2316a5b3ef5e3ea23b56aeae049224173f9e4f81b2a3c8b1fa717bd8eaec0.jpg",
+        "table_caption": [
+            "（ （)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL283</td><td>洗手液2</td><td>洗手液 Hand Lotion</td><td>含义：清洁洗手液标识 规格：120mm×35mm 颜色：黑色 来源：GB/T10001.1—2012，序号024</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL284</td><td>感应出水1</td><td>感应出水 Automatic Tap</td><td>含义：伸手即出水标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号023</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL285</td><td>感应出水2</td><td>感应出水 Automatic Tap</td><td>含义：伸手即出水标识 规格：120 mm×35 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号 023</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL286</td><td>禁扔杂物</td><td>请勿将卫生纸以外的东西扔入 便器以免造成设备故障</td><td>含义：请勿将卫生纸以外的东西扔入便器以 免造成设备故障标识 规色：黑色、黄色、灰色</td><td>客车、动车</td></tr><tr><td>车内端部区域</td><td>NL287</td><td>禁止向便器内扔杂物1</td><td>禁止向便器内扔杂物 Do Not Throw Waste in Toilet</td><td>含义：禁止卫生间便器内扔杂物标识 规格：60 mm×60 mm 颜色：黑色、红色</td><td>客车、动车</td></tr></table></body></html>\n\n",
+        "page_idx": 35
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/f9bc8ecb70bd346089af5e0ac1238f130fd24097852d7f47fdbb63511351479a.jpg",
+        "table_caption": [
+            "（ （)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL288</td><td>禁止向便器内扔杂物2</td><td>禁止向便器内扔杂物 Do Not Throw Waste in Toilet</td><td>含义：禁止向卫生间便器内扔杂物标识 规格：120mm×35mm 颜色：黑色、红色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL289</td><td>冲水踏板</td><td>冲水踏板 FootFlush</td><td>含义：冲水踏板标识 规格：60 mm×60 mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NL290</td><td>卫生间锁闭</td><td>OCK 锁闭 锁闭 Lock</td><td>含义：请在卫生间关闭之后旋转此手柄将门 锁关闭标识 规格：55mm×14 mm,圆角为7mm 颜色：黑色、绿色、红色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL291</td><td>锁门</td><td>请在关门之后旋转此手柄将门锁闭 Pleaemheandltoocf</td><td>含义：锁门标识 规格：60mm×60 mm 颜色：灰色、红色、黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NL292</td><td>播音室</td><td>播音室 Broadcasting Room</td><td>含义：播音室标50mm 颜色：黑色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 36
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/cacf3fa426ba04fe63fb2d134319a23776385aa18e1db409f51e7bb68393f492.jpg",
+        "table_caption": [
+            "（ （)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL293</td><td>茶炉室</td><td>茶炉室 Boiler Room</td><td>含义：用于提供饮用热水设施标识 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NL294</td><td>锅炉室</td><td>锅炉室 Heater Room</td><td>含义：锅炉室标识mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NL295</td><td>洗脸室</td><td>洗脸室 Lavatory</td><td>含义：洗脸室标识 规格：100mm×50mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NL296</td><td>列车办公席</td><td>列车办公席 Conductor Office</td><td>含义：列车长处理票务、咨询等处所标识 规格：188 mm×62 mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NL297</td><td>吸烟处</td><td>吸烟处 Smoking Area</td><td>含义：列车吸烟处标识 规格：120 mm×35 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号097</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NL298</td><td>旋转扶手操作说明</td><td>1.将扶手杆旋转90°，重直于墙整。 2.将扶手复下。 3.使用后，请复位。 drall after using tt 最大负荷：80kg 旋转扶手操作说明 nstruction for Rota</td><td>含义：旋转扶手操作说明 规格：120 mm×80 mm 颜色：黑色、黄色、灰色 说明：文字内容可根据扶手结构适当调整</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 37
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/3c5062f44e2a9462167a98e1126d284ddcf52820ea754a99d13bfec847901e86.jpg",
+        "table_caption": [
+            "） )"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NL299</td><td>翻转行李架使用说明</td><td>翻起状态 1.控松旋细。 2.向上翻转 3.柠紧旋钮。 翻转行李架使用说明 nstructionforReversalRack</td><td>含义：翻转行李架的使用说明 规格：120 mm×80 mm 颜色：黑色、红色、灰色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NL300</td><td>感应门</td><td>感应门 Automatic Door</td><td>含义：感应门标识 规格：60 mm×60 mm 颜色：黑色、红色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NL301</td><td>轮椅固定带</td><td>轮椅固定带 Wheelchair Fixing Belt</td><td>含义：轮椅固定带标识 规格：120mm×35mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NL302</td><td>司机先行</td><td>旅客朋友们： 为保证换乘作业和列车正点， 请让换乘司机先行上车。谢谢！ please letthe drivergetonboard first.Thank youforyour ooperation.</td><td>含义：旅客提示-司机优先上车 规格:230 mm×120 mm 颜色：蓝色</td><td>动车组</td></tr><tr><td>客室区域</td><td>NL400</td><td>请您调整座椅角度时， 提示后排旅客</td><td>请您调整座椅角度时，提示后排旅客。</td><td>含义：请您调整座椅角度时，提示后排旅客 标识 规格：120 mm×30 mm 颜色：黑色、黄色</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 38
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/43f43c129a8fa5c5debe05cf6b346abb3245a59506f5415468c662628ab4b3e5.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>客室区域</td><td>NL401</td><td>Wi-Fi标识</td><td>免费Wi-Fi已覆盖 Free Wi-Fi Service</td><td>含义：免费Wi-Fi已覆盖标识 规格：87 mm×70 mm 颜色：黑色、蓝色</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL402</td><td>静音车厢</td><td>静音车厢 Quiet Car</td><td>含义:静音车厢 规格：60 mm×60 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL403</td><td>紧急逃生窗操作说明</td><td>见下图</td><td>含义：供紧急情况下逃生使用标识 规格：384mm×40 mm 颜色：黑色、红色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 39
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/432186afd757f90137b37d0cba65c6976cdf09b3f2d96471bb425bc22ffb4f64.jpg",
+        "table_caption": [
+            "（ （)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>敲击红点到最外层 Knock on the red point t</td><td>用力往外推玻璃 Pushtheglassoutw</td><td>玻璃推落后可送 Escape after glass's dn 5</td><td>紧急逃生窗操作说明 Operation for emergency escape window</td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 39
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/1039df20e55ca22fc80733e61257e7aa8e102d35475507991373de6a480bb751.jpg",
+        "table_caption": [
+            "（ （)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>客室区域</td><td>NL405</td><td>座位号1</td><td>车窗 8F 过道</td><td>含义：用于指引旅客座位的设施标识 规格：170mm×40mm 颜色：黑色、灰色 说明：采用电子显示时除外</td><td>客车、动车</td></tr><tr><td>客室区域</td><td>NL406</td><td>座位号2</td><td>车窗2A 2C过道</td><td>含义：用于指引旅客座位的设施标识 规格：170 mm×40 mm 颜色：黑色、灰色 说明：采用电子显示时除外</td><td>客车、动车</td></tr><tr><td>客室区域</td><td>NL407</td><td>座位号3</td><td>车窗2A 2B 2C过道</td><td>含义：用于指引旅客座位的设施标识 规格：225mm×40mm 颜色：黑色、灰色 说明：采用电子显示时除外</td><td>客车、动车</td></tr><tr><td>客室区域</td><td>NL408</td><td>座位号4</td><td>车窗 11 12 13 通道 通道 14 15 车窗</td><td>含义：旅客座位号标识 规格：110 mm×30 mm 颜色：黑色</td><td>客车</td></tr><tr><td>客室区域</td><td>NL409</td><td>座位号5</td><td>车窗1A1B1C通道 通道 1D 1F 车窗 Aisle Window</td><td>含义：旅客座位号标识 规格：110 mm×30 mm 颜色：黑色</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 40
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/7ce512c9a8053dd77fddd0dbf7729f94acd7f30bc3db6caa5dc1410bc82dc2ff.jpg",
+        "table_caption": [
+            "（） )"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>客室区域</td><td>NL410</td><td>座位号6</td><td>窗window 4550 4651 4752 过Aisl道</td><td>含义：旅客座位号标识 规格：100mm×80mm 颜色：黑色</td><td>客车</td></tr><tr><td>客室区域</td><td>NL411</td><td>耳机插座</td><td>耳机插座 Earphone Outlet</td><td>含义：耳机插座标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T10001.1—2012,序号087</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL412</td><td>供氧设备</td><td>供氧 O2 Oxygen Outlet</td><td>含义：供氧设备标识 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL413</td><td>贵重物品注意保管</td><td>贵重物品注意保管 TakeCare of YourBelongings</td><td>含义：贵重物品注意保管标识 规格：87 mm×70 mm 颜色：黑色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 41
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/8950a9fb367f9c86df295f7b4b49b27ffe79ee6a461f975ddf7d0520aff8f93b.jpg",
+        "table_caption": [
+            "（ （)2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td colspan=\"2\">标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>客室区域</td><td>NL414</td><td>残障人士专用区域</td><td colspan=\"2\">残障人士专用区域 Disabled Only</td><td>含义：残障人士专用区域标识 规格：160 mm×50 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL415</td><td>残障人士专用席位</td><td colspan=\"2\">残障人士专用席位 Disabled Only</td><td>含义：残障人士专用席位标识 规格：160 mm×50 mm 颜色：黑色</td><td>客车</td></tr><tr><td>客室区域</td><td>NL416</td><td>餐车桌牌号</td><td colspan=\"2\">2</td><td>含义：餐车桌牌号标识 规格:100 mm×50 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL417</td><td>软卧包间号</td><td colspan=\"2\">7</td><td>含义：软卧包间号标识 规格：80 mm×80 mm 颜色：黑色 说明：可与软客室区域位号组合使用。可采 用电子显示</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL418</td><td>软卧铺位号1</td><td colspan=\"2\">铺位号 8 7</td><td>含义：包间内软卧铺位号标识 规格：55mm×30 mm 颜色：黑色 说明：采用电子显示时除外</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 42
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/6739a4fbc66a130f1fe1f9ad33c14d3d342238aba25f833a1a2184da82411161.jpg",
+        "table_caption": [
+            "（ （)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>客室区域</td><td>NL419</td><td>软卧铺位号2</td><td>31 911</td><td>含义：包间内软卧铺位号标识 颜色：黑色 说明：采用电子显示时除外</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL420</td><td>硬卧铺位号</td><td>18上 18中 Middle 18下 Lower</td><td>含义：硬卧铺位号0mm 颜色：黑色</td><td>客车</td></tr><tr><td>客室区域</td><td>NL421</td><td>空调</td><td>空调 Air Conditioner</td><td>含义：空气调节器标识 规格：60 mm×60 mm 颜色：黑色 来源:GB/T 10001.1—2012，序号 090</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL422</td><td>温度调节</td><td>温度调节 Temperature Control</td><td>含义：温度调节器标识 规格：60 mm×60 mm 颜色：黑色 来源:GB/T 10001.1—2012，序号091</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 43
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/cdca914c7312f1e98fbb1a02739ca75b52bd5698bf037c6db5b47d89d7911109.jpg",
+        "table_caption": [
+            "（ （)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>客室区域</td><td>NL423</td><td>风量调节</td><td>风量调节 Fan Control</td><td>含义：风量调节器标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号092</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL424</td><td>音量调节</td><td>音量调节 Volume Control</td><td>含义：音量调节器标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T10001.1—2012，序号093</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL425</td><td>软卧包间呼叫按钮</td><td>照明灯开关 呼叫按钮 Light Switch Call Button</td><td>含义：软卧包间照明灯开关、呼叫按钮标识 规格：80 mm×50 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL426</td><td>电灯开关</td><td>电灯开关 Light Switch</td><td>含义：电灯开关标识 规格：60mm×60mm 颜色：黑色 来源：GB/T10001.1—2012,序号089</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 44
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/1629fd8fee8d0ad097ba261266be98bdc48c11282ccf3015c697008adc4f7923.jpg",
+        "table_caption": [
+            "（ （)2",
+            "·“ "
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td colspan=\"2\">标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>客室区域</td><td>NL428</td><td>允许吸烟</td><td colspan=\"2\">3</td><td>含义：允许吸烟标识 规格：80mm×80mm 颜色：黑色 来源：GB/T10001.1—2012，序号097</td><td>客车</td></tr><tr><td>客室区域</td><td>NL427</td><td>请勿向书报架内扔杂物</td><td colspan=\"2\">请勿向书报架内扔杂物 Do Not Throw Waste in Newspaper Rack</td><td>含义：请勿向书报架内扔杂物标识 规格：60 mm×60 mm 颜色：黑色、红色</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NL429</td><td>请勿向窗外扔东西</td><td colspan=\"2\">请勿向窗外扔东西 Do Not Throw Anything Out ofWindow</td><td>含义：请勿向窗外扔东西标识 规格：120 mm×35 mm 颜色：黑色、红色</td><td>客车</td></tr><tr><td>客室区域</td><td>NL430</td><td>请勿开窗</td><td></td><td>请勿开窗 Do Not Open Window</td><td>含义：请勿开窗标识 规格：120 mm×35 mm 颜色：黑色、红色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 45
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/589bceba9e2fa2505f8292c010a233042f6b65ee827d9d542117fd58abc10f7c.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [
+            "帐 (型柔粥) ",
+            ""
+        ],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"5\"></td></tr><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外头部区域、 车外端部区域、 车外侧部区域</td><td>WG100</td><td>国徽</td><td></td><td>含义：国徽标识 规格：150mm×140 mm 颜色：国徽红色、国徽黄色</td><td>客车、动车组</td></tr><tr><td>车外头部区域、 车外端部区域、 车外侧部区域</td><td>WG101</td><td>路徽</td><td></td><td>含义：路徽标识 规格：H=450 mm/400 mm/300 mm/ 200 mm/150 mm/100 mm 颜色：古铜色/蓝色/黑色/金色/白色</td><td>客车、动车组、 货车</td></tr><tr><td>车外头部区域、 车外端部区域、 车外侧部区域</td><td>WG102</td><td>产权牌</td><td></td><td>含义：列车产权牌标识 颜色：符合表3的要求</td><td>货车</td></tr></table></body></html>\n\n",
+        "page_idx": 46
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/9426821a3c3b1efb9bafb93878d3105867628da5087508c4a6ad674f076e0c1c.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外头部区域</td><td>WG103</td><td>和谐号(头部)</td><td>和谐号</td><td>含义：和谐号(头部)标识 规格：H=120 mm/150 mm/175 mm/ 200 mm/260 mm 颜色：黑色、白色</td><td>动车组</td></tr><tr><td>车外头部</td><td>WG104</td><td>开闭罩</td><td>开闭罩</td><td>含义：开闭罩标识 规格：H=50 mm 颜色：白色</td><td>动车组</td></tr><tr><td>车外头部</td><td>WG105</td><td>列车管</td><td>列车管</td><td>含义：列车管标识 颜色：白色</td><td>动车组</td></tr><tr><td>车外头部</td><td>WG106</td><td>总风管</td><td>总风管</td><td>含义：总风管标识 规格：H=50 mm 颜色：白色</td><td>动车组</td></tr><tr><td>车外头部</td><td>WG107</td><td>连接器</td><td>10芯 18芯 24芯 64芯</td><td>含义：连接器标识 规格：H=18 mm</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 47
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/c12020b9d3a5e83b92234115a12025ab22f53536625fc7bd5d0e1975364c53b6.jpg",
+        "table_caption": [
+            ") "
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外头部</td><td>WG108</td><td>库用插座</td><td>库用插座</td><td>含义：库用插座标识 规格：H=30 mm 颜色：白色</td><td>动车组</td></tr><tr><td>车外头部</td><td>WG109</td><td>检修口/供电插座</td><td>检修口/供电插座</td><td>含义：检修口/供电插座标识 规格：H=40 mm 颜色：白色</td><td>动车组</td></tr><tr><td>车外端部区域、 车外侧部区域</td><td>WG200</td><td>制造商铭牌</td><td>車中车青岛四方机车车辆股份有限公司 CRRC QINGDAO SIFANG CO.,LTD. 2015年。</td><td>含义：制造商铭牌标识 规格：根据实际调整</td><td>客车、动车组、 货车</td></tr><tr><td>车外端部区域</td><td>WG201</td><td>禁止攀登1</td><td>南</td><td>含义：禁止攀登标识 规格：R=40 mm 颜色：黑色、红色、白色 来源：GB2894—2008，编号1-18</td><td>动车组</td></tr><tr><td>车外端部区域</td><td>WG202</td><td>禁止攀登2</td><td>严区 亚</td><td>含义：禁止攀登标识 规格：310 mm×190 mm/205 mm×105 mm 颜色：黑色、黄色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 48
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/4d22751f2f9fa9c54b266ccdc9c8bc99c8cbca7a946fbc776b3a53a54c39f968.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外端部区域</td><td>WG203</td><td>禁止踩踏外风挡1</td><td>禁止踩踏外风挡</td><td>含义：禁止踩踏外风挡标识 规格：根据标志安置位置确定 颜色：黑色</td><td>动车组</td></tr><tr><td>车外端部区域</td><td>WG204</td><td>禁止踩踏外风挡2</td><td></td><td>含义：禁止踩踏外风挡标识 规格：R8mm</td><td>动车组</td></tr><tr><td>车外端部区域、 转向架区域</td><td>WG205</td><td>轴端位号</td><td>1 2</td><td>含义：轴端位号标识 规格：H=30 mm/60 mm 颜色：黑色、白色、黄色</td><td>客车、动车组</td></tr><tr><td>车外端部区域</td><td>WG206</td><td>接地点</td><td></td><td>含义：接地点标识 规格：H=95 mm 颜色：黑色、黄色</td><td>客车、动车组</td></tr><tr><td>车外端部区域</td><td>WG207</td><td>通信控制</td><td>通信控制</td><td>含义：通信或控制接口标识 规格：H=25 mm/30 mm 颜色：黄色、白色</td><td>客车、动车组</td></tr><tr><td>车外端部区域</td><td>WG208</td><td>通信</td><td>通信</td><td>含义：通信标识 规格：H=30 mm 颜色：黑色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 49
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/3669c802b265bea51e8c0e8214f5b9a9d9fa12e4b36becdde09dd8a6f7bffd57.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外端部区域</td><td>WG209</td><td>重联</td><td>重联</td><td>含义：重联标识 颜色：白色</td><td>动车组</td></tr><tr><td>车外端部区域</td><td>WG210</td><td>网络</td><td>网络</td><td>含义：网络标识m 颜色：白色</td><td>动车组</td></tr><tr><td>车外端部区域</td><td>WG211</td><td>控制</td><td>控制</td><td>含义：控制标识 规格：H=30 mm 颜色：白色</td><td>动车组</td></tr><tr><td>车外端部区域</td><td>WG212</td><td>车钩中心线</td><td></td><td>含义：车钩中心线标识 规格：H=5 mm 颜色：白色 说明：沿车钩钩舌外侧及钩头两侧在钩身横 截面高度1/2处</td><td>客车、货车</td></tr><tr><td>车外端部区域</td><td>WG213</td><td>当心触电</td><td></td><td>含义：当心触电标识 规格：L=121mm 颜色：黑色、黄色 来源：GB2894—2008，编号 2-7 说明：攀登梯子附近醒目位置也可设置</td><td>客车、动车组、 货车</td></tr><tr><td>车外端部区域</td><td>WG214</td><td>小间隙车钩</td><td>小</td><td>含义：小间隙车钩标识 规格：R=42.5mm 颜色：黄色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 50
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/3926d07a6a3122bbba9afb0561ef2254b5b86f181f5068d4c03859a4e1bb166d.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外端部区域</td><td>WG215</td><td>密接式车钩</td><td></td><td>含义：密接式车钩标识 规格：R=42.5 mm 颜色：黄色、白色</td><td>客车</td></tr><tr><td>车外端部区域</td><td>WG216</td><td>尾车</td><td></td><td>含义：尾车标识 规格：42.5 mm 颜色：黄色</td><td>客车</td></tr><tr><td>车外端部区域、 车外侧部区域</td><td>WG217</td><td>门锁开关方向指示</td><td>关 开</td><td>含义：门锁开关方向指示标识 颜色：黑色 说明：货车颜色符合表3的要求</td><td>客车、动车组、 货车</td></tr><tr><td>车外端部区域</td><td>WG218</td><td>电源接口1</td><td>DC110V DC600V AC380V DC48V 空座 邻车供电</td><td>含义：电源接口标识 规格：H=25mm 颜色：黄色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 51
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/14a07c8d15add58da53957a6cdf152759cebe1cfdb2b1635a31b69a7a0d4e090.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外端部区域、 裙板区域</td><td>WG219</td><td>电源接口2</td><td>外接电源AC380V</td><td>含义：电源接口标识 规格：H=30 mm 颜色：黑色、白色</td><td>动车组</td></tr><tr><td>车外端部区域</td><td>WG220</td><td>电空制动</td><td>电空制动</td><td>含义：电空制动标识 规格：H=25 mm 颜色：黄色</td><td>客车</td></tr><tr><td>车外端部区域</td><td>WG221</td><td>严禁带电操作</td><td>严禁带电操作</td><td>含义：严禁带电操作标识 规格：H=25 mm 颜色：黄色</td><td>客车</td></tr><tr><td>车外端部区域</td><td>WG222</td><td>配属1</td><td>京局京段</td><td>含义：配属标识 规格：H=70 mm 颜色：黄色</td><td>客车</td></tr><tr><td>车外端部区域</td><td>WG223</td><td>配属2</td><td>京局京段</td><td>含义：配属标识m/70mm 颜色：黑色、白色</td><td>动车组</td></tr><tr><td>车外端部区域</td><td>WG224</td><td>定检1</td><td>A A2 Ａ3 A4 A 518-12-07四厂</td><td>含义：定检标识 规格：38lmm×254 mm 颜色：黄色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 52
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/ede7de1b958cf6183d9cf7c4754dd1cf224fd78aed1cfd8c9d4f0aed323c952e.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td colspan=\"4\">标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td rowspan=\"4\">车外端部区域</td><td rowspan=\"4\">WG225</td><td rowspan=\"4\">定检2</td><td rowspan=\"4\"></td><td>修程</td><td>时 间</td><td>修</td><td rowspan=\"4\">含义：定检标识 规格：362mm×275 mm</td><td rowspan=\"4\">动车组</td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td colspan=\"3\"></td><td>2015.06 四厂</td><td></td></tr><tr><td rowspan=\"5\">车外端部区域</td><td rowspan=\"4\">WG226</td><td rowspan=\"5\">定检3</td><td rowspan=\"5\"></td><td></td><td></td><td></td><td rowspan=\"5\">含义：定检标识 规格：302mm×396 mm 颜色：白色</td><td rowspan=\"5\">动车组</td></tr><tr><td>新造 D2</td><td></td><td>20-07-01浦厂</td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td>D3 D4</td><td></td></tr><tr><td></td><td>D5</td><td></td></tr><tr><td rowspan=\"5\">车外端部区域</td><td rowspan=\"5\">WG227</td><td rowspan=\"5\">定员、自重、载重、全长、 换长1</td><td rowspan=\"5\"></td><td colspan=\"3\">D6 定员 120</td><td rowspan=\"5\">含义：定员、自重、载重、全长、换长标识 颜色：黄色</td><td rowspan=\"5\">客车</td></tr><tr><td colspan=\"3\"></td></tr><tr><td colspan=\"3\">重 4.t</td></tr><tr><td colspan=\"3\">全长 24.5m</td></tr><tr><td colspan=\"3\">换长 2.2</td></tr><tr><td rowspan=\"4\">车外端部区域</td><td rowspan=\"4\">WG228</td><td rowspan=\"4\"></td><td colspan=\"2\"></td><td>120</td><td rowspan=\"4\">含义：定员、自重、载重、全长、换长标识</td><td rowspan=\"4\">动车组</td></tr><tr><td>定员 自重</td><td>45t</td><td></td></tr><tr><td>定员、自重、载重、全长、 换长2</td><td>载重</td><td>5.9t</td></tr><tr><td>全长</td><td>24.5m</td><td>规格：H=310 mm 颜色：白色</td></tr></table></body></html>\n\n",
+        "page_idx": 53
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/92c12c1507c1f47740c499b57c23cec6305939e641253135064755a6d421fc98.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外端部区域</td><td>WG229</td><td>自重、载重、定员、换长</td><td>自重 45t 载重 5.9t 定员 60 换长 2.2</td><td>含义：自重、载重、定员、换长标识 规格：180 mm×180 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车外侧部区域</td><td>WG300</td><td>列车长度</td><td>209m 413.1m</td><td>含义：列车长度标识 规格：H=60 mm 颜色：黑色/白色/黄色</td><td>客车、动车组、</td></tr><tr><td>车外侧部区域、 裙板区域</td><td>WG301</td><td>顶车位</td><td></td><td>含义：顶车位标识 规格：95mm×60mm 颜色：黑色/白色/黄色</td><td>客车、动车组、 货车</td></tr><tr><td>车外侧部区域</td><td>WG302</td><td>定位</td><td>1 2</td><td>含义：定位标识 规格：H=50mm/70 mm 颜色：黑色/白色/黄色 说明：标准动车组为 50 mm;客车与货车为 70 mm</td><td>客车、动车组、 货车</td></tr></table></body></html>\n\n",
+        "page_idx": 54
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/11a348aaf275bda7345e9c3ced989be101125b5b49cb3c90abbf1646980acea2.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外侧部区域</td><td>WG303</td><td>型号列号</td><td>CR400AF-2001 CRH380AL-2548 CRH1A-1001</td><td>含义：型号列号标识 规格：H=130 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车外侧部区域</td><td>WG304</td><td>车型车号1</td><td>一等座车ZY254807ZY254807一等座车 二等座车ZE254804ZE254804二等座车 一等/商务座车ZYS264101ZYS264101一等/商务座车 检测车JC020102JC020102检测车 二等座车ZE254804ZE254804二等座车</td><td>含义：车型车号标识 规格：H=130 mm 颜色：黑色、浅黄色</td><td>动车组</td></tr><tr><td>车外侧部区域</td><td>WG305</td><td>车型车号2</td><td>. YZ:: 368263 YZ::368263 RZ::368263 RZ: 368263 YW::368263 YW .368263. RＷ.368263 RW:368263 KD : 368263 KDc 368263***. 1 XL: 368263 XL:: 368263 ＹＺ .368263 YZ368263</td><td>含义：车型车号标识 颜色：黄色</td><td>客车</td></tr><tr><td>车外侧部区域</td><td>WG306</td><td>手动缓解停放制动</td><td>手动缓解停放制动</td><td>含义：手动缓解停放制动标识 规格：H=30 mm 颜色：黑色、白色</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 55
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/c688da72dd5086e38e66ccb0e9cb1d19fe8702f31e8c4a861bf1ba54ca5c1c9b.jpg",
+        "table_caption": [
+            "（"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外侧部区域、 裙板区域</td><td>WG307</td><td>注水口</td><td>注水口</td><td>含义：注水口标识 规格：H=30 mm/40 mm 颜色：黑色/白色/黄色</td><td>客车、动车组</td></tr><tr><td>车外侧部区域、 裙板区域</td><td>WG308</td><td>排污口</td><td>排污口</td><td>含义：排污口标识 规格：H=30 mm 颜色：黑色/白色/淡黄色</td><td>客车、动车组</td></tr><tr><td>车外侧部区域、 裙板区域</td><td>WG309</td><td>注砂口</td><td>注砂口</td><td>含义：注砂口标识 规格：H=30mm 颜色：黑色/白色/淡黄色</td><td>客车、动车组</td></tr><tr><td>车外侧部区域、 裙板区域</td><td>WG310</td><td>注油口</td><td>注油口</td><td>含义：注油口标识 规格：H=30 mm 颜色：黑色/白色/淡黄色</td><td>客车、动车组</td></tr><tr><td>车外侧部区域、 裙板区域</td><td>WG311</td><td>吊装位</td><td>Q</td><td>含义：吊装位标识 规格:130 mm×20 mm 颜色：黑色/白色/黄色</td><td>客车、动车组、 货车</td></tr><tr><td>车外侧部区域、 客室区域</td><td>WG312</td><td>车型车号定员</td><td>RW25T 568263 定员36</td><td>含义：车型车号定员标识 规格：350 mm×102 mm 颜色：黑色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 56
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/07689607a3c1f46ebf82550e3506f8f3601e36edf4abc4b40ee09081fdb3547d.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外侧部区域</td><td>WG313</td><td>速度1</td><td>160km/h</td><td>含义：速度标识mm 颜色：黄色</td><td>客车</td></tr><tr><td>车外侧部区域</td><td>WG314</td><td>速度2</td><td>350km/h</td><td>含义：速度标识m/70mm 颜色：黑色、白色</td><td>动车组</td></tr><tr><td>车外侧部区域</td><td>WG315</td><td>严禁溜放</td><td>严禁溜放</td><td>含义：严禁溜放标识 规格：H=40 mm/70 mm 颜色：黄色</td><td>客车</td></tr><tr><td>车外侧部区域、 转向架区域</td><td>WG316</td><td>严禁敲击</td><td>严禁敲击</td><td>含义：严禁敲击标识 规格：H=40 mm/30 mm 颜色：黄色、白色 含义：集中载重标识</td><td>客车、动车组</td></tr><tr><td>车外侧部区域</td><td>WG317</td><td>集中载重</td><td>集重1.5m71t 43.5 74 6.0 77 7.5 81 9.6 87</td><td>规格：文字和数字为70 mm,计量单位中t、 m 与小数位为40 mm 颜色：符合表3的规定 说明：平车在侧梁或中梁中心线附近适当 位置</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG318</td><td>载重、自重、容积和换长</td><td>载重 80t 自重 20.3t 容积 75.9m3 (13.0x2.9) 换长 1.3</td><td>含义:载重、自重、容积和换长标识 规格：文字和数字为70 mm，计量单位中t 为50mm，小数位和乘号为50 mm;m中，m 为40mm，上标3为30 mm 颜色：符合表3的规定</td><td>货车</td></tr></table></body></html>\n\n",
+        "page_idx": 57
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/2124d802b3d7aa53ae3c7ab01d2c846342293e60634548802f1e2b7e96eaa06d.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外侧部区域</td><td>WG319</td><td>当心中毒</td><td></td><td>含义：当心中毒标识 规格：H=350 mm 颜色：符合表3的规定 来源：GB2894—2008，编号2-1 说明：位于车门左侧</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG320</td><td>装载介质</td><td>轻油 QINGYOU</td><td>含义：装载介质标识 规格：文字为150mm，拼音为50mm 颜色：符合表3的规定 说明：位于罐体两侧1、4位端车辆性能参数 标志上方 含义：进气压力标识</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG321</td><td>进气压力</td><td>进气管道静压力 不得超过0.49MPa</td><td>规格：H=70 mm 颜色：符合表3的规定 说明：位于罐体两侧1、4 位端车辆性能参数 标志下方</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG322</td><td>容积表号</td><td>容积表号A741</td><td>含义：容积表号标识 规格：H=70 mm 颜色：符合表3的规定 说明：若设置于一位端封头处，则采用字母 与数字组合表示\"A741”，字高200 mm 含义：\"超\"字标识</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG323</td><td>“超”字</td><td>超</td><td>规格：圆外径120mm，边线宽7mm，圆内字 高80mm 颜色：符合表3的规定 说明：位于超出机车车辆限界处的明显部位</td><td>货车</td></tr></table></body></html>\n\n",
+        "page_idx": 58
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/29e52b3cdb4ebb8eae93d9cbd06b33cf80ebdd527c43045ec232769bd36afe56.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外侧部区域</td><td>WG324</td><td>“关\"字</td><td></td><td>含义：\"关\"字标识 规格：圆外径120mm,边线宽7mm，圆内字 高80mm 颜色：符合表3的规定 说明：位于超出机车车辆限界的活动件的明 显位置</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG325</td><td>“卷\"字</td><td>卷</td><td>含义：\"卷\"字标识 规格：圆外径120 mm,边线宽7mm，圆内字 高80mm 颜色：符合表3的规定 说明：位于牵拉部位</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG326</td><td>联运</td><td>MC</td><td>含义：联运标识 规格：圆外径120mm，边线宽7mm，圆内字 高60mm 颜色：符合表3的规定 说明：位于车体两车外侧部区域1、4位端的 货车性能标志下方</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG327</td><td>“人\"字</td><td></td><td>含义：\"人\"字标识 规格：圆外径120mm,边线宽7mm，圆内字 高80mm 颜色：符合表3的规定 说明：位于车体两车外侧部区域1、4 位端的 货车性能标志下方</td><td>货车</td></tr></table></body></html>\n\n",
+        "page_idx": 59
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/57bbf2829e38b2d802bf8b247a3fe174ebb9db999c0f4e90beabdb766910b3a1.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车</td></tr><tr><td>车外侧部区域</td><td>WG328</td><td>“特\"字</td><td>特</td><td>含义：\"特\"字标识 规格：圆外径120mm，边线宽7mm,圆内字 颜色：符合表3的规定 说明：位于车体两车外侧部区域1、4位端的 货车性能标志下方</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG329</td><td>禁止上驼峰</td><td></td><td>含义：禁止上驼峰标识 规格：圆外径120 mm，边线宽7mm，圆内图 形高70mm 颜色：符合表3的规定 说明：位于车体两车外侧部区域或侧梁1、4 位端的货车性能标志下方</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG330</td><td>货车型号和车号(大)</td><td>P70 3024031</td><td>含义：货车型号和车号(大)标识 规格：车种编码和车号200 mm，车型编码的 其余部分120mm 颜色：符合表3的规定</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG331</td><td>货车型号和车号(小)</td><td>NX 7o 7241657</td><td>含义：货车型号和车号(小)标识 规格：车种编码和车号120 mm，车型编码的 其余部分70mm 颜色：符合表3的规定 说明：位于底架侧梁(或车外侧部区域下缘） 的1、4位端</td><td>货车</td></tr></table></body></html>\n\n",
+        "page_idx": 60
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/55cf1f9ff0ab54ee277b53b51ef3ecbbce267e67d7840ea8e6dd6f8c0d84553d.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车外侧部区域</td><td>WG332</td><td>厂、段修</td><td>78.1277.12京丰 80.1275.12齐厂</td><td>含义：厂、段修标识 规格：H=40 mm 颜色：符合表3的规定 说明：位于罐体两侧1、4位端车辆性能参数 标志上方</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG333</td><td>严禁溜放与冲击</td><td>严禁溜放与冲击</td><td>含义：严禁溜放与冲击标识 规格：H=120 mm 颜色：符合表3的规定</td><td>货车</td></tr><tr><td>车外侧部区域</td><td>WG334</td><td>复兴号(侧部)</td><td>复兴号</td><td>含义：复兴号(侧部)标识 规格：1980 mm×400 mm 颜色：蓝色、金色、黑色</td><td>动车组</td></tr><tr><td>车外侧部区域</td><td>WG335</td><td>CR(复兴号侧部)</td><td></td><td>含义:CR(复兴号侧部)标识 规格：H=200 mm 颜色：白色</td><td>动车组</td></tr><tr><td>车外侧部区域</td><td>WG336</td><td>和谐号(侧部)</td><td>和谐号</td><td>含义：和谐号(侧部)标识 规格：H=300mm/400mm 颜色：蓝色</td><td>动车组</td></tr><tr><td>车外侧部区域</td><td>WG337</td><td>CRH(侧部)</td><td>CRH</td><td>含义：CRH(侧部)标识 规格：等比例放大或缩小 颜色：黑色</td><td>动车组</td></tr><tr><td>车外侧部区域</td><td>WG338</td><td>狮子头(侧部)</td><td>C</td><td>含义：狮子头(侧部)标识 规格：等比例放大或缩小 颜色：蓝色</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 61
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/5d72b20ab0a70da036358d74583697aa163e10a8346619505fa0e9ce05854b3c.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>裙板区域、车外 侧部区域</td><td>WG400</td><td>设备1</td><td>排污口 蓄电池箱 牵引变压器 轴温报警控制器 BTM天线</td><td>含义：设备标识 规格：H=30 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>裙板区域</td><td>WG401</td><td>设备2</td><td>空压机 蓄电池 污物箱 污水箱 总风缸 逆变器 变压器 控制箱 充电器</td><td>含义：设备标识 规格：货=40mm</td><td>客车</td></tr><tr><td>裙板区域</td><td>WG402</td><td>缓解阀1</td><td>电空制动机 缓解阀</td><td>含义：缓解4阀标识/30mm 颜色：黄色、白色</td><td>客车</td></tr><tr><td>转向架区域</td><td>WG403</td><td>轴报分线盒号</td><td></td><td>含义：轴报分线盒号标识 规格：H=40 mm 颜色：红色/白色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 62
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/1999746c8844fb58a38fee6d80687ec3a15a07b608db4b8af3e4572662cbbf1f.jpg",
+        "table_caption": [
+            "￥ "
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>转向架区域</td><td>WG404</td><td>轴箱号</td><td>8 7</td><td>含义：轴箱号标识 颜色：白色</td><td>客车</td></tr><tr><td>转向架区域</td><td>WG405</td><td>转向架区域铭牌</td><td>车 转向架 磐号 0001 2X1-进日期2016年4 中车唐山机车车辆有限公司</td><td>含义：转向架区域铭牌标识</td><td>动车组</td></tr><tr><td>转向架区域</td><td>WG406</td><td>转向架区域吊装位</td><td></td><td>含义：转向架区域吊装位标识 规格：80mm×40 mm 颜色：浅灰色</td><td>动车组</td></tr><tr><td>转向架区域</td><td>WG407</td><td>安全碰锁</td><td>安全碰锁</td><td>含义：安全碰锁标识 规格：75 mm×25 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车顶区域</td><td>WG408</td><td>踩踏危险1</td><td>踩踏危险</td><td>含义：踩踏危险文字标识 规格：H=80 mm 颜色：黑色 说明：位于接头箱、风挡</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 63
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/358c43d9641adda8b1573bf07c8d71c3a139a4f14742e3b3f70f8329fa08bb9a.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车顶区域</td><td>WG409</td><td>踩踏危险2</td><td>高压接头箱</td><td>含义：踩踏危险标识 规格：R=200mm 颜色：黑色、红色</td><td>动车组</td></tr><tr><td colspan=\"6\">注1：H 为高度,R 为图形半径。 注2：标志规格为长度×宽度。</td></tr></table></body></html>\n\n",
+        "page_idx": 64
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/492c5236c0304395fa2ecf81180924f1d88092cc93dab10438485050aee8f161.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"6\">表D.2 F管理标芯(车体内部)</td></tr><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG500</td><td>方向</td><td></td><td>含义：方向标识 规格：50 mm×50 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NG501</td><td>开关分区</td><td>开 Open</td><td>含义：开关分区标识 规格：120 mm×60 mm 颜色：绿色、红色、白色</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 64
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/5aa8fd356aea0372d64c4469267b70de44c8156952820237d95d1d32c610e448.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG502</td><td>脚踏翻板说明</td><td>手动关门前，请先将站台补 偿器收起隔离 Foldupandisolategapfilerbeforeclosing doautoandehslaionin</td><td>含义：开关分区标识 规格：110 mm×50 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG503</td><td>停放制动隔离</td><td>停放制动隔离 Parking Brake Isolation</td><td>含义：停放制动隔离标识 规格：100 mm×50 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG504</td><td>空气制动隔离</td><td>空气制动隔离 Air Brake lsolation</td><td>含义：空气制动隔离标识 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG505</td><td>制动</td><td>制Brake动</td><td>含义：制动标识 规格：120mm×60 mm 颜色：黑色、红色、蓝色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG506</td><td>塞拉门操作规程</td><td>客车塞拉门安全操作规程 进行关门操作，操作者需确认下部隔离锁锁闭且安全指示 （或既无电又无气）的状态下，操作者应手动关闭车 要及时清理下滑道中的杂物、冰霜，</td><td>含义：塞拉门操作规程标识 规格：270 mm×180 mm 颜色：黑色、红色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 65
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/a5f5800d56004ef2061a00bcb423ccdd9f7231643797c58d16a12e9ec27f8f03.jpg",
+        "table_caption": [
+            "） （"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG507</td><td>紧急解锁操作说明</td><td></td><td>含义：紧急解锁操作标识 规格：198 mm×118 mm 颜色：红色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG508</td><td>紧急断电</td><td>紧急断电 Emergency Power Off </td><td>含义：紧急断电标识 规格：80 mm×40 mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG509</td><td>紧急断电按钮，仅在意外漏 电及火灾情况下使用</td><td>紧急断电按钮，仅在意外 漏电及火灾情况下使用 EmergencyPower Off Button Only Used In CreepageorFire</td><td>含义：紧急断电按钮，仅在意外漏电及火灾 情况下使用标识 规格：120 mm×35 mm 颜色：黑色、黄色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG510</td><td>工具箱</td><td>工具箱 Toolkit</td><td>含义：列车工具箱处所标识 规格：60 mm×60 mm 颜色：黑色</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 66
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/7933863aa00ce44a047ea87d9c3ae29277f09ee262b25d5491dfd47004a38282.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG511</td><td>电气柜</td><td>电气柜 Electric Cabinet</td><td>含义：电气柜标识0mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG512</td><td>PIS柜</td><td>PIS柜 PIS Cabinet</td><td>含义：PIS柜标识50 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG513</td><td>ATP柜</td><td>ATP柜 ATP Cabinet</td><td>含义：ATP柜标识mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG514</td><td>空调柜</td><td>空调柜 Air Conditioner Cabinet</td><td>含义：空调柜标50mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG515</td><td>配电柜</td><td>配电柜 Power Distribution Cabinet</td><td>含义：配电柜标识0mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NG516</td><td>制动管风表</td><td>制动管风表 Pressure Gauge of Brake Pipe</td><td>含义：制动管风表标识 规格：100 mm×50 mm 颜色：黑色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 67
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/c063bc5a3b86971f5185651b05adfd234b39f78bfcbe4ab244056a22ec03cf3f.jpg",
+        "table_caption": [
+            ") "
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td></td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG517</td><td>总风管风表</td><td>总风管风表 Pressure Gauge of Air Supply Pipe</td><td></td><td>含义：总风管风表标识 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG518</td><td>垃圾小车</td><td>垃圾小车 Trash Trolley</td><td></td><td>含义：垃圾小车标识 规格:100 mm×50 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG519</td><td>受电弓控制柜</td><td>受电弓控制柜 Pantograph Control Cabinet</td><td></td><td>含义：受电马控制柜标识 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG520</td><td>过渡车钩</td><td>过渡车钩 Rescue Coupler</td><td></td><td>含义：过渡车钩标识m 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG521</td><td>洁具柜</td><td>洁具柜 Sanitary Ware Cabinet</td><td></td><td>含义：存放清扫工具处所标识 规格：100 mm×50 mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>车内端部区域</td><td>NG522</td><td>停车请勿使用</td><td>停车请勿使用 No Occupying While Stabling</td><td></td><td>含义：卫生间停车请勿使用标识 规格：120 mm×60 mm 颜色：黑色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 68
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/c86492e116f650bc0a9f7e0b513e29fb65b8ad8ce127c1c487064b97572f1a91.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG523</td><td>请放水冲洗</td><td>请放水冲洗 Flush Please</td><td>含义：卫生间放水冲洗标识 规格：60 mm×60 mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG524</td><td>储存柜</td><td>储存柜 Storage Cabinet</td><td>含义：储存柜标识0mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG525</td><td>洁具柜(带洗池)</td><td>洁具柜 Sanitary Ware Cabinet</td><td>含义：存放清扫工具处所标识 规格：95 mm×80 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG526</td><td>洁具柜(不带洗池)</td><td>洁具柜 Sanitary Ware Cabinet</td><td>含义：存放清扫工具处所标识 规格：95mm×80 mm 颜色：黑色</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 69
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/c78674652fc85eb8518d7b0b260c44a26d5849b6d7f1a44a52a28f993eb65942.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG527</td><td>发电室</td><td>发电室 Generate Electricity Room</td><td>含义：发电室标识mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG528</td><td>冷却室</td><td>冷却室 Cooling Room</td><td>含义：冷却室标识mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG529</td><td>厨房配电箱</td><td>厨房配电箱 Power Distribution Box In Kitchen</td><td>含义：厨房配电箱标识 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG530</td><td>卧具柜</td><td>卧具柜 Bedding Cabinet</td><td>含义：存放卧具处所标识 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG531</td><td>内有列尾装置</td><td>内有列尾装置 Train Safety Equipment</td><td>含义：内有列尾装置标识 规格：120 mm×60 mm 颜色：黑色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 70
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/54cfd7607bb3313d1a2e335d473cf70e8c9cff440ac3933d6fbbfe7e3ee3a927.jpg",
+        "table_caption": [
+            "） )"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG532</td><td>厨房1</td><td>厨房 Kitchen</td><td>含义：厨房标识×50mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG533</td><td>厨房2</td><td>厨房 Kitchen</td><td>含义：厨房标识 规格：95mm×80 mm 颜色：黑色、红色 来源：GB 2894—2008，编号1-13</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG534</td><td>监控室</td><td colspan=\"2\">监控室 Monitor Compartment</td><td>含义：监控室标识0mm 颜色：黑色</td></tr><tr><td>车内端部区域、 客室区域</td><td>NG535</td><td>备品柜</td><td>备品柜 Spare Parts Cabinet</td><td>含义：存放备品处所标识 规格：100 mm×50 mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG536</td><td>车辆备品柜</td><td>车辆备品柜 Train Parts Cabinet</td><td>含义：车辆备品柜标识 颜色：黑色</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 71
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/13e83ec90d56ec32ebeb981973df6a1d126fcc772cadaf34e6f5899e185bbbf1.jpg",
+        "table_caption": [
+            ")21表"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车和</td></tr><tr><td>车内端部区域</td><td>NG537</td><td>客运备品柜</td><td>客运备品柜 Spare Parts Cabinet</td><td>含义：存放客运备品处所标识 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG538</td><td>乘务员室</td><td>乘务员室 Crew Office</td><td>含义：乘务员办公、休息处所标识 规格：188 mm×62 mm 颜色：黑色 来源：GB/T 10001.3—2021，序号76</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG539</td><td>乘务员专座</td><td>乘务员专座 Crew Seat</td><td>含义：乘务员休息专座标识 规格：120 mm×35 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG540</td><td>行李员办公室</td><td>行李员办公室 Luggage Clerk Room</td><td>含义：行李员办公、休息处所标识 规格：188 mm×62 mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG541</td><td>行车备品室</td><td>行车备品室 Travelling Store Room</td><td>含义：行李备品室标识 规格：120 mm×60 mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG542</td><td>行李室</td><td>行李室 Luggage Room</td><td>含义：行李室标识0mm 颜色：黑色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 72
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/d71da4d93e944a1d66d7f2a82b417733800cc91e1e5b4d512444068b24acec8f.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG543</td><td>电话</td><td>C 电话 Telephone</td><td>含义：电话标识 规格：60 mm×60 mm 颜色：黑色 来源：GB/T 10001.1—2012，序号082</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG544</td><td>机械师室1</td><td>机械师室 Engineman Room</td><td>含义：机0师室标识mm/188 mm×65mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG545</td><td>机械师室2</td><td>机械师室 Technician Room</td><td>含义：机械师室标识 规格：95 mm×80 mm 颜色：黑色、红色 来源：GB2894—2008，编号1-13</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG546</td><td>通信信号柜</td><td>通信信号柜 Signal Cabinet</td><td>含义：通信信号柜标识 颜色：黑色</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 73
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/59ddc2c725f2c92e2fc19c8417d6c2545e7c47d023f954a12a756fd05df69cb5.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td colspan=\"2\">标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG547</td><td>6A及CMD柜</td><td colspan=\"2\">6A及CMD柜 6A/CMD Cabinet</td><td>含义：6A及CMD柜标识 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG548</td><td>控制电源柜</td><td colspan=\"2\">控制电源柜 Power Cabinet</td><td>含义：控制电源柜标识 规格：100 mm×50 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG549</td><td>低压电气柜</td><td colspan=\"2\">低压电气柜 Low Voltage Electrical Cabinet</td><td>含义：低压电气柜标识 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG550</td><td>工程室</td><td colspan=\"2\">工程室 Engineering Room</td><td>含义：工程室标识0mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG551</td><td>配电箱</td><td colspan=\"2\">配电箱 Switch Box</td><td>含义：配电箱标识 规格：100 mm×50 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG552</td><td>隔离解锁</td><td colspan=\"2\">解锁 隔离 隔离 解锁 Open Close Open Close</td><td>含义：隔离解锁标识 规格：40 mm×30 mm 颜色：黑色、红色、绿色</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 74
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/255561c73c157e3eb4a9b804e0c0a41f478b29885e4b55d267367dc004518121.jpg",
+        "table_caption": [
+            "） )"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td></td><td>说明</td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG553</td><td>站台补偿器隔离锁</td><td>Stt ony</td><td></td><td>含义：站台补偿器隔离锁标识 规格：110 mm×50 mm 颜色：红色、黄色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG554</td><td>站台补偿器操作说明</td><td></td><td></td><td>含义：站台补偿器操作说明标识 规格：275mm×150 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>25 车内端部区域</td><td>NG555</td><td>停放制动模块</td><td></td><td>停放制动模块 Parking Brake Module</td><td>含义：停放制动模块标识 规格：100 mm×50 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG556</td><td>制动控制单元</td><td></td><td>制动控制单元 Brake Control Unit</td><td>含义：制动控制单元标识 规格:100 mm×50 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG557</td><td>电动/手动转换开关</td><td></td><td>电动/手动转换开关 Electric/Manual Switcher</td><td>含义：电动/手动转换开关标识 规格：140 mm×50 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>车内端部区域</td><td>NG558</td><td>车门指示灯</td><td></td><td>车门指示灯</td><td>含义：车门指示灯标识 规格：20 mm×50 mm 颜色：黑色</td><td>动集</td></tr></table></body></html>\n\n",
+        "page_idx": 75
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/4ecf087e56f78d763d778b80dab2b96e57bcd519667aeaca36bcc603914bacf3.jpg",
+        "table_caption": [
+            ") "
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td></td><td>适用车种</td></tr><tr><td>车内端部区域</td><td>NG559</td><td>停放制动操作说明</td><td>停放制动操作说明 1、停放原理及部件说明 2)择在数并有(07至失相位,激察体放 制动首示器完全变好。 A 3）拉动车下停放制 4）操作配电柜内停放制动隔离开关（-28-SA11）) 5）司机显示屏二级界面确认该车停放制动已膝离， 3、停放恢复 1）操作肉门（07）至打开位 2）操作配电柜内停放制动播离开关（-28SA11） 至运行位。 4、检修 停放制动模块 作至美阅位。 至隔奥位，</td><td>8882 螺解拉手，保持38，确认停 块检修时需持停放供风塞门（01）操</td><td>含义：停放制动操作说明标识 规格：450 mm×200 mm 颜色：黑色、红色、黄色</td><td>动车组</td></tr><tr><td>客室区域</td><td>NG600</td><td>车种编号和定员</td><td>ZE000000</td><td>定员32</td><td>含义：车种编号和定员标识 规格:290 mm×77 mm/280 mm×80 mm 颜色：黑色、灰色</td><td>动车组</td></tr><tr><td>客室区域</td><td>NG601</td><td>内有手制动</td><td>内有手制动 Manual Brake Inside</td><td></td><td>含义：内有手制动标识 颜色：黑色</td><td>客车</td></tr></table></body></html>\n\n",
+        "page_idx": 76
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/4f144204324d72c16b9f0357c185fb6270651ec7f652c9e7906fca0ce8300420.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>客室区域</td><td>NG602</td><td>监控系统柜</td><td>监控系统柜 TCMS</td><td>含义：监控系统柜标识 规格：100mm×50 mm 颜色：黑色</td><td>客车</td></tr><tr><td>客室区域、车内 端部区域</td><td>NG603</td><td>配电室</td><td>配电室 Switch Cubicle</td><td>含义：配电室标识 规格：100 mm×50 mm 颜色：黑色</td><td>客车</td></tr><tr><td>客室区域、车内 端部区域</td><td>NG604</td><td>储藏室</td><td></td><td>储藏室 Storeroom 颜色：黑色</td><td>含义：储藏室标识 规格:100 mm×50 mm 客车</td></tr><tr><td>客室区域</td><td>NG605</td><td>工具室</td><td>工具室 Tools Room</td><td>含义：工具室标识0mm 颜色：黑色</td><td>客车、动车组</td></tr><tr><td>客室区域</td><td>NG606</td><td>工具柜</td><td>工具柜 Instrument Cabinet</td><td>含义：工具柜标识0mm 颜色：黑色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 77
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/2c52672cac90dfc1661207f3ec4edd18a04333da53cb6e3ab8339fc56f27bae4.jpg",
+        "table_caption": [
+            "（)"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td></td><td>适用车种</td></tr><tr><td>客室区域</td><td>NG607</td><td>手动/自动转换开关</td><td>手动状态时门需隔离！</td><td></td><td>含义：手动/自动转换开关说明标识 颜色：黑色</td><td>动车组</td></tr><tr><td>客室区域</td><td>NG608</td><td>空调出风口</td><td>Air Outlet</td><td>空调出风口</td><td>含义：空调出风口标识 规格：100 mm×50 mm 颜色：黑色</td><td>客车</td></tr><tr><td>客室区域</td><td>NG609</td><td>电暖气</td><td></td><td>电暖气 Electric Heating</td><td>含义：电服气标识0mm 颜色：黑色</td><td>客车</td></tr><tr><td>客室区域、车内 区域</td><td>NG610</td><td>缓解阀2</td><td>缓解阀</td><td>Release Valve</td><td>含规义：缓解阀标识0mm 颜色：黑色</td><td>客车</td></tr><tr><td>车内端部区域</td><td>NG611</td><td>空调温度传感器</td><td>温度传感器 TemperatureSensor</td><td></td><td>含义：空调温度传感器标识 规格：60mm×60mm 颜色：黑色</td><td>客车、动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 78
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/f69c73de5f1bb0c88d139c1813432c508b69d383e7519b24f8cc7c413b45960e.jpg",
+        "table_caption": [
+            ""
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td></tr><tr><td>司机室区域</td><td>NG700</td><td>遮阳帘手动开关</td><td>遮阳帘手动操作 1．手动钥匙在座椅下方工具箱内 2．逆时针开封堵 3.插入手动钥匙旋转操作升降 升 降</td><td>含义：遮阳帘手动开关标识 规格：120mm×60 mm 颜色：黑色</td><td>动车组</td></tr><tr><td>司机室区域</td><td>NG701</td><td>逃生梯</td><td>逃生梯 Escaer</td><td>含义：逃生梯标识 规格：80 mm×80 mm 颜色：绿色</td><td>动车组</td></tr><tr><td>司机室区域</td><td>NG702</td><td>遮阳帘操作警告</td><td>告 非专业人员多%！ 专业操作人员请严机用电操作说明使用: 2.手动操作时必须上心并以小的步骤，通过 齿轮箱上的六角形螺栓左右交替操作！ 3.禁止移除铰接臂！ 4.禁止从铰接臂处起吊或施力！</td><td>含义：遮阳帘操作警告标识 规格：65 mm×50 mm 颜色：黑色、红色</td><td>动车组</td></tr><tr><td>司机室区域</td><td>NG703</td><td>禁止坐踏</td><td>禁止 坐踏</td><td>含义：禁止坐踏标识 规格：55 m 40 mm</td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 79
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/02d1e4f4be387f9f08619f70320be193dda7e89d47316cb3ca8ad55f658eddd9.jpg",
+        "table_caption": [
+            "） （"
+        ],
+        "table_footnote": [
+            "中仅“ "
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>位置区域</td><td>标志编号</td><td>标志名称</td><td>标志图例</td><td>说明</td><td>适用车种</td><td></td></tr><tr><td>司机室区域</td><td>NG704</td><td>禁放餐饮</td><td>禁放 餐饮</td><td>含义：禁放餐饮标识 规格：55 m、40 mm</td><td></td><td>动车组</td></tr><tr><td>司机室区域</td><td>NG705</td><td>司乘重地勿入</td><td>司乘重地 勿入 Staff Only</td><td>含义：司乘重地勿人标识 颜色：黑色、黄色</td><td></td><td>动车组</td></tr><tr><td>司机室区域</td><td>NG706</td><td>司机室</td><td>司机室 Driver's Cabin</td><td>含义：司机室区域标识 规格：100 mm×55 mm 颜色：黑色</td><td></td><td>动车组</td></tr></table></body></html>\n\n",
+        "page_idx": 80
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/472ed590dedc09548f0b51f7019a5d3b96db00044e11b48036dcb33d3f5ce1cc.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 81
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/5ca1551df165758b090bd29274760324d914c84750a5619dc241dcdf42a181d8.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 82
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/f39fcc6f24037d96c2c4b8bc1a5fd0c3e8137a2a4e2e344083b9fdbfb0e25ba1.jpg",
+        "img_caption": [
+            "圆 "
+        ],
+        "img_footnote": [],
+        "page_idx": 83
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/c5fd59238b1439c1519ca395c0e54002309927afd3995f98b1da3755fbf8114e.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 84
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985686858755104768/a875c9f743a2e510c5dce92a5ce1c932758b304dd321658b1a1910e612d32a69.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 85
+    }
+]

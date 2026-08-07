@@ -1,0 +1,302 @@
+[
+    {
+        "type": "text",
+        "text": "Q/YD ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中车永济电机有限公司企业标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Q/YD 00-028.2-2019 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "基于Creo的三维标注第2部分：视图管理",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The Specification of 3D Annotation Based on Creo Part2: View Management ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中车永济电机有限公司发布",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681139829989376/da15ca15e74e009bbb843159419b7bd62b143dbd7c523c7314157197dcaed537.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>中车永济电机有限公司技术标准 基于Creo的三维标准规范</td><td>标准编号：Q/YD00-028.2-2020</td></tr></table></body></html>\n\n",
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681139829989376/f1569c6aa30c46d1a2778c3c07ede57b89a8fa8271ba7a46996c32c603fee840.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"3\">审批记录</td></tr><tr><td></td><td>签字</td><td>日期</td></tr><tr><td>编制</td><td>李雪珍</td><td>2019.11.27</td></tr><tr><td>校对</td><td>雷晓林</td><td>2019.11.27</td></tr><tr><td>标审</td><td>黄晓云</td><td>2019.11.27</td></tr><tr><td>审核</td><td>李文科</td><td>2019.11.27</td></tr><tr><td>批准</td><td>王彬</td><td>2019.12.30</td></tr><tr><td colspan=\"3\">标准会签</td></tr><tr><td>部门</td><td>负责人签字</td><td>日期</td></tr><tr><td>电力电子基础技术部</td><td>梁海刚</td><td>2019.12.4</td></tr><tr><td>电机基础技术部</td><td>雷平振</td><td>2019.12.12</td></tr><tr><td>轨道交通电机开发部</td><td>张培军</td><td>2019.12.13</td></tr><tr><td>风电产品开发部</td><td>米行社</td><td>2019.12.12</td></tr><tr><td>特种产品开发部</td><td>李文科</td><td>2019.11.28</td></tr><tr><td>轨道交通系统开发部</td><td>李岩</td><td>2019.12.12</td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "目次",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "前言. I  \n1 范围. 1  \n2 规范性引用文件 错误！未定义书签。  \n3 视图工具箱功能. 1  \n4 视图创建要求.. 3",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Q/YD00-028《基于Creo的三维标注规范》共由7部分组成：第1部分：通用要求第2部分：视图管理第3部分：尺寸注法第4部分：粗糙度的注法第5部分：尺寸公差与配合注法第6部分：几何公差注法第7部分：焊缝注法  \n本部分为Q/YD00-028的第2部分。  \n本标准按照GB/T1.1-2009给出的规则起草。  \n本标准由科技管理部提出并归口。  \n本标准主要起草单位：特种产品开发部、电力电子基础技术部、电机基础技术部、科技管理部  \n本标准主要起草人：李雪珍、侯涛、雷晓林、张建丽、黄晓云",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "基于Creo的三维标注第2部分：视图管理",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Q/YD 00-028的本部分对三维标注视图的创建方式、视图的管理、及创建要求给出了规范性要求。  \n本规范适用于公司技术人员使用CreoParametric软件进行的产品设计开发。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2视图工具箱功能",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.1 视图管理",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "图标样式：",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "视图管理",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "功能：创建、管理模型的视图平面。  \n调用方法：单击视图管理按钮，弹出图1对话框。",
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681139829989376/6083860f757a7fcdffd3ca5bbe08cb1a7c1f5bc8e54db95f2d05ab1e722b71cf.jpg",
+        "img_caption": [
+            "图1"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.2 新建视图",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "easy3Ddrawing软件视图创建有以下三种方法：",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "a）组合视图：easy3Ddrawing 软件该功能默认有6个视图可定义，除主视图外，其余视图设计师可根据需要选择。主视图选定后，单击其他视图，模型即会自动切换至相应视图面，设计选择曲面即可。如图2。  \nb）与屏幕平齐：功能：定义模型技术要求等文字标注不随模型旋转的视图。应用于：技术要求、焊接说明、焊接表、其他文字说明等。  \nc）单个视图：功能：辅助组合视图。应用于：剖视图等。",
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681139829989376/11be45f9f435ea0f9d1734490a245cd69929ad45a663652a4ec1244f003668fa.jpg",
+        "img_caption": [
+            "图2"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2.3 管理视图",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "管理视图可实现如下功能：",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "a）激活视图：选择某个视图（即注释特征），双击或右键选择【激活】。被选为当前视图之后，新的标注项目将在该视图上创建。如图3.  \nb) 编辑视图：选择某个视图（即注释特征），右键选择【重定义】，在弹出的对话框中可重新定义视图的参考平面。  \nc) 重命名视图：对视图名称进行重定义。  \nd）移除视图：删除视图。",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681139829989376/59c963899886774c186bf49d529db71c5d61d6cdefc5f8819e695d3a656deba8.jpg",
+        "img_caption": [
+            "图3 "
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2.4 当前视图",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "图标样式：",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681139829989376/7e851bbe6dd7a3a9418a3401275cef466a4f5f3a6df96ecea387f63ba6efaaa2.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "当前视图",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "功能：管理当前激活视图中的标注特征。  \n调用方法：单击当前视图按钮，弹出如图4对话框。",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681139829989376/21e70a2e28d3d8da79f4d1f257564e827028806ac24554dce29efe2083e0a353.jpg",
+        "img_caption": [
+            "图4"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "对话框可实现的功能如下（示意图见图5）：",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "a）移动：选择某个标注，右键选择【移动】。该操作可移动所有利用easy3Ddrawing手动生成的标注项目。  \nb）编辑：选择某个标注，右键选择【编辑】。该操作可编辑所有利用easy3Ddrawing手动生成的标注项目。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "c）删除：选择某个标注，或按住Ctrl多选，右键选择【删除】。该操作可删除所有利用easy3Ddrawing手动生成的标注项目。",
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681139829989376/f1d5e0cfda3b1f4bf3161d64a72c33a253d32afc20427b9580c1181688239f39.jpg",
+        "img_caption": [
+            "图5"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3视图创建要求",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.1 组合视图",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "组合视图创建应符合以下要求：",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "a) 首次标注的模型，选择“组合视图”功能进行视图创建。  \nb) 主视图的选择：确定模型主视图的原则是尽量符合零件的主要加工位置和工作位置;  \nc) 主视图的投射：应选择最能显示零件各组成部分的结构形状和相对位置的那个方向。  \nd） 通常模型应该有至少3个基本视图，并根据零件结构的特点，增加其他视图、剖视图等。如图6，定义支架的主视图、俯视图和左视图，即可完全表达零件的结构形状。",
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1985681139829989376/f6711a0ce784f7e4cc8209b80b7fd6b000cca5704517f940496f3019d613d02f.jpg",
+        "img_caption": [
+            "图6"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.2 与屏幕平齐 ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "建立模型旋转过程中始终正对屏幕前方的文字注释、技术要求时需创建与屏幕平齐视图。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.3 视图命名规则 ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "创建组合视图后，系统会根据视图方向自动命名；",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "当需补充单个视图时，根据视图方向按照主视图、后视图、俯视图、仰视图、左视图、右视图，如果单个方向需标注的尺寸较多需要分成两个层标注时可创建视图名称 $^+$ 序号，俯视图2。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "技术要求等建立与屏幕平齐视图，建立后改名为“技术要求”。",
+        "page_idx": 6
+    }
+]

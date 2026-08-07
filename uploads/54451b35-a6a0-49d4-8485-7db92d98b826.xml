@@ -1,0 +1,79 @@
+<SpecificationCheck>
+    <CheckGroup Name="机械制图标准检查" DocType="Standard">
+        <!-- 范围检查 -->
+        <RuleItem Name="范围检查" CheckFun="ScopeCheck" RepairFun="" Description="本标准规定了牙型角为55°螺纹副本身具有密封性的圆锥内螺纹和圆锥外螺纹的牙型、尺寸、公差和标记。适用于管子、阀门、管接头、旋塞及其他管路附件的螺纹联结。允许在螺纹副内添加合适的密封介质。" ErrorType="错误" ReviseSuggestion="" Type="结构规范">
+            <CheckConfig>
+                <Rule Name="牙型角" VerType="等于" Value="55°"/>
+                <Rule Name="适用范围" VerType="包含" Value="管子、阀门、管接头、旋塞、管路附件"/>
+                <Rule Name="密封介质" VerType="允许" Value="胶带缠绕、密封胶涂抹"/>
+            </CheckConfig>
+        </RuleItem>
+        <!-- 引用标准检查 -->
+        <RuleItem Name="引用标准检查" CheckFun="RefStandardCheck" RepairFun="" Description="引用GB/T14791—1993螺纹术语作为基础术语规范。" ErrorType="错误" ReviseSuggestion="" Type="引用规范">
+            <CheckConfig>
+                <Rule Name="引用标准" VerType="等于" Value="GB/T14791—1993"/>
+                <Rule Name="版本要求" VerType="等于" Value="1993"/>
+            </CheckConfig>
+        </RuleItem>
+        <!-- 定义及代号检查 -->
+        <RuleItem Name="术语定义检查" CheckFun="TermCheck" RepairFun="" Description="定义参照平面、容纳长度等关键术语。" ErrorType="错误" ReviseSuggestion="" Type="术语规范">
+            <CheckConfig>
+                <Rule Name="参照平面" VerType="等于" Value="内螺纹大端面/外螺纹小端面"/>
+                <Rule Name="容纳长度" VerType="等于" Value="大端面到障碍物的轴向距离"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="符号代号检查" CheckFun="SymbolCheck" RepairFun="" Description="规定D/d/D2/d2/D1/d1/n/p/H/h/r/T等符号的定义。" ErrorType="错误" ReviseSuggestion="" Type="符号规范">
+            <CheckConfig>
+                <Rule Name="内螺纹大径" VerType="等于" Value="D"/>
+                <Rule Name="外螺纹中径" VerType="等于" Value="d2"/>
+                <Rule Name="螺距" VerType="等于" Value="p"/>
+                <Rule Name="基准距离公差" VerType="等于" Value="T"/>
+            </CheckConfig>
+        </RuleItem>
+        <!-- 设计牙型检查 -->
+        <RuleItem Name="牙型设计检查" CheckFun="ProfileCheck" RepairFun="" Description="圆锥螺纹设计牙型需符合图1规定，牙侧角相等，锥度1:16。" ErrorType="错误" ReviseSuggestion="" Type="结构规范">
+            <CheckConfig>
+                <Rule Name="牙侧角" VerType="相等" Value="左右对称"/>
+                <Rule Name="锥度" VerType="等于" Value="1:16"/>
+                <Rule Name="图纸引用" VerType="包含" Value="图1"/>
+            </CheckConfig>
+        </RuleItem>
+        <!-- 基准平面位置检查 -->
+        <RuleItem Name="基准平面检查" CheckFun="ReferencePlaneCheck" RepairFun="" Description="外螺纹基准平面距小端面基准距离，内螺纹基准平面深入端面0.5P。" ErrorType="错误" ReviseSuggestion="" Type="结构规范">
+            <CheckConfig>
+                <Rule Name="外螺纹基准位置" VerType="等于" Value="基准距离"/>
+                <Rule Name="内螺纹基准位置" VerType="等于" Value="0.5P"/>
+                <Rule Name="图纸引用" VerType="包含" Value="图2/图3"/>
+            </CheckConfig>
+        </RuleItem>
+        <!-- 倒角要求检查 -->
+        <RuleItem Name="倒角检查" CheckFun="ChamferCheck" RepairFun="" Description="圆锥外螺纹小端面和内螺纹大端面倒角长度不得大于1P。" ErrorType="错误" ReviseSuggestion="" Type="结构规范">
+            <CheckConfig>
+                <Rule Name="倒角长度" VerType="小于等于" Value="1P"/>
+            </CheckConfig>
+        </RuleItem>
+        <!-- 公差要求检查 -->
+        <RuleItem Name="公差检查" CheckFun="ToleranceCheck" RepairFun="" Description="基准距离和基准平面位置公差按表1第9-10栏和18-19栏执行。" ErrorType="错误" ReviseSuggestion="" Type="公差规范">
+            <CheckConfig>
+                <Rule Name="外螺纹基准距离公差" VerType="引用" Value="表1第9-10栏"/>
+                <Rule Name="内螺纹基准位置公差" VerType="引用" Value="表1第18-19栏"/>
+            </CheckConfig>
+        </RuleItem>
+        <!-- 螺纹长度检查 -->
+        <RuleItem Name="螺纹长度检查" CheckFun="ThreadLengthCheck" RepairFun="" Description="有效螺纹长度需满足基准距离+装配余量，退刀结构需满足80%最小长度。" ErrorType="错误" ReviseSuggestion="" Type="结构规范">
+            <CheckConfig>
+                <Rule Name="最小有效长度" VerType="大于等于" Value="基准距离+装配余量"/>
+                <Rule Name="退刀结构长度" VerType="大于等于" Value="80%表1第17栏"/>
+            </CheckConfig>
+        </RuleItem>
+        <!-- 标记规范检查 -->
+        <RuleItem Name="标记检查" CheckFun="MarkingCheck" RepairFun="" Description="标记由特征代号(Rc/Rz)和尺寸代号组成，左旋需加LH。" ErrorType="错误" ReviseSuggestion="" Type="标注规范">
+            <CheckConfig>
+                <Rule Name="内螺纹特征代号" VerType="等于" Value="Rc"/>
+                <Rule Name="外螺纹特征代号" VerType="等于" Value="Rz"/>
+                <Rule Name="左旋标识" VerType="等于" Value="LH"/>
+                <Rule Name="螺纹副标记" VerType="等于" Value="Rc/R"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

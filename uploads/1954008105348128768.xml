@@ -1,0 +1,76 @@
+<SpecificationCheck>
+    <CheckGroup Name="机械制图尺寸注法检查" DocType="Standard">
+        <RuleItem Name="尺寸注法基本规则" CheckFun="DimensionCheck_1" RepairFun="" Description="本部分规定了在图样中标注尺寸的基本方法。本部分适用于机械图样的绘制。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="尺寸数值依据" VerType="-" Value="图样上所注的尺寸数值"/>
+                <Rule Name="尺寸单位" VerType="-" Value="毫米（不需标注单位符号）"/>
+                <Rule Name="完工尺寸" VerType="-" Value="图样所示机件的最后完工尺寸"/>
+                <Rule Name="尺寸标注原则" VerType="-" Value="每一尺寸一般只标注一次，并应标注在反映该结构最清晰的图形上"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="尺寸界线标准" CheckFun="BoundaryCheck_1" RepairFun="" Description="规定了尺寸界线的绘制方法和应用场景" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="尺寸界线线型" VerType="-" Value="细实线"/>
+                <Rule Name="尺寸界线引出位置" VerType="-" Value="图形的轮廓线、轴线或对称中心线处"/>
+                <Rule Name="曲线轮廓标注" VerType="-" Value="可将尺寸线或其延长线作为尺寸界线"/>
+                <Rule Name="尺寸界线与尺寸线关系" VerType="-" Value="一般应与尺寸线垂直，必要时才允许倾斜"/>
+                <Rule Name="光滑过渡处标注" VerType="-" Value="应用细实线将轮廓线延长，从交点处引出尺寸界线"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="尺寸线标准" CheckFun="LineCheck_1" RepairFun="" Description="规定了尺寸线的绘制方法和终端形式" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="尺寸线线型" VerType="-" Value="细实线"/>
+                <Rule Name="尺寸线终端形式" VerType="-" Value="箭头或斜线"/>
+                <Rule Name="斜线终端条件" VerType="-" Value="尺寸线与尺寸界线相互垂直时"/>
+                <Rule Name="线性尺寸标注" VerType="-" Value="尺寸线应与所标注的线段平行"/>
+                <Rule Name="圆直径和半径标注" VerType="-" Value="终端应画成箭头"/>
+                <Rule Name="角度标注" VerType="-" Value="应画成圆弧，圆心是该角的顶点"/>
+                <Rule Name="对称机件标注" VerType="-" Value="尺寸线应略超过对称中心线或断裂处的边界"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="尺寸数字标准" CheckFun="NumberCheck_1" RepairFun="" Description="规定了尺寸数字的注写位置、方向和格式要求" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="数字注写位置" VerType="-" Value="尺寸线的上方或中断处"/>
+                <Rule Name="数字注写方向" VerType="-" Value="方法1：按图18所示方向；方法2：非水平方向尺寸数字可水平注写"/>
+                <Rule Name="角度数字方向" VerType="-" Value="一律写成水平方向"/>
+                <Rule Name="数字不被图线通过" VerType="-" Value="尺寸数字不可被任何图线所通过，否则应将该图线断开"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="尺寸符号标准" CheckFun="SymbolCheck_1" RepairFun="" Description="规定了标注尺寸的符号及缩写词的使用规范" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="直径符号" VerType="-" Value="φ"/>
+                <Rule Name="半径符号" VerType="-" Value="R"/>
+                <Rule Name="球直径符号" VerType="-" Value="Sφ"/>
+                <Rule Name="球半径符号" VerType="-" Value="SR"/>
+                <Rule Name="厚度符号" VerType="-" Value="t"/>
+                <Rule Name="均布符号" VerType="-" Value="EQS"/>
+                <Rule Name="45°倒角符号" VerType="-" Value="C"/>
+                <Rule Name="正方形符号" VerType="-" Value="□"/>
+                <Rule Name="深度符号" VerType="-" Value="⌒"/>
+                <Rule Name="斜度符号" VerType="-" Value="N"/>
+                <Rule Name="锥度符号" VerType="-" Value="无"/>
+                <Rule Name="符号线宽" VerType="-" Value="h/10（h为字体高度）"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="特殊标注方法" CheckFun="SpecialCheck_1" RepairFun="" Description="规定了球面、弧长、参考尺寸等特殊情况的标注方法" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="球面标注" VerType="-" Value="在符号φ或R前加注S"/>
+                <Rule Name="弧长标注" VerType="-" Value="在尺寸数字左方加注符号⌒"/>
+                <Rule Name="参考尺寸标注" VerType="-" Value="将尺寸数字加上圆括弧"/>
+                <Rule Name="正方形结构标注" VerType="-" Value="加注符号□或B×B"/>
+                <Rule Name="板状零件厚度标注" VerType="-" Value="加注符号t"/>
+                <Rule Name="倒角标注" VerType="-" Value="45°倒角用C，非45°倒角按图32标注"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="简化注法标准" CheckFun="SimplifyCheck_1" RepairFun="" Description="尺寸的简化注法按GB/T16675.2执行" ErrorType="警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="简化注法标准" VerType="-" Value="GB/T16675.2"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="未定义形状边注法" CheckFun="UndefinedCheck_1" RepairFun="" Description="需要确切指定边的形状和极限尺寸要求时的标注方法" ErrorType="警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="未定义形状边标准" VerType="-" Value="GB/T19096/ISO13715:2000"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

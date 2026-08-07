@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpecificationCheck>
+  <CheckGroup>机械图纸技术规范检查</CheckGroup>
+  
+  <RuleItem Name="图纸基本信息检查" CheckFun="CheckDrawingBasicInfo" Description="检查图纸基本信息的完整性和规范性">
+    <CheckConfig>
+      <Rule>图纸必须包含Name和Standard属性</Rule>
+      <Rule>投影方法ProjectionMethod必须为FirstAngle或ThirdAngle</Rule>
+      <Rule>图纸格式Format应为标准格式（横版/竖版）</Rule>
+      <Rule>纸张尺寸PaperSize应符合国标要求</Rule>
+      <Rule>图纸比例Scale1和Scale2应为标准比例值（如0.1, 0.2, 0.3, 0.5, 1, 2, 5, 10等）</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="尺寸标注线样式检查" CheckFun="CheckDimensionLineStyle" Description="检查尺寸标注线的样式规范">
+    <CheckConfig>
+      <Rule>标注线样式Font必须为"虚线"</Rule>
+      <Rule>标注线宽度Width必须为0.25mm</Rule>
+      <Rule>标注线颜色Color必须为"0,1,1"（青色）</Rule>
+      <Rule>尺寸单位Unit必须为"mm"</Rule>
+      <Rule>尺寸类型Type应为"长度"、"半径"、"直径"、"角度"等标准类型</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="尺寸数值文字检查" CheckFun="CheckDimensionText" Description="检查尺寸数值文字的格式规范">
+    <CheckConfig>
+      <Rule>尺寸数值字体Font必须为"STFangsong"</Rule>
+      <Rule>尺寸数值字号Size必须为3.5</Rule>
+      <Rule>尺寸数值颜色Color必须为"0,1,0"（绿色）</Rule>
+      <Rule>尺寸数值应为正数且符合工程实际</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="中心线样式检查" CheckFun="CheckCenterlineStyle" Description="检查中心线的样式规范">
+    <CheckConfig>
+      <Rule>中心线宽度Width必须为0.25mm</Rule>
+      <Rule>中心线颜色Color必须为"1,0,0"（红色）</Rule>
+      <Rule>中心线间隙GAP必须为1.5mm</Rule>
+      <Rule>中心线应正确标识零件的对称轴线</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="可见线样式检查" CheckFun="CheckVisibleLineStyle" Description="检查可见轮廓线的样式规范">
+    <CheckConfig>
+      <Rule>可见线宽度Width必须为0.5mm</Rule>
+      <Rule>可见线颜色Color必须为"1,1,1"（白色）</Rule>
+      <Rule>可见线间隙GAP必须为0</Rule>
+      <Rule>可见线应清晰表示零件的可见轮廓</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="隐藏线样式检查" CheckFun="CheckHiddenLineStyle" Description="检查隐藏线的样式规范">
+    <CheckConfig>
+      <Rule>隐藏线宽度Width必须为0.25mm</Rule>
+      <Rule>隐藏线颜色Color必须为"1,1,0"（黄色）</Rule>
+      <Rule>隐藏线间隙GAP必须为0</Rule>
+      <Rule>隐藏线应表示被遮挡的轮廓线</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="虚拟线样式检查" CheckFun="CheckVirtualLineStyle" Description="检查虚拟线的样式规范">
+    <CheckConfig>
+      <Rule>虚拟线宽度Width必须为0.25mm</Rule>
+      <Rule>虚拟线颜色Color必须为"0,1,1"（青色）</Rule>
+      <Rule>虚拟线间隙GAP必须为3mm</Rule>
+      <Rule>虚拟线用于表示辅助线或构造线</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="追踪线样式检查" CheckFun="CheckTraceLineStyle" Description="检查追踪线的样式规范">
+    <CheckConfig>
+      <Rule>追踪线隐藏部分宽度HiddenWidth必须为0.25mm</Rule>
+      <Rule>追踪线隐藏部分颜色HiddenColor必须为"0.6,0.4,0.2"（棕色）</Rule>
+      <Rule>追踪线可见部分宽度VisibleWidth必须为0.25mm</Rule>
+      <Rule>追踪线可见部分颜色VisibleColor必须为"1,0,0"（红色）</Rule>
+      <Rule>追踪线间隙GAP必须为2mm</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="剖面区域检查" CheckFun="CheckSectionStyle" Description="检查剖面区域的样式规范">
+    <CheckConfig>
+      <Rule>剖面线宽度LineWidth必须为0.25mm</Rule>
+      <Rule>剖面线颜色Color必须为"1,1,0"（黄色）</Rule>
+      <Rule>剖面材料HatchMaterial应为标准材料类型（如"Iron/General Use"）</Rule>
+      <Rule>剖面线间距HatchDistance必须为1mm</Rule>
+      <Rule>剖面线角度HatchAngle必须为45度</Rule>
+      <Rule>剖面公差Tolerance必须为0.25mm</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="表格格式检查" CheckFun="CheckTableFormat" Description="检查表格的格式规范">
+    <CheckConfig>
+      <Rule>表格文字字体TextFont必须为"STFangsong"</Rule>
+      <Rule>表格文字大小TextSize应在2.8-5.0范围内</Rule>
+      <Rule>表格文字间距TextSpace应在0.1-0.5范围内</Rule>
+      <Rule>表格行间距TextLineSpace应在0.3-0.7范围内</Rule>
+      <Rule>表格应有明确的行数NumofRow和列数NumofColumn</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="明细表检查" CheckFun="CheckPartsList" Description="检查明细表的规范性">
+    <CheckConfig>
+      <Rule>明细表必须包含Name属性且值为"明细表"</Rule>
+      <Rule>明细表宽度Width应为80mm</Rule>
+      <Rule>明细表列数NumofColumn应为10列</Rule>
+      <Rule>明细表文字字体TextFont必须为"STFangsong"</Rule>
+      <Rule>明细表文字大小TextSize必须为3.5</Rule>
+      <Rule>明细表位置应在图纸右下角区域</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="粗糙度标注检查" CheckFun="CheckSurfaceFinish" Description="检查表面粗糙度标注的规范性">
+    <CheckConfig>
+      <Rule>粗糙度数值Value应为标准粗糙度等级</Rule>
+      <Rule>粗糙度角度Angle应为0度或90度</Rule>
+      <Rule>粗糙度标注应有明确的位置坐标X、Y</Rule>
+      <Rule>粗糙度标注应与相应表面关联</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="视图类型检查" CheckFun="CheckViewType" Description="检查视图类型的规范性">
+    <CheckConfig>
+      <Rule>视图类型ViewType应为标准类型（俯视图、正交视图、剖视图等）</Rule>
+      <Rule>视图角度Angle应为标准角度值（0、90、180、270度）</Rule>
+      <Rule>视图比例Scale应与图纸整体比例一致</Rule>
+      <Rule>视图面积ViewArea应合理且不为0</Rule>
+      <Rule>视图名称ViewName应符合命名规范</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="注释文字检查" CheckFun="CheckNoteText" Description="检查注释文字的格式规范">
+    <CheckConfig>
+      <Rule>注释文字字体TextFont应为标准字体（如"chinesef_fs"）</Rule>
+      <Rule>注释文字大小TextSize必须为3.5</Rule>
+      <Rule>注释文字间距TextSpace必须为0.1</Rule>
+      <Rule>注释文字行间距TextLineSpace必须为0.1</Rule>
+      <Rule>注释文字比例Scale必须为1</Rule>
+      <Rule>注释文字角度Angle应为0度或90度</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="坐标位置检查" CheckFun="CheckCoordinates" Description="检查各元素坐标位置的合理性">
+    <CheckConfig>
+      <Rule>所有元素的X坐标应在图纸宽度范围内（0-210mm）</Rule>
+      <Rule>所有元素的Y坐标应在图纸高度范围内（0-297mm）</Rule>
+      <Rule>Location属性应为标准位置标识（如"A1"）</Rule>
+      <Rule>元素位置应避免重叠和冲突</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="图层标识检查" CheckFun="CheckLayerID" Description="检查图层标识的唯一性和规范性">
+    <CheckConfig>
+      <Rule>所有带ID的元素必须具有唯一的ID值</Rule>
+      <Rule>ID值应为正整数</Rule>
+      <Rule>相同类型元素的ID应按顺序编号</Rule>
+      <Rule>ID值不应重复使用</Rule>
+    </CheckConfig>
+  </RuleItem>
+
+</SpecificationCheck>

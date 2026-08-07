@@ -1,0 +1,610 @@
+[
+    {
+        "type": "text",
+        "text": "中华人民共和国铁道行业标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "机车电气设备布线规则",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1主题内容及适用范围",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准规定了机车电气设备布线规则。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准适用于铁道电力机车、内燃机车及电动车组电气设备间布线、接线。大修机车亦应参照使用。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "对于不同于本标准的特殊要求，经用户和制造厂协商，由产品技术条件规定。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2 引用标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GB3317 电力机车通用技术条件  \nGB3314 内燃机车通用技术条件  \nTB1484 机车车辆用绝缘电缆订货技术条件  \nGB5584.2 电工用铜、铝及其合金扁线 第二部分：铜扁线  \nGB5585.2 电工用铜、铝及其合金母线 第二部分：铜母线  \nGB466 铜分类  \nGB1528 挤制铜管  \nGB2040 纯铜板  \nJB 2836 电工产品的电镀层和化学覆盖层  \nGB1238 金属镀层及化学处理表示方法  \nGB3138 电镀常用名词术语  \nGB9327.2 电缆导体压缩和机械连接接头试验方法 直流电阻试验方法  \nGB9327.5 电缆导体压缩和机械连接接头试验方法 抚拉强度试验方法  \nTB 1508 机车电气屏柜技术条件",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3环境条件",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3.1机车布线、接线的安装环境温度不低于一 $40\\pi$ 口  \n3.2符合GB3317、GB3314之环境条件。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "4机车布线，接线原则",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.1机车布线应符合机车设计所规定的电路图及机车布线图的要求。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.2对机车电路图中同一线号有很多根电线者,则在线号标记中必须有区别标记符号。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.3机车总体布线时应注意使电线尽量远离发热器件。发热温度在 $100\\cdot5$ 以内的发热器件电线与之距离需保持在20在 $100\\cdots300$ 者，电线与之距离需保持在30mm以上；发热在300℃以上，如无隔热，防火措施者，电线与之距离需保持在80mm以上；如有隔热，防火措施以隔热部分的实际可能温度考虑（达不到此距离时，允许穿瓷套来解决）。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.4机车布线应采用集中布线法；机车控制电路如需接地,应集中接地,接地点不得超过 2处。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.5机车布线可以采用线槽、线管,也可以裸露布线。线槽、管的端部以及电线引出口不得浸漏油、水,裸露布置的电线必须充分注意不得浸入油、水。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.6机车布线经过车体上金属隔板开的孔应不影响车体的强度。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.7穿入线管的电线电缆,外径面积之和不应超过线管内孔横截面积的 $70\\%$ （一根电线的可以例外）。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.8机车上两接线端子间电线不允许剪接。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.9机车上电线两端头接线，除了与插接件相连者外，必须采用接头压接。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.10每根电线两端必须有清晰牢固的线号，每个插头、座、每个接线座（端子）上或安装位置处必须有清晰牢固的代号标记；铜母线要打钢印号码，至少要保持一个大修期。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.11电线管、槽安装应牢固,电线要用扎线带、线卡等以适当间隔可靠固定,防止振动造成损伤。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.12电线电缆出入线槽、线管及穿过金属隔板的孔、口时,必须加以防护。所有各孔、管口应加绝缘套（有油处应耐油）或用绝缘物包扎。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.13母线和母线间电气间隙和爬电距离采用TB1508的规定.",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.14机车布线与机车上的电气屏柜、仪表、电气设备的连接，可采用螺栓组成的接线座（端子）或插头、座。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4.1.5每个螺栓接线座(端子)上接线数不应超过4根. ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "5电线电缆 ",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "5.1根据TB1484《机车车辆用绝缘电缆订货技术条件》选用机车所用电缆。电缆以线芯长期允许工作温度分为三组：A组： $70\\%$ ：B组： $100\\cdot\\tt{\\bar{C}}$ ；C组 $125\\cdot5$ 口",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "5.2电线电缆的弯曲半径应符合TB1484的规定：当电缆直径小于或等于 $20\\mathrm{mm}$ 时,弯曲半径应大于或等于电缆外径的3倍；当电缆直径大于 $20\\mathrm{mm}$ 时,弯曲半径应大于或等于电缆外径的5倍。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "6母线",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "6.1铜母线一般采用TBY、TBR 型扁铜线及TMY、TMR 型铜母线,根据GB5584.2及GB  \n5585.2选用",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "6.2母线落料、钻孔和冲孔后,应去毛刺。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "TB/T1507—93 ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "6.3铜母线、扁铜线平弯时,弯曲内半径不小于窄边宽度；扁弯时弯曲内半径不小于母线宽边宽度。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "5.4母线焊接处的焊缝必须牢固、均匀、无虚焊、裂缝、气泡和夹渣等现象。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "6.5母线应平整、调直,表面不得有高于 $1\\mathrm{mm}$ 的折皱。母线弯制后不应有裂纹或裂口。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "6.6 母线连接 ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "6.6.1母线和母线连接处、母线与电器端子连接处的连接长度不小于铜排的宽度,并应采用镀（塘）锡、镀银等防电化腐蚀措施。对铜母线的其余部分可以采用镀（塘）锡、刷油漆，包扎绝缘等防护措施。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "6.6.2母线和母线、母线与电器端子连接处应平整、密贴。必要时,可采用接合电阻等方法检查。检查方法及要求如附录A（补充件）所示。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "7接头",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "7.1接头必须用纯铜T2或T3（GB466）对于管材应同时符合GB1528对于板材应同时符 合GB 2040· ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "7.2机车布线接线用接头分下列2种：",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "7.2. 1 全裸接头：如图1所示",
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987724279571177472/ed9e8918ca31f28896806f5e00a28a79223c4b930c3f9681498279d6add30ec2.jpg",
+        "img_caption": [
+            "图1全裸接头"
+        ],
+        "img_footnote": [],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "全裸接头适用于横截面积大于或等于 $16\\mathrm{mm}^{2}$ 的电缆。安装螺孔分单孔及双孔,如图1a、b所示。接头系列的各部分尺寸推荐如表1所示",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "表1全裸接头的规格尺寸",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987724279571177472/26bc3e3bb6228c5681a6509b8d88e219eb40e27083ca703aebde7a040d29c479.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>制线截面 mm2</td><td>16</td><td colspan=\"3\">25 35</td><td>50</td><td colspan=\"3\">· 70</td><td colspan=\"6\">95</td><td colspan=\"6\"></td><td colspan=\"2\">150</td><td colspan=\"2\">185</td><td></td><td>300</td><td>240</td><td></td></tr><tr><td>规格尺寸mn 螺栓孔数目</td><td>1</td><td colspan=\"3\">1</td><td>一</td><td colspan=\"3\">1</td><td colspan=\"3\">1</td><td colspan=\"6\"></td><td colspan=\"6\">2</td><td colspan=\"2\"></td><td></td><td></td><td></td><td></td></tr><tr><td>（个 螺栓直径</td><td>M8</td><td colspan=\"3\">M8</td><td></td><td>M8M10</td><td>M8</td><td colspan=\"3\"></td><td></td><td colspan=\"3\">M10|M12|M10M12|M12M16M10</td><td>1</td><td></td><td colspan=\"3\"></td><td></td><td>2 M12|M10M12M10M12M10M12|M12M12</td><td colspan=\"3\"></td><td>2</td><td>2'</td><td></td><td></td><td>？</td></tr><tr><td>螺栓孔直径</td><td>10</td><td colspan=\"3\">8.5</td><td>10 10</td><td>11</td><td></td><td colspan=\"3\">(9) 11</td><td>（13）</td><td>11</td><td>13</td><td></td><td>12.5</td><td>(17）</td><td></td><td>12</td><td colspan=\"2\">14</td><td>11</td><td>14</td><td>11</td><td></td><td>.14</td><td>T1</td><td>14</td><td>14</td><td>14</td></tr><tr><td></td><td></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td colspan=\"3\"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>23</td><td colspan=\"2\">35</td><td>23</td><td>35</td><td>23</td><td></td><td>35</td><td>23</td><td>35</td><td>35</td><td>35</td></tr><tr><td>b</td><td colspan=\"3\">14</td><td colspan=\"3\">（15）(18） 17 20</td><td colspan=\"3\">23</td><td colspan=\"3\">25</td><td colspan=\"3\"></td><td colspan=\"3\">28</td><td colspan=\"3\"></td><td>32</td><td></td><td>36</td><td></td><td></td><td>37</td><td>47</td><td>51</td></tr><tr><td>C</td><td>16</td><td>(20)</td><td colspan=\"3\">(25）</td><td>18</td><td>18</td><td>（40）</td><td colspan=\"3\">22</td><td>(40）(39)(39)</td><td></td><td>35</td><td>(47)</td><td></td><td></td><td colspan=\"3\">40</td><td>30</td><td>41</td><td>30</td><td>42</td><td>35</td><td>42</td><td>50</td><td>77</td></tr><tr><td>d2</td><td>10</td><td>（10）</td><td>12</td><td></td><td>12</td><td>14</td><td>16</td><td>(19)</td><td>17</td><td></td><td>(19）</td><td>22</td><td>22</td><td>20</td><td></td><td>22</td><td>20</td><td>20</td><td>22</td><td>22</td><td>22</td><td></td><td>24</td><td></td><td>26</td><td></td><td>32</td><td>34</td></tr><tr><td>d1</td><td>？</td><td>8</td><td>(9)</td><td>8</td><td></td><td>10</td><td>12</td><td>（15）</td><td>13</td><td>（15）</td><td></td><td>18</td><td>18</td><td>16</td><td></td><td>18</td><td>16</td><td>16</td><td>18</td><td>(17）</td><td>18</td><td></td><td>20</td><td></td><td>21</td><td></td><td>26</td><td>28</td></tr><tr><td>1.</td><td>40</td><td>(46)</td><td>(50)</td><td>44</td><td>50</td><td></td><td>55</td><td>(68)</td><td>60</td><td></td><td>(68)(72)</td><td></td><td>(72)</td><td>68</td><td></td><td>(72)</td><td>90</td><td></td><td>115</td><td>95</td><td>115</td><td></td><td>100</td><td>115</td><td>105</td><td>115</td><td>140</td><td>150</td></tr></table></body></html>\n\n",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "7.2.2护套接头：如图2所示",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "护套接头适用于横截面积小于或等于 $10\\mathrm{mm}^{2}$ 的电缆。螺孔为单孔,螺孔直径如表2。",
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987724279571177472/2ab5568da2f4015edf1cf5df6ec09f47c669910493b1080c799e357074b9ebf1.jpg",
+        "img_caption": [
+            "图2护套接头"
+        ],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987724279571177472/a1e677a718696b40d3d55ddc94e91702ae7068295ba64032ca53b0cb2a530a78.jpg",
+        "table_caption": [
+            "表面2"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>电线截面mm²</td><td>0.75，1，1.5.2.5</td><td>4.6.10</td></tr><tr><td>螺栓直径</td><td>M3-M10</td><td>M5-M12</td></tr></table></body></html>\n\n",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "7.3接头表面不得有毛刺、锐边、裂纹或扭曲、明显变形等外观缺陷。 ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "7.4接头表面要镀锡或镀银,镀层按JB2836的要求进行外观检查。按GB1238标注。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "7.5接磁和电线的压接",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "7.5.1接头和电线必须采用冷压连接。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "7.5.2根据电线截面选用规定的接头，要使用与接头相配合的带卡位装置的压接工具。选用护套接头时，其压接方式如图3a;选用全裸接头时,其压接方式采用六方压接，如图3b,压接伸入全裸接头后的裸露电线的长度B,以及与各种接头相连接剥去外皮的电线长度C,需按表3的规定。B、C的部位如图3所示",
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987724279571177472/05ef4cbd16cb1de92ef4e68328ba6cbdec6e96c7cf675586bb9abfda63b62ceb.jpg",
+        "img_caption": [
+            "图3接头压接的示意图"
+        ],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987724279571177472/5baa8f3c4a88f1fa9f5e34ea2300cbac8a69d5059549d4fddc3e3c7cfd76f8ee.jpg",
+        "table_caption": [
+            "表3"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>线芯截面mm²</td><td rowspan=\"2\">0.20.5</td><td rowspan=\"2\">4-10</td><td rowspan=\"2\">16—95</td><td rowspan=\"2\">120—300</td></tr><tr><td>压接尺寸mm</td></tr><tr><td>B</td><td></td><td></td><td><2</td><td><3</td></tr><tr><td>C</td><td>>4</td><td>>6</td><td>>15</td><td>>20</td></tr></table></body></html>\n\n",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "7.5.3和接头相连的电线，剥线时不应有损伤、断股。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.5.4若采用新型接头或换用压接工具时,必须按每种型号抽3个接头进行直流电阻、抗拉强度、极限温升型式试验。若有2个不合格,则认为型式试验不合格。若仅有2个中的某项试验不合格，应允许再以两倍数量的接头进行单项复试。复试仍不合格,则认为型式试验不合格,此种接头或压接工具不能采用。测试方法及要求如附录B（补充件）所示。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.5.5 使用操作抽检",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "当使用专用的压接工具进行接头的冷压操作时，应定期（ $3\\cdots6$ 个月）做压缩连接接头电阻比率kj的抽检测定（每次抽检的接头数,每种不得少于3只。测定后,取其测量值的算术平均值）。若 $k j\\ge80\\%$ ,则压接工具应予修复或报废。测试方法及要求见GB9327.2。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "若因测量误差、材质等因素影响直流电阻测试的数值,则该抽样应做极限温升试验。最后以极限温升不超过标准为考核依据。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8插头，座和接线座（端子）",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8.1插头、座和接线座（端子）应按不同电压、电流及防护要求进行选择。相同规格的插头、座应保持互换。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8.2插头、座应有防尘措施。在车体外部用的重联插头、座等应有防尘、防雨等密封措施",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8.3与焊接插头、座相连的电线,焊接时必须用无腐蚀的中性焊剂。连接必须牢固,不得有 虚焊。不得有断股和损伤。各接触芯均应有防护绝缘套管和线号套管，焊芯间的残锡清除干 净 ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8.4上车前插头、座相邻各芯点及各芯点与地之间应作绝缘试验,根据所在的电路额定电压 选用试验电压. ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8.5采用新型手头、座或采用新型压接工具（对冷压型而言）时,必须抽两对插头、座进行连接的振动试验。测试方法及要求如附录C（补充件）所示。若样品测试有一对不合格,则抽两倍的样品进行试验，如仍有一对不合格,则该种插头、座不能采用。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "9线管和线槽 ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "9.1线管和线槽的出线口边缘必须光滑，不得有尖角、毛刺。  \n9.2线管应尽量减少弯曲。每根线管中,弯管内角 $\\because90^{\\circ}$ 的弯曲不应超过1处。  \n9.3线管在穿过金属隔板时,如需焊接,则不许把线管焊穿。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "10电线绑扎及固定",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "10.1在金属扎线杆、板的所有长度上,应用绝缘带叠绕后再扎线。叠绕方向应由下至上（水平方向叠绕除外）",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "10.2到屏柜及各电气设备中的电线和电线束,在扎线杆、板端部、分岔电线束根部及电线束拐弯处均应有束带紧固。其他区段可以用束带进行连续整段包扎,也可用束带分段绑扎。如果仅用束带分段绑扎，则要求最多隔 $200\\mathrm{mm}$ 有束带紧固。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "在机车线槽中的电线束拐弯处,分叉处均应有束带紧固。其他区段如果仅用束带绑扎,则要求最多隔 $500\\mathrm{mm}$ 有束带紧固。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "10.3电线和各接线座、电气设备及插头插座连接时,要留有一定的弧度。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "10.4母线应有绝缘线卡固定。母线拐弯处,连接处均应有线卡,其他区段则隔 $1\\cdots1.5\\mathrm{m}$ 线",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "TB/T1507—93 ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "10.5线卡应有足够的电气强度和机械强度。  \n10.6通往机车车体外部的连接电线，捆扎后应留有一定的长度。当机车按机车技术条件通过充许的最小曲线半径时，连接电线应能正常地工作。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "11线号",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "11.1线号标记可采用以下三种形式",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "11.1.1线号的数字",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "11.1.2连接处的电气设备项目代号和通往的电气设备项目代号。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "11.1.3线号的数字与远端电气设备代号的组合。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "11.2线号的标注为机械制图标注法。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "11.2.1线号数字顺电线轴向书写、位于水平位置时,标记数字正置,正对读者,不能颠倒；位于垂直位置时，字顶朝左边；位于倾斜位置时,使它沿水平方向夹角小的那一方向旋转到水平位置，保持线号标记数字的正置。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "11.2.2线号数字顺电线周向书写：位于水平位置时,字顶朝左边；位于垂直位置时,标记数字正置,不能颠倒；位于倾斜位置时，使它沿与垂直方向夹角小的那一方向旋转到垂直位置，保持线号标记数字的正置。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "11.3线号应固定在线端适当位置,不得因振动丢失。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "11.4机车主电路中与主回路直接电连接的电路布线必须用红底线号。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "附录A母线连接接合电阻检查（补充件）",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "A1母线连接处的接合电阻应不大于同长母线的电阻。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "为应用方便,采用“微电阻测量计”测量。按图A1 进行。在AB、BC间分别测得 ${\\bf R}_{\\mathrm{AB}}\\cdot{\\bf\\Omega}$ $\\mathsf{R}_{\\mathrm{BC}}$ （分平量和立量各2次,取得其算术平均值）。",
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987724279571177472/944ccc9739762e8ab37d8dc0d2db9dc70e5e095b4589b0773152f22fbf53c45a.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "则 $\\mathrm{R_{AB}}-\\frac{1}{2}\\mathrm{R_{BC}}=\\frac{1}{2}\\mathrm{R_{BC}}$ ",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "式中： $\\mathtt{R}_{\\mathtt{A B}}-\\mathtt{A}$ 点至B点间的电阻， $\\Omega$ $\\mathtt{R}_{\\mathtt{A B}}$ 一RBc一母线接触处的接合电阻， $\\Omega$ ，$\\mathbf{R}_{\\mathrm{BC}}-\\mathbf{B}$ 点至C点间的电阻， $\\Omega$ 口",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "图中： $\\delta\\tilde{\\varepsilon}_{\\mathrm{~\\bf~u~}}\\slash\\Psi.$ 号为测试点；1为连接长度。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "A2当实际使用电流小于母线额定容量时，接合处的接合电阻允许增加,但增加量不得超过按电流的减少值占额定容量百分比算出的接合电阻增加值。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "附录B接头和电线连接情况测试（补充件）",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "B1连接接头直流电阻测定",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "按照GB9327.2《电缆导体压缩和机械连接接头试验方法直流电阻试验方法》测定。测试时,其回路通以表中规定的测试电流.",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "B2 抗拉强度试验 ",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "按照GB9327.5《电缆导体压缩和机械连接接头试验方法抗拉强度试验方法》试验。试验时，试样的拉伸荷重值须不小于表B1所列规定。",
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987724279571177472/58f5e5aa4fc3f5b25b6ce51266b1cc5cb5e11a744af9d9e9abbebb659b60bc8f.jpg",
+        "table_caption": [
+            "表1",
+            "B3极限温升试验按图B1进行"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>线芯截面mm²</td><td>直流电阻测定时 流过电流A</td><td>温升试验时通过电流 （~50Hz)A</td><td>抗拉试验荷重（N）</td></tr><tr><td>0.5</td><td>2</td><td>4</td><td>70</td></tr><tr><td>0.75</td><td>2</td><td>5</td><td>100</td></tr><tr><td>1</td><td>4</td><td>6</td><td>130</td></tr><tr><td>1.2</td><td>5</td><td>9</td><td>160</td></tr><tr><td>1.5</td><td>6</td><td>12</td><td>200</td></tr><tr><td>2.5</td><td>8</td><td>20</td><td>250</td></tr><tr><td>4</td><td>10</td><td>25</td><td>350</td></tr><tr><td>6</td><td>12</td><td>35</td><td>450</td></tr><tr><td>10</td><td>15</td><td>50</td><td>600</td></tr><tr><td>16</td><td>20</td><td>65</td><td>800</td></tr><tr><td>25</td><td>30</td><td>80</td><td>900</td></tr><tr><td>35</td><td>45</td><td>100</td><td>1000</td></tr><tr><td>50</td><td>50</td><td>125</td><td>1300</td></tr><tr><td>70</td><td>90</td><td>180</td><td>1750</td></tr><tr><td>95</td><td>130</td><td>260</td><td>2200</td></tr><tr><td>120</td><td>170</td><td>340</td><td>2700</td></tr><tr><td>150</td><td>210</td><td>420</td><td>3400</td></tr><tr><td>185</td><td>250</td><td>500</td><td>4000</td></tr><tr><td>240</td><td>290</td><td>590</td><td>5000</td></tr><tr><td>270</td><td>315</td><td>635</td><td>5500</td></tr><tr><td>300</td><td>335</td><td>680</td><td>6000</td></tr></table></body></html>\n\n",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987724279571177472/db29da10afcfd65e1df01bd1f1ce8b1ff27d652f11a37fa84f99ce3ca6a1d3ce.jpg",
+        "img_caption": [
+            "图B1"
+        ],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "试验时,应在接合的电线中,通以表B1所规定的试验电流。在温度上升到相隔一小时的三次或三次以上由测量点测得的温度之差不超过1“℃时,就认为发热稳定。其接头测定点的温升，不得高于距被试接头约 $\\ensuremath{1\\mathrm{m}}$ 处之电线测定点的温升。温度用热电偶温度计或半导体点温计测定。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "附录C插头插座和电线连接的振动试验（补充件）",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "C1每次抽各种型号各2对做型式试验 ",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "C2 耐振试验按TB1333的6.5条要求执行，具体过程如下：",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "C2.1将插头、座上已连好的电线各留下 $100\\cdots200\\mathrm{mm}$ 长,线端头部压好接头。  \nC2.2将插头和插座插紧,锁好,并固定在试验台座上。  \nC2.2.1在 $1\\cdots50\\mathrm{Hz}$ 的频率范围内,分别在相应机车的垂向、横向、纵向检查有无共振现象。如产生共振应设法消除,不能消除时则在该共振频率及其方向振动2h,应无机械损伤及电接触破坏  \nC2.2.2若无共振现象,则在相应于机车的垂向、横向、纵向承受 $10\\mathrm{Hz},10\\mathrm{m/s}^{2}$ 的振动各2h,不得发生机械损伤和电接触破坏。  \nC2.2.3按纵向、横向、垂向承受 $50\\mathrm{{Hz}}$ ： $30\\mathrm{m}/\\mathrm{s}^{2}$ 的振动 $2\\mathrm{min}$ ,不得发生机械损伤和电接触破坏。  \n注：①由于插头，插座在机车上的位置可能有3个方向，所以,相应于机车的纵向冲击加速度,对插头，插座就可能是纵，横和垂向的，  \n检查电接触破坏方法：将所有接触对用螺栓在线接头处串联，并通过交流0.1A（电源电压6.3V左右），然后将其电压降引向示波器.在振动过程中.看示波器的连续光带是否出现断续点",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "附加说明：",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "本标准由株洲电力机车研究所提出并归口。  \n本标准由株洲电力机车工厂负责起草。  \n本标准起草人郭立平、胡秀英。",
+        "page_idx": 9
+    }
+]

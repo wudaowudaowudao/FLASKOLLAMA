@@ -1,0 +1,393 @@
+[
+    {
+        "type": "text",
+        "text": "前 言",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准是根据国际标准ISO2768-1:1989(E)《一般公差第1部分：未单独注出公差的线性和角度尺寸的公差》(1989-11-15第1版)对GB/T1804—1992《一般公差线性尺寸的未注公差》GB/T 11335—1989《未注公差角度的极限偏差》进行修订的。在技术内容上与该国际标准等效。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "这样，使我国的未注公差尺寸的一般公差标准尽可能与国际的一致或等同，以尽快适应国际贸易、技术和经济交流，以及采用国际标准飞跃发展的需要。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准与原GB/T 1804 和 GB/T 11335 相比增加了引用标准、定义、总则和判定等四个章节，并对标准名称作了修改。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准从实施之日起，同时代替GB/T1804—1992、GB/T11335—1989。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准的附录A是提示的附录。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准由国家机械工业局提出。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准由全国产品尺寸和几何技术规范标准化技术委员会归口。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准起草单位：机械科学研究院。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准主要起草人：李晓沛、俞汉清。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ISO 前言",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ISO(国际标准化组织)是由各国标准团体(ISO成员团体)组成的世界范围的联合组织。国际标准的起草工作一般通过ISO 各技术委员会来完成。每一个成员团体对已成立的技术委员会的任务感兴趣，有权派代表参加其中工作。与ISO有联系的政府的或非政府的国际组织，也可参加工作。ISO与从事电工标准化的国际电工委员会(IEC)有着密切的合作。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "在ISO理事会批准作为国际标准前，被技术委员会采纳的国际标准草案须经各成员团体通信投票表决。按照ISO导则，须有 $75\\%$ 以上的成员团体投票赞成，方可通过。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "国际标准ISO 2768-1由ISO/TC3\"极限与配合\"技术委员会起草。本ISO2768-1(第一版)与 ISO2768-2—起代替ISO2768：1973。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ISO2768在“一般公差\"主标题下，由以下部分组成：一第1部分：未单独注出公差的线性和角度尺寸的公差一第2部分：未单独注出公差的要素的几何公差ISO2768本部分标准的附录A是提示的附录。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "一般公差未注公差的线性和角度尺寸的公差",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "General toler ances Tolerances for linear and angular dimensions without individual tolerance indications ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准规定了未注出公差的线性和角度尺寸的一般公差的公差等级和极限偏差数值。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准适用于金属切削加工的尺寸，也适用于一般的冲压加工的尺寸。非金属材料和其他工艺方法加工的尺寸可参照采用。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准仅适用于下列未注公差的尺寸：",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "a）线性尺寸(例如外尺寸，内尺寸，阶梯尺寸，直径，半径，距离，倒圆半径和倒角高度);b）角度尺寸，包括通常不注出角度值的角度尺寸，例如直角 $(90^{\\circ})$ ；GB/T1184提到的或等多边形的角度除外；c）机加工组装件的线性和角度尺寸。本标准不适用于下列尺寸：a）其他一般公差标准涉及的线性和角度尺寸；b）括号内的参考尺寸；c）矩形框格内的理论正确尺寸。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2 引用标准",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "下列标准所包含的条文，通过在本标准中引用而构成为本标准的条文。本标准出版时，所示版本均为有效。所有标准都会被修订，使用本标准的各方应探讨使用下列标准最新版本的可能性。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "GB/T 1800.1—1997 极限与配合基础第1部分：词汇   \nGB/T 1184—1996 形状和位置公差未注公差值(eqvISO2768-2:1989)   \nGB/T 4249—1996 公差原则(eqv ISO 8015:1985)   \nGB/T6403.4—1986零件倒圆与倒角 ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3 定义",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1本标准采用GB/T1800.1给出的有关术语和定义。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2一般公差 general tolerances",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "指在车间通常加工条件下可保证的公差。采用一般公差的尺寸，在该尺寸后不需注出其极限偏差数值。注：附录A(提示的附录)给出了一般公差的概念和解释。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4总则 ",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "选取图样上未注公差的尺寸的一般公差的公差等级时，应考虑通常的车间精度并由相应的技术文件或标准作出具体规定。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "对任一单一尺寸，如功能上要求比一般公差更小的公差或允许更大的公差并更为经济时，其相应的极限偏差要在相关的基本尺寸后注出。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "在图样或有关技术文件中采用本标准规定的线性和角度尺寸的一般公差时，应按本标准第6章的规定进行标注。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "由不同类型的工艺(例如切削和铸造)分别加工形成的两表面之间的未注公差的尺寸应按规定的两个一般公差数值中的较大值控制。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "以角度单位规定的一般公差仅控制表面的线或素线的总方向，不控制它们的形状误差。从实际表面得到的线的总方向是理想几何形状的接触线方向。接触线和实际线之间的最大距离是最小可能值（见GB/T 4249)。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5一般公差的公差等级和极限偏差数值 ",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "一般公差分精密f、中等m、粗糙c、最粗 $\\mathbf{v}$ 共4个公差等级。按未注公差的线性尺寸和角度尺寸分别给出了各公差等级的极限偏差数值。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.1线性尺寸 ",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "表1给出了线性尺寸的极限偏差数值;表2给出了倒圆半径和倒角高度尺寸的极限偏差数值。 ",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "mm ",
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723029911855104/32c8012c8106215fea6788fe358676099a33841b20bd8064e4d5671632a267bf.jpg",
+        "table_caption": [
+            "表1线性尺寸的极限偏差数值 "
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">公差等级</td><td colspan=\"8\">基本尺寸分段</td></tr><tr><td>0.5~3</td><td>V3~6</td><td>>6~30</td><td>>30～120</td><td>>120～400</td><td></td><td>>400～1000>1000～2000>2 000～4000</td><td></td></tr><tr><td>精密f</td><td>±0.05</td><td>±0.05</td><td>±0.1</td><td>±0.15</td><td>±0.2</td><td>±0.3</td><td>±0.5</td><td></td></tr><tr><td>中等m</td><td>±0.1</td><td>±0.1</td><td>±0.2</td><td>±0.3</td><td>±0.5</td><td>±0.8</td><td>±1.2</td><td>±2</td></tr><tr><td>粗糙c</td><td>±0.2</td><td>±0.3</td><td>±0.5</td><td>±0.8</td><td>±1.2</td><td>±2</td><td>±3</td><td>±4</td></tr><tr><td>最粗v</td><td></td><td>±0.5</td><td>±1</td><td>±1.5</td><td>±2.5</td><td>±4</td><td>±6</td><td>±8</td></tr></table></body></html>\n\n",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "mm ",
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723029911855104/40599fece54629f6f0acec8334815f5ed883f7a4c22e6cba40cad1deed130dde.jpg",
+        "table_caption": [
+            "表2倒圆半径和倒角高度尺寸的极限偏差数值 "
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">公差等级</td><td colspan=\"4\">基本尺寸分段</td></tr><tr><td>0.5~3</td><td>V3~6</td><td>V6~30</td><td>>30</td></tr><tr><td>精密f</td><td rowspan=\"2\">±0.2</td><td rowspan=\"2\">±0.5</td><td rowspan=\"2\">±1</td><td rowspan=\"2\">±2</td></tr><tr><td>中等m</td></tr><tr><td>粗糙c</td><td rowspan=\"2\">±0.4</td><td rowspan=\"2\">±1</td><td rowspan=\"2\">±2</td><td rowspan=\"2\">±4</td></tr><tr><td>最粗v</td></tr><tr><td colspan=\"6\">注：倒圆半径和倒角高度的含义参见GB/T6403.4。</td></tr></table></body></html>\n\n",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.2角度尺寸 ",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "表3给出了角度尺寸的极限偏差数值，其值按角度短边长度确定，对圆锥角按圆锥素线长度确定。",
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723029911855104/bebf7f8875ccf627909c8e61671d795e8bbcb52d1e1ab55b258c30bfc9cb466b.jpg",
+        "table_caption": [
+            "表3角度尺寸的极限偏差数值"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">公差等级</td><td colspan=\"5\">长度分段，mm</td></tr><tr><td>~10</td><td>>10~50</td><td>>50～120</td><td>>120～400</td><td>>400</td></tr><tr><td>精密f</td><td rowspan=\"2\">±1°</td><td rowspan=\"2\">±30</td><td rowspan=\"2\">±20</td><td rowspan=\"2\">±1Q</td><td rowspan=\"2\">±5</td></tr><tr><td>中等m</td></tr><tr><td>粗糙c</td><td>±1°30'</td><td>±1°</td><td>±30</td><td>±15</td><td>±1Q</td></tr><tr><td>最粗v</td><td>±3</td><td>±2</td><td>±1°</td><td>±30</td><td>±20</td></tr></table></body></html>\n\n",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "6一般公差的图样表示法",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "若采用本标准规定的一般公差，应在图样标题栏附近或技术要求、技术文件(如企业标准)中注出本标准号及公差等级代号。例如选取中等级时，标注为：",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7判定",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "除另有规定，超出一般公差的工件如未达到损害其功能时，通常不应判定拒收(见A5)。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "附录A ",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "(提示的附录) ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "线性和角度尺寸的一般公差的概念和解释",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A1构成零件的所有要素总是具有一定的尺寸和几何形状。由于尺寸误差和几何特征(形状、方向、位置)误差的存在，为保证零件的使用功能就必须对它们加以限制，超出将会损害其功能。因此，零件在图样上表达的所有要素都有一定的公差要求。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "对功能上无特殊要求的要素可给出一般公差。一般公差可应用在线性尺寸、角度尺寸、形状和位置等几何要素。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "采用一般公差的要素在图样上可不单独注出其公差，而是在图样上、技术要求或技术文件(如企业标准)中作出总的说明。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A2　线性和角度尺寸的一般公差是在车间普通工艺条件下，机床设备可保证的公差。在正常维护和操作情况下，它代表车间通常的加工精度。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "一般公差的公差等级的公差数值符合通常的车间精度。按零件使用要求选取相应的公差等级。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "线性尺寸的一般公差主要用于低精度的非配合尺寸。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "采用一般公差的尺寸在正常车间精度保证的条件下，一般可不检验。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A3对某确定的公差值，加大公差通常在制造上并不会经济。例如适宜\"通常中等精度\"水平的车间加工 $35\\mathrm{~mm}$ 直径的某要素，规定士 $\\mathbf{\\nabla}_{1}\\mathbf{m}\\mathbf{m}$ 的极限偏差值通常在制造上对车间不会带来更大的利益，而选用$\\pm0.3\\:\\mathrm{mm}$ 的一般公差的极限偏差值(中等级)就足够。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "当功能上允许的公差等于或大于一般公差时，应采用一般公差。只有当要素的功能允许比一般公差大的公差，而该公差在制造上比一般公差更为经济时(例如装配时所钻的盲孔深度)，其相应的极限偏差数值要在尺寸后注出。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "由于功能上的需要，某要素要求采用比\"一般公差\"小的公差值，则应在尺寸后注出其相应的极限偏差数值。当然这已不属一般公差的范畴。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "A4采用一般公差，可带来以下好处：",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "a）简化制图，图面清晰易读，可高效地进行信息交换。b）节省图样设计时间。设计人员不必逐一考虑或计算公差值，只需了解某要素在功能上是否允许采用大于或等于一般公差的公差值。c）图样明确了哪些要素可由一般工艺水平保证，可简化检验要求，有助于质量管理。d）突出了图样上注出公差的尺寸，这些尺寸大多是重要的且需要控制的，引起加工与检验时重视和作出计划安排。e）由于签订合同前就已经知道工厂\"通常车间精度”，买方和供方间能更方便地进行订货谈判；同时图样表示完整也可避免交货时买方和供方间的争论。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "只有特定车间的通常车间精度可靠地满足等于或小于所采用的一般公差条件时，才能完全体现上述这些好处。因此，车间应做到：",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "测量、评估车间的通常车间精度;",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "-只接受一般公差等于或大于通常车间精度的图样；",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "抽样检查以保证车间的通常车间精度不被降低。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "A5　零件功能允许的公差常常是大于一般公差，所以当工件任一要素超出(偶然地超出)一般公差时零件的功能通常不会被损害。只有当零件的功能受到损害时，超出一般公差的工件才能被拒收。",
+        "page_idx": 6
+    }
+]

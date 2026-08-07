@@ -1,0 +1,373 @@
+[
+    {
+        "type": "text",
+        "text": "ICS 01.100.01 J 04 ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/9cd97ecd-2170-430b-b2aa-1aa30d9661bd/a1725719d361b2e39dbb8409d436c3a246ded6d4871b6ff0cf43fa8a86f614b5.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T 10609.2—2009 ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "代替GB/T 10609.2--1989",
+        "page_idx": 0,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "技术制图 明细栏",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Technical drawings—Item lists ",
+        "text_level": 0,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2009-11-30 发布",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/9cd97ecd-2170-430b-b2aa-1aa30d9661bd/0353b8ffb7cc82f160ad1738b69d4b5a8c3ccd5cbef892f6e7c1d7fdeecb0338.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2010-09-01实施 ",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家质量监督检验检疫总局发布中国国家标准化管理委员会",
+        "text_level": 0,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "GB/T10609《技术制图》分为以下4部分：—GB/T10609.1技术制图 标题栏；  \nGB/T 10609.2 技术制图 明细栏;  \n—GB/T 10609.3 技术制图 复制图的折叠方法;  \n—-GB/T 10609.4 技术制图 对缩微复制原件的要求。  \n本部分是对GB/T10609.2-1989《技术制图明细栏》的修订。  \n本部分主要修改的内容有：-所有的引用GB改为GB/T;  \n—所有的插图和表格添加相应的图名和表名。  \n本部分的附录A为规范性附录。  \n本部分由全国技术产品文件标准化技术委员会(SAC/TC146)提出并归口。  \n本部分起草单位：中机生产力促进中心、中国航空综合技术研究所、中国电子科技集团。  \n本部分主要起草人：杨东拜、夏晓理、张红旗、强毅、庞薇。  \n本部分所代替标准的历次版本发布情况为：—GB/T10609.2-- 1989。",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "技术制图 明细栏",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "GB/T10609的本部分规定了技术图样中明细栏的基本要求、内容、尺寸与格式。本部分适用于装配图中所采用的明细栏。其他带有装配性质的技术图样或技术文件也可参照采用。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "2规范性引用文件",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "下列文件中的条款通过GB/T 10609 的本部分的引用而成为本部分的条款。凡是注日期的引用文  \n件，其随后所有的修改单(不包括勘误的内容)或修订版均不适用于本部分，然而，鼓励根据本部分达成  \n协议的各方研究是否可使用这些文件的最新版本。凡是不注日期的引用文件，其最新版本适用于本  \n部分。GB/T 4457.4机械制图图样画法图线（GB/T 4457.4—2002,ISO 128-24:1999,Technical  \ndrawings- General principles of presentation--Part 24: Lines on mechanical engineering drawing,  \nMOD)GB/T10609.1技术制图标题栏GB/T10609.4技术制图对缩微复制原件的要求GB/T 14691 技术制图字体(GB/T 14691--1993,eqv ISO 3098-1:1974,ISO 3098-2:1984)GB/T 17450 技术制图图线(GB/T 17450-1998,idt ISO 128-20:1996)",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3基本要求",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1装配图中一般应有明细栏。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2 明细栏的配置 ",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2.1明细栏一般配置在装配图中标题栏的上方，按由下而上的顺序填写（见附录A中的图A.1和图 A.2)。其格数应根据需要而定。当由下而上延伸位置不够时，可紧靠在标题栏的左边自下而上延续。",
+        "text_level": 3,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2.2当装配图中不能在标题栏的上方配置明细栏时，可作为装配图的续页按A4幅面单独给出（见附录A中的图A.3 和图A.4)。其顺序应是由上而下延伸。还可连续加页,但应在明细栏的下方配置标题栏。",
+        "text_level": 3,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.3当有两张或两张以上同一图样代号的装配图，而又按照3.2.1配置明细栏时,明细栏应放在第一张装配图上。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.4明细栏中的字体应符合GB/T14691中的要求。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.5明细栏中的线型应按GB/T 17450 和 GB/T 4457.4 中规定的粗实线和细实线的要求绘制。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.6需缩微复制的图样，其明细栏应满足GB/T10609.4 的规定。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4内容",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4.1 明细栏的组成",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "明细栏一般由序号、代号、名称、数量、材料、质量(单件、总计)、分区、备注等组成，也可按实际需要增加或减少。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "4.2 明细栏的填写 ",
+        "text_level": 2,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4.2.1序号：填写图样中相应组成部分的序号。",
+        "text_level": 3,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4.2.2代号：填写图样中相应组成部分的图样代号或标准编号。",
+        "text_level": 3,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4.2.3名称：填写图样中相应组成部分的名称。必要时，也可写出其型式与尺寸。",
+        "text_level": 3,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4.2.4数量：填写图样中相应组成部分在装配中的数量。",
+        "text_level": 3,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4.2.5材料：填写图样中相应组成部分的材料标记。",
+        "text_level": 3,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4.2.6质量：填写图样中相应组成部分单件和总件数的计算质量。以千克(公斤)为计量单位时，允许不写出其计量单位。",
+        "text_level": 3,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4.2.7分区:必要时，应按照有关规定将分区代号填写在备注栏中。",
+        "page_idx": 3,
+        "text_level": 3
+    },
+    {
+        "type": "text",
+        "text": "4.2.8备注：填写该项的附加说明或其他有关的内容。",
+        "text_level": 3,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5 尺寸与格式",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.1装配图中明细栏各部分的尺寸与格式见附录A中的图A.1和图A.2。",
+        "page_idx": 3,
+        "text_level": 2
+    },
+    {
+        "type": "text",
+        "text": "5.2明细栏作为装配图的续页单独给出时,各部分的尺寸与格式见附录A 中的图 A.3 和图 A.4。",
+        "text_level": 2,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "附录A（规范性附录）明细栏的格式举例",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/9cd97ecd-2170-430b-b2aa-1aa30d9661bd/5a54da71dc547b446bb636bb6d537bf155ea5a54ad09c7768f90b149d0f1b2ae.jpg",
+        "img_caption": [
+            "图A.1 明细栏的格式（一)"
+        ],
+        "img_footnote": [
+            "3 "
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/9cd97ecd-2170-430b-b2aa-1aa30d9661bd/16ec147da19aa194e0c3e0e098de2367a15c715b2494c2f7787cd14caa6c3776.jpg",
+        "img_caption": [
+            "图A.2 明细栏的格式(二)"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/9cd97ecd-2170-430b-b2aa-1aa30d9661bd/0cb44a6ab9a203406af499785e84eac78c39f31689b9097cba60da6a0d6c3e81.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "4 "
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/9cd97ecd-2170-430b-b2aa-1aa30d9661bd/e62e005a0b6fd55c77b11917ce9b811d1e8d392095941612486b7139b731e1eb.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "5 "
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "111010609000/00 ",
+        "page_idx": 7,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国家标准",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "GB/T10609.22009 ",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "邮政编码：100045",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "网址www.spc.net.cn",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "电话：68523946 68517548",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "中国标准出版社秦皇岛印刷厂印刷",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "各地新华书店经销",
+        "page_idx": 7,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "开本880×1230 1/16 印张0.75 字数10千字",
+        "page_idx": 7,
+        "text_level": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/9cd97ecd-2170-430b-b2aa-1aa30d9661bd/32caa8fb46a8bb32845954ac529b0b8b97085af3ce0856865e05ec75f0d2a6ee.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "打印H期：2010年3月25日F009",
+        "page_idx": 7,
+        "text_level": 1
+    }
+]

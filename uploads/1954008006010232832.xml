@@ -1,0 +1,26 @@
+<SpecificationCheck>
+    <CheckGroup Name="机械制图图线标准检查" DocType="Standard">
+        <RuleItem Name="线型及其应用" CheckFun="LineTypeCheck_1" RepairFun="" Description="本标准规定了机械制图中所用图线的一般规则。本标准适用于机械工程图样。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="01.1 细实线" VerType="-" Value="过渡线、尺寸线、尺寸界线、指引线和基准线、剖面线、重合断面的轮廓线、短中心线、螺纹牙底线、尺寸线的起止线、表示平面的对角线、零件成形前的弯折线、范围线及分界线、重复要素表示线、锥形结构的基面位置线、叠片结构位置线、辅助线、不连续同一表面连线、成规律分布的相同要素连线、投影线、网格线、波浪线、双折线"/>
+                <Rule Name="01.2 粗实线" VerType="-" Value="可见棱边线、可见轮廓线、相贯线、螺纹牙顶线、螺纹长度终止线、齿顶圆（线）、表格图、流程图中的主要表示线、系统结构线(金属结构工程)、模样分型线"/>
+                <Rule Name="02.1 细虚线" VerType="-" Value="不可见棱边线、不可见轮廓线、剖切符号用线"/>
+                <Rule Name="02.2 粗虚线" VerType="-" Value="允许表面处理的表示线"/>
+                <Rule Name="04.1 细点画线" VerType="-" Value="轴线、对称中心线、分度圆(线)、孔系分布的中心线、剖切线"/>
+                <Rule Name="04.2 粗点画线" VerType="-" Value="限定范围表示线"/>
+                <Rule Name="05.1 细双点画线" VerType="-" Value="相邻辅助零件的轮廓线、可动零件的极限位置的轮廓线、重心线、成形前轮廓线、剖切面前的结构轮廓线、轨迹线、毛坯图中制成品的轮廓线、特定区域线、延伸公差带表示线、工艺用结构的轮廓线、中断线"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="图线宽度和图线组别" CheckFun="LineWidthCheck_1" RepairFun="" Description="图线宽度和图线组别见表2。在机械图样中采用粗细两种线宽，它们之间的比例为2:1。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="线型组别0.25" VerType="-" Value="0.25;0.13"/>
+                <Rule Name="线型组别0.35" VerType="-" Value="0.35;0.18"/>
+                <Rule Name="线型组别0.5" VerType="-" Value="0.5;0.25"/>
+                <Rule Name="线型组别0.7" VerType="-" Value="0.7;0.35"/>
+                <Rule Name="线型组别1" VerType="-" Value="1;0.5"/>
+                <Rule Name="线型组别1.4" VerType="-" Value="1.4;0.7"/>
+                <Rule Name="线型组别2" VerType="-" Value="2;1"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

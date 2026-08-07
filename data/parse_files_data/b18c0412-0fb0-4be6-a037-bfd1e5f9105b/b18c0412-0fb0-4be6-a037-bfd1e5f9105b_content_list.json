@@ -1,0 +1,446 @@
+[
+    {
+        "type": "text",
+        "text": "ICS 01.100.20 J 04 ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/354ec3403e2cf6b9ada4254f9ac713af11fecf15265dca4f661c4f38756015f4.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T 4457.5—2013 ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "代替GB/T4457.5—1984 ",
+        "page_idx": 0,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "机械制图 剖面区域的表示法",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Mechanical drawingsBasic conventions for representing areas on cuts and sections ",
+        "text_level": 0,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2013-12-17 发布",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "2014-10-01实施 ",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家质量监督检验检疫总局发布中国国家标准化管理委员会",
+        "text_level": 0,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "本部分按照GB/T1.1—2009给出的规则起草。本部分是对GB/T17453 的补充。本部分代替GB/T4457.5—1984《机械制图剖面符号》。本部分与GB/T 4457.5—1984相比主要技术变化如下：将标准名称修改为“机械制图剖面区域的表示法”。-—增加了“范围\"\"规范性引用文件\"并添加了相关内容。增加了“一般规定\"并添加了相关内容。—修改了表1中“混凝土\"及“钢筋混凝土\"的剖面区域表示法。—木材分类\"纵剖面\"\"横剖面\"改为“纵断面\"\"横断面”，并将\"横断面\"图例分开。-修改了“在同一金属零件的图中，剖视图、断面图中的剖面线，应画成间隔相等、方向相同且一般与剖面区域的主要轮廓或对称线成45°的平行线。必要时，剖面线也可画成与主要轮廓线夹角成适当的角度\"（见4.1，GB/T4457.5—1984的2.1)。一 修改了图1。修改了“如仅需画出被剖切后的一部分图形，其边界又不画断裂边界线时，则应将剖面线绘制整齐”（见4.4，GB/T4457.5—1984的2.4）。-—修改了“当两邻接剖面区域均涂黑时，两剖面区域之间宜留出不小于0.7mm的空隙”（见4.10，GB/T 4457.5—1984的2.10)。本部分由全国技术产品文件标准化技术委员会(SAC/TC146)提出并归口。本部分起草单位：中机生产力促进中心、合肥凯邦电机有限公司、中国电子科技集团公司第三十八  \n研究所、安徽红桥金属制造有限公司、北京科新纪元信息技术有限公司、江苏理工学院、大连海事大学、  \n合肥工业大学。本部分主要起草人：杨东拜、张小军、金陈义、周红桥、胡祥涛、陈兴玉、余昌国、李荣、李克顺、  \n李岱松、刘静、张红旗、高宏伟、王槐德、邹玉堂、李学京。本部分所代替标准的历次版本发布情况为：—GB/T 4457.5—1984。",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "机械制图 剖面区域的表示法",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "GB/T4457的本部分规定了机械图样中各种剖面符号及其画法。  \n本部分适用于机械图样的剖视图和断面图中剖面区域表示。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "2规范性引用文件",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本(包括所有的修改单)适用于本文件。GB/T 4457.4—2002机械制图图样画法图线GB/T17453—2005技术制图图样画法剖面区域的表示法",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3一般规定",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1本部分是对 GB/T17453 的补充。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2在剖视图和断面图中，一般采用剖面符号填充表示剖面区域。",
+        "text_level": 2,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "4剖面符号",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "常用的剖面符号如表1所示。",
+        "page_idx": 2,
+        "text_level": 0
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/8297ce97d2e640566a7acb2749eb343d6ed50e2c136d5ee079bddfd487a00186.jpg",
+        "table_caption": [
+            "表1剖面区域表示法"
+        ],
+        "table_footnote": [
+            "1 "
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/2d4e7ee40f3189e0a86b4a27d494e0d9f41e2e980bbf36f64ea4909163339943.jpg",
+        "table_caption": [
+            "表1 (续)"
+        ],
+        "table_footnote": [
+            "2 "
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4.1在同一金属零件的图中，剖视图、断面图中的剖面线，应画成间隔相等、方向相同且一般与剖面区域的主要轮廓或对称线成45°的平行线(见图1)。必要时,剖面线也可画成与主要轮廓线成适当角度(见图2)。",
+        "text_level": 2,
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/204095f4ee469715209914ff0675e070e39583df04ce1a84e1eda54efc030afc.jpg",
+        "img_caption": [
+            "图1与主要轮廓线成45°剖面线的应用示例"
+        ],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/c40460d985747ebd39ca896087aa2b3d5f8136a669df54080fd6e71fe46a3103.jpg",
+        "img_caption": [
+            "图2与主要轮廓线成适当角度剖面线的应用示例"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.2相邻辅助零件(或部件),不画剖面符号(见图3)。",
+        "text_level": 2,
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/1c961be80a5ba17cc546b8a5caf3f7fb029922561388ce10495d01474ff7add3.jpg",
+        "img_caption": [
+            "图3相邻辅助零件(或部件)不画剖面符号"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.3当剖面区域较大时，可以只沿轮廓的周边画出剖面符号(见图4)。",
+        "page_idx": 4,
+        "text_level": 2
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/dca7dcd70ed8decb6089a980c830f2bf438205a9766d2faf39ef98c639b8c1d9.jpg",
+        "img_caption": [
+            "图4剖面区域较大时可以只沿轮廓的周边画出剖面符号"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.4如仅需画出被剖切后的一部分图形，其边界又不画断裂边界线时，则应将剖面线绘制整齐（见图5)。",
+        "text_level": 2,
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/b181974de0ec683ec82f07e11392b0c0a3129259c403cc7958ce143fbf193826.jpg",
+        "img_caption": [
+            "图5被剖区域无断裂边界线时的剖面线画法"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.5在零件图中也可以涂色或点阵代替剖面符号。",
+        "text_level": 2,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.6木材、玻璃、液体、叠钢片、砂轮及硬质合金刀片等剖面符号，也可在外形视图中画出一部分或全部作为材料类别的标志（见图6）。",
+        "text_level": 2,
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/8fa1756e72555c627a2f1e2114041d6b79431ab110a20c57359f477cd97ea0d8.jpg",
+        "img_caption": [
+            "图6剖面符号画在工件外形作为材料的标志"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.7在装配图中，相邻金属零件的剖面线，其倾斜方向应相反，或方向一致而间隔不等(见图4、图5)。",
+        "text_level": 2,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "同一装配图中的同一零件的剖面线应方向相同、间隔相等。",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "当绘制剖面符号相同的相邻非金属零件时，应采用疏密不一的方法以示区别。",
+        "page_idx": 5,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "4.8当绘制接合件的图样时，各零件的剖面符号应按4.7的规定绘制（见图7、图8、图9)。",
+        "text_level": 2,
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/13ff8daf1fdb517baf2f37f0b834871c8037e0b15cdfd3db692d33a6132c06db.jpg",
+        "img_caption": [
+            "图7接合件图中各零件的剖面符号绘制方法（一)"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/9117489ad53660069ab0d85f95359c08a8df230325f4a888a99a9eede837891d.jpg",
+        "img_caption": [
+            "图8接合件图中各零件的剖面符号绘制方法(二）"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/e912c77cb280d18f41cf9d99521f30089fecc63ed3d28f1643ef3d8f0c4cb147.jpg",
+        "img_caption": [
+            "图9接合件图中各零件的剖面符号绘制方法(三)"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "当绘制接合件与其他零件的装配图时，如接合件中各零件的剖面符号相同，一般可作为一个整体画出(见图10)。如不相同，应分别画出。",
+        "page_idx": 6,
+        "text_level": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/41f9be74d30603b3e2e962fd35257c68310692f97d2151b1f58cbb6616523944.jpg",
+        "img_caption": [
+            "图10绘制接合件与其他零件的装配图时剖面符号绘制方法"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.9由不同材料嵌入或粘贴在一起的成品，用其中主要材料的剖面符号表示。例如，夹丝玻璃的剖面符号，用玻璃的剖面符号表示;复合钢板的剖面符号，用钢板的剖面符号表示。",
+        "text_level": 2,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.10在装配图中，宽度小于或等于2mm 的狭小面积的剖面区域，可用涂黑代替剖面符号(见图11)。如果是玻璃或其他材料，而不宜涂黑时，可不画剖面符号。",
+        "text_level": 2,
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/4a273a44db2345124d30c8c0dfa944ed1c70750fc814597aabe7f1ea38478bce.jpg",
+        "img_caption": [
+            "图11装配图中狭小面积的剖面可用涂黑代替剖面符号"
+        ],
+        "img_footnote": [
+            "6 "
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "当两邻接剖面区域均涂黑时，两剖面区域之间宜留出不小于0.7mm的空隙(见图12)。",
+        "page_idx": 7,
+        "text_level": 0
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/a2a22d79ed4559f51d8980ded57c6641276aee0eb4677737b4528cf490fa1633.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/b18c0412-0fb0-4be6-a037-bfd1e5f9105b/7cbc3f061c3b3a6daf3be1dd1f171cc753da47ccbae3cb97f946b17a818524ac.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "打印日期：2014年10月22日F009A",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "国家标准",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "机械制图 剖面区域的表示法",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "GB/T4457.5—2013 ",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "\\* ",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "中国标准出版社出版发行北京市朝阳区和平里西街甲2号(100029)北京市西城区三里河北街16号(100045)",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "网址www.spc.net.cn",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "总编室：(010)64275323 发行中心：（010)51780235",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "读者服务部：（010)68523946",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "中国标准出版社秦皇岛印刷厂印刷各地新华书店经销",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "\\* ",
+        "page_idx": 8,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "开本880×12301/16印张0.75字数14千字2014年9月第一版 2014年9月第一次印刷",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "书号：155066·1-49107定价16.00元",
+        "page_idx": 8,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "如有印装差错由本社发行中心调换版权专有侵权必究举报电话：（010)68510107",
+        "page_idx": 8,
+        "text_level": 0
+    }
+]

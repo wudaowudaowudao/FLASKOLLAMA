@@ -1,0 +1,212 @@
+[
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "page_idx": 0,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "技术制 图比例",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "代替GB4457.2—84 ",
+        "page_idx": 0,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "Technical drawings Scales ",
+        "text_level": 0,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准等效采用国际标准ISO5455—1979《技术制图——比例》。",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "1主题内容与适用范围",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准规定了绘图比例及其标注方法。  \n本标准适用于技术图样及有关技术文件。",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "2引用标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "GB/T 13361 技术制图 通用术语",
+        "page_idx": 0,
+        "text_level": 1
+    },
+    {
+        "type": "text",
+        "text": "3术语",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3. 1 比例 scale ",
+        "text_level": 2,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "图中图形与其实物相应要素的线性尺寸之比。",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3.2 原值比例 full size ",
+        "text_level": 2,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "比值为1的比例，即1：1。",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3.3放大比例 enlargement scale",
+        "text_level": 2,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "比值大于1的比例，如2：1等。",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "3.4缩小比例reduction scale ",
+        "text_level": 2,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "比值小于1的比例，如1：2等。",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "4 比例系列",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "4.1需要按比例绘制图样时，应由表1规定的系列中选取适当的比例。",
+        "text_level": 2,
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/e59d9bf8-7218-4e74-8e5a-d4ca6d9c1b51/f6bce4ccddb8688eeb4f04d6ab374d8aadb7995a99949620b0ac87d213b7fce4.jpg",
+        "table_caption": [
+            "表1"
+        ],
+        "table_footnote": [
+            "国家技术监督局1993-11-09批准"
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "注：为正整数。",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "4.2必要时，也允许选取表2中的比例。",
+        "page_idx": 0,
+        "text_level": 2
+    },
+    {
+        "type": "text",
+        "text": "1994-07-01实施 ",
+        "page_idx": 0,
+        "text_level": 0
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/e59d9bf8-7218-4e74-8e5a-d4ca6d9c1b51/809df5a71a30424e28e94df18872c21f84f98b9c8c5dc64e774cae09b06c9952.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "注：为正整数。",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "5标注方法",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "5.1比例符号应以“：\"表示。比例的表示方法如1：1、1：500、20：1等。",
+        "text_level": 2,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "5.2比例一般应标注在标题栏中的比例栏内。必要时，可在视图名称的下方或右侧标注比例，如：",
+        "text_level": 2,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "5.3必要时，允许在同一视图中的铅垂和水平方向标注不同的比例(但两种比例的比值不应超过5倍)，如：",
+        "page_idx": 1,
+        "text_level": 2
+    },
+    {
+        "type": "text",
+        "text": "铅垂方向 1:1000河流横剖面图水平方向 1:2000",
+        "page_idx": 1,
+        "text_level": 0
+    },
+    {
+        "type": "text",
+        "text": "5.4必要时，图样的比例可采用比例尺的形式。一般可在图样中的铅垂或水平方向加画比例尺。",
+        "text_level": 2,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "附加说明：",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "本标准由全国技术制图标准化技术委员会提出。本标准由机械工业部机械标准化研究所、大连海运学院、东南大学、成都科技大学、武汉水利电力学院、中国建筑技术中心标准所等单位负责起草。本标准主要起草人何斯特、韦建华、杨东湃、唐人卫。",
+        "page_idx": 1,
+        "text_level": 0
+    }
+]

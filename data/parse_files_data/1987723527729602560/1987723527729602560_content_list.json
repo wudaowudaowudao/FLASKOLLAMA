@@ -1,0 +1,293 @@
+[
+    {
+        "type": "text",
+        "text": "Q/YD ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中车永济电机有限公司企业标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Q/YD 00-028.4-2020 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "基于Creo的三维标注规范",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "第4部分：粗糙度的注法",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The Specification of 3D Annotation Based on Creo Part4: Roughness Annotation ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中车永济电机有限公司发布",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723527729602560/0d6e524790623e83e6a15a905d3def3beca35073275380cc476db0c602d9b571.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>中车永济电机有限公司技术标准 基于Creo的三维标准规范</td><td>标准编号：Q/YD00-028.4-2020</td></tr></table></body></html>\n\n",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723527729602560/af9d4232ea476bab0f9aae3e1039acf8e7ef057eba4d1cb497062164b6dfcdf9.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"3\">审批记录</td></tr><tr><td></td><td>签字</td><td>日期</td></tr><tr><td>编制</td><td>黄超</td><td>2019.12.12</td></tr><tr><td>校对</td><td>李秋玲</td><td>2019.12.12</td></tr><tr><td>标审</td><td>黄晓云</td><td>2019.12.12</td></tr><tr><td>审核</td><td>梁海刚</td><td>2019.12.13</td></tr><tr><td>批准</td><td>王彬</td><td>2019.12.30</td></tr><tr><td colspan=\"3\">标准会签</td></tr><tr><td>部门</td><td>负责人签字</td><td>日期</td></tr><tr><td>电力电子基础技术部</td><td>梁海刚</td><td>2019.12.4</td></tr><tr><td>电机基础技术部</td><td>雷平振</td><td>2019.12.12</td></tr><tr><td>轨道交通电机开发部</td><td>张培军</td><td>2019.12.13</td></tr><tr><td>风电产品开发部</td><td>米行社</td><td>2019.12.12</td></tr><tr><td>特种产品开发部</td><td>李文科</td><td>2019.11.28</td></tr><tr><td>轨道交通系统开发部</td><td>李岩</td><td>2019.12.12</td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "目次",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "前言. 三  \n1 范围.  \n2 规范性引用文件 1  \n3 基本要求. 1  \n4 表面粗糙度的图形符号 1  \n5粗糙度参数  \n6表面粗糙度在模型上的注法 1  \n7粗糙度要求在文本的表达. 3",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Q/YD00-028《基于Creo的三维标注规范》共由7部分组成：第1部分：通用要求第2部分：视图管理第3部分：尺寸注法第4部分：粗糙度的注法第5部分：尺寸公差与配合注法第6部分：几何公差注法第7部分：焊缝注法  \n本部分为Q/YD00-028的第4部分。  \n本标准按照GB/T1.1-2009给出的规则起草。  \n本标准主要起草单位：电力电子基础技术部、特种产品开发部、电机基础技术部、科技管理部  \n本标准主要起草人：黄超、李雪珍、李秋玲、张建丽、黄晓云",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "基于Creo的三维标注规范第4部分：粗糙度注法",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Q/YD 00-028的本部分对表面粗糙度的图形符号、参数代号及其在模型上的注法给出了规范性要求。  \n本规范适用于公司技术人员使用CreoParametric软件进行的产品设计开发。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "2规范性引用文件",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "GB/T131-2006产品几何技术规范技术产品文件中表面结构的表示法GB/T3505产品几何技术规范(GPS）表面结构轮廓法术语、定义及表面结构参数",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3基本要求",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.1三维标注中粗糙度的标注应与其他标注（如尺寸、几何公差、焊接等）协调统一，不允许存在任何重叠。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "3.2粗糙度的标注平面（记录标注符号所使用的截面）应尽可能的少，并应尽可能标注在同一标注平面内。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4表面粗糙度的图形符号",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "图形符号包括基本图形符号、扩展图形符号、完整图形符号和周边轮廓图形符号，均应符合GB/T131-2006的规定。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5粗糙度参数",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "粗糙度参数代号应符合GB/T3505的规定。  \n粗糙度参数代号、数值在粗糙度完整图形符号中的标注位置和方向应符合GB/T131-2006中5.2条要求。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "6表面粗糙度在模型上的注法",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "6.1 总则 ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "表面粗糙度在三维模型中的注写和读取方向与尺寸的注写和读取方向应一致。粗糙度图形符号与粗糙度参数代号、极限值和补充要求是一个整体，不应随意更改位置和方向（见表1）。",
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723527729602560/332f42878427d2803d8c40d1bedf5fcff270d071daeee52bc20570bfed8fe566.jpg",
+        "table_caption": [
+            "表1"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>序号</td><td>示例</td><td>正确与否</td><td>备注</td></tr><tr><td>１</td><td>R 0.4 V 0.025-0.8/Ra 1.6</td><td>√</td><td>位置和方向均正确</td></tr><tr><td>２</td><td>Ra 0.6</td><td>×</td><td>粗糙度参数符号和极限值位置错误</td></tr><tr><td>3</td><td>Ramax 6.4</td><td>×</td><td>粗糙度图形符号方向错误</td></tr><tr><td>4</td><td>A Ramax 6.4</td><td>×</td><td>粗糙度图形符号方向错误</td></tr></table></body></html>\n\n",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "粗糙度标注在表面上; ",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "表面粗糙度要求可标注在零部件表面上，其符号应从材料外指向并接触表面（见图1）。应注意尽可能使粗糙度标注在同一标注平面上，并且标注平面应尽可能选择中性面。",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723527729602560/0c392033f1aa43371db3fb8a7155c23f7b16cecb8f84d85beb57d785f2d87875.jpg",
+        "img_caption": [
+            "图1粗糙度标注在表面上"
+        ],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "6.2粗糙度标注在表面延长线上",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "表面粗糙度要求可标注在零部件表面的延长面的母线上（见图2）。",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723527729602560/7fe677a6883092779a7c61007132ce78e1f4d44faa604b03ca0c1998540d844a.jpg",
+        "img_caption": [
+            "图2粗糙度标注在表面延长线上"
+        ],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "6.3粗糙度标注在指引线上",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "粗糙度要求标注在指引线上的情况：",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "a) 多个小面靠近且粗糙度要求相同（见图7）；  \nb) 不能直接标注在表面时（见图7、图14b）；  \nc) 尺寸较多，直接标注产生重叠时。",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723527729602560/cd17821cf0e58cf4b7bdd7ba35b614d4f187cbe6ccf7a4936456ebee18d75a94.jpg",
+        "img_caption": [
+            "图3粗糙度标注在指引线上"
+        ],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "6.4粗糙度标注在尺寸线和尺寸界线上",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "在不致引起误解时，粗糙度要求可以标注在尺寸线和尺寸界线上。标注在尺寸线上主要适用于倒角、孔、轴和键槽等。标注在尺寸线和尺寸界线上时，粗糙度和尺寸应标注在同一标注平面内（见图4)。",
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723527729602560/40fc9a2b4c88c61a1f8082c40a65cd1dcc6cb1d23c0fcc03a86cb349a16b9791.jpg",
+        "img_caption": [
+            "图4"
+        ],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.5标注在几何公差的框格上",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "表面结构要求可标注在几何公差框格的上方，并且应标注在同一标注面内（见图5）。",
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723527729602560/beff04752aed3d8c2e942d0c95699bac1a79d4b9a187c8aeb64827319dba884a.jpg",
+        "img_caption": [
+            "图5粗糙度标注在几何公差的框格上"
+        ],
+        "img_footnote": [],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "7粗糙度要求在文本的表达",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "粗糙度要求在文本中（如技术要求）的表达应符合GB/T131-2006 中第6章和第7章的规定。",
+        "page_idx": 8
+    }
+]

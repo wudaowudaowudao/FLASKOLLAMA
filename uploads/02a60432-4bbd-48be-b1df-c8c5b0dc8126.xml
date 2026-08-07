@@ -1,0 +1,22 @@
+<SpecificationCheck>
+    <CheckGroup Name="技术制图比例检查" DocType="Standard">
+        <RuleItem Name="比例系列" CheckFun="ScaleCheck_1" RepairFun="" Description="本标准规定了绘图比例及其标注方法，适用于技术图样及有关技术文件。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="原值比例" VerType="-" Value="1:1"/>
+                <Rule Name="放大比例" VerType="-" Value="2:1, 5:1, 10:1, 20:1, 50:1, 100:1, 200:1, 500:1"/>
+                <Rule Name="缩小比例" VerType="-" Value="1:2, 1:5, 1:10, 1:20, 1:50, 1:100, 1:200, 1:500"/>
+                <Rule Name="允许放大比例" VerType="-" Value="2.5:1, 4:1, 10^n:1, (1.5×10^n):1, (2×10^n):1, (2.5×10^n):1, (4×10^n):1"/>
+                <Rule Name="允许缩小比例" VerType="-" Value="1:(2.5×10^n), 1:(4×10^n), 1:10^(n-1)"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="比例标注方法" CheckFun="MarkingCheck_1" RepairFun="" Description="比例符号应以“:”表示，并按规定位置标注比例，必要时允许在同一视图中的铅垂和水平方向标注不同的比例。" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="比例符号" VerType="-" Value=":"/>
+                <Rule Name="标注位置" VerType="-" Value="标题栏中的比例栏内"/>
+                <Rule Name="视图标注" VerType="-" Value="视图名称的下方或右侧"/>
+                <Rule Name="不同方向比例" VerType="-" Value="铅垂方向1:1000河流横剖面图水平方向1:2000"/>
+                <Rule Name="比例尺形式" VerType="-" Value="图样中的铅垂或水平方向加画比例尺"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

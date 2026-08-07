@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpecificationCheck>
+  <CheckGroup>合作报价及合同审计规范检查</CheckGroup>
+  
+  <RuleItem Name="企业资质审核" CheckFun="CheckCompanyQualification" Description="检查企业资质情况、基本情况、业绩、研发能力">
+    <CheckConfig>
+      <Rule>企业必须具备有效的营业执照</Rule>
+      <Rule>企业资质证书必须在有效期内</Rule>
+      <Rule>企业基本情况信息必须完整</Rule>
+      <Rule>企业业绩记录必须真实可查</Rule>
+      <Rule>企业研发能力必须与合作内容匹配</Rule>
+      <Rule>必须确认企业与甲方无关联关系</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="报价合理性审核" CheckFun="CheckPriceReasonableness" Description="检查报价的合理性和合规性">
+    <CheckConfig>
+      <Rule>报价金额必须合理，不得过高或过低</Rule>
+      <Rule>报价明细必须详细，包含人天、测试化验加工费、差旅、知识产权等</Rule>
+      <Rule>各项报价明细应有明显区分</Rule>
+      <Rule>报价必须符合相关法规要求</Rule>
+      <Rule>大额合同报价金额不应过于接近</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="室主任参与审核" CheckFun="CheckDirectorParticipation" Description="检查室主任参与采购谈判情况">
+    <CheckConfig>
+      <Rule>室主任必须参与组内采购谈判</Rule>
+      <Rule>必须确认不存在围标、串标行为</Rule>
+      <Rule>谈判过程必须有记录</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="合作内容审核" CheckFun="CheckCooperationContent" Description="检查拟合作内容及预期成果">
+    <CheckConfig>
+      <Rule>合作内容必须明确具体</Rule>
+      <Rule>预期成果必须可量化</Rule>
+      <Rule>合作方能力必须与研究内容紧密相关</Rule>
+      <Rule>所有交付物要求前后必须保持一致</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="报价日期审核" CheckFun="CheckQuotationDate" Description="检查三家报价日期的一致性">
+    <CheckConfig>
+      <Rule>三家报价日期必须一致</Rule>
+      <Rule>中标企业报价时间不能在最后</Rule>
+      <Rule>报价时间必须在合理范围内</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="企业有效性审核" CheckFun="CheckCompanyValidity" Description="审核三家企业执照、资质的有效性">
+    <CheckConfig>
+      <Rule>企业营业执照必须有效</Rule>
+      <Rule>企业资质证书必须齐全</Rule>
+      <Rule>证照信息必须与报价单位一致</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="企业资质对等性审核" CheckFun="CheckCompanyEquivalence" Description="检查三家企业资质的相当性">
+    <CheckConfig>
+      <Rule>三家企业注册资金应相当</Rule>
+      <Rule>三家企业人员规模应相当</Rule>
+      <Rule>京外企业尽量不属于同一地区</Rule>
+      <Rule>企业资质等级应相当</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="黑名单审核" CheckFun="CheckBlacklist" Description="检查合作方是否在黑名单中">
+    <CheckConfig>
+      <Rule>合作方不能在黑名单中</Rule>
+      <Rule>黑名单期限一般为三年</Rule>
+      <Rule>必须核查最新黑名单信息</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="报价次数审核" CheckFun="CheckQuotationRounds" Description="检查大额合同报价轮次">
+    <CheckConfig>
+      <Rule>大额合同必须提供2轮报价材料</Rule>
+      <Rule>首轮报价可按公司模板，可不盖章</Rule>
+      <Rule>二轮报价必须按研究院模板并盖章</Rule>
+      <Rule>建议所有合同都提供两轮报价单</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="报价盖章审核" CheckFun="CheckQuotationSeal" Description="检查报价单盖章情况">
+    <CheckConfig>
+      <Rule>报价单必须盖章</Rule>
+      <Rule>盖章单位名称必须与合作方单位名称一致</Rule>
+      <Rule>印章必须清晰完整</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="知识产权审核" CheckFun="CheckIntellectualProperty" Description="检查知识产权相关条款">
+    <CheckConfig>
+      <Rule>知识产权项必须点选，不能空白</Rule>
+      <Rule>知识产权归属必须明确</Rule>
+      <Rule>知识产权保护措施必须完善</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="合同日期审核" CheckFun="CheckContractDates" Description="检查合同中所有日期的正确性">
+    <CheckConfig>
+      <Rule>合同内所有日期必须填写完整</Rule>
+      <Rule>日期格式必须统一规范</Rule>
+      <Rule>日期逻辑必须合理</Rule>
+      <Rule>甲方乙方签字日期不能空缺</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="合同税率审核" CheckFun="CheckContractTaxRate" Description="检查合同税率的正确性">
+    <CheckConfig>
+      <Rule>高校及小企业税率必须为3%</Rule>
+      <Rule>其余企业税率必须为6%</Rule>
+      <Rule>税率计算必须准确</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="合同金额审核" CheckFun="CheckContractAmount" Description="检查合同金额大小写一致性">
+    <CheckConfig>
+      <Rule>合同金额大小写必须一致</Rule>
+      <Rule>金额数字必须准确</Rule>
+      <Rule>货币单位必须明确</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="合同模板审核" CheckFun="CheckContractTemplate" Description="检查合同模板匹配情况">
+    <CheckConfig>
+      <Rule>必须使用正确的合同模板</Rule>
+      <Rule>模板版本必须是最新的</Rule>
+      <Rule>模板内容不得随意修改</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="验收方式审核" CheckFun="CheckAcceptanceMethod" Description="检查知识产权及验收方式勾选情况">
+    <CheckConfig>
+      <Rule>验收方式必须明确勾选</Rule>
+      <Rule>验收标准必须具体</Rule>
+      <Rule>验收时间必须合理</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="技术协议审核" CheckFun="CheckTechnicalAgreement" Description="检查技术协议部分的完整性">
+    <CheckConfig>
+      <Rule>技术协议部分日期必须完整</Rule>
+      <Rule>技术协议交付物要前后对应</Rule>
+      <Rule>技术要求必须明确具体</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="金额一致性审核" CheckFun="CheckAmountConsistency" Description="检查合同金额和采购单的一致性">
+    <CheckConfig>
+      <Rule>合同金额必须与报价单一致</Rule>
+      <Rule>合同金额必须与采购单一致</Rule>
+      <Rule>各文件间金额不得有差异</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="保密协议审核" CheckFun="CheckConfidentialityAgreement" Description="检查涉及商业秘密的保密协议">
+    <CheckConfig>
+      <Rule>涉及中车商业秘密的必须签署保密协议</Rule>
+      <Rule>涉及研究院商业秘密的必须签署保密协议</Rule>
+      <Rule>保密协议条款必须完整</Rule>
+      <Rule>保密期限必须明确</Rule>
+    </CheckConfig>
+  </RuleItem>
+
+</SpecificationCheck>

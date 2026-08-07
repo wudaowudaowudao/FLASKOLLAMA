@@ -1,0 +1,63 @@
+<SpecificationCheck>
+    <CheckGroup Name="技术制图明细栏检查" DocType="Standard">
+        <RuleItem Name="明细栏基本要求" CheckFun="ContentCheck_1" RepairFun="" Description="GB/T10609的本部分规定了技术图样中明细栏的基本要求、内容、尺寸与格式。本部分适用于装配图中所采用的明细栏。其他带有装配性质的技术图样或技术文件也可参照采用。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="适用范围" VerType="-" Value="装配图中所采用的明细栏"/>
+                <Rule Name="参照适用" VerType="-" Value="其他带有装配性质的技术图样或技术文件"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="明细栏配置" CheckFun="LayoutCheck_1" RepairFun="" Description="明细栏一般配置在装配图中标题栏的上方，按由下而上的顺序填写。当由下而上延伸位置不够时，可紧靠在标题栏的左边自下而上延续。当装配图中不能在标题栏的上方配置明细栏时，可作为装配图的续页按A4幅面单独给出。" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="常规配置位置" VerType="-" Value="标题栏上方"/>
+                <Rule Name="填写顺序" VerType="-" Value="由下而上"/>
+                <Rule Name="延续配置位置" VerType="-" Value="标题栏左边"/>
+                <Rule Name="续页配置幅面" VerType="-" Value="A4"/>
+                <Rule Name="续页填写顺序" VerType="-" Value="由上而下"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="明细栏字体要求" CheckFun="FontCheck_1" RepairFun="" Description="明细栏中的字体应符合GB/T14691中的要求。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="字体标准" VerType="-" Value="GB/T14691"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="明细栏线型要求" CheckFun="LineCheck_1" RepairFun="" Description="明细栏中的线型应按GB/T17450 和 GB/T 4457.4 中规定的粗实线和细实线的要求绘制。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="线型标准1" VerType="-" Value="GB/T17450"/>
+                <Rule Name="线型标准2" VerType="-" Value="GB/T 4457.4"/>
+                <Rule Name="线型类型1" VerType="-" Value="粗实线"/>
+                <Rule Name="线型类型2" VerType="-" Value="细实线"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="明细栏内容组成" CheckFun="ContentCheck_2" RepairFun="" Description="明细栏一般由序号、代号、名称、数量、材料、质量(单件、总计)、分区、备注等组成，也可按实际需要增加或减少。" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="必填项1" VerType="-" Value="序号"/>
+                <Rule Name="必填项2" VerType="-" Value="代号"/>
+                <Rule Name="必填项3" VerType="-" Value="名称"/>
+                <Rule Name="必填项4" VerType="-" Value="数量"/>
+                <Rule Name="必填项5" VerType="-" Value="材料"/>
+                <Rule Name="必填项6" VerType="-" Value="质量"/>
+                <Rule Name="可选项1" VerType="-" Value="分区"/>
+                <Rule Name="可选项2" VerType="-" Value="备注"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="明细栏填写规则" CheckFun="FillingCheck_1" RepairFun="" Description="序号：填写图样中相应组成部分的序号。代号：填写图样中相应组成部分的图样代号或标准编号。名称：填写图样中相应组成部分的名称。必要时，也可写出其型式与尺寸。数量：填写图样中相应组成部分在装配中的数量。材料：填写图样中相应组成部分的材料标记。质量：填写图样中相应组成部分单件和总件数的计算质量。以千克(公斤)为计量单位时，允许不写出其计量单位。分区：必要时，应按照有关规定将分区代号填写在备注栏中。备注：填写该项的附加说明或其他有关的内容。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="序号填写" VerType="-" Value="图样中相应组成部分的序号"/>
+                <Rule Name="代号填写" VerType="-" Value="图样代号或标准编号"/>
+                <Rule Name="名称填写" VerType="-" Value="组成部分的名称"/>
+                <Rule Name="数量填写" VerType="-" Value="装配中的数量"/>
+                <Rule Name="材料填写" VerType="-" Value="材料标记"/>
+                <Rule Name="质量填写" VerType="-" Value="单件和总件数的计算质量"/>
+                <Rule Name="质量单位" VerType="-" Value="千克(公斤)"/>
+                <Rule Name="分区填写位置" VerType="-" Value="备注栏"/>
+                <Rule Name="备注填写" VerType="-" Value="附加说明或其他有关的内容"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="明细栏尺寸与格式" CheckFun="FormatCheck_1" RepairFun="" Description="装配图中明细栏各部分的尺寸与格式见附录中的图A.1和图 A.2。明细栏作为装配图的续页单独给出时,各部分的尺寸与格式见附录A 中的图 A.3 和图A.4。" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="装配图明细栏格式参考" VerType="-" Value="附录中的图A.1和图 A.2"/>
+                <Rule Name="续页明细栏格式参考" VerType="-" Value="附录A 中的图 A.3 和图A.4"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

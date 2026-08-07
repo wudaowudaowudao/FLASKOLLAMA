@@ -1,0 +1,354 @@
+[
+    {
+        "type": "text",
+        "text": "Q/YD ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中车永济电机有限公司企业标准",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Q/YD 00-028.3-2020 ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "基于Creo的三维标注规范第3部分：尺寸注法",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "The Specification of 3D Annotation Based on Creo Part3: Size Annotation ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "中车永济电机有限公司发布",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723507919904768/d05e19c2578d8a156cb7f71095e72e78535ef0f19d20e07ec6e47fbb662b3b75.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>中车永济电机有限公司技术标准 基于Creo的三维标准规范 第3部分：尺寸注法</td><td>标准编号：Q/YD00-028.3-2020</td></tr></table></body></html>\n\n",
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723507919904768/cb5458ffed6fdde3dac958a32329bfe2c7e52b4935b1d273e30f68ac1be5a259.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"3\">审批记录</td></tr><tr><td></td><td>签字</td><td>日期</td></tr><tr><td>编制</td><td>李秋玲</td><td>2019.12.12</td></tr><tr><td>校对</td><td>刘佳</td><td>2019.12.12</td></tr><tr><td>标审</td><td>黄晓云</td><td>2019.12.12</td></tr><tr><td>审核</td><td>梁海刚</td><td>2019.12.13</td></tr><tr><td>批准</td><td>王彬</td><td>2019.12.30</td></tr><tr><td colspan=\"3\">标准会签</td></tr><tr><td>部门</td><td>负责人签字</td><td>日期</td></tr><tr><td>电力电子基础技术部</td><td>梁海刚</td><td>2019.12.4</td></tr><tr><td>电机基础技术部</td><td>雷平振</td><td>2019.12.12</td></tr><tr><td>轨道交通电机开发部</td><td>张培军</td><td>2019.12.13</td></tr><tr><td>风电产品开发部</td><td>米行社</td><td>2019.12.12</td></tr><tr><td>特种产品开发部</td><td>李文科</td><td>2019.11.28</td></tr><tr><td>轨道交通系统开发部</td><td>李岩</td><td>2019.12.12</td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "目次",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "前言. I  \n1 范围. 7  \n2 规范性引用文件  \n3 术语和定义  \n4 尺寸基准.",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Q/YD00-028《基于Creo的三维标注规范》共由7部分组成：第1部分：通用要求第2部分：视图管理第3部分：尺寸注法第4部分：粗糙度的注法第5部分：尺寸公差与配合注法第6部分：几何公差注法第7部分：焊缝注法  \n本部分为Q/YD00-028的第3部分。  \n本标准按照GB/T1.1-2009给出的规则起草。  \n本标准由科技管理部提出并归口。  \n本标准主要起草单位：电力电子基础技术部、特种产品开发部、电机基础技术部、科技管理部  \n本标准主要起草人：李秋玲、李雪珍、刘佳、雷晓林、张建丽、黄晓云",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "基于Creo的三维标注规范第3部分：尺寸注法",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "Q/YD 00-028的本部分对尺寸基准的选择、标注的要求、常见孔的尺寸注法给出了规范性要求。  \n本规范适用于公司技术人员使用CreoParametric软件进行的产品设计开发。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "2规范性引用文件",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "GB/T 1800.1-2009产品几何技术规范(GPS).极限与配合.第1部分：公差、偏差和配合的基础GB/T 4457.2-2003技术制图图样画法指引线和基准线的基本规定GB/T17851-2010产品几何技术规范(GPS).几何公差.基准和基准体系",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3　术语和定义",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "GB/T 17851-2010和GB/T 4457.2-2003界定的以下术语和定义适用于本文件。为了便于方便使用，以下重复列出GB/T17851-2010和GB/T 4457.2-2003给定的部分术语。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.1 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "基准datum",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "与被测要素有关且用来确定其几何位置关系的一个几何理想要素（如轴线、直线、平面等），可由零件上的一个或多个要素构成。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "[GB/T 17851-2010，定义3.1] ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "3.2 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "指引线 leader line",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "指引线为细实线，它以明确的方式建立图形表达和附加的字母数字或文本说明（注意事项，技术要求，参照条款等）之间的联系的线。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "[GB/T 4457.2-2003，定义3.1] ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4尺寸基准 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "4.1 尺寸界线",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "尺寸界线由模型的轮廓线、轴线引出，也可利用轮廓线、轴线作尺寸界线（见图1）；尺寸界线一般应与尺寸线垂直如图1。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "标注角度的尺寸界线应沿径向引出（见图2)，标注弦长的尺寸界线应平行于该弦的垂直平分线（见图2）。",
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723507919904768/635e8a6106960b8d19702ea930a0c1ec008c91ae36228f1f0edca55c0b9334c2.jpg",
+        "img_caption": [
+            "图1尺寸界限的画法"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723507919904768/7522f63854e83771752529839404e4e6b3ab05a34c837780c5208c69dd4e1f97.jpg",
+        "img_caption": [
+            "图2标注角度的尺寸界线画法/标注弦长的尺寸界线画法"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.2 尺寸线",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "尺寸线一般采用实心箭头作为尺寸线的终端。当无法采用实心箭头时，允许用实心圆点或斜线代替。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "标注线性尺寸时，尺寸线应与所标注的线段平行。尺寸线不能用模型的边界代替，一般也不得与其他图线重合或画在其延长线上。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3 尺寸数字",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "标注尺寸的数字一般注写在尺寸线的上方（见图1）或在尺寸线的中间，尺寸数字不应被任何线条通过。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "理论正确尺寸：理论正确尺寸有标注需要时选择标注尺寸后加注方框（见图3）。",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723507919904768/ba0038e2895c8e2a9f5c3acf67e3a89de4865f69ac4c9e2dd4e09646e2515731.jpg",
+        "img_caption": [
+            "图3理论尺寸标注方法"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "球形或柱形其布置和标注方法如下：",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "一球面：尺寸和指引线应置于包含球心点的标注面内（见图4）。圆柱面：尺寸和指引线应置于垂直特征轴或包含特征轴的标注面内（见图5）。",
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723507919904768/228eaae43658f7a75eae0bf8275e134a75b80a20429603730759a7a904043c10.jpg",
+        "img_caption": [
+            "图4球型尺寸标注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723507919904768/0ad32fb8189cbea79f03ab37c3098e87be5a66764dad54904aa0a58b851b149a.jpg",
+        "img_caption": [
+            "图5圆柱型尺寸标注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.4 尺寸公差 ",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "涉及尺寸公差的内容应按GB/T1800.1-2009的有关规定来指定尺寸公差。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.5倒角",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "倒角：图6下图给出了 $90^{\\circ}$ 表面与等边布置的倒角相交标注。图7为不等边倒角采用尺寸线和延长线方法标注，尺寸值的方向和放置应有利于显示。",
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723507919904768/5412ac6531d8f7a128b332c1443fe84dbed931a814aee60e767e1d4746aa5375.jpg",
+        "img_caption": [
+            "图6圆角、等边倒角"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723507919904768/9fcddb9d43b8be73c2a7e0181e741023788a6d8606f7ceb21e1238f836161e2b.jpg",
+        "img_caption": [
+            "图7倒角一不等边长倒角"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.6 尺寸简化标注 ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "简化标注应保证不致引起误解和不产生理解的多意性，并力求简便。对于尺寸相同的重复要素，可仅在一个要素上标注其尺寸和数量。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "间隔相等的链式尺寸，可采用图8的简化注法。尺寸应根据表达需要尽量从模型中引出，避免造成后期模型观察不便。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.7锥形沉孔、柱形沉孔标注方法",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "锥形沉孔、柱形沉孔标注方法，按照图9显示规则标注在沉孔的上平面表面内。",
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723507919904768/e2b1be2426d29b44d262cc060c7d867c05b0e1e21814a4578491abbf3f65adc9.jpg",
+        "img_caption": [
+            "图8间隔相等的链式尺寸的注法"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1987723507919904768/d1e6aac76f29697b11688248cf1e66154ca61476c9504cd42a05ae776c2da360.jpg",
+        "img_caption": [
+            "图9 锥形沉孔、柱形沉孔"
+        ],
+        "img_footnote": [],
+        "page_idx": 6
+    }
+]

@@ -1,0 +1,264 @@
+<DrawingData Name="" Standard="">
+    <SheetList>
+        <SheetData Name="SHT1" ProjectionMethod="FirstAngle" Format="横版" PaperSize="Custom 297.0 x 841.0" Height="297" Width="841" Scale1="1.0" Scale2="1.0">
+            <PartsList Width="80" Height="112" NumofColumn="10" NumofRow="8" TextFont="MS Gothic" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.3" X="835.9" Y="49.9" Location="A1" Name="明细表">
+                <Part 序号="1" 代号="CTH11-01-04-001" 名称="&lt;T中梁!Center sill&gt;" 数量="1" 材料="Q450NQR1" 总计="366.52" />
+                <Part 序号="2" 代号="CTH11-01-04-002" 名称="&lt;T上包板!Top wrapper plate&gt;" 数量="1" 材料="T4003" 总计="78.44" />
+                <Part 序号="3" 代号="CTH11-01-04-003" 名称="&lt;T下包板!Bottom wrapper plate&gt;" 数量="1" 材料="T4003" 总计="125.89" />
+                <Part 序号="4" 代号="CTH11-01-04-004" 名称="&lt;T中梁下盖板（1）!Center sill bottom cower plate（1）&gt;" 数量="2" 材料="Q450NQR1" 单件="71.15" 总计="142.29" />
+                <Part 序号="5" 代号="CTH11-01-04-005" 名称="&lt;T中梁下盖板（2）!Center sill bottom cower plate（2）&gt;" 数量="1" 材料="Q450NQR1" 总计="108.58" />
+                <Part 序号="6" 代号="CTH11-01-04-006" 名称="&lt;T封板!Closure plate&gt;" 数量="2" 材料="Q450NQR1" 单件="2.28" 总计="4.55" />
+                <Part 序号="7" 代号="CTH11-01-04-007" 名称="&lt;T筋板!Rib plate&gt;" 数量="21" 材料="T4003" 单件="0.1" 总计="2.06" />
+                <Part 序号="8" 代号="CTH11-01-04-009" 名称="&lt;T端盖!End cover&gt;" 数量="2" 材料="T4003" 单件="1.07" 总计="2.14" />
+            </PartsList>
+            <TableList>
+                <TableData Width="55" Height="12" NumofColumn="1" NumofRow="1" TextFont="STFangsong" TextSize="5" TextSpace="0.5" TextLineSpace="0.7" X="24.9" Y="291.9" Location="A1" />
+                <TableData Width="96" Height="35" NumofColumn="6" NumofRow="5" TextFont="STFangsong" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.7" X="655.9" Y="4.9" Location="A1" />
+                <TableData Width="120" Height="50" NumofColumn="15" NumofRow="10" TextFont="STFangsong" TextSize="2.8" TextSpace="0.1" TextLineSpace="0.3" X="835.9" Y="4.9" Location="A1" />
+            </TableList>
+            <WeldList Name="焊接符号" Number="0" />
+            <NoteData>
+                <Note TextContent="局部放大视图序号" TextFont="chinesef_fs" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.1" Scale="1" Angle="0" X="281.393" Y="187.702" Location="A1">
+                    <Value TextContent="Ⅰ" TextFont="chinesef_fs" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.1" />
+                </Note>
+                <Note TextContent="局部放大视图序号" TextFont="chinesef_fs" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.1" Scale="1" Angle="0" X="471.468" Y="60.22" Location="A1">
+                    <Value TextContent="Ⅱ" TextFont="chinesef_fs" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.1" />
+                </Note>
+                <Note TextContent="局部放大视图标签" TextFont="chinesef_fs" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.1" Scale="1" Angle="0" X="234.698" Y="89.8292" Location="A1">
+                    <Value TextContent="Ⅰ" TextFont="chinesef_fs" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.1" />
+                    <Value TextContent="1:2" TextFont="chinesef_fs" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.1" />
+                </Note>
+                <Note TextContent="局部放大视图标签" TextFont="chinesef_fs" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.1" Scale="1" Angle="0" X="370.183" Y="83.8396" Location="A1">
+                    <Value TextContent="Ⅱ" TextFont="chinesef_fs" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.1" />
+                    <Value TextContent="1:2" TextFont="chinesef_fs" TextSize="3.5" TextSpace="0.1" TextLineSpace="0.1" />
+                </Note>
+            </NoteData>
+            <ViewList>
+                <ViewData ViewName="Top@9" Angle="0.0" Scale="0.1" ViewType="俯视图" ViewArea="1.226e+07">
+                    <DimensionsData>
+                        <BaseDimensionList Name="基本尺寸">
+                            <Dimension ID="35025" Unit="mm" Type="长度" Value="63" X="109.61" Y="219.971" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                        </BaseDimensionList>
+                        <WeldList Name="焊接符号" Number="10">
+                            <Weld ID="27513" X="368.083" Y="217.893" Location="A1" />
+                            <Weld ID="27545" X="139.832" Y="259.639" Location="A1" />
+                            <Weld ID="27552" X="170.17" Y="260.874" Location="A1" />
+                            <Weld ID="27565" X="86.8163" Y="220.831" Location="A1" />
+                            <Weld ID="27575" X="89.2429" Y="244.656" Location="A1" />
+                            <Weld ID="27602" X="106.413" Y="260.801" Location="A1" />
+                            <Weld ID="27609" X="123.963" Y="244.703" Location="A1" />
+                            <Weld ID="27660" X="154.399" Y="215.567" Location="A1" />
+                            <Weld ID="27733" X="90.8662" Y="190.896" Location="A1" />
+                            <Weld ID="27739" X="119.263" Y="198.044" Location="A1" />
+                        </WeldList>
+                    </DimensionsData>
+                    <LineProps>
+                        <Centerlines Name="中心线">
+                            <Centerline ID="35032" Width="0.25" Color="1,0,0" GAP="1.5" X="597.334" Y="223.672" Location="A1" />
+                        </Centerlines>
+                        <VisibleLines Name="可见线" Width="0.5" Color="1,1,1" GAP="0" />
+                        <HiddenLines Name="隐藏线" Width="0.25" Color="1,1,0" GAP="0" />
+                        <VirtualLines Name="虚拟线" Width="0.25" Color="0,1,1" GAP="3" />
+                        <TraceLines Name="追踪线" HiddenWidth="0.25" HiddenColor="0.6,0.4,0.2" VisibleWidth="0.25" VisibleColor="1,0,0" GAP="2" />
+                    </LineProps>
+                    <Sections Name="剖面区域">
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="0" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="825.27" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="0" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="827" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="135" Tolerance="0.25" X="56" Y="827" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="0" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="0" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="0" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="809.75" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="809.75" Location="A1" />
+                    </Sections>
+                </ViewData>
+                <ViewData ViewName="ORTHO@10" Angle="0.0" Scale="0.1" ViewType="正交视图" ViewArea="5.99341e+06">
+                    <DimensionsData>
+                        <BaseDimensionList Name="基本尺寸">
+                            <Dimension ID="34969" Unit="mm" Type="长度" Value="9994" X="575.978" Y="114.36" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="28004" Unit="mm" Type="长度" Value="8987" X="575.978" Y="123.633" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="34978" Unit="mm" Type="长度" Value="10710" X="575.419" Y="105.421" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="28028" Unit="mm" Type="长度" Value="667" X="169.739" Y="130.562" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="28025" Unit="mm" Type="长度" Value="615" X="229.836" Y="130.562" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="28021" Unit="mm" Type="长度" Value="118" X="269.719" Y="130.562" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="28018" Unit="mm" Type="长度" Value="515" X="305.296" Y="130.562" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="28014" Unit="mm" Type="长度" Value="515" X="355.175" Y="130.562" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="28011" Unit="mm" Type="长度" Value="515" X="406.734" Y="130.562" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="35007" Unit="mm" Type="长度" Value="515" X="455.294" Y="130.562" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="28008" Unit="mm" Type="长度" Value="118" X="488.284" Y="130.491" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="28002" Unit="mm" Type="长度" Value="515" X="520.168" Y="130.491" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="35020" Unit="mm" Type="长度" Value="517" X="572.098" Y="130.491" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                        </BaseDimensionList>
+                        <WeldList Name="焊接符号" Number="0" />
+                    </DimensionsData>
+                    <LineProps>
+                        <Centerlines Name="中心线">
+                            <Centerline ID="28646" Width="0.25" Color="1,0,0" GAP="1.5" X="597.334" Y="143.69" Location="A1" />
+                            <Centerline ID="35082" Width="0.25" Color="1,0,0" GAP="1.5" X="329.334" Y="143.69" Location="A1" />
+                        </Centerlines>
+                        <VisibleLines Name="可见线" Width="0.5" Color="1,1,1" GAP="0" />
+                        <HiddenLines Name="隐藏线" Width="0.25" Color="1,1,0" GAP="0" />
+                        <VirtualLines Name="虚拟线" Width="0.25" Color="0,1,1" GAP="3" />
+                        <TraceLines Name="追踪线" HiddenWidth="0.25" HiddenColor="0.6,0.4,0.2" VisibleWidth="0.25" VisibleColor="1,0,0" GAP="2" />
+                    </LineProps>
+                </ViewData>
+                <ViewData ViewName="SX@13" Angle="0.0" Scale="0.1" ViewType="剖视图" ViewArea="384382">
+                    <DimensionsData>
+                        <BaseDimensionList Name="基本尺寸">
+                            <Dimension ID="30149" Unit="mm" Type="长度" Value="592" X="489.74" Y="17.6802" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="34959" Unit="mm" Type="长度" Value="178" X="473.072" Y="42.6802" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                        </BaseDimensionList>
+                        <WeldList Name="焊接符号" Number="1">
+                            <Weld ID="28212" X="500.652" Y="64.5532" Location="A1" />
+                        </WeldList>
+                    </DimensionsData>
+                    <LineProps>
+                        <Centerlines Name="中心线">
+                            <Centerline ID="35079" Width="0.25" Color="1,0,0" GAP="1.5" X="489.74" Y="45.4302" Location="A1" />
+                        </Centerlines>
+                        <VisibleLines Name="可见线" Width="0.5" Color="1,1,1" GAP="0" />
+                        <HiddenLines Name="隐藏线" Width="0.25" Color="1,1,0" GAP="0" />
+                        <VirtualLines Name="虚拟线" Width="0.25" Color="0,1,1" GAP="3" />
+                        <TraceLines Name="追踪线" HiddenWidth="0.25" HiddenColor="0.6,0.4,0.2" VisibleWidth="0.25" VisibleColor="1,0,0" GAP="2" />
+                    </LineProps>
+                    <Sections Name="剖面区域">
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="3.27557e-09" Y="954.941" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="135" Tolerance="0.25" X="1.71823" Y="1076.54" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="75" Tolerance="0.25" X="-11.0078" Y="827" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="135" Tolerance="0.25" X="-1.98654e-09" Y="899.402" Location="A1" />
+                    </Sections>
+                </ViewData>
+                <ViewData ViewName="DETAIL@16" Angle="0.0" Scale="0.5" ViewType="局部放大图" ViewArea="3454.63">
+                    <DimensionsData>
+                        <BaseDimensionList Name="基本尺寸">
+                            <Dimension ID="34964" Unit="mm" Type="长度" Value="5.5" X="345.166" Y="27.762" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                        </BaseDimensionList>
+                        <WeldList Name="焊接符号" Number="0" />
+                    </DimensionsData>
+                    <LineProps>
+                        <VisibleLines Name="可见线" Width="0.5" Color="1,1,1" GAP="0" />
+                        <HiddenLines Name="隐藏线" Width="0.25" Color="1,1,0" GAP="0" />
+                        <VirtualLines Name="虚拟线" Width="0.25" Color="0,1,1" GAP="3" />
+                        <TraceLines Name="追踪线" HiddenWidth="0.25" HiddenColor="0.6,0.4,0.2" VisibleWidth="0.25" VisibleColor="1,0,0" GAP="2" />
+                    </LineProps>
+                    <Sections Name="剖面区域">
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="135" Tolerance="0.25" X="-69.8803" Y="1045.05" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="135" Tolerance="0.25" X="-1.56615e-09" Y="922.166" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="-18.0354" Y="1013.04" Location="A1" />
+                    </Sections>
+                </ViewData>
+                <ViewData ViewName="DETAIL@17" Angle="0.0" Scale="0.5" ViewType="局部放大图" ViewArea="14603.6">
+                    <DimensionsData>
+                        <BaseDimensionList Name="基本尺寸">
+                            <Dimension ID="35103" Unit="mm" Type="长度" Value="4.5" X="199.469" Y="56.3181" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                            <Dimension ID="35108" Unit="mm" Type="长度" Value="8.5" X="249.522" Y="41.2675" Location="A1">
+                                <Value Name="值" Font="STFangsong" Size="3.5" Color="0,1,0" />
+                                <Tolerance Name="公差" />
+                                <LineArrow Name="标注线的样式" Font="虚线" Width="0.25" Color="0,1,1" />
+                            </Dimension>
+                        </BaseDimensionList>
+                        <WeldList Name="焊接符号" Number="1">
+                            <Weld ID="27784" X="219.593" Y="22.4782" Location="A1" />
+                        </WeldList>
+                    </DimensionsData>
+                    <LineProps>
+                        <VisibleLines Name="可见线" Width="0.5" Color="1,1,1" GAP="0" />
+                        <HiddenLines Name="隐藏线" Width="0.25" Color="1,1,0" GAP="0" />
+                        <VirtualLines Name="虚拟线" Width="0.25" Color="0,1,1" GAP="3" />
+                        <TraceLines Name="追踪线" HiddenWidth="0.25" HiddenColor="0.6,0.4,0.2" VisibleWidth="0.25" VisibleColor="1,0,0" GAP="2" />
+                    </LineProps>
+                    <Sections Name="剖面区域">
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="0" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="0" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="0" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="825" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="0" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="809.769" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="809.75" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="0" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="827.557" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="45" Tolerance="0.25" X="56" Y="0" Location="A1" />
+                        <Section LineWidth="0.25" Color="1,1,0" HatchMaterial="Iron/General Use" HatchDistance="3" HatchAngle="135" Tolerance="0.25" X="56" Y="827" Location="A1" />
+                    </Sections>
+                </ViewData>
+            </ViewList>
+        </SheetData>
+    </SheetList>
+</DrawingData>

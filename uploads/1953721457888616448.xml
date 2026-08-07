@@ -1,0 +1,232 @@
+<SpecificationCheck>
+    <CheckGroup Name="规则库建立检查" DocType="Standard">
+        <RuleItem Name="基础规则库" CheckFun="RuleLibraryCheck_1" RepairFun="" Description="应具备通用基础规则库，提供OOTB规则功能。规则库集中部署，设计师共享使用。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="规则库部署" VerType="-" Value="集中部署"/>
+                <Rule Name="规则共享" VerType="-" Value="设计师共享"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="规则扩展工具" CheckFun="RuleExtensionCheck_1" RepairFun="" Description="应提供规则扩展配置工具。通过用户页面，便捷快速生成符合制造公司业务的模型及图纸检查规则。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="规则扩展配置" VerType="-" Value="用户页面"/>
+                <Rule Name="规则生成" VerType="-" Value="符合制造公司业务"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="规则库区分" CheckFun="RuleDifferentiationCheck_1" RepairFun="" Description="规则库应区分设计专业和模型种类等，不同场景使用对应检验规则。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="规则区分" VerType="-" Value="设计专业"/>
+                <Rule Name="规则区分" VerType="-" Value="模型种类"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="规则生成知识传递" CheckFun="RuleGenerationKnowledgeCheck_1" RepairFun="" Description="如需开发完成规则生成，需要进行知识传递，赋能制造公司开发工程师掌握API的使用。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="知识传递" VerType="-" Value="API使用"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+    <CheckGroup Name="三维模型审核检查" DocType="Standard">
+        <RuleItem Name="三维格式支持" CheckFun="3DFormatCheck_1" RepairFun="" Description="支持多种主流三维格式（如Creo、Catia、Solidworks等）的模型检查需求。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="支持格式" VerType="-" Value="Creo"/>
+                <Rule Name="支持格式" VerType="-" Value="Catia"/>
+                <Rule Name="支持格式" VerType="-" Value="Solidworks"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="多CAD协同识别" CheckFun="MultiCADCheck_1" RepairFun="" Description="能够识别多CAD协同场景，例如Creo组件下装配CATIA或STEP模型组件。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="协同识别" VerType="-" Value="Creo组件"/>
+                <Rule Name="协同识别" VerType="-" Value="CATIA组件"/>
+                <Rule Name="协同识别" VerType="-" Value="STEP组件"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="STEP几何特征识别" CheckFun="STEPFeatureCheck_1" RepairFun="" Description="针对STEP格式的文件，可自动识别出其几何特征，并对其进行规范性检查。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="几何特征识别" VerType="-" Value="STEP文件"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="模型规范识别" CheckFun="ModelStandardCheck_1" RepairFun="" Description="能够自动识别模型中的不符合规范之处，如模版使用不对、尺寸偏差、参数缺少维护、三维标注错误等。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="规范识别" VerType="-" Value="模版使用"/>
+                <Rule Name="规范识别" VerType="-" Value="尺寸偏差"/>
+                <Rule Name="规范识别" VerType="-" Value="参数维护"/>
+                <Rule Name="规范识别" VerType="-" Value="三维标注"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="静态干涉检查" CheckFun="InterferenceCheck_1" RepairFun="" Description="不同模型间能够提供静态干涉检查，相同模型实现不同版本差异性对比等功能。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="干涉检查" VerType="-" Value="静态干涉"/>
+                <Rule Name="版本对比" VerType="-" Value="差异性对比"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="专业模型规范识别" CheckFun="ProfessionalModelCheck_1" RepairFun="" Description="分专业识别钣金件、管路、线缆等模型规范，同时能够分析通过“普通模块”形成的“钣金”、“管路”等设计场景。可分析识别曲面模块的连续性等模型错误。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="专业识别" VerType="-" Value="钣金件"/>
+                <Rule Name="专业识别" VerType="-" Value="管路"/>
+                <Rule Name="专业识别" VerType="-" Value="线缆"/>
+                <Rule Name="设计场景分析" VerType="-" Value="普通模块"/>
+                <Rule Name="模型错误识别" VerType="-" Value="曲面模块连续性"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+    <CheckGroup Name="工程图纸审核检查" DocType="Standard">
+        <RuleItem Name="图纸模板正确性" CheckFun="DrawingTemplateCheck_1" RepairFun="" Description="检查图纸中使用模板正确性，分析图框、图层、标注、属性参数等是否符合标准。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="模板正确性" VerType="-" Value="图框"/>
+                <Rule Name="模板正确性" VerType="-" Value="图层"/>
+                <Rule Name="模板正确性" VerType="-" Value="标注"/>
+                <Rule Name="模板正确性" VerType="-" Value="属性参数"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="标准要求校验" CheckFun="StandardRequirementCheck_1" RepairFun="" Description="根据图纸使用的标准要求（国际标准、美国标准等）对图纸中的视角、尺寸、比例、文字、焊接符号、公差表示、标注引线、箭头符号等信息进行准确性校验。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="标准校验" VerType="-" Value="视角"/>
+                <Rule Name="标准校验" VerType="-" Value="尺寸"/>
+                <Rule Name="标准校验" VerType="-" Value="比例"/>
+                <Rule Name="标准校验" VerType="-" Value="文字"/>
+                <Rule Name="标准校验" VerType="-" Value="焊接符号"/>
+                <Rule Name="标准校验" VerType="-" Value="公差表示"/>
+                <Rule Name="标准校验" VerType="-" Value="标注引线"/>
+                <Rule Name="标准校验" VerType="-" Value="箭头符号"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="设计错误识别" CheckFun="DesignErrorCheck_1" RepairFun="" Description="识别并标注图纸中的设计错误或遗漏，如：假尺寸、缺少尺寸、尺寸不一致、尺寸线与投影视图或文字布局重叠等。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="错误识别" VerType="-" Value="假尺寸"/>
+                <Rule Name="错误识别" VerType="-" Value="缺少尺寸"/>
+                <Rule Name="错误识别" VerType="-" Value="尺寸不一致"/>
+                <Rule Name="错误识别" VerType="-" Value="尺寸线重叠"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="组件图纸自动识别" CheckFun="ComponentDrawingCheck_1" RepairFun="" Description="可根据组件模型，自动识别组件及其下模型对应的工程图纸，进行批量分析审核功能。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="自动识别" VerType="-" Value="组件模型"/>
+                <Rule Name="批量审核" VerType="-" Value="工程图纸"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+    <CheckGroup Name="快速修复检查" DocType="Standard">
+        <RuleItem Name="标准问题一键修复" CheckFun="StandardRepairCheck_1" RepairFun="" Description="针对检查出的模型问题及工程图纸问题，支持“执行标准”问题的一键修复（如字号问题、有多余标注等）。对于必须设计师手动修改的问题，可提供修复建议。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="一键修复" VerType="-" Value="字号问题"/>
+                <Rule Name="一键修复" VerType="-" Value="多余标注"/>
+                <Rule Name="修复建议" VerType="-" Value="手动修改"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="专业模型修复" CheckFun="ProfessionalModelRepairCheck_1" RepairFun="" Description="针对三维模型，可支持钣金件、管路、线缆等进行专业定义分类检查及模型修复。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="专业修复" VerType="-" Value="钣金件"/>
+                <Rule Name="专业修复" VerType="-" Value="管路"/>
+                <Rule Name="专业修复" VerType="-" Value="线缆"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="标准模板替换" CheckFun="TemplateReplacementCheck_1" RepairFun="" Description="可以实现标准模板替换功能，快速修正规范要求和属性参数要求。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="模板替换" VerType="-" Value="规范要求"/>
+                <Rule Name="模板替换" VerType="-" Value="属性参数"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+    <CheckGroup Name="检查分析检查" DocType="Standard">
+        <RuleItem Name="问题智能定位" CheckFun="ProblemLocationCheck_1" RepairFun="" Description="针对检查出的模型或图纸问题，系统支持根据设计师选定的错误项在模型或图纸中进行智能定位、居中放大、高亮显示，方便设计师快速的找到问题处进行确认修改。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="智能定位" VerType="-" Value="错误项"/>
+                <Rule Name="高亮显示" VerType="-" Value="问题处"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="审核报告生成" CheckFun="ReportGenerationCheck_1" RepairFun="" Description="根据审核结果自动生成详细的审核报告，包括错误列表、问题处系统截图、修改建议、相关执行标准等。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="报告生成" VerType="-" Value="错误列表"/>
+                <Rule Name="报告生成" VerType="-" Value="系统截图"/>
+                <Rule Name="报告生成" VerType="-" Value="修改建议"/>
+                <Rule Name="报告生成" VerType="-" Value="执行标准"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="报告导出格式" CheckFun="ReportExportCheck_1" RepairFun="" Description="报告支持导出为多种格式（如Excel、Word、PDF等），便于分享与存档。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="报告导出" VerType="-" Value="Excel"/>
+                <Rule Name="报告导出" VerType="-" Value="Word"/>
+                <Rule Name="报告导出" VerType="-" Value="PDF"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="问题数据统计分析" CheckFun="ProblemDataAnalysisCheck_1" RepairFun="" Description="结构化问题数据，可对审核问题进行统计分析，通过配置实现数据质量问题多维度统计分析功能，输出报表，包括审核数量、审批次数、错误统计、审批时长等信息。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="数据统计" VerType="-" Value="审核数量"/>
+                <Rule Name="数据统计" VerType="-" Value="审批次数"/>
+                <Rule Name="数据统计" VerType="-" Value="错误统计"/>
+                <Rule Name="数据统计" VerType="-" Value="审批时长"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+    <CheckGroup Name="其他功能检查" DocType="Standard">
+        <RuleItem Name="PDM系统集成" CheckFun="PDMIntegrationCheck_1" RepairFun="" Description="支持与PDM系统做集成，在数据检入PDM系统时，系统自动在后台做检入数据检查，并将检查结果予以反馈。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="系统集成" VerType="-" Value="PDM"/>
+                <Rule Name="后台检查" VerType="-" Value="检入数据"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="检查方式支持" CheckFun="CheckMethodCheck_1" RepairFun="" Description="支持单个模型检查、单张图纸检查，也支持模型批量检查与工程图批量检查。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="检查方式" VerType="-" Value="单个模型"/>
+                <Rule Name="检查方式" VerType="-" Value="单张图纸"/>
+                <Rule Name="检查方式" VerType="-" Value="批量模型"/>
+                <Rule Name="检查方式" VerType="-" Value="批量图纸"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="数据过滤功能" CheckFun="DataFilterCheck_1" RepairFun="" Description="当进行模型或工程图批量检查时，支持数据过滤功能，如仅检查未发布数据、仅检查勾选数据、仅检查当前设计师名下数据等。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="数据过滤" VerType="-" Value="未发布数据"/>
+                <Rule Name="数据过滤" VerType="-" Value="勾选数据"/>
+                <Rule Name="数据过滤" VerType="-" Value="设计师数据"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="特例标准定制" CheckFun="ExceptionStandardCheck_1" RepairFun="" Description="具备特例标准定制方案，满足特例项目或特例图纸标准，实现配置快速校验或忽略校验策略，以满足特殊场景需要。但检验数据进入分析统计。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="特例定制" VerType="-" Value="特例项目"/>
+                <Rule Name="特例定制" VerType="-" Value="特例图纸"/>
+                <Rule Name="校验策略" VerType="-" Value="快速校验"/>
+                <Rule Name="校验策略" VerType="-" Value="忽略校验"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="可制造性检查扩展" CheckFun="ManufacturabilityCheckCheck_1" RepairFun="" Description="具备向可制造性检查扩展的能力。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="扩展能力" VerType="-" Value="可制造性检查"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="Creo再生失败分析" CheckFun="CreoRegenerationCheck_1" RepairFun="" Description="协助分析、定位Creo中的再生失败问题，突显问题项点，指引及时修正，降低参考当模型产生的影响。对Creo占位符文件等特殊场景进行分析，查找不完整对象，并进行修复。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="再生失败分析" VerType="-" Value="Creo"/>
+                <Rule Name="特殊场景分析" VerType="-" Value="占位符文件"/>
+                <Rule Name="对象修复" VerType="-" Value="不完整对象"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+    <CheckGroup Name="系统维护检查" DocType="Standard">
+        <RuleItem Name="集中管理与规则共享" CheckFun="CentralizedManagementCheck_1" RepairFun="" Description="能够实现集中管理、规则共享。如采用数据库服务，需要支持MySQL数据库，以及信创操作系统和数据库的支持。有必要时提供信创迁移解决方案。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="集中管理" VerType="-" Value="规则共享"/>
+                <Rule Name="数据库支持" VerType="-" Value="MySQL"/>
+                <Rule Name="信创支持" VerType="-" Value="操作系统"/>
+                <Rule Name="信创支持" VerType="-" Value="数据库"/>
+                <Rule Name="迁移方案" VerType="-" Value="信创迁移"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="审核任务效率" CheckFun="ReviewEfficiencyCheck_1" RepairFun="" Description="系统应能够在合理的时间内完成三维模型和工程图的审核任务，确保完成效率，或根据数据场景实现“前后端”检查机制，不过度占用设计师工作站资源。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="审核效率" VerType="-" Value="三维模型"/>
+                <Rule Name="审核效率" VerType="-" Value="工程图"/>
+                <Rule Name="检查机制" VerType="-" Value="前后端检查"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="运行稳定性" CheckFun="StabilityCheck_1" RepairFun="" Description="保证运行稳定性，能够长时间稳定运行而不出现崩溃或异常。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="稳定性" VerType="-" Value="长时间运行"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="版本兼容性" CheckFun="VersionCompatibilityCheck_1" RepairFun="" Description="满足用户客户端Windows版本或CAD版本的多种版本兼容性要求。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="版本兼容" VerType="-" Value="Windows"/>
+                <Rule Name="版本兼容" VerType="-" Value="CAD"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

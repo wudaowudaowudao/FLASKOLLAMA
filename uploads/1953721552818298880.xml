@@ -1,0 +1,50 @@
+<SpecificationCheck>
+    <CheckGroup Name="机械制图齿轮表示法检查" DocType="Standard">
+        <RuleItem Name="齿轮线型表示法" CheckFun="LineTypeCheck_1" RepairFun="" Description="本标准规定了齿轮的表示法，适用于机械图样中齿轮的绘制。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="齿顶圆和齿顶线" VerType="-" Value="粗实线"/>
+                <Rule Name="分度圆和分度线" VerType="-" Value="细点画线"/>
+                <Rule Name="齿根圆和齿根线" VerType="-" Value="细实线"/>
+                <Rule Name="剖视图中齿根线" VerType="-" Value="粗实线"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="齿轮视图表示法" CheckFun="ViewCheck_1" RepairFun="" Description="齿轮一般用两个视图，或者用一个视图和一个局部视图表示。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="视图数量" VerType="-" Value="两个视图或一个视图加一个局部视图"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="齿轮剖视图表示法" CheckFun="SectionCheck_1" RepairFun="" Description="当剖切平面通过齿轮的轴线时，轮齿一律按不剖处理。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="剖视图处理" VerType="-" Value="不剖"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="齿形表示法" CheckFun="ToothFormCheck_1" RepairFun="" Description="如需表明齿形，可在图形中用粗实线画出一个或两个齿，或用适当比例的局部放大图表示。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="齿形表示" VerType="-" Value="粗实线或局部放大图"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="齿线特征表示法" CheckFun="ToothLineCheck_1" RepairFun="" Description="当需要表示齿线的特征时，可用三条与齿线方向一致的细实线表示。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="齿线特征表示" VerType="-" Value="三条细实线"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="齿条长度表示法" CheckFun="RackLengthCheck_1" RepairFun="" Description="如需要注出齿条的长度时，可在画出齿形的图中注出，并在另一视图中用粗实线画出其范围线。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="齿条长度表示" VerType="-" Value="注出长度并用粗实线画出范围线"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="齿轮啮合表示法" CheckFun="MeshingCheck_1" RepairFun="" Description="齿轮啮合的表示法包括圆柱齿轮副、锥齿轮副、蜗杆蜗轮副等。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="圆柱齿轮副啮合" VerType="-" Value="粗实线绘制齿顶圆"/>
+                <Rule Name="锥齿轮副啮合" VerType="-" Value="粗实线绘制节线"/>
+                <Rule Name="蜗杆蜗轮副啮合" VerType="-" Value="粗实线绘制齿顶线"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="齿轮图样格式" CheckFun="DrawingFormatCheck_1" RepairFun="" Description="齿轮图样格式参见附录A，参数表一般放在图样的右上角，技术要求一般放在右下角。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="参数表位置" VerType="-" Value="右上角"/>
+                <Rule Name="技术要求位置" VerType="-" Value="右下角"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

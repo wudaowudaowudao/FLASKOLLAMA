@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpecificationCheck>
+  <CheckGroup>CAD系统需求评估规范检查</CheckGroup>
+  
+  <RuleItem Name="规则库建立检查" CheckFun="CheckRuleLibraryEstablishment" Description="检查基础规则库的建立和配置">
+    <CheckConfig>
+      <Rule>必须具备通用基础规则库</Rule>
+      <Rule>规则库必须集中部署</Rule>
+      <Rule>设计师必须能够共享使用规则库</Rule>
+      <Rule>必须提供OOTB规则功能</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="规则扩展工具检查" CheckFun="CheckRuleExtensionTool" Description="检查规则扩展配置工具的功能">
+    <CheckConfig>
+      <Rule>必须提供规则扩展配置工具</Rule>
+      <Rule>必须通过用户页面便捷快速生成检查规则</Rule>
+      <Rule>生成的规则必须符合制造公司业务需求</Rule>
+      <Rule>必须基于现有公司标准进行规则整理</Rule>
+      <Rule>必须进行知识传递，让工程师具备分析能力</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="规则库分类检查" CheckFun="CheckRuleLibraryClassification" Description="检查规则库的专业和模型种类区分">
+    <CheckConfig>
+      <Rule>规则库必须区分设计专业</Rule>
+      <Rule>规则库必须区分模型种类</Rule>
+      <Rule>不同场景必须使用对应检验规则</Rule>
+      <Rule>规则分类必须清晰明确</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="API开发能力检查" CheckFun="CheckAPIDevelopmentCapability" Description="检查API开发和使用能力">
+    <CheckConfig>
+      <Rule>如需开发规则生成功能，必须进行知识传递</Rule>
+      <Rule>必须赋能制造公司开发工程师掌握API使用</Rule>
+      <Rule>API文档必须完整清晰</Rule>
+      <Rule>必须提供API使用示例</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="三维模型格式支持检查" CheckFun="CheckThreeDModelFormatSupport" Description="检查三维模型格式支持能力">
+    <CheckConfig>
+      <Rule>必须支持Creo格式模型检查</Rule>
+      <Rule>必须支持Catia格式模型检查</Rule>
+      <Rule>必须支持Solidworks格式模型检查</Rule>
+      <Rule>必须能识别多CAD协同场景</Rule>
+      <Rule>必须支持Creo组件下装配CATIA或STEP模型组件</Rule>
+      <Rule>必须能自动识别STEP格式文件的几何特征</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="模型规范性检查" CheckFun="CheckModelSpecificationCompliance" Description="检查模型规范性识别能力">
+    <CheckConfig>
+      <Rule>必须能自动识别模版使用错误</Rule>
+      <Rule>必须能识别尺寸偏差</Rule>
+      <Rule>必须能识别参数缺少维护</Rule>
+      <Rule>必须能识别三维标注错误</Rule>
+      <Rule>识别结果必须准确可靠</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="模型干涉检查" CheckFun="CheckModelInterferenceAnalysis" Description="检查模型间干涉分析功能">
+    <CheckConfig>
+      <Rule>必须提供不同模型间静态干涉检查</Rule>
+      <Rule>必须实现相同模型不同版本差异性对比</Rule>
+      <Rule>必须确保设计合理性</Rule>
+      <Rule>必须支持对比结果在视图中显色显示</Rule>
+      <Rule>显示结果必须便于设计及审核人员识别确认</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="专业模型识别检查" CheckFun="CheckProfessionalModelRecognition" Description="检查专业模型识别能力">
+    <CheckConfig>
+      <Rule>必须能分专业识别钣金件模型规范</Rule>
+      <Rule>必须能分专业识别管路模型规范</Rule>
+      <Rule>必须能分专业识别线缆模型规范</Rule>
+      <Rule>必须能分析通过普通模块形成的钣金、管路等设计场景</Rule>
+      <Rule>必须能分析识别曲面模块的连续性等模型错误</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="工程图纸模板检查" CheckFun="CheckEngineeringDrawingTemplate" Description="检查工程图纸模板使用正确性">
+    <CheckConfig>
+      <Rule>必须检查图纸中使用模板正确性</Rule>
+      <Rule>必须分析图框是否符合标准</Rule>
+      <Rule>必须分析图层是否符合标准</Rule>
+      <Rule>必须分析标注是否符合标准</Rule>
+      <Rule>必须分析属性参数是否符合标准</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="图纸标准符合性检查" CheckFun="CheckDrawingStandardCompliance" Description="检查图纸标准要求符合性">
+    <CheckConfig>
+      <Rule>必须根据国际标准对图纸进行校验</Rule>
+      <Rule>必须根据美国标准对图纸进行校验</Rule>
+      <Rule>必须校验视角信息准确性</Rule>
+      <Rule>必须校验尺寸信息准确性</Rule>
+      <Rule>必须校验比例信息准确性</Rule>
+      <Rule>必须校验文字信息准确性</Rule>
+      <Rule>必须校验焊接符号准确性</Rule>
+      <Rule>必须校验公差表示准确性</Rule>
+      <Rule>必须校验标注引线准确性</Rule>
+      <Rule>必须校验箭头符号准确性</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="图纸错误识别检查" CheckFun="CheckDrawingErrorIdentification" Description="检查图纸设计错误识别能力">
+    <CheckConfig>
+      <Rule>必须能识别并标注假尺寸</Rule>
+      <Rule>必须能识别并标注缺少尺寸</Rule>
+      <Rule>必须能识别并标注尺寸不一致</Rule>
+      <Rule>必须能识别尺寸线与投影视图重叠</Rule>
+      <Rule>必须能识别尺寸线与文字布局重叠</Rule>
+      <Rule>错误标注必须清晰准确</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="批量分析检查" CheckFun="CheckBatchAnalysisCapability" Description="检查批量分析审核功能">
+    <CheckConfig>
+      <Rule>必须能根据组件模型自动识别对应工程图纸</Rule>
+      <Rule>必须支持批量分析审核功能</Rule>
+      <Rule>批量处理必须高效稳定</Rule>
+      <Rule>处理结果必须准确可靠</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="快速修复功能检查" CheckFun="CheckQuickRepairFunction" Description="检查问题快速修复功能">
+    <CheckConfig>
+      <Rule>必须支持执行标准问题的一键修复</Rule>
+      <Rule>必须能修复字号问题</Rule>
+      <Rule>必须能修复多余标注问题</Rule>
+      <Rule>对于手动修改问题必须提供修复建议</Rule>
+      <Rule>修复建议必须准确可行</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="专业模型修复检查" CheckFun="CheckProfessionalModelRepair" Description="检查专业模型修复能力">
+    <CheckConfig>
+      <Rule>必须支持钣金件专业定义分类检查及修复</Rule>
+      <Rule>必须支持管路专业定义分类检查及修复</Rule>
+      <Rule>必须支持线缆专业定义分类检查及修复</Rule>
+      <Rule>修复功能必须准确有效</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="模板替换功能检查" CheckFun="CheckTemplateReplacementFunction" Description="检查标准模板替换功能">
+    <CheckConfig>
+      <Rule>必须能实现标准模板替换功能</Rule>
+      <Rule>必须能快速修正规范要求</Rule>
+      <Rule>必须能快速修正属性参数要求</Rule>
+      <Rule>替换过程必须安全可靠</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="智能定位功能检查" CheckFun="CheckIntelligentLocationFunction" Description="检查问题智能定位功能">
+    <CheckConfig>
+      <Rule>必须支持根据错误项在模型中智能定位</Rule>
+      <Rule>必须支持根据错误项在图纸中智能定位</Rule>
+      <Rule>必须支持居中放大显示</Rule>
+      <Rule>必须支持高亮显示</Rule>
+      <Rule>定位功能必须便于设计师快速找到问题</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="审核报告生成检查" CheckFun="CheckAuditReportGeneration" Description="检查审核报告自动生成功能">
+    <CheckConfig>
+      <Rule>必须能根据审核结果自动生成详细报告</Rule>
+      <Rule>报告必须包含错误列表</Rule>
+      <Rule>报告必须包含问题处系统截图</Rule>
+      <Rule>报告必须包含修改建议</Rule>
+      <Rule>报告必须包含相关执行标准</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="报告导出功能检查" CheckFun="CheckReportExportFunction" Description="检查报告导出功能">
+    <CheckConfig>
+      <Rule>报告必须支持导出为Excel格式</Rule>
+      <Rule>报告必须支持导出为Word格式</Rule>
+      <Rule>报告必须支持导出为PDF格式</Rule>
+      <Rule>导出功能必须便于分享与存档</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="统计分析功能检查" CheckFun="CheckStatisticalAnalysisFunction" Description="检查问题统计分析功能">
+    <CheckConfig>
+      <Rule>必须能结构化问题数据</Rule>
+      <Rule>必须能对审核问题进行统计分析</Rule>
+      <Rule>必须支持数据质量问题多维度统计分析</Rule>
+      <Rule>必须能输出包含审核数量、审批次数、错误统计、审批时长等信息的报表</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="PDM系统集成检查" CheckFun="CheckPDMSystemIntegration" Description="检查与PDM系统集成功能">
+    <CheckConfig>
+      <Rule>必须支持与PDM系统集成</Rule>
+      <Rule>必须能在数据检入PDM系统时自动检查</Rule>
+      <Rule>必须能将检查结果反馈给PDM系统</Rule>
+      <Rule>集成功能必须稳定可靠</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="检查模式支持检查" CheckFun="CheckInspectionModeSupport" Description="检查各种检查模式支持情况">
+    <CheckConfig>
+      <Rule>必须支持单个模型检查</Rule>
+      <Rule>必须支持单张图纸检查</Rule>
+      <Rule>必须支持模型批量检查</Rule>
+      <Rule>必须支持工程图批量检查</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="数据过滤功能检查" CheckFun="CheckDataFilterFunction" Description="检查批量检查时的数据过滤功能">
+    <CheckConfig>
+      <Rule>必须支持仅检查未发布数据</Rule>
+      <Rule>必须支持仅检查勾选数据</Rule>
+      <Rule>必须支持仅检查当前设计师名下数据</Rule>
+      <Rule>过滤功能必须准确有效</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="特例标准定制检查" CheckFun="CheckSpecialStandardCustomization" Description="检查特例标准定制方案">
+    <CheckConfig>
+      <Rule>必须具备特例标准定制方案</Rule>
+      <Rule>必须满足特例项目或特例图纸标准</Rule>
+      <Rule>必须能配置快速校验或忽略校验策略</Rule>
+      <Rule>检验数据必须进入分析统计</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="可制造性检查扩展" CheckFun="CheckManufacturabilityExtension" Description="检查向可制造性检查扩展的能力">
+    <CheckConfig>
+      <Rule>必须具备向可制造性检查扩展的能力</Rule>
+      <Rule>扩展功能必须与现有功能兼容</Rule>
+      <Rule>扩展接口必须标准化</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="Creo问题分析检查" CheckFun="CheckCreoProblemAnalysis" Description="检查Creo再生失败问题分析能力">
+    <CheckConfig>
+      <Rule>必须能协助分析Creo中的再生失败问题</Rule>
+      <Rule>必须能定位再生失败问题</Rule>
+      <Rule>必须能突显问题项点</Rule>
+      <Rule>必须能指引及时修正</Rule>
+      <Rule>必须能分析Creo占位符文件等特殊场景</Rule>
+      <Rule>必须能查找不完整对象并进行修复</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="系统管理功能检查" CheckFun="CheckSystemManagementFunction" Description="检查系统集中管理和规则共享功能">
+    <CheckConfig>
+      <Rule>必须能实现集中管理</Rule>
+      <Rule>必须能实现规则共享</Rule>
+      <Rule>必须支持MySQL数据库</Rule>
+      <Rule>必须支持信创操作系统</Rule>
+      <Rule>必须支持信创数据库</Rule>
+      <Rule>必要时必须提供信创迁移解决方案</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="系统性能检查" CheckFun="CheckSystemPerformance" Description="检查系统性能要求">
+    <CheckConfig>
+      <Rule>必须能在合理时间内完成三维模型审核</Rule>
+      <Rule>必须能在合理时间内完成工程图审核</Rule>
+      <Rule>必须确保完成效率</Rule>
+      <Rule>必须实现前后端检查机制</Rule>
+      <Rule>不得过度占用设计师工作站资源</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="系统稳定性检查" CheckFun="CheckSystemStability" Description="检查系统运行稳定性">
+    <CheckConfig>
+      <Rule>必须保证运行稳定性</Rule>
+      <Rule>必须能长时间稳定运行</Rule>
+      <Rule>不得出现崩溃或异常</Rule>
+      <Rule>异常处理机制必须完善</Rule>
+    </CheckConfig>
+  </RuleItem>
+  
+  <RuleItem Name="系统兼容性检查" CheckFun="CheckSystemCompatibility" Description="检查系统版本兼容性">
+    <CheckConfig>
+      <Rule>必须满足用户客户端Windows版本兼容性要求</Rule>
+      <Rule>必须满足CAD版本的多种版本兼容性要求</Rule>
+      <Rule>兼容性测试必须全面</Rule>
+      <Rule>版本升级必须向下兼容</Rule>
+    </CheckConfig>
+  </RuleItem>
+
+</SpecificationCheck>

@@ -1,0 +1,31 @@
+<SpecificationCheck>
+    <CheckGroup Name="技术制图标题栏检查" DocType="Standard">
+        <RuleItem Name="GB/T 10609.1-2008" CheckFun="StandardCheck_1" RepairFun="" Description="本部分规定了技术图样中标题栏的基本要求、内容、尺寸与格式。本部分适用于技术图样中的标题栏。" ErrorType="错误/" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="范围" VerType="-" Value="本部分规定了技术图样中标题栏的基本要求、内容、尺寸与格式。本部分适用于技术图样中的标题栏。"/>
+                <Rule Name="规范性引用文件" VerType="-" Value="GB/T 7408—2005, GB/T 10609.4, GB/T 14689, GB/T 14691, GB/T 14692, GB/T 17450"/>
+                <Rule Name="基本要求" VerType="-" Value="每张技术图样中均应有标题栏，标题栏在技术图样中应按GB/T14689中所规定的位置配置，标题栏中的字体，签字除外应符合GB/T14691中的要求，标题栏的线型应按GB/T17450中规定的粗实线和细实线的要求绘制，标题栏中的年月日应按照GB/T7408的规定格式填写，需缩微复制的图样,其标题栏应满足GB/T10609.4 的要求"/>
+                <Rule Name="内容" VerType="-" Value="标题栏一般由更改区，签字区、其他区、名称及代号区组成，也可按实际需要增加或减少"/>
+                <Rule Name="更改区" VerType="-" Value="一般由更改标记、处数、分区、更改文件号、签名和年月日等组成"/>
+                <Rule Name="签字区" VerType="-" Value="一般由设计、审核、工艺、标准化、批准、签名和年月日等组成"/>
+                <Rule Name="其他区" VerType="-" Value="一般由材料标记、阶段标记、重量、比例和共张 第张和投影符号等组成"/>
+                <Rule Name="名称及代号区" VerType="-" Value="一般由单位名称、图样名称、图样代号和存储代号等组成"/>
+                <Rule Name="尺寸与格式" VerType="-" Value="标题栏中各区的布置可采用图2的形式，也可采用图3的形式"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="标题栏填写规则" CheckFun="MarkingCheck_1" RepairFun="" Description="标题栏中的内容应按照规定的顺序和格式填写。" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="更改区填写" VerType="-" Value="更改区中的内容应按由下而上的顺序填写，也可根据实际情况顺延，或放在图样中其他的地方，但应有表头"/>
+                <Rule Name="签字区填写" VerType="-" Value="签字区一般按设计、审核、工艺、标准化、批准等有关规定签署姓名和年月日"/>
+                <Rule Name="其他区填写" VerType="-" Value="材料标记、阶段标记、重量、比例和共张 第张和投影符号等应按照相应标准或规定填写"/>
+                <Rule Name="名称及代号区填写" VerType="-" Value="单位名称、图样名称、图样代号和存储代号等应按照有关标准或规定填写"/>
+            </CheckConfig>
+        </RuleItem>
+        <RuleItem Name="投影符号标注" CheckFun="SymbolCheck_1" RepairFun="" Description="第一角画法或第三角画法的投影识别符号见图1。如采用第一角画法时，可以省略标注。" ErrorType="错误/警告" ReviseSuggestion="" Type="">
+            <CheckConfig>
+                <Rule Name="第一角画法符号" VerType="-" Value="第一角画法的投影识别符号"/>
+                <Rule Name="第三角画法符号" VerType="-" Value="第三角画法的投影识别符号"/>
+            </CheckConfig>
+        </RuleItem>
+    </CheckGroup>
+</SpecificationCheck>

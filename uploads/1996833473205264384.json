@@ -1,0 +1,53 @@
+{
+    "paragraphs": [
+        {
+            "text": "public class AISearch {",
+            "style": "HTML Preformatted"
+        },
+        {
+            "text": "    // AI搜索核心方法：解析查询+智能检索+生成结果",
+            "style": "HTML Preformatted"
+        },
+        {
+            "text": "    public static String search(String userQuery) {",
+            "style": "HTML Preformatted"
+        },
+        {
+            "text": "        // 模拟AI解析查询意图",
+            "style": "HTML Preformatted"
+        },
+        {
+            "text": "        String intent = \"解析意图：\" + userQuery;",
+            "style": "HTML Preformatted"
+        },
+        {
+            "text": "        // 模拟AI检索并生成智能结果",
+            "style": "HTML Preformatted"
+        },
+        {
+            "text": "        return \"AI搜索结果：基于「\" + intent + \"」的智能回答\";",
+            "style": "HTML Preformatted"
+        },
+        {
+            "text": "    }",
+            "style": "HTML Preformatted"
+        },
+        {
+            "text": "    public static void main(String[] args) {",
+            "style": "HTML Preformatted"
+        },
+        {
+            "text": "        // 测试AI搜索",
+            "style": "HTML Preformatted"
+        },
+        {
+            "text": "        System.out.println(search(\"如何用Java实现AI搜索\"));",
+            "style": "HTML Preformatted"
+        },
+        {
+            "text": "    }}",
+            "style": "HTML Preformatted"
+        }
+    ],
+    "tables": []
+}

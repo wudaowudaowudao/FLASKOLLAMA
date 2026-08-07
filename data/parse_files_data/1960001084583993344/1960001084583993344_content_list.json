@@ -1,0 +1,354 @@
+[
+    {
+        "type": "text",
+        "text": "前言",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "国际标准ISO7-1：1994《用螺纹密封的管螺纹第1部分：尺寸、公差和标记》规定了两种配合形式的螺纹，即：圆柱内螺纹与圆锥外螺纹(“柱/锥\")和圆锥内螺纹与圆锥外螺纹(“锥/锥\")。本标准等效采用了ISO7-1：1994标准中圆锥内螺纹与圆锥外螺纹配合方面的技术内容。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准代替了GB/T7306—1987《用螺纹密封的管螺纹》中圆锥内螺纹与圆锥外螺纹配合方面的技术内容。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准与GB/T7306—1987相比较，主要变化如下：",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "—将旧标准中“柱/锥\"和\"锥/锥\"配合螺纹的技术内容分别放人两个新标准中进行规定；一新标准中，内螺纹基准平面位置与其大端面分离，基准平面位于大端面以内半个螺距处——新标准采用螺纹特征代号 $\\mathbb{R}_{1}$ 和 $\\mathbb{R}_{2}$ ，将两种配合中所使用的圆锥外螺纹明显地区分开来；—简化了螺纹副的标记方法。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准从实施之日起，同时代替GB/T7306—-1987的部分内容。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准由国家机械工业局提出。  \n本标准由全国螺纹标准化技术委员会归口。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准由机械工业部机械科学研究院负责起草，河南第一工具厂、江苏省竹簧机械厂、乐泰(中国)有限公司、西安公路交通大学等单位参加起草。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "本标准主要起草人：李晓滨、赵建敏、张建生、汤炜、李江生、柴志祥。",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ISO前言",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "ISO(国际标准化组织)是由各国标准化机构(ISO成员国)所组成的世界联盟。一般通过ISO技术委员会来进行准备国际标准的工作。如果对已成立技术委员会的工作项目感兴趣，各成员国则有权派代表参加该技术委员会。与ISO有联系的政府和非政府国际组织也可参加相应工作。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "有关所有电工技术标准化方面的事情，ISO将与国际电工技术委员会(IEC)紧密合作。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "被技术委员会采纳的国际标准草案(DIS)要向各成员国发放，进行投票表决。要使其成为正式发布的国际标准，需获得至少 $75\\%$ 参加投票成员国的赞成。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "国际标准ISO7-1是由ISO/TC5/SC5螺纹或平端对焊接头、螺纹、螺纹的检验分技术委员会提出的。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "本标准为第三版本，第二版本(ISO7-1:1982)由其代替并作废。第三版本较第二版本有技术方面的修改。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "在用螺纹密封的管螺纹总标题下，ISO7由如下部分组成：",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "--一第1部分：尺寸、公差和标记一第2部分：用极限量规所进行的检验ISO7第1部分的附录A为提示的附录。",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "中华人民共和国国家标准",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$55^{\\circ}$ 密封管螺纹第2部分：圆锥内螺纹与圆锥外螺纹",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Pipe threads with 55 degree thread angle where pressure-tight joints are made on the threads— Part 2:Taper internal and externai threads ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "1范围 ",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准规定了牙型角为 $55^{\\circ}$ 、螺纹副本身具有密封性的圆锥内螺纹和圆锥外螺纹的牙型、尺寸、公差和标记。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "本标准适用于管子、阀门、管接头、旋塞及其他管路附件的螺纹联结。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "允许在螺纹副内添加合适的密封介质，例如在螺纹表面缠胶带、涂密封胶等。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "2引用标准",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "下列标准所包含的条文，通过在本标准中引用而构成为本标准的条文。本标准出版时，所示版本均为有效。所有标准都会被修订，使用本标准的各方应探讨使用下列标准最新版本的可能性。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "GB/T 14791—1993 螺纹术语(neqISO5408：1983) ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3定义及代号",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1定义",
+        "text_level": 1,
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "除补充下面两条术语外，标准中所使用的其他螺纹术语均符合GB/T14791的规定。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1.1参照平面reference plane ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "量规检验螺纹时，读取检验数值(基准平面的位置偏差)所参照的可见平面。它是内螺纹的大端面或外螺纹的小端面。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.1.2容纳长度accommodation length从内螺纹大端面到妨碍外螺纹旋入的第一个障碍物间的轴向距离.",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "3.2代号",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "$D$ ——内螺纹在基准平面上的大径；  \n$d$ ——外螺纹在基准平面上的大径(基准直径);  \n${{D}_{2}}$ —一内螺纹在基准平面上的中径；  \n$d_{z}$ ——外螺纹在基准平面上的中径；  \n$D_{1}$ ——内螺纹在基准平面上的小径；  \n$d_{1}$ --—外螺纹在基准平面上的小径；  \n$_{n}$ —每 $25.4~\\mathrm{mm}$ 轴向长度内所包含的螺纹牙数；  \n$P$ —螺距；  \n$H$ -—原始三角形高度；$\\boldsymbol{h}$ --—螺纹牙高；  \nr--螺纹牙顶和牙底圆弧半径；  \n$T_{\\uparrow}$ -—外螺纹基准距离(基准平面位置)公差；  \n$\\boldsymbol{T}_{\\imath}$ -内螺纹基准平面位置公差。",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "4设计牙型",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "圆锥螺纹的设计牙型应符合图1的规定。其左、右两牙侧的牙侧角相等，螺纹锥度为 $1:16$ ，相关尺寸按下列公式计算：",
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1960001084583993344/ff3441ff71625cbbdd9954aad0be6a688f91da9d390daa7a254bd1527332b943.jpg",
+        "img_caption": [
+            "图1圆锥螺纹的设计牙型"
+        ],
+        "img_footnote": [],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5基本尺寸",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.1螺纹中径和小径的基本尺寸按下列公式计算：",
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD_{2}=d_{2}=d-h=d-0.640\\ 327P\n$$",
+        "text_format": "latex",
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\nD_{1}=d_{1}=d-2h=d-1.280\\ 654P\n$$",
+        "text_format": "latex",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.2圆锥外螺纹基准平面的理论位置位于垂直于螺纹轴线、与小端面(参照平面)相距一个基准距离的平面内(见图2);圆锥内螺纹基准平面的理论位置位于垂直于螺纹轴线、深入端面(参照平面)以内$0.5P$ 的平面内（见图3)。",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "5.3圆锥外螺纹和圆锥内螺纹各主要尺寸的分布位置分别见图2和图3。其基本尺寸应符合表1的规定。",
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1960001084583993344/0fcb6ae8961d7ac6ea7612d278dbdb6f69db3b7b6e5feeb78c427f6ad17bab19.jpg",
+        "img_caption": [
+            "图2圆锥外螺纹上各主要尺寸的分布位置"
+        ],
+        "img_footnote": [],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "6倒角",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "圆锥外螺纹小端面和圆锥内螺纹大端面的倒角轴向长度不得大于 $1P$ 0 ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7公差 ",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.1圆锥外螺纹基准距离的极限偏差 $(\\pm T_{1}/2)$ 应符合表1第9、10栏的规定。  \n7.2圆锥内螺纹基准平面位置的极限偏差 $(\\pm T_{2}/2)$ 应符合表1第18、19栏的规定。",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8螺纹长度 ",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8.1圆锥外螺纹的有效螺纹长度不应小于其基准距离的实际值与装配余量之和。对应基准距离为最大、基本和最小尺寸的三种条件，表1第16、15和17栏分别给出了相应情况所需的最小有效螺纹长度。8.2当圆锥内螺纹的尾部未采用退刀结构时，其最小有效螺纹长度应能容纳具有表1第16栏长度的圆锥外螺纹；当圆锥内螺纹的尾部采用退刀结构时，其容纳长度应能容纳具有表1第16栏长度的圆锥外螺纹，其最小有效螺纹长度应不小于表1第17栏规定长度的 $80\\%$ ，见图3。",
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1960001084583993344/9d2818d89bf7e8d303892c2c2b4e9d82829784569eeb8b2a78ae63a6a178f6d6.jpg",
+        "img_caption": [
+            "图3圆锥内螺纹上各主要尺寸的分布位置"
+        ],
+        "img_footnote": [],
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "9标记",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "9.1管螺纹的标记由螺纹特征代号和尺寸代号组成。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "螺纹特征代号：Rc—表示圆锥内螺纹；一表示与圆锥内螺纹配合的圆锥外螺纹。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "螺纹尺寸代号为表1第1栏所规定的分数或整数。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "标记示例：尺寸代号为3/4的右旋圆锥内螺纹的标记为Rc3/4 尺寸代号为3的右旋圆锥外螺纹的标记为R3 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "9.2当螺纹为左旋时，应在尺寸代号后加注“LH”。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "标记示例：尺寸代号为3/4的左旋圆锥内螺纹的标记为Rc3/4LF ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "9.3表示螺纹副时，螺纹的特征代号为\"Rc/R”。前面为内螺纹的特征代号，后面为外螺纹的特征代号，中间用斜线分开。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "标记示例：由尺寸代号为3的右旋圆锥内螺纹与圆锥外螺纹所组成的螺纹副的标记为Rc/Rz3 ",
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1960001084583993344/344d9a510256f23234590aca8b5b1249b913533a83c951e5da5579ce0489dd38.jpg",
+        "table_caption": [
+            "表1螺纹的基本尺寸及其公差"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td></td><td>7</td><td>8 9</td><td>：</td><td>1011</td><td>12</td><td>13</td><td></td><td>14</td><td>15</td><td>1617</td><td></td><td>18</td><td>19</td><td></td></tr><tr><td rowspan=\"3\">尺寸 代号</td><td rowspan=\"3\">25.4mm 内所 每</td><td rowspan=\"3\">螺距 P</td><td rowspan=\"3\">牙高 h</td><td rowspan=\"3\"></td><td colspan=\"3\">基准平面的</td><td colspan=\"4\">基准距离</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td colspan=\"3\" rowspan=\"3\">外螺纹的有效</td><td rowspan=\"3\"></td><td rowspan=\"3\"></td><td rowspan=\"3\">准内螺纹 向位置的 极限/差</td></tr><tr><td colspan=\"3\">大径</td><td rowspan=\"2\">基本</td><td rowspan=\"2\">极限偏差</td><td rowspan=\"2\">最大最小</td><td rowspan=\"2\">装配余量</td></tr><tr><td rowspan=\"2\">中径 mm</td><td rowspan=\"2\">小径 d=Dd=D,</td><td rowspan=\"2\"></td><td rowspan=\"2\">±T/2</td></tr><tr><td>·</td><td>mmmm 0.9070.581</td><td>mm 7.723</td><td>7.1426.561</td><td>mm</td><td>mmmm</td><td></td><td>圈数 mm</td><td>mm</td><td>mm</td><td>圈数</td><td>基准分别为 mm</td><td>mm</td></tr><tr><td>1/16 1/8</td><td>28 28</td><td></td><td>0.9070.581</td><td></td><td>9.728</td><td>9.1478.566</td><td></td><td></td><td>40.9 40.9</td><td>1 1</td><td></td><td>4.93.1</td><td></td><td>4.93.12.5234 2.5234</td><td></td><td>6.57.45.61.1 6.57.45.61.1</td><td></td><td></td><td></td><td>1%4 1%</td></tr><tr><td rowspan=\"4\">1/4 3/8</td><td>19</td><td></td><td></td><td></td><td>1.3370.856|13.15712.30111.445</td><td></td><td></td><td>61.3</td><td></td><td>1</td><td>7.34.7</td><td></td><td>3.7</td><td>294</td><td>9.7</td><td>11</td><td></td><td>8.41.7</td><td>1</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>19</td><td></td><td></td><td>1.3370.85616.662</td><td></td><td>15.80614.950</td><td></td><td>6.41.3</td><td></td><td>1 1</td><td>7.75.1 10.06.4</td><td></td><td>3.7 5.0</td><td>234</td><td></td><td>23410.111.48.8</td><td></td><td>1.7 2.3</td><td>14</td></tr><tr><td>1/2 14 3/4 14</td><td></td><td>1.8141.16226.441</td><td></td><td>1.8141.16220.95519.79318.631</td><td>25.27924.117</td><td></td><td>8.21.8 9.51.8</td><td></td><td>1</td><td>11.37.7</td><td></td><td>5.0</td><td></td><td>13.215</td><td></td><td>11.4 23414.516.312.72.3</td><td></td><td>1/ 1/4</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1 14</td><td>11 11</td><td></td><td></td><td>2.3091.47941.910</td><td>2.3091.47933.24931.770|30.29110.42.3</td><td></td><td>40.43138.95212.7</td><td></td><td>2.3</td><td>1 1</td><td>12.78.1</td><td>15.010.46.4</td><td>6.4234</td><td>23</td><td></td><td>16.819.114.5 19.121.416.8</td><td></td><td>2.9 2.9</td><td>1 1/4</td></tr><tr><td>12</td><td>11</td><td></td><td></td><td></td><td>2.3091.47947.80346.32444.845</td><td></td><td></td><td>12.72.3</td><td></td><td>1</td><td></td><td>15.010.46.423419.121.416.82.9</td><td></td><td></td><td></td><td></td><td></td><td></td><td>1/4</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2 2</td><td>11</td><td></td><td></td><td></td><td>2.3091.47959.61458.13556.65615.92.3</td><td></td><td></td><td></td><td></td><td>1 1</td><td></td><td>18.213.67.53423.425.721.12.9 21.014.09.2</td><td></td><td></td><td></td><td></td><td></td><td></td><td>1%4</td></tr><tr><td>3</td><td>11 11</td><td></td><td></td><td></td><td>2.3091.47975.18473.705|72.22617.53.5 2.3091.47987.88486.405|84.926|20.63.5</td><td></td><td></td><td></td><td></td><td></td><td></td><td>1/24.1|17.19.2</td><td></td><td>4</td><td></td><td></td><td>26.730.223.23.5 429.833.326.33.5</td><td></td><td>1 1/2</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>11</td><td></td><td></td><td></td><td>2.3091.479113.030111.551110.07225.43.51%</td><td></td><td></td><td></td><td></td><td></td><td></td><td>28.921.910.44/</td><td></td><td></td><td></td><td>35.839.332.33.5</td><td></td><td></td><td>1%</td></tr><tr><td>5</td><td>11</td><td></td><td></td><td></td><td>2.3091.479138.430136.951135.47228.63.5132.125.111.5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>5</td><td></td><td></td><td>40.143.636.63.5</td><td></td><td>1%</td></tr><tr><td>6</td><td>11</td><td></td><td></td><td></td><td>2.3091.479163.830162.351160.87228.63.51/32.125.111.5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>5</td><td></td><td>40.143.636.6</td><td></td><td>3.5</td><td>1%</td></tr></table></body></html>\n\n",
+        "page_idx": 6
+    }
+]

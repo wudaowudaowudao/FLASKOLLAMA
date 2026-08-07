@@ -1,0 +1,2326 @@
+[
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/51dbf47cfc36c2f375684a5ed8b01e6106e2a4acc56c1028a2ead50cdb1d2de0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車 中车南京浦镇车辆有限公司</td><td>编制部门：设计开发部</td><td>页码：共28页第1页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "三维及工程图设计规范",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/6b943b0af968a1f21bdb4314757bde2805547594105fa74ec97cba64b85c1ad4.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。his documentisthe propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithoutpriorauthzation"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/cd03d0d56fcdd7fa396f0c76eee0f400eb9510ea18804c19efc54732198a7cc7.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車 中车南京浦镇车辆有限公司</td><td rowspan=\"2\">编制部门：设计开发部</td><td></td><td>页码：共28页第2页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/b75a0e493d67c315272a3f300329c65f49940a55cbeca239ccfe6bff46fa393c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>职责/Responsibility</td><td>签字/Visa</td><td>日期/Date</td></tr><tr><td>编制</td><td>/</td><td>/</td></tr><tr><td>审核</td><td>/</td><td>/</td></tr><tr><td>工艺</td><td>/</td><td>/</td></tr><tr><td>会签</td><td>/</td><td>/</td></tr><tr><td>会签</td><td>/</td><td>/</td></tr><tr><td>标准化</td><td>/</td><td>/</td></tr><tr><td>审定</td><td>/</td><td>/</td></tr><tr><td>批准</td><td>/</td><td>/</td></tr></table></body></html>\n\n",
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/93e23ff7fce3c1a3920340bbbcecda692d8dd33e65157cdb3ca23dc29c76edeb.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。his documentisthe propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithoutpriorauthzation"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/1eaa3d20907aeb50dfdcb76b6c6ed7377e3694da5b9e720219ab3c5e7bbda679.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車 中车南京浦镇车辆有限公司</td><td rowspan=\"2\">编制部门：设计开发部</td><td></td><td>页码：共28页第3页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/ff629d3768dba95577abedd16afb1e2dff6911ff2e3fb6a877c78f114bfbb88d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td colspan=\"4\">版本历史记录/REVISION HISTORY RECORDS</td></tr><tr><td>版本号/Rev</td><td>日期/Date</td><td>姓名/Name</td><td>说明和备注/Comment</td></tr><tr><td>１</td><td>2016-06-12</td><td>李献杰</td><td>编制/Create</td></tr><tr><td>２</td><td>2019-4-4</td><td>王晓玲</td><td>升版</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/ce04960a922b597e3a3bd7307abc276e003f1972ae989e06234b06829831d30e.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。his documentisthe propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithoutpriorauthzation"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/0ca7b55ad02da29c4220758fe1a197754aa49c7c4d2a97eb03b0b486eaa9a49b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">重 中车南京浦镇车辆有限公司</td><td rowspan=\"2\">编制部门：设计开发部</td><td></td><td>页码：共28页第4页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "目录",
+        "text_level": 1,
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "1目的. 6  \n适用范围. 6  \n3适用标准和规范 6  \n4 通用要求. 6  \n4.1 初始模板 6  \n4.2草图设计. .6  \n4.3 材料的选用... .6  \n4.4 零部件的命名.  \n4.5 零件的借用..  \n5 三维设计.  \n5.1 零件设计.  \n5.2装配设计... 8  \n5.3钣金设计.... 8  \n5.4 布线设计.. 8  \n工程图设计 9  \n6.1通用要求 9  \n6.2图面颜色. 9  \n6.3比例.... :9  \n6.4文字.. .10  \n6.5剖面符号. .10  \n6.6投影法.... .... 10  \n6.7视图画法. .11  \n6.8尺寸的标注. ..12  \n6.9尺寸公差与配合的标注. ..13  \n6.10几何公差（即形位公差） .15  \n6.11螺纹表示法及标记的补充规定 .....16  \n6.12焊缝符号在产品图样上的标注方法 ..18  \n6.13螺纹紧固件、齿轮、花键、弹簧、中心孔的画法 .18  \n6.14标准紧固件在产品图样上的标注方法. ..18  \n6.15 表面粗糙度在产品图样上的画法和标注方法.. 18  \n6.16 管螺纹表示方法.. .... 18  \n6.17指引线.. .18",
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/817b0a8c0cfb85beb77bae146ed03a8c37f30169d2db7c4c7af875a4036fc694.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This document is thepropertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithout priorauthzation."
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/d84d0c5cf6189cb23986aa18d4de0a31691a7eb5141f174fe8d8a2a18fd3c627.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車 中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td rowspan=\"2\">编制部门：设计开发部</td><td></td><td>页码：共28页第5页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7产品图样在设计中的补充规定. 20",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "7.1总则. 20  \n7.2 左、右件的编写规定 22  \n7.3“注”的书写规定 22  \n7.4图纸更改的规定 22  \n7.5 技术要求.. 23  \n7.6 标题栏的书写规定. .24  \n7.7焊接和粘接.. 25",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8BOM的填写要求 25",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "8.1 签署区的填写. 25  \n8.2项点说明. 25  \n8.3版本.. .26  \n8.4重量. .26  \n8.5 物料属性列. .26  \n8.6 紧固件在BOM中的填写方法： 27  \n8.7粘接卡片在BOM中的填写方法： 27",
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "9 图样目录的编写规定 27",
+        "text_level": 1,
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "9.1 签署区的填写. 27  \n9.2 总张数的填写. .27  \n9.3图样目录内容的填写. .27  \n9.4图样目录输出顺序. 28  \n9.5 编写注意事项 28",
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/2e723d5f1b064eca59aec375b99423456429536ed0d083c33145e890db1516be.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthe propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithoutprioruthorization."
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/beed6541d28ca260057e7adffc4b1ba20831fc12cebe2139085e938580569fed.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車 CRRC NANJING PUZHEN CO., LTD.</td><td rowspan=\"2\">中车南京浦镇车辆有限公司</td><td>编制部门：设计开发部</td><td>页码：共28页第6页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "1目的",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "本文件的目的是规范三维及工程图的设计，提高设计质量。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "2适用范围 ",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "本规范主要规定了基于CATIA设计时所需遵循的要求，适用于零件设计、钣金设计、曲面设计、装配设计、管路设计、布线设计和工程图设计。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "3适用标准和规范",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "下列文件对于本文件的应用是必不可少的。凡是注日期的引用文件，仅所注日期的版本适用于本文件。凡是不注日期的引用文件，其最新版本（包括所有的修改单）适用于本文件。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "GB/T197普通螺纹公差与配合  \nGB/T 1182 产品几何技术规范（GPS）几何公差形状、方向、位置和跳动公差标注  \nGB/T1184形状和位置公差未注公差值  \nGB/T1804一般公差线性尺寸的未注公差  \nGB/T 4458.5机械制图尺寸公差与配合注法  \nGB/T 4458.6机械制图图样画法剖视图和断面图  \nGB/T 4459.1机械制图 螺纹及螺纹紧固件表示法  \nGB/T 14690技术制图　比例  \nQ/CSR 56-2011 三维建模通用规则  \nCATIA零部件设计应用规范（技术信息部文件）  \nIS02768 一般公差",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4通用要求",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.1 初始模板",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "使用Teamcenter中标准模板。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.2草图设计",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.2.1草图应完全约束，禁止草图出现约束不充分或过约束的情况。  \n4.2.2草图不能与其它零件有直接的链接关系，避免其它零件变动导致不可预知的草图变化。",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3材料的选用",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "4.3.1除不能确定材料的零部件（如供应商供货物料），三维模型中均应添加材料信息。",
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/3634a280591537bad97b2115c95543aff54003970c2905a7abfd10693c2c0a45.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthe propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithout priorauthzation."
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 5
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/8545a24d11c0f168643820633422aac09185770cd659ebb51d0a104ad987023d.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車 CRRC NANJING PUZHEN CO., LTD.</td><td rowspan=\"2\">中车南京浦镇车辆有限公司</td><td>编制部门：设计开发部</td><td>页码：共28页第7页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.3.2具体牌号未知，但可以确定材料类型的，如钢、铝、橡胶等，应添加相应材料信息（至少应保证密度一致）。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.3.3所选用材料需从材料库中选取并添加到三维模型中。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.4零部件的命名",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.4.1零件的命名应能表示物料的主要特征，同一类零件在同一系统内名称应尽量保持一致。示例：U形折弯板、L形折弯板、平板",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.4.2对于生产过程中可能发生混淆或错用的零部件，命名时应体现其在车辆中的位置信息。示例：Tc车一位侧车顶边梁、Mp车一位端端墙对于可能同时应用于多个位置的零部件，可不体现位置信息。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.4.3系列件的命名应体现物料主要特征和变量规格。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "示例：L形焊接垫板(L200)，表示长度为 $200\\mathrm{{mm}}$ 的L形焊接垫板U形焊接垫板(L300)，表示长度为 $300\\mathrm{{mm}}$ 的U形焊接垫板",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.4.4文件的命名",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "零件和图纸的命名统一采用“编号_版本”方式，如PM081M1-211-000002_1。  \nBOM的命名统一采用“编号_版本_BM”方式，如PM081M1-210-000000_1_BM。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "4.5零件的借用",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "借用零部件需在BOM版本栏明确借用图纸的版本。  \n本项目的不同车种之间不属于借用。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5 三维设计",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5.1 零件设计",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5.1.1三维设计采用自顶向下设计方法，各系统在方案设计阶段应建立各级基准。总体设计师建立1级基准，系统设计师建立2级基准，部件设计师建立3级基准。基准建立后，应对相关基准点、线、面和草图等元素进行“发布”操作。相同基准元素，下级基准应引用上级基准中“发布”的，不应重复创建。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5.1.2非供应商零件三维模型中必须添加材料信息，材料需从部门材料库中选取。供应商提供的三维允许采用材料库外的材料，但总重量应与部件理论重量一致。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5.1.3零件三维完成后，应隐藏辅助设计所用的曲线、点、基准面等元素。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5.1.4零件设计时，尽量不要从草图原点开始画线，避免无法移动情况。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5.1.5草图完成后应使用“草图分析”命令进行草图检查。",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "5.1.6三维设计时，不使用系统所定义的颜色，避免发生错误时难以发现。",
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/d30582003acd9cbe010648a09c85c522bfb4e7853f58712c3c73f4eaa7d9b5a4.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthe propertyofCRRCPuzhen,itmaynotberproducedodisclosedtothirdpartywithout priorauthzation"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/3630e55c283c572bc5e86fba384267bad3c3a1e0f5829a86bfd78c9e9cd2dd1a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td>编制部门：设计开发部</td><td>页码：共28页第8页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.1.7 保存时，应确认三维模型是更新过的。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.1.8零件设计完成后，应隐藏所有未激活的特征。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.1.9三维细节特征应尽量在模型主体结构完成后进行，不应将所有特征都在草图中完成",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.1.10应尽量保持三维模型与所引用的基准和零件始终具有有效的链接。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.2 装配设计",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.2.1装配模型中，结构树应合理组织，层级结构应与最终输出B0M一致。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.2.2对于直接包含大量实例的装配体，应采用“部件”",
+        "page_idx": 7
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/b6205823dc00651fe46c9eddec992ab49fa17abb3cc1746a5134e822e3ea73b2.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.2.3非绝对定位零部件，在装配模型中应进行完全约束。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.3钣金设计",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.3.1应避免交叉使用CATIA 钣金模块和零件模块进行混合设计，即进行钣金设计时不允许切换到零件设计模块进行特征操作。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4布线设计",
+        "text_level": 1,
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4.1CATIA完整的电气布线设计应遵循以下设计流程：",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "机械3D环境下设置电气装置物理形状，并且在电气设计中给与电气特性和相关的物理配线(建立电气库)——从电气库中调用吸盘，扎带等电缆及线束固定件放置在合适的布线路径上——进行相关的电缆分布(电气布线安装)——根据需要从电气库中调用并放置线缆保护件)——根据实际需要对3D产品线束铺设(电线铺设)和展平(电气线束展平)。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4.2若发生同一设备或连接器包含了多个电压等级的电缆，将此部件放置在电压等级最高的一层。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "1.4.3所有的线束的起始点及终止点都应定义BCP(Bundle Connection Point)点。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4.4在三维布线应通过规定各种电压等级的线束颜色，用于明确和区分不同电压等级。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4.5 电缆铺设时不得发生干涉与明显交叉。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4.65A/5B/5C 等级需单独绘制每一根电缆。4 等级/2 等级/1等级电缆若无特殊要求，应按照需求分成几个线束绘制。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4.7特殊定制电缆、光钎电缆等有特殊要求的电缆需单独绘制，并严格按照电缆要求铺设。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4.8不同电压等级电缆或线束应该单独绘制。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4.9不同电压等级电缆或线束同时连接到同一个电气元件应单独绘出每一个等级电缆或线束。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4.10安装于存在相对运动的两个部件的电缆应按照动态弯曲半径绘制，并按照相对运动量合理设置松弛度。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4.11电线、电缆的弯曲半径应符合TB/T1484.1-2010,第5.1条的规定：当电缆直径（D）小于或等于 $20\\mathrm{{mm}}$ 时，最小弯曲半径不应大于4D（屏蔽电缆的最小弯曲半径不应大于6D)；当电缆直径（D）大于 $20\\mathrm{mm}$ 时，最小弯曲半径不应大于6D（屏蔽电缆的最小弯曲半径不应大于8D)。",
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "5.4.12应符合TB/T 3153-2007第5.7条的规定：固定安装的电缆或使用时弯曲的电缆，其敷设时的最小弯曲半径不应小于相关产品资料或电缆标准中所规定的值。",
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/3d3cf768403494db5db2039feb047a4b37a710146b3ce3fe77d5dca324a491e6.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentis the propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithoutpriorauthorization."
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 7
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/54bea6f239672e589a43bc724aec0bf5fccec5e902dda905a7dcf4158173c7b5.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>車</td><td>中车南京浦镇车辆有限公司</td><td>编制部门：设计开发部</td><td>页码：共28页第9页</td></tr><tr><td></td><td>CRRC NANJING PUZHEN CO., LTD.</td><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "5.4.13成束电缆应按照不小于其成束后最小弯曲半径绘制，成束后最小弯曲半径可通过现场实验或以往经验获得。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "5.4.14线束通过防护管防护时其最小弯曲半径应不小于线束的最小弯曲半径和防护管的最小弯曲半径。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "5.4.15线束铺设时应尽量避免使用最小弯曲半径铺设，避免线束受到较大的拉力，如无法避免可在弯曲处两端设置支撑加以固定。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6 工程图设计",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.1 通用要求",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.1.1工程图应与三维模型始终保持正确的链接关系。  \n6.1.2对于存在较多小零件的装配图，在工程图绘制完成后，建议对视图进行锁定操作；零件图不允许锁定。",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.2 图面颜色",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "零部件特征、焊缝及粘接剂为黑色 ：参考背景为墨绿色 ，尺寸线为蓝色 件号及文本说明为红色 ，更改为紫色",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "6.3 比例",
+        "text_level": 1,
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "绘制图样时一般应采用表1中规定的比例。",
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/97b3157d9a45f460ec60933c6ab6fa769ccce4707807cfcfec7b146e5040824e.jpg",
+        "table_caption": [
+            "表1图样中的比例"
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>种类</td><td colspan=\"4\">比例</td></tr><tr><td>原值比例</td><td colspan=\"4\">1:1</td></tr><tr><td>放大比例</td><td>1×10\":1</td><td>2:1 2.5:1 2×10\":1 2.5×10\":1</td><td>4:1 4X10\":1</td><td>5:1 5×10\":1</td></tr><tr><td rowspan=\"3\">缩小比例</td><td>1:1.5</td><td>1:2</td><td>1:2.5</td><td>1:3</td></tr><tr><td>1:1.5×10\"</td><td>1:2×10\"</td><td>1:2.5×10\"</td><td>1:3×10\"</td></tr><tr><td>1:4</td><td>1:5</td><td>1:6</td><td>1:10</td></tr><tr><td>注：n为正整数。</td><td colspan=\"3\">1:4×10\" 1:5×10\" 1:6×10\"</td><td colspan=\"2\">1:1×10\"</td></tr></table></body></html>\n\n",
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "标题栏中的比例为主视图的比例，同一图号的二张或二张以上的图纸比例应一致。产品图样标题栏的比例一栏的填写及当某个视图采用不同比例时的比例标注方法应符合GB/T14690 的规定。",
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/5ed65b042858a73b4d9c9f53796bfd5bd4787f51ea0a43f9bed5a32c28ce0d23.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthe propertyofCRRCPuzhen,itmaynotberproducedodisclosedtothirdpartywithout priorauthozation"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 8
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/1aa005258b359d1b4a4035459cd7e74cd5ae1beb8333fcd801e3be1e54eedfda.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車 中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td rowspan=\"2\">编制部门：设计开发部</td><td></td><td>页码：共28页第10页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.4 文字",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "i.4.1“技术要求”在CATIA工程图中使用5号字，其下内容选用3.5号字，统一采用左对齐方式。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.4.2标题栏修订记录文本使用2.5号字，字数较多时允许合并行。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.4.3视图标记使用3.5号字，放置于视图下方；视图标记和缩放比例分两行放置，居中对齐。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.4.4斜视图旋转配置时，旋转方向和旋转角度的确定应便于看图。视图名称后说明旋转方向和旋转角度，也可只说明旋转方向。示例见图1、图2、图3。",
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/4309475ba8a65872e4989c0768bfc8bc7ca8ad5eef09573f2b5df7f897e98193.jpg",
+        "img_caption": [
+            "图1"
+        ],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/0777d094ffe8f6647d314e02fe6b75f90668ec01693216fdae553c9c9989d245.jpg",
+        "img_caption": [
+            "图2"
+        ],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.4.5尺寸标注和引出文字、注释字体大小使用3.5号字。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.4.6 变更标记使用2.5号字。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.4.7 以上未说明文字使用工程图模板默认字体。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.5 剖面符号",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "剖面线与剖面或断面外面轮廓成对称或相适宜的角度（参考角 $45^{\\circ}$ ），见图8。",
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/f02110b607740e5ff8375771fa043d1c9efc86b82367b40edb90740b38dc6f8b.jpg",
+        "img_caption": [
+            "图8"
+        ],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/4614b38aa48f531c35ddbb5e16adb7e5928dce6a79bb79659987dc7810230dec.jpg",
+        "img_caption": [
+            "图3 ",
+            "图9"
+        ],
+        "img_footnote": [],
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "在零件图中允许用点阵代替剖面线。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "同一个零件相隔的剖面或断面应使用相同的剖面线，相邻零件的剖面线应该用方向不同间距不同的剖面线。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "非金属件的剖面线宜采用网格剖面线，见图9。",
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.6投影法",
+        "text_level": 1,
+        "page_idx": 9
+    },
+    {
+        "type": "text",
+        "text": "6.6.1采用第一视角投影，通常应包括主视图、俯视图和侧视图3个视图。但如果2个视图即可表达清楚的，可减少视图，尤其应注意去除无任何尺寸的多余视图。",
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/9a576d4d1c31d81a77c9b4c430faecd2738027ad49c81d2beb8fda7e5678b591.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthe propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithout priorauthzation."
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 9
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/f128f6108ad564ee3a8d4c35fd987f257285ac60ab4d7ebbc9e3494c13411841.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車 CRRC NANJING PUZHEN CO., LTD.</td><td rowspan=\"2\">中车南京浦镇车辆有限公司</td><td>编制部门：设计开发部</td><td>页码：共28页第11页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.6.2 轴测图",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.6.2.1投影轴测图的目的是方便识图，其投影视角不应太随意，选择投影视角时应考虑两个原则：原则1）优先表达各正投影视图难表达部位，且允许以局部轴测图方式表达。如图4所示：",
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/9d67d892af4c228df966083eeeb7578891a7c1f4dbb46680c0deea9e72c92df8.jpg",
+        "img_caption": [
+            "图4"
+        ],
+        "img_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/f63512061cc13834bd18e308c4accdc9be7e2c16d4eaf64b06d710e4a52e3abd.jpg",
+        "img_caption": [
+            "图5"
+        ],
+        "img_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "原则2）按工作位置放置，采用该原则时，建议选取点击 等轴测命令进行投影，如果由于图纸空间限制可适当旋转进行调整。如图5所示。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "原则1）优于原则2）。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.6.2.2结构简单，使用普通投影视图即可清晰表达的零件，无需轴测图。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.6.2.3对称件需在出图件图纸上投影两者的轴测图，且轴测图以对称方式投影。",
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/66af3548d0e64e833d3a0d79b14650aff906f7554f5962905d44a258f09cd873.jpg",
+        "img_caption": [
+            "图6"
+        ],
+        "img_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.6.2.4轴测图应保留视图选项中的“圆角”选项，但轮廓复杂导致线条大量重叠时可去除该选项。零件带圆角属性 零件不带圆角属性",
+        "page_idx": 10
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/56ebd8ec856e62a46dd7ccc265b9b744acd9e4ffaa5bf5cf423727660c76171a.jpg",
+        "img_caption": [
+            "图7"
+        ],
+        "img_footnote": [],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.6.3为更清楚表达视图而借用的参考件用墨绿色 双点划线表示，双点划线表达的物体不剖切。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.6.4 紧固件不允许剖切。",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.7 视图画法",
+        "text_level": 1,
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "6.7.1绘制产品图样时，应首先考虑看图方便，在完整、清晰地表达部件 形状的前提下，力求制图简洁。",
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/dddfe290ace7950144298d36d491e733bb6b9c2ebc7d4cce20ac2b19c5bb963f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthe propertyofCRRCPuzhen,itmaynotberproducedodisclosedtothirdpartywithout priorauthozation",
+        "page_idx": 10
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/b7c5888aee6645738722b97375b0e7bee3740927c9c35cb88c1b89294ad61dc9.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td>编制部门：设计开发部</td><td>页码：共28页第12页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.7.2绘制产品图样的基本方法应符合GB/T 4458.6的规定。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.7.3图样画法分为视图、剖视图、断面图、局部放大图和简化画法五大类表示法。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.7.4视图通常有基本视图、向视图、局部视图和斜视图。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.7.5所有视图名称一律采用大写拉丁字母表示，按自然顺序A-Z编排（其中I、0不准使用），且不得重复使用，若不够使用时按AA、AB、AC··AZ、BA、BB、BC··B·顺序。如果已有A视图禁止再使用A-A视图。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.7.6对于详细视图中仍需要再次采用详细视图的，应在原始图后以加数字的方式表达例如：详细视图C仍需要更详细的视图，应按C1，C2视图标注。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.7.7剖视图和详细视图等采用与母视图就近原则放置。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.7.8A-Z以及后续视图的布置应尽量沿页面1、页面2…依次排列。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.7.9 图纸比例应合适，不超出绘图区，且应尽量铺满幅面。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.7.10应尽量采用视图方式进行结构表达，尽量减少工程图中注释性要求。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.8 尺寸的标注 ",
+        "text_level": 1,
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.8.1图样中（包括技术要求和注等）和设计文件中的尺寸，以mm 为单位时，不标注计量单位符号或名称，如采用其它单位时，应该注明相应的计量单位符号或名称。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.8.2尺寸数字不可被任何图线所通过，否则应该将该图线断开。",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "6.8.3在能够画出箭头的地方应画出箭头，不能用圆点或斜线代替，并且箭头应画在所注尺寸区域之内。在没有足够的位置画箭头或注写数字时，允许用圆点或斜线代替箭头，见图8。",
+        "page_idx": 11
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/7457db1c0fdb7bd15fa38fd704bb28d7d8fc7644262df8b6b52344e065e9a63c.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/645df5af95d86a8e85adf36577631b8825aa8ceae35bb19cd6665197c5f95296.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 11
+    },
+    {
+        "type": "text",
+        "text": "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。'his documentithe propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothidpartywithoutpriorauthorization.",
+        "page_idx": 11
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/dbbc6230f4c6f56aade4f9890cea22c33de15177ebb583c0321353de2ee4cd65.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td>编制部门：设计开发部</td><td>页码：共28页第13页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": ".8.4尺寸线与轮廓线或尺寸线与尺寸线之间的距离一般为 $7\\mathrm{mm}{\\sim}8\\mathrm{mm}$ ，同一图样应一致",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.8.5所有零部件图应标注长宽高尺寸，对于通过计算可以得出总长尺寸的，仍应将长度以参考尺寸形式标出。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.8.6对铝型材，除标明“参见断面0B\\*\\*\\*\\*”外，应标出该断面总长和总宽尺寸；",
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/32c40ddd568c2738f7718d80dcf51aee01eb0ab03211059457c90fd180acafa6.jpg",
+        "img_caption": [
+            "图8"
+        ],
+        "img_footnote": [],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.8.7应尽量去除重复尺寸，但为看图方便，可在多个视图中标注同一尺寸或零件号。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.8.8非通孔或槽未进行剖视的，应标注深度，可采用文字方式如 $4\\times\\mathrm{~\\textcircled{~}~}10$ （深度30）。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.8.9多段标注时采用：数量 $\\times$ 每段尺寸（ $\\mathbf{\\Sigma}=\\mathbf{\\Sigma}$ 总尺寸），见图9。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "图9",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.8.10多个相同圆孔可采用“数量 $\\times$ 直径”方式，例如 $15\\times\\Phi6.4$ ，见图9。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.8.11多个长圆孔标注采用直接标注尺寸的方式，另外引线标注数量（\\*个），见图10。",
+        "page_idx": 12
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/b13b2059a33e37e92a4b7995885e9387d8b508aafc27422e57e307928c6486e0.jpg",
+        "img_caption": [
+            "图10"
+        ],
+        "img_footnote": [],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.8.12所有零件和装配图纸均应有公差要求。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "3.8.13尺寸标注应选择便于测量的基准，同一方向尽量按同一基准进行尺寸标注。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.9尺寸公差与配合的标注 ",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.9.1 总则 ",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "尺寸公差与配合注法应符合GB/T4458.5的规定。",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.9.2在零件图中的标注方法",
+        "text_level": 1,
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.9.2.1当采用极限偏差标注线性尺寸的偏差时，上极限偏差应注在公称尺寸的右上方；下极限偏差 应与基本尺寸注在同一底线上。 ",
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "6.9.2.2图样中线性尺寸的公差，一般要求同时标注公差代号和相应的极限偏差，并在极限偏差上加圆括号，见图11。",
+        "page_idx": 12
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/0d1dbbc538216b2eea2908e9a6b8cfc8a3c0cd58ddb70f99c6ccef1c1f623f10.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。his documentisthe propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithoutpriorauthorizati"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 12
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/2b76c1d1b5703589b16d4d445387e18935f15ffeff7488689c42c8c560c23479.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司</td><td>编制部门：设计开发部</td><td>页码：共28页第14页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/f68eda4a3b4381b84b245a5ddece86b2d54b55fe3302e5b81f7cc643ad8a3a42.jpg",
+        "img_caption": [
+            "图11"
+        ],
+        "img_footnote": [],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "6.9.2.3当标注极限偏差时，上下极限偏差的小数点应该对齐，小数点后右端的“0”一般不予标出；  \n如果为了使上、下极限偏差值的小数点后的位数相同，可以用“0”补齐，见图12。",
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/e0510863cfdcf112226348780b0fd6581925640f090338ca6d44f776870e3cb3.jpg",
+        "img_caption": [
+            "图12"
+        ],
+        "img_footnote": [],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "6.9.2.4当上极限偏差或下极限偏差为“零”时。用数字“0”标出，并与上极限偏差或下极限偏差的 小数点前的个位数对齐，数字“0”前不加“+”、“-”号，见图13。 ",
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/f6a34145d0ef9b16430b66d9511166abc67422e8ea84b5cb4687f94bda3e91b2.jpg",
+        "img_caption": [
+            "图13"
+        ],
+        "img_footnote": [],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "6.9.2.5当上、下极限偏差相同时，极限偏差只需注写一次，并应在极限偏差与公称尺寸之间注出符号“士”，且两者数字高度相同，见图14。",
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/9b717aecebcca1d543430c90d69ecd4cfe56c66201fa5054587bfec7f2ff8395.jpg",
+        "img_caption": [
+            "图14"
+        ],
+        "img_footnote": [],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "6.9.3在装配图上的配合注法",
+        "text_level": 1,
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "6.9.3.1当公差为标准值时则不注偏差数值而只标注配合代号。一般标注形式是在公称尺寸的右边，用分数的形式注出，分子为孔的公差带代号，分母为轴的公差带代号。见图14。",
+        "page_idx": 13
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/583da1535f9de29c19e430d0e1145b832f0e9a9495ca23a0243fb9288a17f682.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthe propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithout priorauthoization"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 13
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/435333c6f6aa057f2679df3e643420defe468a1454cf85976cc7fa6ce5e8e39f.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司</td><td>编制部门：设计开发部</td><td>页码：共28页第15页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/dd38a45690f52186985f142692e8155dd7f4fb80fd36b8c20e37fa57d5c0b5ac.jpg",
+        "img_caption": [
+            "图14"
+        ],
+        "img_footnote": [],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "6.9.3.2当公差为非标准值时则可注出偏差数值。尺寸线上方为孔的公称尺寸和极限偏差，尺寸线下方为轴的公称尺寸和极限偏差，见图15。也允许按图16的形式标注。",
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/39c5e9df86204f2b691d78a8e7b8dead62fcb2ac863eedf337167d144ad59e1b.jpg",
+        "img_caption": [
+            "图15"
+        ],
+        "img_footnote": [],
+        "page_idx": 14
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/dfbb27f58b8d8f53e3eabf0c5404468e61dbce616c97cbcac7460fb91ab9574f.jpg",
+        "img_caption": [
+            "图16"
+        ],
+        "img_footnote": [],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "6.10 几何公差（即形位公差）",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "6.10.1 几何公差的未注公差 ",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "6.10.1.1几何公差的未注公差应符合GB/T1184的规定。  \n6.10.1.2未注公差分三级：H、K、L，可在技术要求中统一说明，例如：几何公差的未注公差按GB/T  \n1184-K。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "6.10.2 几何公差 ",
+        "text_level": 1,
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "6.10.2.1技术图样中几何公差的代号及其标注方法应符合GB/T 1182 的规定。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "6.10.2.2几何公差在图样上应采用代号标注，当无法采用代号标注时，允许在技术要求中用文字说明。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "6.10.2.3 图纸中的几何公差，仅表达对要素完工时的要求。",
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "6.10.2.4根据几何公差特征将其划分为四类公差：形状、方向、位置和跳动公差。",
+        "page_idx": 14
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/df8c322f0655fd9aaedf8d465ca7ce4d4a96af3d9bf148776c421f790720d2d1.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentis the propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithout priorauthzation."
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 14
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/ea4d4fe8ee65f9d668985dbe391a137a190ff1f21bacfecdaef052b66d29d7e6.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>車</td><td>中车南京浦镇车辆有限公司</td><td>编制部门：设计开发部</td><td>页码：共28页第16页</td></tr><tr><td></td><td>CRRC NANJING PUZHEN CO., LTD.</td><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "6.10.2.5 几何公差代号包括：",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "-几何公差有关特征的符号；   \n几何公差框格和指引线；   \n-几何公差数值和附加符号；   \n基准。 ",
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "示例1：形状公差代号示例2：位置公差代号",
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/e0d1369eb92ee760830028e41585492b3e90a1249177c694779fbf360e19585a.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/d4d7db184e33bbf782ce63b96193ac918f2283445b5dc267bda4c30d66d83ce3.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "6.10.2.6与被测要素相关的基准用一个大写字母表示，字母标注在基准方格内，与一个涂黑的或空白的三角形相连以表示基准；表示基准的字母还应标注在公差框格内。见图17。",
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/fbeb8349ec1aa95155faf1bbe4abb6e11712405011d28bb221f2267a124bfd81.jpg",
+        "img_caption": [
+            "图17"
+        ],
+        "img_footnote": [],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "6.10.2.7无论基准符号在图样上的方向如何，方框和方框内的字母都应水平书写。  \n6.10.2.8在标注几何公差时，公差框格应水平绘制。带箭头的指引线一端与框格相连，而其箭头应指向被测要素的公差带的宽度方向或直径。  \n6.10.2.9当某项公差应用于几个相同要素时，就在公差框格的上方被测要素的尺寸之前注明要素的个数，并在两者之间加是符号 $^{66}\\times\\ '$ ，见图18。",
+        "page_idx": 15
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/5794f18699f26272e73c285270baa2416e488b4d0c3d2a3442786da0377c93d2.jpg",
+        "img_caption": [
+            "图18"
+        ],
+        "img_footnote": [],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "6.11 螺纹表示法及标记的补充规定 ",
+        "text_level": 1,
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "6.11.1 螺纹的表示法应符合GB/T4459.1的规定。",
+        "page_idx": 15
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/6478d31a8cbde707c6dbf34825ff93498db0649d52573ebb4ea7b42afa6aca57.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentis the propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothird partywithoutpriorauthorization"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 15
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/b287ec8d0ecad2ca550c1210b4ebfef6e4200f2dfacddef43fbd61305a9a0236.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車 中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td rowspan=\"2\">编制部门：设计开发部</td><td></td><td>页码：共28页第17页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "6.11.1.1螺纹的牙顶线用粗实线表示，牙底线用细实线表示，螺杆的倒角或倒圆也应画出。（外螺纹牙顶线即大径，内螺纹牙顶线即小径）。在垂直于螺纹轴线的投影面的视图中，表示牙底的细实线只画约 $3/4$ 圆，此时轴或孔上的倒角省略不画，见图19和图20。",
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/9e2cae69469920720a28bd761b265ea6f45e34911d0c6aeb3c63711fab101685.jpg",
+        "img_caption": [
+            "图19"
+        ],
+        "img_footnote": [],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/1bcaf1c298f54b3f2264b5b69e1531d6841c89405e1c7cda08910cd0e63d937c.jpg",
+        "img_caption": [
+            "图20"
+        ],
+        "img_footnote": [],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "0.11.1.小任一般画成人任的U.0信，但人任牧人（人丁MO0）或画细刁纹时，小任数值亘园 GD/1  \n196。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "6.11.1.3 螺纹终止线用粗实线表示，见图19和图20。  \n6.11.1.4不可见螺纹的所有图线按虚线绘制。  \n6.11.1.5内、外螺纹在剖视或断面图中剖面线都应该画到粗实线，见图19，图20。  \n6.11.1.6对于不通的螺孔，钻孔底部以下的圆锥孔的锥角应画 $120^{\\circ}$ ，见图20。  \n6.11.1.7螺纹连接以剖视图表示时，内、外螺纹旋合部分按外螺纹绘制，其余部分按各自的画法表示，此时表示大、小径的粗实线和细实线应分别对齐。  \n6.11.1.8螺纹的标记方法应符合 GB/T 4459.1、GB/T 197、GB/T 5796.4、GB/T 20666的规定。6.11.1.9普通螺纹的完整标记由螺纹特征代号、尺寸代号、公差带代号、旋合长度代号和旋向代号组成。",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "6.11.1.10 普通螺纹标记示例如下：",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "示例：",
+        "page_idx": 16
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/be0daca91b628548031bd05f4f261b106d688b7547ab5f22a1201cf9b71b11a3.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。his documentisthe propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithoutpriorauthorizati上述示例是普通螺纹的完整标记，当遇有以下情况时，其标记可以简化：",
+        "page_idx": 16
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/0b70b2d046512be83b70bfeea9257af48416b6c7bce79ede49cdae8e00ec8e9e.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td>编制部门：设计开发部</td><td>页码：共28页第18页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 17
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/9ba49c00cb03ab26bd8e137541097ef2aaf0501dcfca4bd88519925a6f0a2678.jpg",
+        "img_caption": [],
+        "img_footnote": [],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "旋向代号为右旋不标注;  \n-中等旋合长度不标注;  \n-单线螺纹的尺寸代号为“公称直径 $\\times$ 螺距”，此时不必注写“Ph”和“P”字样，当为粗牙螺纹时不注螺距;  \n-中径与顶径公差带代号相同时，只注写一个公差带代号;  \n最常用的中等公差精度螺纹（公称直径 $\\leq1.4\\mathrm{{mm}}$ 的 5H、6H和公称直径 $\\geq1.6\\mathrm{{mm}}$ 的6H和 $6\\mathrm{g}$ ）不标注公差带代号。",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "6.12焊缝符号在产品图样上的标注方法",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "焊缝符号在产品图样上的标注方法应符合Q/PC00-007的规定。",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "6.13螺纹紧固件、齿轮、花键、弹簧、中心孔的画法",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "螺纹紧固件、齿轮、花键、弹簧、中心孔的画法应符合GB/T4459.1～4459.5的规定。",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "6.14标准紧固件在产品图样上的标注方法",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "标准紧固件在产品图样上的标注方法应符合Q/PC00-008的规定。",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "6.15 表面粗糙度在产品图样上的画法和标注方法",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "表面粗糙度在产品图样上的画法和标注方法应符合GB/T131的规定。",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "6.16 管螺纹表示方法",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "管螺纹表示方法应符合GB/T 7307、GB/T7306.1、GB/T 7306.2的规定。",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "6.17 指引线",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "6.17.1指引线终端在一个物体的轮廓内，用带出引线的文本方式标注。引出线端部除焊缝和胶粘接符号外均采用“实心圆点”。",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "6.17.2 序号",
+        "text_level": 1,
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "装配图中的部件、零件及紧固件的序号按B0M表序号栏中相应的序号编排，并尽量按顺时针方向顺序排列（重复序号例外）。",
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "装配图中的序号，在整个图上无法连续时，可在每个水平或垂直方向分多次按顺时针方向顺序排列。尽量排列整齐，见图21。",
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/e9ab58d4bcc5e44a710ae845e8026f8c0516daeb610a31045e5c171e8c00dd7c.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentis the propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithout priorauthozation."
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 17
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/61fd59280eb1aa5c5e8674bcdd0b3a9a908e20b3904496fe63d17913dde517d1.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司</td><td>编制部门：设计开发部</td><td>页码：共28页第19页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/3bdbc4540a931657e2793c0e1082c3054c3a6c3c4cee3bc4a3c5676989d57b7c.jpg",
+        "img_caption": [
+            "图21"
+        ],
+        "img_footnote": [],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "同一装配图中相同的零、部件只编一个序号，一般只标注一次，必要时可重复标注",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "6.17.3 板厚 ",
+        "text_level": 1,
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "平板类零件，应尽可能在投影视图上标注板厚。仅有主视图的，材料厚度按“t”+“板厚”方式表达，例如t2，见图22。不允许表达方式：T2， $\\scriptstyle\\mathrm{T=2}$ ，$\\scriptstyle{\\mathrm{t}}=2$ 或其它。",
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/b317341ab1e2125681268b657d65abef6faaf47c5d4b2e8e0b874516b23bf110.jpg",
+        "img_caption": [
+            "图22"
+        ],
+        "img_footnote": [],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "6.17.4指引线终止于表达零件的轮廓线或转角处时，未端画箭头。如：",
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "-序号所指部分系很薄的零件或涂黑的剖切面内不便画圆点时，见图21;",
+        "page_idx": 18
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/6d72e46e82b17b48b72e8c935c0c265b27c8615b9eac865e1dd9fd84a007cc1d.jpg",
+        "img_caption": [
+            "图21"
+        ],
+        "img_footnote": [],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "焊缝指引线，见图22、图23；",
+        "page_idx": 18
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/d93ceb0fd1648acdb3c9951667e2e0491b1d6da2d056aa7d9d31ab0f999f2252.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthepropertyofCRRCPuzhen,it maynotbereproducedordisclosedtothirdpartywithout priorauthoization"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 18
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/806a0dcf4653171ed6e0d10820e3324838432160c4177a4dee030acae2636552.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td>编制部门：设计开发部</td><td>页码：共28页第20页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/afb1f968e1d4b9c8c52da355d186488a3d0110012e227837f270c972c5ad5d19.jpg",
+        "img_caption": [
+            "图22"
+        ],
+        "img_footnote": [],
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/c63e97403d271324c3a935a03d372bb1240474ef110aba121c477251d95bc2b1.jpg",
+        "img_caption": [
+            "图23"
+        ],
+        "img_footnote": [],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "胶粘剂指引线，见图24",
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/d2b477e3887b92079f93bea8bb81da22e06a48bd26bd9011354957ad3da62cbc.jpg",
+        "img_caption": [
+            "图24"
+        ],
+        "img_footnote": [],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "注写表面结构要求的指引线，见图25。",
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/ff8b76c4b00833a3905b4f43a9dd21266142a43dd6e12e96df88efc6cb92411f.jpg",
+        "img_caption": [
+            "图25"
+        ],
+        "img_footnote": [],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "7产品图样在设计中的补充规定",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "7.1 总则 ",
+        "text_level": 1,
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "7.1.1产品图样应最大限度地采用国家标准、行业标准和企业标准以及历次设计的借用件、通用件等。7.1.2图样的编号要考虑产品的继承性，要统一连贯编号，凡非本公司设计的图样不能编入本公司产品图样代号和设计文件中。但允许复制后编为本公司代号，并保留其主导单位的原图样代号。7.1.3不属于本次设计序号中的零、部件（包括系列尺寸件）一律不得编入本次设计序号的图样代号或系列表中。7.1.4采用各种型材制成的零件，不需加工的型材断面部分的视图上应标注规格尺寸，如图 26。",
+        "page_idx": 19
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/cc0c9d306826cab24a28dfe4379c3ec69b3078faa158250d100d42214ff7778a.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthe propertyofCRRCPuzhen,itmaynotberproducedodisclosedtothirdpartywithout priorauthzation"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 19
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/5d05d64f59ed8621ed6a615ac6a6827cdd734cbad30234acc5ad7aec15e2412a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td>编制部门：设计开发部</td><td>页码：共28页第21页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 20
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/9b20ce933689862bac37cf8f1a5a44f29b13a15f219c3e1ff7485ca153bef16f.jpg",
+        "img_caption": [
+            "图26"
+        ],
+        "img_footnote": [],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "7.1.5胶条等零件允许只画出断面图，但应在视图的右下方“注”中说明。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "注： $\\textcircled{1}$ 本图为断面图，其长度尺寸应在BOM表中规定。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "7.1.6需要规定外形大小尺寸的外购件（如压力表、灭火器、电器元件等）应画出外形图，并标注出外形尺寸、安装尺寸、连接尺寸和必要的技术要求。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "7.1.7图样中需加以说明的尺寸采用圆括号 $(\\times\\times\\times)$ ，同时在注中说明。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "注： $\\textcircled{1}$ 圆括号内尺寸 $(\\times\\times\\times)$ 为 $\\times\\times$ 车型采用。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "7.1.8凡在装配图中可看出全部尺寸的零件，允许作为“无图零件”画出，在BOM表“备注”档中也不必写“无图”字样。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "7.1.9无图件是“外购件”或在工艺上有要求时，如镀铬等，应在 BOM表“备注”栏中注明：“外购”或“镀铬”等，外购件还应在BOM表“代号”、“名称”栏内注明标准号、牌号，以及名称规格等。",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "7.1.10产品图样原则上采用一件一图，只有下列情况才允许一图多件，即：同类型、同系列的零件图样应画成系列表。",
+        "page_idx": 20
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/180e54f601cf74fcdfc64b69ff3421fd320f1b78a64bdb2b46c072d52c6e20d1.jpg",
+        "table_caption": [
+            "示例："
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>顺号</td><td>物料编码</td><td>L</td><td>H</td><td>材质</td><td>重量</td><td>备注</td></tr><tr><td>１</td><td>PC053 T1221000001</td><td>80</td><td>37</td><td>钢板 3-09CuPCrNi</td><td>0.18</td><td></td></tr><tr><td>２</td><td>PC053 T1221000002</td><td>80</td><td>39</td><td>钢板 3-09CuPCrNi</td><td>0.18</td><td></td></tr><tr><td>３</td><td>PC053 T1221000003</td><td>80</td><td>41</td><td>钢板 3-09CuPCrNi</td><td>0.18</td><td></td></tr><tr><td>4</td><td>PC053 T1221000005</td><td>80</td><td>41</td><td>钢板 3-1Cr18Ni9Ti</td><td>0.18</td><td></td></tr><tr><td>５</td><td>PC053 T1221000006</td><td>120</td><td>41</td><td>钢板 3-09CuPCrNi</td><td>0.28</td><td></td></tr><tr><td>６</td><td>PC053 T1221000007</td><td>120</td><td>41</td><td>钢板 3-1Cr18Ni9Ti</td><td>0.28</td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "7.1.11采用一图多件的产品图样只给一个图号，但物料编码是一件一个。",
+        "page_idx": 20
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/fa0d5a08692d0ab75988bdbdc15bd9662a8d536a1456ba3946d3c5ec00b2b28f.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthe propertyofCRRCPuzhen,itmaynotberproducedodisclosedtothirdpartywithout priorauthozation"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 20
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/80d5e21bdec428dc8adb734fa09f2ebb4d32b6c4b78b6bd6f6be1be33153fb65.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td>编制部门：设计开发部</td><td>页码：共28页第22页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.2左、右件的编写规定",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.2.1左、右对称的零、部件，结构较为复杂的应按左、右件分别绘制图样及编制图样代号；能清楚表达左、右件结构的简单零、部件，允许只绘制一张图样（图样的复杂程度由设计人员自行掌握），且一律以“左件”按规定绘制图样和编制图样代号，但是左、右件各给一个物料编码。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.2.2凡是分左、右件绘制的图样，其零、部件名称相同，只是在左件的名称后加“左”，右件的名称后加“右”，以示区别。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.2.3对于左、右件只绘制一张图样时，应在标题栏上部加“注：本图分左、右件，图示为左件。”BOM 表中左右件均列入，图号相同，物料号不同，右件在备注栏中写明“未出图”。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.3 “注”的书写规定",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.3.1“注”的顺号用带圆圈的阿拉伯数字 $\\textcircled{1}$ 、 $\\textcircled{2}$ 、 $\\textcircled{3}$ ……表示，圆圈采用细实线画，直径为 $\\Phi5\\mathrm{mm}$ o",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.3.2“注”后的冒号“：”占一个字位，圆圈与空格占两个字位。注的条文第一条与注字同行，条文一行未完换行文字取齐，条文完了用句号“。”。“注”的条文中包括若干款、项时，其各项的顺号采用小写拉丁字母a、b、c等，此项顺号后移半个字位，拉丁字母后的间隔占半个字位。",
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c}{{\\textcircled{1}\\times\\times\\times\\times\\times\\times\\times\\times\\times\\times\\times\\times\\times\\times\\times}}\\\\ {{\\times\\times\\times\\times\\times\\times}}\\\\ {{\\mathrm{a.}\\times\\times\\times\\times\\times\\times\\times\\times\\times\\times\\times\\times\\times}}\\\\ {{\\times\\times\\times\\times\\circ}}\\\\ {{\\mathrm{b.}\\times\\times\\times\\times\\times\\times\\cdots\\times}}\\end{array}\n$$",
+        "text_format": "latex",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.3.3 “注”只有一条时也应写顺号 $\\textcircled{1}$ 。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.4 图纸更改的规定",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.4.1 更改描述",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.4.1.1图纸的变更应在标题栏中完整、明确的描述，建议的写法为：“视图”+“变更主要内容”+  \n“共几处” $^+$ “见通知 PM\\*\\*\\*\\*”。示例：1、A视图更改一处尺寸；2、增加C视图并增加件号6，件号7。共3处，见通知PM060699005。  \n7.4.1.2变更记录采用先进先出原则，当变更记录表格填满时，应删除最旧版记录，并在原旧版表格处填写最新版记录。  \n7.4.1.3发生变更的图纸，仅在首页面填写变更内容。",
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "7.4.2 图纸更改 ",
+        "text_level": 1,
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "最新版本变更内容需使用紫色 ，并在更改内容附近标注版本，同时将前一次版本的变更恢复原有色，示例见图27。",
+        "page_idx": 21
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/10309f6059bcbde0bef907612543aeeabb55f9ca4edbf2701b0938aa409223ec.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthe propertyofCRRCPuzhen,itmaynotbereproducedordisclosedtothirdpartywithout priorauthoization"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 21
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/2c4597c629a114473b15e1f10a3d27dfc6b1997449128d513a852bdfd8ccf0cf.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車 CRRC NANJING PUZHEN CO., LTD.</td><td rowspan=\"2\">中车南京浦镇车辆有限公司</td><td>编制部门：设计开发部</td><td>页码：共28页第23页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/ddd3cce3c1629a77af4b935f9fe9ec281b648c242ffd560a988457d8da8963a9.jpg",
+        "img_caption": [
+            "图27"
+        ],
+        "img_footnote": [],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.5 技术要求",
+        "text_level": 1,
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.5.1 总则 ",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.1 条文中尺寸使用的单位为“毫米”（mm），但一律不标注。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.5.1.2技术要求中列举B0M表中的零、部、组件时允许只写序号或代号。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.5.2书写位置的要求",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.5.2.1“技术要求”应尽量书写在图样的右上方，实在无法安排时，可书写在图样左下方。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.5.2.2技术要求顺号后的间隔号占一格，条文一行未完而需换行时，文字应取齐。每一条文完了时用句号。技术要求只有一条时，也应写顺号“1”。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.5.3 技术要求的内容",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.5.3.1技术要求的条款应按制造工艺的程序排列。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.5.3.2技术要求应，文字简练，语意确切，避免口语化语句，不允许有多种解释的可能。",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "7.5.3.3凡词与下列条文相似者，可参照下列条文重新组词后书写：",
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "全部圆角R4;  \n全部倒角C1;  \n线性和角度尺寸的未注公差按GB/T $1804\\mathrm{{-m}}$ 未注公差符合IS02768-mK-不许有锐棱和毛刺;  \n铸件不许有气孔、缩孔、裂纹和疏松等缺陷;  \n在A面和研磨面上不得有气孔、裂纹等缺陷;  \n焊接处焊前应修整到呈现金属光泽；  \n允许拼接，焊后磨平;  \n焊缝应打磨光滑;  \n焊缝应磨平;  \n未注焊角高度均为 $3{\\sim}4$ .",
+        "page_idx": 22
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/3e501f35d47f7d78d5ef22974a09ef015bdf215ad1e7ec128aa7f5ab0a283ec3.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This document isthepropertyofCRRCPuzhenit maynotbereproducedordisclosedtothirdpartywithout priorauthoization"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 22
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/42aa831fcd8fa8f21260a8fe51a613bc79220ceb40ec9289ca04c0898091ac3a.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td>编制部门：设计开发部</td><td>页码：共28页第24页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "未注焊缝高均等于被焊件最小厚度;除注明外，全部连续焊，焊缝高等于被焊件最小厚度;-组成后内口对角线之差不大于 $\\times$ ，翘曲不大于 $\\times$ ；表面应光滑平整。（用于塑料制品）；耐热温度在 $120^{\\circ}\\mathrm{~C~}$ 以上；零件装配前应清除残余型砂、毛刺、污垢和油脂;-应用 $\\mathrm{\\timeskPa}$ 的 $\\times$ 压试验，不许泄漏;应用 $\\mathrm{\\timeskPa}$ 的 $\\times$ 压试验，保持Xmin，不许泄漏;一应用 $\\mathrm{\\timeskPa}$ 的水压试验，保持Xmin，不许泄漏，然后施行 $\\mathrm{\\timeskPa}$ 的风压试验，保持Xmin，不许泄漏;涂防锈漆（表示底漆种类不限）；涂防锈漆，再涂 $\\times\\times$ 色酚醛（或醇酸）磁漆;涂优质防锈漆 $\\times$ 遍（涂一遍时不注遍数）；涂优质防锈漆 $\\times$ 遍，再涂 $\\times$ 色酚醛（或醇酸）磁漆（凡涂 $\\times\\times$ 防锈漆的件，应涂表面漆，遍数按需要确定，如涂一遍时，不注遍数）；一涂 $\\times\\times$ 防锈漆，再涂黑色调和漆（常用于车体下部）；粗点画线表示的面需喷涂R a. a-未注表面粗糙度V （或注于图形上）；-表面应平整;-镀锌；表面抛光后，应进行阳极氧化处理;按 $\\times\\times$ 型 $\\times$ 车技术条件 $\\mathrm{PCK}\\times\\times-00\\mathrm{-00-000JT}$ 制造与验收;隔热材安装应严密；表面应平整;-应进行防腐、防火处理（限于木制件）；-所有木制零件不露出部分均涂防腐油;-地板布用防水胶与木地板粘接牢固;全车管罩板均需涂银灰色醇酸磁漆。",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "7.5.3.4不使用“必须”作为“应”的替代词（以避免将某标准的要求和外部的法定责任相混淆）；不使用“不可”代替“不应”表示禁止。",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "7.6标题栏的书写规定",
+        "text_level": 1,
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "7.6.1 图样代号指图样的代号，按有关标准或规定填写。  \n7.6.2 图样名称指所绘对象的名称。  \n7.6.3日期填写格式统一按“年份-月份-日期”格式填写，月份和日期均应保持两位数字，示例：  \n2015-05-06.  \n7.6.4 “材料”栏的填写，应带入原材料足够信息，如“铝板3-6060T5”、“铝板3-5754H111”、  \n“不锈钢板0.6-304L”；",
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "7.6.5铝合金挤压型材，统一按“合金热处理状态”方式标注，例如：6005A T6。",
+        "page_idx": 23
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/44c2cf3383fe811245b77d23dce3a85c560f90b9d9800dcbd160b53971277c8c.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthe propertyofCRRCPuzhen,it maynotberproducedordisclosedtothirdpartywithoutpriorauthozation."
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 23
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/a0eb2663d604bba166b967eaba433068d01bbe603874c69e6d6819c7d106129c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td>車</td><td>中车南京浦镇车辆有限公司</td><td>编制部门：设计开发部</td><td>页码：共28页第25页</td></tr><tr><td></td><td>CRRC NANJING PUZHEN CO.,LTD.</td><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "7.6.6 “项目名称”项中文名称和英文简称必须填写。",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "7.6.7重量指图样所表示对象的设计重量，以千克为单位时不标注单位，用其它单位时应标注单位。  \n重量数值一律按GB/T8170规定修约到三位小数，标准紧固件重量按照 $\\mathsf{Q}/\\mathsf{P C}\\ 00{-}005$ 的规定执行。",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "7.6.8 “当前状态”为“S” ",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "7.6.9共 $\\times$ 张、第 $\\times$ 张指同一代号的图样总张数与张次。",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "7.6.10 比例指主视图的比例，",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "7.6.11版本的填写：初始版本为“0”，只作发行，不标记归档状态。“0”阶段版本经审核通过后修订为“1”版本，此时版本一栏中应填写“1”，描述栏内填写“创建”，作为试制阶段归档的图纸、文件，正式发布归档后作为公司各部门指导产品试制生产用图及文件。小版本升版级“1.01、1.02、1.03…·…”，大版本升级为“2、3、4”，依次类推。",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "7.7 焊接和粘接",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "涉及焊接和粘接的工程图采用统一的焊接表和粘接表，样式如下：",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "焊接表",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "焊接将及沙衣",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "Wclding II) 心多线 安全等线 0多线 万法 郑接农人 认级苏 洋缝列 1N 15085-3 1N 15085-3 1:7 15085-3 IS(）4063 IS()2553 1.7 15085-2 CPB CI1 ",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "注：中来注涨接公%安1S（13920B，表注公养按ISO）2768m执 ",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "粘接表",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/783cb720fe3c6ac30aa3a30d0cd398f73dc34f1cf10991e3fc04f6fe05fda756.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td></td></tr><tr><td>八 ..</td></tr><tr><td></td></tr></table></body></html>\n\n",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "8 BOM的填写要求",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "8.1 签署区的填写 ",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "签署区由技术责任制规定的有关责任者签署姓名、日期。",
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "8.2 项点说明",
+        "text_level": 1,
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "具体内容按有关管理制度的规定填写如下：一顺号No.：零件、部件的顺序号;一层次Layer：该零、部件在顶级产品结构中所处的级别，顶层装配为0，顶层的第一级组件为1，顶层的第二级组件为2，顶层的第三级组件为3，依此类推；-件号Rep：零件、部件在所属装配图中的序号；数量Qty：该零件、部件在上一级父件中被装配的数量;物料编码MaterialCode：零件、部件的物料码;",
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/0571cb72c2b1704995192385dbe412c4b182bd38c825e2cbb89f17d9371b0b71.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthepropertyofCRRCPuzhen,it maynotbereproducedordisclosedtothirdpartywithout priorauthoization"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 24
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/7d9de6d60f1edce6b6568aa8bc00e2c959395d1614fb18118b941d4cc44773c5.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td>编制部门：设计开发部</td><td>页码：共28页第26页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "一图样代号PartNumber：零件、部件的图样代号，无图件、紧固件填写相应代码;-版本Rev.：对应图样代号的版本;  \n-中文名称Chinese Designation：填写零件、部件的中文名称;-英文名称 English Designation：填写零件、部件的英文名称;-单件Single：零件、部件的单件质量;总计（Total）：该零件、部件在上一级父件中装配的总重量;-材料和标准 material and standard：按有关材料标准的规定填写材料标记与规格、型号；该零、部件设计中引用的相关标准代号；粘接工艺卡片号及相关指导文件编号；物料属性Makeor Buy：物料（外购件、U类件、车体件、组装件、通用件、采购包件等）的属性，具体内容按有关技术规范填写;备注Remark：必要的补充说明（如左右件、借用件、无图件、供应商名称、镀铬、镀锌等）；制造过程 Manufacture Process：工艺分工信息及台位信息，由工艺部门按照有关规定填写;标题栏版本Rev.：BOM表、明细表的版本号，创建时为“1\"版，以后版本升级为“1.01、1.02..2、2.01、2.02·……”，以此类推;标题栏描述Description:版本更改原因的描述，“1”版时为创建；标题栏签名Name：BOM表、明细表该版本的所有者名称;-标题栏日期Date：BOM表、明细表该版本的创建日期;当前状态为“S”；适用车型Applicablecar：该输出装配所适用的车型，顶级装配需注明作用次数;-倍数Multipie:BOM表中的倍数 $\\c=$ 每辆（列）数量/BOM表中零、部件的数量;  \n一 -EnName：BOM表、明细表的英文名称;  \n一 ChineseName：BOM表、明细表的中文名称，应与相应的图样名称一致;-BOM Number：BOM表、明细表的代号，BOM表应为图样代号加后缀“BM”，明细表应为图样代号加后缀“MX”。",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "8.3 版本",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "8.3.1 1.1图纸和BOM版本必须始终保持一致;对于只变更BOM中零件物料号的情况，禁止只升级BOM而不升级图纸;对于图纸升级而B0M不变的情况，禁止只升级图纸而不升级BOM。",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "8.3.2BOM中“版本”列只填写本层级图纸版本，下级零部件均留空。借用件须在版本列注明版本信息，且备注中不需要再说明。",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "8.4重量",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "BOM中所有零部件重量均应填写完整，且应与图纸一致。",
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "8.5 物料属性列",
+        "text_level": 1,
+        "page_idx": 25
+    },
+    {
+        "type": "text",
+        "text": "对于装车级别图纸填写“Z-组装件”$\\bullet$ 属于外购件的以字母“P”表示，",
+        "page_idx": 25
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/9031fe6850724da48850969d0fd0da02eb26a348b82662deb3fb6b8aa2537618.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthepropertyofCRRCPuzhen,it maynotbereproducedordisclosedtothirdpartywithout priorauthoization"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 25
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/14323f324f34c8616c17dad8b0a8f1e11cac25bb4a28ed8f52e3114e97cf0d26.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td>编制部门：设计开发部</td><td>页码：共28页第27页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "示例：在其对应“物料属性”中填入“P-系统或部件名”，如枕梁填写“P-枕梁”、侧扶手写“P-扶手”、扬声器写“P-PIS”、蓄电池箱填写“P-蓄电池”、RIOM写“P-TCMS”、双针压力表写“P-制动”等；",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "$\\bullet$ 通用件为“T-通用件”，示例：在其对应“物料属性”中填入“T-通用件”；  \n$\\bullet$ 外协件为“X-外协件”，包括自制件  \n$\\bullet$ U类件为“U－＊＊”等;U类件：在其对应“物料属性”中填入“U-系统名称”，其物料编码加前缀U-  \n$\\bullet$ 车体零部件“物料属性”列可不填写",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "8.6紧固件在BOM中的填写方法：",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "仅填写“物料编码列”、“中文名称”、“重量”、“材料和标准”“物料属性”列，“图样代号”等列空白。",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "8.7粘接卡片在B〇M中的填写方法：",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "“物料编码”列填写《PM0AD0296003-粘结技术规范》中对应卡片的“识别码”，“中文名称”填写卡片名称和编号，其它列空白。",
+        "page_idx": 26
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/dcbdb1d795a8db115273fd83b23c809e238778f584eca96dc5fc7487e836ec7d.jpg",
+        "table_caption": [
+            "示例："
+        ],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">物料编码e</td><td rowspan=\"2\">代 Number</td><td rowspan=\"2\">版本</td><td rowspan=\"2\">Chin文称ation</td><td rowspan=\"2\">英文名称 Designation</td><td colspan=\"2\">计</td><td rowspan=\"2\">&</td><td rowspan=\"2\">物料属性y</td><td rowspan=\"2\">备注 k</td><td rowspan=\"2\">acture</td></tr><tr><td>Single</td><td>Total</td></tr><tr><td>PM0AD02960032008</td><td></td><td></td><td>粘接卡片</td><td></td><td></td><td></td><td>B-06c</td><td>PM0AD0296003</td><td></td><td></td></tr></table></body></html>\n\n",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "9图样目录的编写规定",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "9.1 签署区的填写 ",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "图样目录签署栏由技术责任制规定的有关责任者签署姓名、日期。应该签署的有：设计、审核、总体、标准化。",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "9.2总张数的填写 ",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "总张数系指产品图样、设计文件、明细表（MX）及BOM表张数的总和，其各自张数分别填入相应栏内。总张数不包括图样目录的张数。",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "9.3 图样目录内容的填写",
+        "text_level": 1,
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "具体内容按有关管理制度的规定填写如下：",
+        "page_idx": 26
+    },
+    {
+        "type": "text",
+        "text": "顺号No.：图样目录内图样（文件）的顺号；  \n图样代号PartNumber：图样（文件）的代号；版本Rev.：对应图样代号的版本;  \n英文名称English Designation：图样（文件）的英文名称;  \n-中文名称Chinese Designation：图样（文件）的中文名称;  \n张数Pages：该图号图样（文件）的张数;  \n幅面：A3/A4备注Remart：填写必要的补充规定;  \n标题栏版本Rev.：B0M表、明细表的版本号，创建时为“1\"版，以后版本升级为“1.01、1.02..  \n2、2.01、2.02……”，以此类推;  \n-标题栏描述Description:版本更改原因的描述，“1”版时为创建-标题栏签名Name：图样目录该版本的所有者名称;  \n标题栏日期Date：图样目录该版本的创建日期;  \n当前状态为“S”；  \ndrawingNumber:图样目录代号，应为图样代号加后缀“TM”；  \nChineseName：图样目录中文名称，应与相应的图样名称一致;  \n-EnName：图样目录英文名称。",
+        "page_idx": 26
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/69de798ebd9637e150cab908b61cb63241352db3c30663fd1710d187fa486379.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthepropertyofCRRCPuzhen,it maynotbereproducedordisclosedtothirdpartywithoutpriorauthozation."
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 26
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/f7e1d54d6a51dcc9c05f0371396ca37b58e03a7badf1d70a8350dc67a309ced0.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "\n\n<html><body><table><tr><td rowspan=\"2\">車</td><td rowspan=\"2\">中车南京浦镇车辆有限公司 CRRC NANJING PUZHEN CO., LTD.</td><td>编制部门：设计开发部</td><td>页码：共28页第28页</td></tr><tr><td>项目名称：第三层次管理文件</td><td>文件类别：管理文件</td></tr></table></body></html>\n\n",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "9.4 图样目录输出顺序 ",
+        "text_level": 1,
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "9.4.1图样目录按装配不同需求分级输出。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "9.4.2图样目录的编写应按装配（本次或历次）、零件代号依次排列。同一层级的装配按照图号顺序排列，下级装配内部按照图号顺序排列。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "9.4.3图样目录输出顺序如下：",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "9.4.4（明细表） $\\left.\\rightarrow\\mathrm{BOM}\\right|\\rightarrow$ 有关设计文件 $\\rightarrow$ 一级装配图 $\\rightarrow$ 直属零件及其借用零件 $\\rightarrow$ 二级装配图（或借用部件，下同）及其直属零件和该装配的借用零件 $\\rightarrow$ 三级装配图及其直属零件和该装配的借用零件 $\\rightarrow$ 四、五·级装配等，直至编写完毕。",
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "9.5编写注意事项",
+        "text_level": 1,
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "9.5.1无图件、紧固件、行业标准件等不编写在目录内。  \n9.5.2本车借用件不编写在目录内。  \n9.5.3历次设计的借用件应编写在目录内，但不计入张数。  \n9.5.4各装配同时借用某一零件时，在图样目录中只可出现一次，并编写在先借用的装配中。  \n9.5.5借用件为装配时，应安装配图的次序编写图样目录。  \n9.5.6填写幅面时，若是图样幅面为加长幅面时，则按规定加长幅面填写，参见GB/T14689。",
+        "page_idx": 27
+    },
+    {
+        "type": "table",
+        "img_path": "/home/crrc/PycharmProjects/FlaskOllama/data/parse_files_data/1994392034349309952/5d6d2cdc70c50e5c2901fc985c8934841e484f1a4622f2ca70b7878720540a30.jpg",
+        "table_caption": [],
+        "table_footnote": [
+            "本文件版权归中车南京浦镇车辆有限公司属有，未经事先授权，不允许向第三方泄露或复制。This documentisthepropertyofCRRCPuzhen,it maynotbereproducedordisclosedtothirdpartywithout priorauthoization"
+        ],
+        "table_body": "\n\n<html><body><table><tr><td>编号Reference</td><td>文件名称 Document Name</td><td>版本号Rev.</td></tr><tr><td>PSKN16S020</td><td>三维及工程图设计规范</td><td>2</td></tr></table></body></html>\n\n",
+        "page_idx": 27
+    }
+]
