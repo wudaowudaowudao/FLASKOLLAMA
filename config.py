@@ -23,7 +23,7 @@ class Config:
         "斫轮-规则生成大模型:235B": "qwen3:32b",
         "斫轮-智能问答大模型:27B": "qwen3:32b",
         "斫轮-仿真知识大模型:32B": "qwen3:32b",
-        "QWEN3.6":"Qwen/Qwen3.6-35B-A3B",
+        "vllm-斫轮-仿真知识大模型:35B":"Qwen/Qwen3.6-35B-A3B",
     }
 
 

@@ -372,7 +372,7 @@ def ollama_qa(timeout):
         #messages.append(HumanMessage(content=question))
 
         Query_system = PDFQuerySystem(
-            model_name=model_value,
+            model_name=moudleId,
             messages=messages,
             session_id=session_id,
             user_id=user_id,

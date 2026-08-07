@@ -12,22 +12,31 @@ from app_parse.DataManager.DB_Manager import ChatMessage
 from config import Config
 from langchain_openai import ChatOpenAI
 
+
 class PDFQuerySystem:
-    def __init__(self, model_name,messages,session_id,user_id="default_user",is_pdf=True):
-        self.embeddings = OllamaEmbeddings(model="bge-m3:latest",base_url=Config.OLLAMA_BASE_URL)
-        # self.llm = ChatOllama( # 调用使用的Ollama的接口
-        #     model=f"{model_name}",
-        #     temperature=0.5,
-        #     streaming=True,
-        #     base_url=Config.OLLAMA_BASE_URL
-        # )1
-        self.llm = ChatOpenAI(  #调用使用的vllm的接口
-            model="Qwen/Qwen3.6-35B-A3B",
-            base_url="http://192.168.65.26:8000/v1",
-            api_key="EMPTY",
-            temperature=0.5,
-            streaming=True,
-        )
+    def __init__(self, model_name, messages, session_id, user_id="default_user", is_pdf=True):
+        self.embeddings = OllamaEmbeddings(model="bge-m3:latest", base_url=Config.OLLAMA_BASE_URL)
+
+        if model_name not in Config.MODEL_LIST:
+
+            raise ValueError(f"未配置的模型：{model_name}")
+        actual_model_name = Config.MODEL_LIST[model_name]
+        if "vllm" in model_name.lower():
+            # 使用 vLLM 的 OpenAI 兼容接口
+            self.llm = ChatOpenAI(
+                model=actual_model_name,
+                base_url=Config.vllm_BASE_URL,
+                api_key="EMPTY",
+                temperature=0.5,
+                streaming = True,
+            )
+        else:
+                self.llm = ChatOllama(# 使用 Ollama 的  兼容接口
+                    model=actual_model_name,
+                    temperature=0.5,
+                    streaming=True,
+                    base_url=Config.OLLAMA_BASE_URL,
+            )
 
         self.messages = messages
         self.db = None
@@ -52,7 +61,7 @@ class PDFQuerySystem:
 
     def load_database(self, db_path):
         try:
-            print("======================"+str(db_path))
+            print("======================" + str(db_path))
             index_files = [os.path.splitext(f)[0] for f in os.listdir(db_path) if f.endswith(".faiss")]
             for index_file in index_files:
                 temp_db = FAISS.load_local(db_path, self.embeddings, index_name=index_file,
@@ -66,18 +75,18 @@ class PDFQuerySystem:
             print(f"❌ 加载数据库时出错: {e}")
 
     def generate(self):
-        print("final_input:"+ self.final_input)
-        print("history:"+ str(self.messages))
-       # nonlocal ai_answer  # 声明使用外部变量        
-        for chunk in self.chain.stream( {"input": self.final_input,"history":self.messages}):
+        print("final_input:" + self.final_input)
+        print("history:" + str(self.messages))
+        # nonlocal ai_answer  # 声明使用外部变量
+        for chunk in self.chain.stream({"input": self.final_input, "history": self.messages}):
             chunk_content = chunk.content
             self.ai_answer.append(chunk_content)
             print(chunk_content, end="", flush=True)
             yield f'{chunk_content}'
-        
+
         ChatMessage.create_Chat(self.session_id, self.question, ''.join(self.ai_answer))
 
-    def set_final_input(self, query,use_vector_db=False,enable_thinking=True):
+    def set_final_input(self, query, use_vector_db=False, enable_thinking=True):
         self.question = query
         final_query = query if enable_thinking else f"{query} /no_think"
         if use_vector_db:
@@ -89,7 +98,6 @@ class PDFQuerySystem:
             self.final_input = f"请根据以下内容回答问题：'{final_query}'。\n\n参考内容：\n{context}"
         else:
             self.final_input = final_query
-
 
     def ask(self, query, enable_thinking=True, use_vector_db=False):
         final_query = query if enable_thinking else f"{query} /no_think"
@@ -108,8 +116,8 @@ class PDFQuerySystem:
         try:
             response = ""
             for chunk in self.chain.stream(
-                {"input": final_input},
-                #config={"configurable": {"session_id": session_id}}
+                    {"input": final_input},
+                    # config={"configurable": {"session_id": session_id}}
             ):
                 print(chunk.content, end="", flush=True)
                 response += chunk.content
@@ -117,7 +125,7 @@ class PDFQuerySystem:
             print(f"\n❌ 模型推理出错: {e}")
             return
         print("\n\n========= 模型回答结束 =========\n")
-        #self._save_history(session_id)
+        # self._save_history(session_id)
         return response
 
     def load_history(self, date, theme, session_id="default"):
@@ -137,6 +145,7 @@ class PDFQuerySystem:
             print(f"✅ 已加载历史主题：{theme}（{date}）")
         else:
             print("❌ 未找到历史文件")
+
 
 if __name__ == "__main__":
     db_path = "/home/ubuntu/PycharmProjects/FlaskOllama/data/crrc400"  # 可修改为你的向量库路径
@@ -162,7 +171,7 @@ if __name__ == "__main__":
         rag_mode = input("是否使用向量库？(y/n)：").strip().lower()
         use_vector_db = rag_mode == 'y'
 
-        response = system.ask(query, session_id=session_id, enable_thinking=enable_thinking, use_vector_db=use_vector_db)
+        response = system.ask(query, session_id=session_id, enable_thinking=enable_thinking,
+                              use_vector_db=use_vector_db)
         if response:
             print(f"\n🧠 模型回答：\n{response}")
-
