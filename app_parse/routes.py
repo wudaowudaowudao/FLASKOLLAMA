@@ -235,12 +235,12 @@ def ollama_qa(timeout):
         print(f"category:{category}")
 
         print(f"moudleId:{moudleId}")
-        if "智能审查" in moudleId:
-            generationDb_str = request.form.get('generationDb', '')
-            generationDb = _parse_request_id_list(generationDb_str)
-
-            if not generationDb:
-                return jsonify({"code": 400, "message": "No generationDb", "data": None}), 400
+        generationDb_str = request.form.get('generationDb', '')
+        generationDb = _parse_request_id_list(generationDb_str)
+        # The intelligent-review model is also used for knowledge-base Q&A.
+        # Enter the drawing-audit branch only when the frontend actually
+        # supplied generation rules; otherwise continue to loadVectorDb below.
+        if "智能审查" in moudleId and generationDb:
 
             print(f"generationDb:{generationDb_str}")
 
