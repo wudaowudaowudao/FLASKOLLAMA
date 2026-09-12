@@ -1,5 +1,6 @@
 import os
 from datetime import datetime
+import json
 from flask import Blueprint, request, send_file, jsonify, url_for, send_from_directory  # 导入 jsonify
 import time
 from io import BytesIO
@@ -19,6 +20,32 @@ from flask import Blueprint, request, jsonify, current_app
 from config import Config
 from app_parse.file_processing.RuleToXML_v3_API import RuleToXMLConverter
 main = Blueprint('main', __name__)
+
+
+def _parse_request_id_list(raw_value):
+    """Accept comma-separated or JSON-array request fields.
+
+    The historical frontend has sent both ``id1,id2`` and
+    ``["id1", "id2"]`` representations for vector-database selections.
+    Keeping this normalization at the knowledge-base boundary lets the
+    VLLM proxy forward multipart bodies without buffering or rewriting them.
+    """
+    if raw_value is None:
+        return []
+
+    if isinstance(raw_value, (list, tuple)):
+        values = raw_value
+    else:
+        value = str(raw_value).strip()
+        if not value:
+            return []
+        try:
+            parsed = json.loads(value)
+        except (TypeError, json.JSONDecodeError):
+            parsed = None
+        values = parsed if isinstance(parsed, list) else value.split(',')
+
+    return [str(item).strip() for item in values if str(item).strip()]
 
 # 基础上传文件夹
 BASE_UPLOAD_FOLDER = 'uploads'
@@ -191,7 +218,9 @@ def ollama_qa(timeout):
         if not session_id or session_id == "":
             return jsonify({"code": 400, "message": "No sessionId provided", "data": None}), 400 
 
-        moudleId = request.form.get('moudleId',"")
+        # ``moudleId`` is the historical spelling; newer clients use
+        # ``moduleId``. Accept both at the service boundary.
+        moudleId = request.form.get('moudleId') or request.form.get('moduleId', "")
         if not moudleId or moudleId == "":
             return jsonify({"code": 400, "message": "No moudleId provided", "data": None}), 400 
         model_config = current_app.config.get('MODEL_LIST', {})
@@ -206,15 +235,12 @@ def ollama_qa(timeout):
         print(f"category:{category}")
 
         print(f"moudleId:{moudleId}")
-        if "智能审查" in moudleId:
-            generationDb_str = request.form.get('generationDb', '')
-            if generationDb_str != "":
-                generationDb = request.form.get('generationDb', '').split(',')
-            else:
-                generationDb = []
-
-            if not generationDb:
-                return jsonify({"code": 400, "message": "No generationDb", "data": None}), 400
+        generationDb_str = request.form.get('generationDb', '')
+        generationDb = _parse_request_id_list(generationDb_str)
+        # The intelligent-review model is also used for knowledge-base Q&A.
+        # Enter the drawing-audit branch only when the frontend actually
+        # supplied generation rules; otherwise continue to loadVectorDb below.
+        if "智能审查" in moudleId and generationDb:
 
             print(f"generationDb:{generationDb_str}")
 
@@ -290,10 +316,7 @@ def ollama_qa(timeout):
                 return response
 
         loadVectorDb_str = request.form.get('loadVectorDb', '')
-        if loadVectorDb_str != "":
-            loadVectorDb = request.form.get('loadVectorDb', '').split(',')
-        else:
-            loadVectorDb = []
+        loadVectorDb = _parse_request_id_list(loadVectorDb_str)
 
 
 
