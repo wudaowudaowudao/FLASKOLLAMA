@@ -403,6 +403,15 @@ def ollama_qa(timeout):
         )
 
         print("===================="+str(loadVectorDb))
+        def source_name_for(identifier):
+            knowledge_file = KnowledgeBase.query.filter_by(id=identifier).first()
+            if knowledge_file and knowledge_file.name:
+                return knowledge_file.name
+            file_set = FileSet.query.filter_by(id=identifier).first()
+            if file_set and file_set.name:
+                return file_set.name
+            return str(identifier)
+
         # 查询指定ID对应的db_path列表
         for set_id in loadVectorDb:
             if os.path.exists(os.path.join(BASE_FAISS_SAVE_FOLDER, f"{set_id}")):
@@ -411,12 +420,27 @@ def ollama_qa(timeout):
                 faiss_id_path = os.path.join(SIM_FAISS_SAVE_FOLDER, f"{set_id}")
             else:
                 faiss_id_path = None
-            if faiss_id_path:
-                Query_system.load_database(faiss_id_path)
-
-            
             know_ids = KnowledgeBase.get_all_file_set_ids(set_id)
+            # 仿真知识库把多个文件索引放在同一个 set 目录中。存在子文件
+            # 时按文件索引加载，避免先加载整个目录再重复合并。
+            is_sim_set = faiss_id_path and os.path.normpath(faiss_id_path).startswith(
+                os.path.normpath(SIM_FAISS_SAVE_FOLDER)
+            )
+            if faiss_id_path and not (is_sim_set and know_ids):
+                Query_system.load_database(
+                    faiss_id_path, source_name_for(set_id)
+                )
+
             for know_id in know_ids:
+                if is_sim_set:
+                    # All simulated-file indexes live under the parent set
+                    # directory; the index name is the child file ID.
+                    Query_system.load_database(
+                        faiss_id_path,
+                        source_name_for(know_id),
+                        index_name=know_id,
+                    )
+                    continue
                 if os.path.exists(os.path.join(BASE_FAISS_SAVE_FOLDER, f"{know_id}")):
                     know_id_path = os.path.join(BASE_FAISS_SAVE_FOLDER, f"{know_id}")
                 elif os.path.exists(os.path.join(SIM_FAISS_SAVE_FOLDER, f"{know_id}")):
@@ -424,7 +448,18 @@ def ollama_qa(timeout):
                 else:
                     know_id_path = None
                 if know_id_path:
-                    Query_system.load_database(know_id_path)
+                    if os.path.normpath(know_id_path).startswith(
+                        os.path.normpath(SIM_FAISS_SAVE_FOLDER)
+                    ):
+                        Query_system.load_database(
+                            know_id_path,
+                            source_name_for(know_id),
+                            index_name=know_id,
+                        )
+                    else:
+                        Query_system.load_database(
+                            know_id_path, source_name_for(know_id)
+                        )
         
 
             

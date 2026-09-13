@@ -44,6 +44,7 @@ class PDFQuerySystem:
         self.date_str = datetime.now().strftime("%Y-%m-%d")
         self.final_input = ""
         self.ai_answer = []
+        self.source_attributions = []
         self.question = ""
         self.session_id = session_id
         self.is_pdf = is_pdf
@@ -59,13 +60,23 @@ class PDFQuerySystem:
 
         self.chain = self.prompt | self.llm
 
-    def load_database(self, db_path):
+    def load_database(self, db_path, source_name=None, index_name=None):
         try:
             print("======================" + str(db_path))
-            index_files = [os.path.splitext(f)[0] for f in os.listdir(db_path) if f.endswith(".faiss")]
+            if index_name:
+                index_files = [os.path.splitext(os.path.basename(index_name))[0]]
+            else:
+                index_files = [os.path.splitext(f)[0] for f in os.listdir(db_path) if f.endswith(".faiss")]
             for index_file in index_files:
                 temp_db = FAISS.load_local(db_path, self.embeddings, index_name=index_file,
                                            allow_dangerous_deserialization=True)
+                # Older indexes do not carry LangChain metadata. Attach the
+                # source while the index identity is still known, before
+                # merging it into the shared vector store.
+                source = source_name or index_file
+                for document in temp_db.docstore._dict.values():
+                    document.metadata = dict(document.metadata or {})
+                    document.metadata.setdefault("source", source)
                 if self.db is None:
                     self.db = temp_db
                 else:
@@ -84,7 +95,19 @@ class PDFQuerySystem:
             print(chunk_content, end="", flush=True)
             yield f'{chunk_content}'
 
-        ChatMessage.create_Chat(self.session_id, self.question, ''.join(self.ai_answer))
+        footer = ""
+        if self.source_attributions:
+            lines = ["知识来源："]
+            lines.extend(
+                f"{index}. {item['source']}（命中 {item['hits']} 个片段，最佳排名 #{item['best_rank']}）"
+                for index, item in enumerate(self.source_attributions, start=1)
+            )
+            footer = "\n\n" + "\n".join(lines)
+            yield footer
+
+        ChatMessage.create_Chat(
+            self.session_id, self.question, ''.join(self.ai_answer) + footer
+        )
 
     def set_final_input(self, query, use_vector_db=False, enable_thinking=True):
         self.question = query
@@ -93,7 +116,20 @@ class PDFQuerySystem:
             if not self.db:
                 print("⚠️ 向量库未加载，无法进行检索问答。")
                 return
-            docs = self.db.similarity_search(query, k=10)
+            docs_with_scores = self.db.similarity_search_with_score(query, k=10)
+            source_groups = {}
+            for rank, (doc, _score) in enumerate(docs_with_scores, start=1):
+                source = (doc.metadata or {}).get("source") or "未标注来源"
+                group = source_groups.setdefault(
+                    source, {"source": source, "hits": 0, "best_rank": rank}
+                )
+                group["hits"] += 1
+                group["best_rank"] = min(group["best_rank"], rank)
+            self.source_attributions = sorted(
+                source_groups.values(),
+                key=lambda item: (-item["hits"], item["best_rank"], item["source"]),
+            )[:5]
+            docs = [doc for doc, _score in docs_with_scores]
             context = "\n".join([doc.page_content for doc in docs])
             self.final_input = f"请根据以下内容回答问题：'{final_query}'。\n\n参考内容：\n{context}"
         else:
