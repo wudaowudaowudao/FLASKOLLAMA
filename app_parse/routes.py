@@ -390,8 +390,12 @@ def ollama_qa(timeout):
         # 构造完整的对话历史作为上下文
         messages = []
         for item in history:
+            answer = item["answer"] or ""
+            # 来源段落是展示信息，不应再次作为模型上下文，否则模型可能
+            # 在新回答中复述上一轮的来源列表。
+            answer = answer.split("\n\n知识来源：", 1)[0]
             messages.append(HumanMessage(content=item["question"]))
-            messages.append(SystemMessage(content=item["answer"]))
+            messages.append(SystemMessage(content=answer))
         #messages.append(HumanMessage(content=question))
 
         Query_system = PDFQuerySystem(
