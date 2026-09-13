@@ -1,5 +1,6 @@
 import os
 import json
+import re
 from datetime import datetime
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -74,9 +75,18 @@ class PDFQuerySystem:
                 # source while the index identity is still known, before
                 # merging it into the shared vector store.
                 source = source_name or index_file
+                inferred_source = source
+                if str(source).isdigit():
+                    for document in temp_db.docstore._dict.values():
+                        match = re.match(r"^(.+?)\s+第\d+页[：:]", document.page_content or "")
+                        if match:
+                            inferred_source = re.sub(r"_\d{14}A\d+$", "", match.group(1))
+                            if not os.path.splitext(inferred_source)[1]:
+                                inferred_source += ".pdf"
+                            break
                 for document in temp_db.docstore._dict.values():
                     document.metadata = dict(document.metadata or {})
-                    document.metadata.setdefault("source", source)
+                    document.metadata.setdefault("source", inferred_source)
                 if self.db is None:
                     self.db = temp_db
                 else:
