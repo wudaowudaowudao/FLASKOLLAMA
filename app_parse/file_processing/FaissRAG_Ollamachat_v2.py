@@ -84,6 +84,19 @@ class PDFQuerySystem:
                             if not os.path.splitext(inferred_source)[1]:
                                 inferred_source += ".pdf"
                             break
+                        text = document.page_content or ""
+                        part = re.search(r"本部分为Q/CSR 56的第([345])部分", text)
+                        if part:
+                            titles = {
+                                "3": "装配建模",
+                                "4": "模型投影工程图",
+                                "5": "设计更改",
+                            }
+                            inferred_source = (
+                                f"Q/CSR 56.{part.group(1)} 三维建模通用规则 "
+                                f"第{part.group(1)}部分 {titles[part.group(1)]}.pdf"
+                            )
+                            break
                 for document in temp_db.docstore._dict.values():
                     document.metadata = dict(document.metadata or {})
                     document.metadata.setdefault("source", inferred_source)
