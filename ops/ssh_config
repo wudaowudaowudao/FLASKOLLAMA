@@ -1,0 +1,29 @@
+# Public, project-specific client settings. This file contains no credentials.
+# Use with: ssh -F .\ops\ssh_config flaskollama-workstation "<command>"
+Host crrc-workstation
+  HostName 100.81.248.84
+  User ubuntu
+  IdentityFile ~/.ssh/id_ed25519_crrc_workstation
+  IdentitiesOnly yes
+  PreferredAuthentications publickey
+  BatchMode yes
+  StrictHostKeyChecking yes
+  ConnectTimeout 10
+  ServerAliveInterval 30
+  ServerAliveCountMax 3
+  ForwardAgent no
+  ClearAllForwardings yes
+
+Host flaskollama-workstation
+  HostName 100.91.253.77
+  User crrc
+  IdentityFile ~/.ssh/id_ed25519_crrc_workstation
+  IdentitiesOnly yes
+  PreferredAuthentications publickey
+  BatchMode yes
+  StrictHostKeyChecking yes
+  ConnectTimeout 10
+  ServerAliveInterval 30
+  ServerAliveCountMax 3
+  ForwardAgent no
+  ClearAllForwardings yes

@@ -31,6 +31,8 @@ When the result is the expected Windows checkout (`xulin` / `DOOROCEAN`), edit l
 ## Repository and remote execution
 
 - GitHub repository: `https://github.com/wudaowudaowudao/FlaskOllama.git`
+- SSH config: `V:\FineTuning\CRRC_MCP_202607\ops\ssh_config` (the `flaskollama-workstation` alias targets `crrc@100.91.253.77`; the `crrc-workstation` alias targets the VLLM machine and must not be used for this repository).
+- Knowledge-base SSH preflight: `ssh -F V:\FineTuning\CRRC_MCP_202607\ops\ssh_config flaskollama-workstation "hostname; id -un; git -C /home/crrc/PycharmProjects/FlaskOllama rev-parse --show-toplevel"`
 - Keep source changes in the Windows checkout; use the remote workstation only for bounded execution and integration tests.
 - Before remote writes, inspect the target repository status and preserve pre-existing modifications and untracked files.
 - Never expose passwords, private keys, API tokens, or VPN credentials. The SSH key is outside the repository at `~/.ssh/id_ed25519_crrc_workstation`.
