@@ -859,10 +859,12 @@ def create_faiss_repository():
 
         # 生成唯一文件ID
         file_id = str(uuid.uuid4())
-        ext = os.path.splitext(file.filename)[1]
+        ext = os.path.splitext(file.filename)[1].lower().lstrip('.')
+        if ext not in {'md', 'pdf', 'doc', 'docx', 'json'}:
+            return jsonify({"code": 400, "message": f"Unsupported file extension: {ext}", "data": None}), 400
 
         # 保存文件到本地
-        file_path = os.path.join(BASE_UPLOAD_FOLDER, f"{file_id}{ext}")
+        file_path = os.path.join(BASE_UPLOAD_FOLDER, f"{file_id}.{ext}")
         file.save(file_path)
 
         # 存入KnowledgeBase表
@@ -872,17 +874,23 @@ def create_faiss_repository():
             ext=ext,
             file_set_id=filesetId,
             user_id=userId,
-            file_size=file.content_length,
+            file_size=os.path.getsize(file_path),
             file_type=file.content_type
         )
 
+        from tasks import create_faiss
+        faiss_save_folder = os.path.join(BASE_FAISS_SAVE_FOLDER, file_id)
+        os.makedirs(faiss_save_folder, exist_ok=True)
+        task = create_faiss.delay(file_path, ext, faiss_save_folder, file_id, os.path.splitext(file.filename)[0])
         return jsonify({
             "code": 200,
             "message": "FAISS repository created successfully",
             "data": {
                 "fileId": file_id,
                 "filesetId": filesetId,
-                "userId": userId
+                "userId": userId,
+                "status": "pending",
+                "task_id": str(task.id)
             }
         }), 200
     except Exception as e:
