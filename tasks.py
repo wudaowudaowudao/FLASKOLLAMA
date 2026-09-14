@@ -21,10 +21,9 @@ from app_parse.file_processing.RuleToXML_v3_API import RuleToXMLConverter
 engine = create_engine(Config.SQLALCHEMY_DATABASE_URI)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-# The Java data-set service uses 1 for completed, 2 for processing and 4 for
-# failed.  Sending the parser's textual status (or 3) makes a successful task
-# appear as "解析失败" in the frontend.
-CONVERSION_STATUS_COMPLETED = '1'
+# The Java data-set service uses the documented mapping: 1 = unparsed,
+# 2 = parsing, 3 = parsed, and 4 = parse failed.
+CONVERSION_STATUS_COMPLETED = '3'
 CONVERSION_STATUS_PROCESSING = '2'
 CONVERSION_STATUS_FAILED = '4'
 
