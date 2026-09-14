@@ -175,7 +175,7 @@ def get_repository_list():
 def get_file_list():
     try:
         # 获取query参数
-        setId = request.args.get('setId')
+        setId = request.args.get('setId') or request.args.get('dataSetId')
         if not setId:
             return jsonify({"code": 400, "message": "setId is required", "data": None}), 400
 
