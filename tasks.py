@@ -21,6 +21,56 @@ from app_parse.file_processing.RuleToXML_v3_API import RuleToXMLConverter
 engine = create_engine(Config.SQLALCHEMY_DATABASE_URI)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
+# The Java data-set service uses 1 for completed, 2 for processing and 4 for
+# failed.  Sending the parser's textual status (or 3) makes a successful task
+# appear as "解析失败" in the frontend.
+CONVERSION_STATUS_COMPLETED = '1'
+CONVERSION_STATUS_PROCESSING = '2'
+CONVERSION_STATUS_FAILED = '4'
+
+
+def _post_conversion_status(url, payload, timeout, attempts=3):
+    """Post a conversion status with bounded retry/backoff for transient IO."""
+    delay = float(os.getenv('FLASKOLLAMA_CALLBACK_RETRY_DELAY', '1'))
+    for attempt in range(1, attempts + 1):
+        try:
+            response = requests.post(
+                url,
+                data=json.dumps(payload),
+                headers={'Content-Type': 'application/json'},
+                timeout=timeout,
+            )
+            response.raise_for_status()
+            return response
+        except (requests.ConnectionError, requests.Timeout) as exc:
+            if attempt == attempts:
+                raise
+            print(f'暂时无法连接状态回调服务，第 {attempt} 次重试: {exc}')
+            time.sleep(min(delay, 30))
+            delay *= 2
+
+
+def _post_fragment_parse(fragment_url, file_path, parse_payload, attempts=4):
+    """Submit a PDF to the fragment parser, retrying startup/network failures."""
+    delay = float(os.getenv('FLASKOLLAMA_FRAGMENT_RETRY_DELAY', '2'))
+    for attempt in range(1, attempts + 1):
+        try:
+            with open(file_path, 'rb') as source:
+                response = requests.post(
+                    fragment_url + '/parsefile',
+                    files={'file': (os.path.basename(file_path), source, 'application/pdf')},
+                    data={'json_data': json.dumps(parse_payload, ensure_ascii=False)},
+                    timeout=(10, 60),
+                )
+            response.raise_for_status()
+            return response
+        except (requests.ConnectionError, requests.Timeout) as exc:
+            if attempt == attempts:
+                raise
+            print(f'解析服务暂时不可用，第 {attempt} 次重试: {exc}')
+            time.sleep(min(delay, 30))
+            delay *= 2
+
 
 def update_knowledge_status(file_id, status):
     """更新知识库状态
@@ -52,10 +102,9 @@ def create_rule(file_path,xml_path, ext,file_name,moudule,file_id):
     payload = {
         "analysisFilePath": download_url,
         "id": file_id,
-        "status": 2,
+        "status": CONVERSION_STATUS_PROCESSING,
         "type": 2
     }
-    headers = {'Content-Type': 'application/json'}
 
     print("=====================")
     print(file_path)
@@ -64,20 +113,18 @@ def create_rule(file_path,xml_path, ext,file_name,moudule,file_id):
     try:
         converter = RuleToXMLConverter()
         converter.process(file_path, "xmlGenerator/rule_base.xml", xml_path, ext, file_name)
-        payload["status"] = 3
+        payload["status"] = CONVERSION_STATUS_COMPLETED
 
         try:
-            response = requests.post(url, data=json.dumps(payload), headers=headers)
-            response.raise_for_status()
+            _post_conversion_status(url, payload, (10, 30))
         except Exception as req_e:
             print(f"Failed to send result: {req_e}")
 
     except Exception as e:
         # 发送失败状态请求
-        payload['status']=4
+        payload['status'] = CONVERSION_STATUS_FAILED
         try:
-            response = requests.post(url, data=json.dumps(payload), headers=headers)
-            response.raise_for_status()
+            _post_conversion_status(url, payload, (10, 30))
         except Exception as req_e:
             print(f"Failed to send error result: {req_e}")
 
@@ -95,18 +142,16 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
         payload = {
             "analysisFilePath": file_id,
             "id": file_id,
-            "status": 2,
+            "status": CONVERSION_STATUS_PROCESSING,
             "type": 1
         }
-        headers = {'Content-Type': 'application/json'}
         try:
-            response = requests.post(url, data=json.dumps(payload), headers=headers, timeout=callback_timeout)
-            response.raise_for_status()
+            _post_conversion_status(url, payload, callback_timeout)
         except Exception as req_e:
             print(f"Failed to send result: {req_e}")
 
         # 处理成功，发送请求
-        payload["status"]=3
+        payload["status"] = CONVERSION_STATUS_COMPLETED
 
         # 根据不同后缀调用不同的处理函数
         if ext == 'md':
@@ -131,13 +176,7 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
                 'fileData': {'fileId': str(file_id), 'fileName': file_name + '.pdf'},
                 'parseOptions': {'fileLanguage': 'ch', 'wordsRecInterface': '0'},
             }
-            with open(file_path, 'rb') as source:
-                response = requests.post(
-                    fragment_url + '/parsefile',
-                    files={'file': (os.path.basename(file_path), source, 'application/pdf')},
-                    data={'json_data': json.dumps(parse_payload, ensure_ascii=False)},
-                    timeout=(10, 60),
-                )
+            response = _post_fragment_parse(fragment_url, file_path, parse_payload)
             response.raise_for_status()
             fragment_task_id = response.json().get('task_id')
             if not fragment_task_id:
@@ -165,15 +204,17 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
             creator.create_faiss_index(str(parsed_path), faiss_save_folder)
 
         else:
-            payload["status"]=1
+            payload["status"] = CONVERSION_STATUS_FAILED
 
             #raise ValueError(f"Unsupported file extension: {ext}")
 
 
-        update_knowledge_status(file_id, 'completed' if payload.get('status') == 3 else 'failed')
+        update_knowledge_status(
+            file_id,
+            'completed' if payload.get('status') == CONVERSION_STATUS_COMPLETED else 'failed',
+        )
         try:
-            response = requests.post(url, data=json.dumps(payload), headers=headers, timeout=callback_timeout)
-            response.raise_for_status()
+            _post_conversion_status(url, payload, callback_timeout)
         except Exception as req_e:
             print(f"Failed to send result: {req_e}")
 
@@ -183,13 +224,11 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
         payload = {
             "analysisFilePath": file_id,
             "id": file_id,
-            "status": 4,
+            "status": CONVERSION_STATUS_FAILED,
             "type": 1
         }
-        headers = {'Content-Type': 'application/json'}
         try:
-            response = requests.post(url, data=json.dumps(payload), headers=headers, timeout=callback_timeout)
-            response.raise_for_status()
+            _post_conversion_status(url, payload, callback_timeout)
         except Exception as req_e:
             print(f"Failed to send error result: {req_e}")
 
