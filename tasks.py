@@ -26,6 +26,16 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 CONVERSION_STATUS_COMPLETED = '3'
 CONVERSION_STATUS_PROCESSING = '2'
 CONVERSION_STATUS_FAILED = '4'
+CONVERSION_TYPE_FAISS = '1'
+
+
+def _download_url(filename):
+    path_prefix = os.getenv('FLASKOLLAMA_DOWNLOAD_PATH_PREFIX', '/api/download').rstrip('/')
+    path = f'{path_prefix}/{filename}'
+    base_url = os.getenv('FLASKOLLAMA_DOWNLOAD_BASE_URL', '').rstrip('/')
+    if base_url:
+        return f'{base_url}{path}'
+    return path
 
 
 def _post_conversion_status(url, payload, timeout, attempts=3):
@@ -33,11 +43,20 @@ def _post_conversion_status(url, payload, timeout, attempts=3):
     delay = float(os.getenv('FLASKOLLAMA_CALLBACK_RETRY_DELAY', '1'))
     for attempt in range(1, attempts + 1):
         try:
+            print(
+                '发送转换状态回调: '
+                f'url={url}, attempt={attempt}, '
+                f'payload={json.dumps(payload, ensure_ascii=False)}'
+            )
             response = requests.post(
                 url,
                 data=json.dumps(payload),
                 headers={'Content-Type': 'application/json'},
                 timeout=timeout,
+            )
+            print(
+                '转换状态回调响应: '
+                f'status_code={response.status_code}, body={response.text[:500]}'
             )
             response.raise_for_status()
             return response
@@ -142,8 +161,9 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
             "analysisFilePath": file_id,
             "id": file_id,
             "status": CONVERSION_STATUS_PROCESSING,
-            "type": 1
+            "type": CONVERSION_TYPE_FAISS
         }
+        analysis_filename = os.path.basename(file_path)
         try:
             _post_conversion_status(url, payload, callback_timeout)
         except Exception as req_e:
@@ -197,7 +217,8 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
             parsed_json = parsed.get('json_content')
             if not parsed_json:
                 raise RuntimeError('fragment parser returned empty json_content')
-            parsed_path = Path(file_path).with_name(str(file_id) + '_content_list.json')
+            analysis_filename = str(file_id) + '_content_list.json'
+            parsed_path = Path(file_path).with_name(analysis_filename)
             parsed_path.write_text(parsed_json, encoding='utf-8')
             creator = JsonFaissCreator()
             creator.create_faiss_index(str(parsed_path), faiss_save_folder)
@@ -208,6 +229,7 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
             #raise ValueError(f"Unsupported file extension: {ext}")
 
 
+        payload["analysisFilePath"] = _download_url(analysis_filename)
         update_knowledge_status(
             file_id,
             'completed' if payload.get('status') == CONVERSION_STATUS_COMPLETED else 'failed',
@@ -224,7 +246,7 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
             "analysisFilePath": file_id,
             "id": file_id,
             "status": CONVERSION_STATUS_FAILED,
-            "type": 1
+            "type": CONVERSION_TYPE_FAISS
         }
         try:
             _post_conversion_status(url, payload, callback_timeout)

@@ -110,6 +110,7 @@ def get_chat_history():
         return jsonify({"code": 500, "message": str(e), "data": None}), 500
 
 @main.route('/download/<filename>')
+@main.route('/api/download/<filename>')
 def download_file(filename):
     directory = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'uploads'))
     return send_from_directory(directory, filename, as_attachment=True)
