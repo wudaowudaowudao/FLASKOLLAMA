@@ -10,6 +10,7 @@ from langchain_community.chat_models import ChatOllama
 from langchain.schema import HumanMessage, SystemMessage
 from app_parse.file_processing.jsonFaissCreate_Local import JsonFaissCreator  # 导入 JsonFaissCreator 类
 from app_parse.file_processing.FaissRAG_Ollamachat_v2 import PDFQuerySystem  # 导入修改后的 PDFQuerySystem 类
+from app_parse.file_processing.knowledge_retrieval import load_selected_databases
 from flask import Response, session
 import uuid
 from app_parse.DataManager.DB_Manager import ChatMessage,ChatSession,KnowledgeBase,FileSet
@@ -46,6 +47,35 @@ def _parse_request_id_list(raw_value):
         values = parsed if isinstance(parsed, list) else value.split(',')
 
     return [str(item).strip() for item in values if str(item).strip()]
+
+
+@main.route('/retrieve', methods=['POST'])
+def retrieve_knowledge():
+    """Return ranked knowledge fragments without generating an answer."""
+    try:
+        payload = request.get_json(silent=True) or request.form
+        question = payload.get('question')
+        raw_ids = payload.get('knowledge_ids') or payload.get('loadVectorDb')
+        knowledge_ids = _parse_request_id_list(raw_ids)
+        if not question:
+            return jsonify({"code": 400, "message": "question is required", "data": None}), 400
+        if not knowledge_ids:
+            return jsonify({"code": 400, "message": "knowledge_ids is required", "data": None}), 400
+
+        top_k = min(max(int(payload.get('top_k', 8)), 1), 20)
+        retriever = load_selected_databases(knowledge_ids)
+        fragments = retriever.retrieve(question, top_k=top_k)
+        return jsonify({
+            "code": 200,
+            "message": "success",
+            "data": {
+                "question": question,
+                "knowledge_ids": knowledge_ids,
+                "fragments": fragments,
+            },
+        }), 200
+    except Exception as exc:
+        return jsonify({"code": 500, "message": str(exc), "data": None}), 500
 
 # 基础上传文件夹
 BASE_UPLOAD_FOLDER = 'uploads'
