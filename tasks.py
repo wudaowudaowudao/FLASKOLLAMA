@@ -20,6 +20,44 @@ engine = create_engine(Config.SQLALCHEMY_DATABASE_URI)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
+def _download_url(filename):
+    path = f"/api/download/{filename}"
+    base_url = os.getenv('FLASKOLLAMA_DOWNLOAD_BASE_URL', '').rstrip('/')
+    if base_url:
+        return f"{base_url}{path}"
+    return path
+
+
+def _zip_parse_data_folder(file_id, original_file_path):
+    zip_filename = f"{file_id}.zip"
+    zip_path = os.path.join(Config.UPLOAD_FOLDER, zip_filename)
+    os.makedirs(os.path.dirname(zip_path), exist_ok=True)
+
+    source_folder = os.path.abspath(
+        os.path.join(Config.PARSE_FILE_SETTINGS['PARSE_DATA_PATH'], str(file_id))
+    )
+    if not os.path.isdir(source_folder):
+        raise FileNotFoundError(f"Parse data folder not found: {source_folder}")
+    if not os.path.isfile(original_file_path):
+        raise FileNotFoundError(f"Original file not found: {original_file_path}")
+
+    parent_folder = os.path.dirname(source_folder)
+    with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as archive:
+        for root, dirs, files in os.walk(source_folder):
+            dirs.sort()
+            for filename in sorted(files):
+                file_path = os.path.join(root, filename)
+                archive_name = os.path.relpath(file_path, parent_folder)
+                archive.write(file_path, archive_name)
+        original_archive_name = os.path.join(
+            os.path.basename(source_folder), 'original', os.path.basename(original_file_path)
+        )
+        archive.write(original_file_path, original_archive_name)
+
+    print(f"Parse data zip package created: {zip_path}", flush=True)
+    return zip_filename
+
+
 def update_knowledge_status(file_id, status):
     """更新知识库状态
 
@@ -137,6 +175,10 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
 
             #raise ValueError(f"Unsupported file extension: {ext}")
 
+
+        if str(payload.get("status")) == "3":
+            zip_filename = _zip_parse_data_folder(file_id, file_path)
+            payload["analysisFilePath"] = _download_url(zip_filename)
 
         try:
             response = requests.post(url, data=json.dumps(payload), headers=headers)
