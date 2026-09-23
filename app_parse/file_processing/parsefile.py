@@ -5,6 +5,7 @@ import os
 import shutil
 #import faiss
 import json
+import re
 
 from exceptiongroup import catch
 
@@ -22,7 +23,7 @@ from magic_pdf.config.enums import SupportedPdfParseMethod
 import torch
 #from chat_backend.settings import PARSE_FILE_SETTINGS
 from config import Config
-from .titleAnalysis_v4 import TitleAnalyzer
+from .title_analysis_GT_flj import TitleAnalyzer
 
 class ParseFile:
     def __init__(self, isWatermark = False, isoutpu = False):
@@ -175,24 +176,28 @@ class ParseFile:
             ### dump content list
             pipe_result.dump_content_list(self.md_writer, f"{self.file_id}_content_list.json", image_dir)
 
-            titleAnalyzer = TitleAnalyzer("")
+            titleAnalyzer = TitleAnalyzer(
+                "", require_mulu=True, remove_trailing_numbers=False, log_level="INFO"
+            )
 
             content_list = f"{self.PARSE_DATA_PATH}/{self.file_id}/{self.file_id}_content_list.json"
-            # titleAnalyzer.copy_file(content_list)
-            titleAnalyzer.process_file(content_list)
+            # The analyzer is run after text blocks are normalized below.
 
 
             with open(content_list, 'r', encoding='utf-8') as f:
-                content = f.read()
-                data = json.loads(content)
+                data = json.load(f)
 
                 merge_data = self.process_adjacent_nodes(data)
 
+                analyzed_data = titleAnalyzer.process_data(
+                    merge_data, source_name=content_list
+                ) or merge_data
+
                 if translate == "true":
-                    merge_data = self.translator.translate_json(merge_data)
+                    analyzed_data = self.translator.translate_json(analyzed_data)
 
                 with open(content_list,'w',encoding='utf-8') as fw:
-                    json.dump(merge_data, fw, ensure_ascii=False, indent=4)
+                    json.dump(analyzed_data, fw, ensure_ascii=False, indent=4)
 
             ### get middle json
             middle_json_content = pipe_result.get_middle_json()
@@ -207,25 +212,68 @@ class ParseFile:
         except Exception as e:
             print(f"dump_json:{e}")
 
-        # 封装处理相邻节点的代码为函
+        # 封装处理相邻节点的代码为函数
+    def split_text_by_numbering(self, text):
+        """Split OCR text blocks when several numbered entries were merged."""
+        if not isinstance(text, str) or not text.strip():
+            return [text]
+
+        pattern_with_separator = r'^\d+(?:\.\d+)*[、）).\s]+'
+        pattern_without_separator = r'^\d+(?:\.\d+)*(?=[^\d.\s])'
+        segments = []
+        current = []
+
+        for line in text.splitlines():
+            stripped = line.strip()
+            if not stripped:
+                continue
+
+            starts_with_number = (
+                re.match(pattern_with_separator, stripped)
+                or re.match(pattern_without_separator, stripped)
+            )
+            if starts_with_number and current:
+                segments.append('\n'.join(current))
+                current = []
+            if starts_with_number or current:
+                current.append(line)
+
+        if current:
+            segments.append('\n'.join(current))
+        return segments or [text]
+
     def process_adjacent_nodes(self, data):
         new_data = []
         index = 0
         while index < len(data):
-            if data[index]['type'] == 'text' and 'text_level' not in data[index]:
-                merged_text = data[index]['text']
-                page_idx = data[index]['page_idx']
-                while index + 1 < len(data) and data[index + 1]['type'] == 'text' and 'text_level' not in data[
-                    index + 1] and data[index + 1]['page_idx'] == page_idx:
+            item = data[index]
+            if not isinstance(item, dict):
+                new_data.append(item)
+                index += 1
+                continue
+
+            if item.get('type') == 'text' and 'text_level' not in item:
+                merged_text = item.get('text', '')
+                page_idx = item.get('page_idx')
+                while (
+                    index + 1 < len(data)
+                    and isinstance(data[index + 1], dict)
+                    and data[index + 1].get('type') == 'text'
+                    and 'text_level' not in data[index + 1]
+                    and data[index + 1].get('page_idx') == page_idx
+                ):
                     index += 1
-                    merged_text += '\n' + data[index]['text']
-                new_data.append({
-                    'type': 'text',
-                    'text': merged_text,
-                    'page_idx': page_idx
-                })
+                    merged_text += '\n' + data[index].get('text', '')
+
+                for segment in self.split_text_by_numbering(merged_text):
+                    new_data.append({
+                        'type': 'text',
+                        'text': segment,
+                        'page_idx': page_idx,
+                        'text_level': 0,
+                    })
             else:
-                new_data.append(data[index])
+                new_data.append(item)
             index += 1
         return new_data
 

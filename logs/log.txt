@@ -1,0 +1,8 @@
+[2026-09-15 18:02:03,452: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/data/parse_files_db/2099800812992749568
+[2026-09-15 18:02:03,453: WARNING/ForkPoolWorker-1] Parse data zip package created: /home/crrc/PycharmProjects/FlaskOllama/uploads/2099800812992749568.zip
+[2026-09-15 18:02:03,453: WARNING/ForkPoolWorker-1] 发送转换状态回调: url=http://47.92.249.78:20812/open/chat/conversionResult, payload={"analysisFilePath": "/api/download/2099800812992749568.zip", "id": "2099800812992749568", "status": 3, "type": 1}
+[2026-09-15 18:02:03,483: WARNING/ForkPoolWorker-1] 转换状态回调响应: status_code=200, body={"msg":"操作成功","code":200}
+[2026-09-15 18:02:03,488: INFO/ForkPoolWorker-1] Task tasks.create_faiss[ab2acdfb-aed0-4d10-8a32-bb21f2aec7e6] succeeded in 19.174635659903288s: None
+
+192.168.65.47 - - [15/Sep/2026 18:01:44] "POST /standard/toFaiss HTTP/1.1" 200 -
+100.81.248.84 - - [15/Sep/2026 18:02:03] "GET /download/2099800812992749568.zip HTTP/1.1" 200 -

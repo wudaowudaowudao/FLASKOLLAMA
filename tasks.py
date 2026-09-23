@@ -20,6 +20,17 @@ engine = create_engine(Config.SQLALCHEMY_DATABASE_URI)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 
+def _post_conversion_status(url, payload, headers):
+    body = json.dumps(payload, ensure_ascii=False)
+    print(f"发送转换状态回调: url={url}, payload={body}", flush=True)
+    response = requests.post(url, data=body, headers=headers)
+    print(
+        f"转换状态回调响应: status_code={response.status_code}, body={response.text[:500]}",
+        flush=True,
+    )
+    return response
+
+
 def _download_url(filename):
     path = f"/api/download/{filename}"
     base_url = os.getenv('FLASKOLLAMA_DOWNLOAD_BASE_URL', '').rstrip('/')
@@ -103,7 +114,7 @@ def create_rule(file_path,xml_path, ext,file_name,moudule,file_id):
         payload["status"] = 3
 
         try:
-            response = requests.post(url, data=json.dumps(payload), headers=headers)
+            response = _post_conversion_status(url, payload, headers)
             response.raise_for_status()
         except Exception as req_e:
             print(f"Failed to send result: {req_e}")
@@ -112,7 +123,7 @@ def create_rule(file_path,xml_path, ext,file_name,moudule,file_id):
         # 发送失败状态请求
         payload['status']=4
         try:
-            response = requests.post(url, data=json.dumps(payload), headers=headers)
+            response = _post_conversion_status(url, payload, headers)
             response.raise_for_status()
         except Exception as req_e:
             print(f"Failed to send error result: {req_e}")
@@ -134,7 +145,7 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
         }
         headers = {'Content-Type': 'application/json'}
         try:
-            response = requests.post(url, data=json.dumps(payload), headers=headers)
+            response = _post_conversion_status(url, payload, headers)
             response.raise_for_status()
         except Exception as req_e:
             print(f"Failed to send result: {req_e}")
@@ -181,7 +192,7 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
             payload["analysisFilePath"] = _download_url(zip_filename)
 
         try:
-            response = requests.post(url, data=json.dumps(payload), headers=headers)
+            response = _post_conversion_status(url, payload, headers)
             response.raise_for_status()
         except Exception as req_e:
             print(f"Failed to send result: {req_e}")
@@ -196,7 +207,7 @@ def create_faiss(file_path,ext,faiss_save_folder, file_id,file_name):
         }
         headers = {'Content-Type': 'application/json'}
         try:
-            response = requests.post(url, data=json.dumps(payload), headers=headers)
+            response = _post_conversion_status(url, payload, headers)
             response.raise_for_status()
         except Exception as req_e:
             print(f"Failed to send error result: {req_e}")

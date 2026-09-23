@@ -1,0 +1,371 @@
+/home/crrc/anaconda3/envs/flaskFileFragment/lib/python3.10/site-packages/langchain/__init__.py:30: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain_core.prompts.PromptTemplate instead.
+  warnings.warn(
+ 
+ -------------- celery@crrc-Precision-7920-Tower v5.5.1 (immunity)
+--- ***** ----- 
+-- ******* ---- Linux-5.15.0-139-generic-x86_64-with-glibc2.31 2026-09-15 06:13:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         tasks:0x7fbed8cba560
+- ** ---------- .> transport:   redis://127.0.0.1:6379/0
+- ** ---------- .> results:     redis://127.0.0.1:6379/0
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . tasks.create_faiss
+  . tasks.create_rule
+  . tasks.parse_file
+
+[2026-09-15 06:13:12,538: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2026-09-15 06:13:12,541: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-15 06:13:13,550: INFO/MainProcess] mingle: all alone
+[2026-09-15 06:13:13,571: INFO/MainProcess] celery@crrc-Precision-7920-Tower ready.
+[2026-09-15 06:18:13,268: INFO/MainProcess] Task tasks.create_faiss[8812ae37-5555-474a-950b-d9c66be33d73] received
+[2026-09-15 06:18:13,373: INFO/ForkPoolWorker-1] Task tasks.create_faiss[8812ae37-5555-474a-950b-d9c66be33d73] succeeded in 0.10249654203653336s: {'status': 'error', 'message': 'HTTPConnectionPool(host=\'127.0.0.1\', port=9540): Max retries exceeded with url: /parsefile (Caused by NewConnectionError(\'<urllib3.connection.HTTPConnection object at 0x7fbcd3804400>: Failed to establish a new connection: [Errno 111] Connection refused\'))'}
+[2026-09-15 06:24:26,004: INFO/MainProcess] Task tasks.create_faiss[3ce9b444-f291-44a0-a060-4e6bc7b79653] received
+[2026-09-15 06:24:52,631: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/app_parse/file_processing/jsonFaissCreate_Local_v02.py:24: LangChainDeprecationWarning: The class `OllamaEmbeddings` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaEmbeddings``.
+  self.embeddings = OllamaEmbeddings(model=model, show_progress=show_progress)
+
+[2026-09-15 06:24:52,633: WARNING/ForkPoolWorker-1] len of json_text: 
+[2026-09-15 06:24:52,633: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:24:52,633: WARNING/ForkPoolWorker-1] 12046
+[2026-09-15 06:24:52,634: WARNING/ForkPoolWorker-1] len of chunks: 
+[2026-09-15 06:24:52,634: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:24:52,634: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 06:24:52,637: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 06:24:55,928: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.29s/it]
+[2026-09-15 06:24:55,929: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.29s/it]
+[2026-09-15 06:24:55,929: WARNING/ForkPoolWorker-1] len of all_texts: 
+[2026-09-15 06:24:55,929: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:24:55,929: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 06:24:55,930: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 06:24:56,186: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.91it/s]
+[2026-09-15 06:24:56,186: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.90it/s]
+[2026-09-15 06:24:56,190: INFO/ForkPoolWorker-1] Loading faiss with AVX512 support.
+[2026-09-15 06:24:56,224: INFO/ForkPoolWorker-1] Successfully loaded faiss with AVX512 support.
+[2026-09-15 06:24:56,231: INFO/ForkPoolWorker-1] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2026-09-15 06:24:56,249: WARNING/ForkPoolWorker-1] FAISS vector store successfully saved at
+[2026-09-15 06:24:56,249: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:24:56,249: WARNING/ForkPoolWorker-1] data/parse_files_db/2099616600213839872
+[2026-09-15 06:24:56,289: INFO/ForkPoolWorker-1] Task tasks.create_faiss[3ce9b444-f291-44a0-a060-4e6bc7b79653] succeeded in 30.284320313483477s: None
+[2026-09-15 06:47:00,680: INFO/MainProcess] Task tasks.create_faiss[669ca191-160d-43f5-9fc5-bb31c44ddc4a] received
+[2026-09-15 06:47:17,011: WARNING/ForkPoolWorker-1] len of json_text: 
+[2026-09-15 06:47:17,012: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:47:17,012: WARNING/ForkPoolWorker-1] 12046
+[2026-09-15 06:47:17,012: WARNING/ForkPoolWorker-1] len of chunks: 
+[2026-09-15 06:47:17,012: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:47:17,012: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 06:47:17,013: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 06:47:20,297: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.28s/it]
+[2026-09-15 06:47:20,297: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.28s/it]
+[2026-09-15 06:47:20,298: WARNING/ForkPoolWorker-1] len of all_texts: 
+[2026-09-15 06:47:20,298: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:47:20,298: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 06:47:20,298: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 06:47:20,576: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.61it/s]
+[2026-09-15 06:47:20,576: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.60it/s]
+[2026-09-15 06:47:20,586: WARNING/ForkPoolWorker-1] FAISS vector store successfully saved at
+[2026-09-15 06:47:20,586: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:47:20,586: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/data/parse_files_db/2099623763128770560
+[2026-09-15 06:47:20,626: INFO/ForkPoolWorker-1] Task tasks.create_faiss[669ca191-160d-43f5-9fc5-bb31c44ddc4a] succeeded in 19.944154553115368s: None
+[2026-09-15 06:47:39,936: INFO/MainProcess] Task tasks.create_faiss[a2dabd56-ff7a-485c-9bf9-34528660f1ee] received
+[2026-09-15 06:47:54,229: WARNING/ForkPoolWorker-1] len of json_text: 
+[2026-09-15 06:47:54,229: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:47:54,229: WARNING/ForkPoolWorker-1] 12046
+[2026-09-15 06:47:54,230: WARNING/ForkPoolWorker-1] len of chunks: 
+[2026-09-15 06:47:54,230: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:47:54,230: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 06:47:54,230: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 06:47:54,488: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.88it/s]
+[2026-09-15 06:47:54,489: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.87it/s]
+[2026-09-15 06:47:54,489: WARNING/ForkPoolWorker-1] len of all_texts: 
+[2026-09-15 06:47:54,489: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:47:54,489: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 06:47:54,490: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 06:47:54,750: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.86it/s]
+[2026-09-15 06:47:54,750: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.85it/s]
+[2026-09-15 06:47:54,752: WARNING/ForkPoolWorker-1] FAISS vector store successfully saved at
+[2026-09-15 06:47:54,752: WARNING/ForkPoolWorker-1]  
+[2026-09-15 06:47:54,752: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/data/parse_files_db/2099631154587131904
+[2026-09-15 06:47:54,788: INFO/ForkPoolWorker-1] Task tasks.create_faiss[a2dabd56-ff7a-485c-9bf9-34528660f1ee] succeeded in 14.850878790020943s: None
+
+worker: Warm shutdown (MainProcess)
+/home/crrc/anaconda3/envs/flaskFileFragment/lib/python3.10/site-packages/langchain/__init__.py:30: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain_core.prompts.PromptTemplate instead.
+  warnings.warn(
+ 
+ -------------- celery@crrc-Precision-7920-Tower v5.5.1 (immunity)
+--- ***** ----- 
+-- ******* ---- Linux-5.15.0-139-generic-x86_64-with-glibc2.31 2026-09-15 07:05:18
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         tasks:0x7f0fb4f42560
+- ** ---------- .> transport:   redis://127.0.0.1:6379/0
+- ** ---------- .> results:     redis://127.0.0.1:6379/0
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . tasks.create_faiss
+  . tasks.create_rule
+  . tasks.parse_file
+
+[2026-09-15 07:05:18,536: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2026-09-15 07:05:18,539: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-15 07:05:19,547: INFO/MainProcess] mingle: all alone
+[2026-09-15 07:05:19,567: INFO/MainProcess] celery@crrc-Precision-7920-Tower ready.
+[2026-09-15 07:07:47,730: INFO/MainProcess] Task tasks.create_faiss[1fe38684-57fb-42d6-a2da-c040c9c66486] received
+[2026-09-15 07:08:14,387: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/app_parse/file_processing/jsonFaissCreate_Local_v02.py:24: LangChainDeprecationWarning: The class `OllamaEmbeddings` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaEmbeddings``.
+  self.embeddings = OllamaEmbeddings(model=model, show_progress=show_progress)
+
+[2026-09-15 07:08:14,389: WARNING/ForkPoolWorker-1] len of json_text: 
+[2026-09-15 07:08:14,389: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:08:14,389: WARNING/ForkPoolWorker-1] 12046
+[2026-09-15 07:08:14,389: WARNING/ForkPoolWorker-1] len of chunks: 
+[2026-09-15 07:08:14,389: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:08:14,389: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:08:14,392: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:08:17,619: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.23s/it]
+[2026-09-15 07:08:17,620: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.23s/it]
+[2026-09-15 07:08:17,620: WARNING/ForkPoolWorker-1] len of all_texts: 
+[2026-09-15 07:08:17,620: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:08:17,620: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:08:17,621: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:08:17,891: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.70it/s]
+[2026-09-15 07:08:17,892: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.69it/s]
+[2026-09-15 07:08:17,895: INFO/ForkPoolWorker-1] Loading faiss with AVX512 support.
+[2026-09-15 07:08:17,929: INFO/ForkPoolWorker-1] Successfully loaded faiss with AVX512 support.
+[2026-09-15 07:08:17,935: INFO/ForkPoolWorker-1] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2026-09-15 07:08:17,938: WARNING/ForkPoolWorker-1] FAISS vector store successfully saved at
+[2026-09-15 07:08:17,938: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:08:17,938: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/data/parse_files_db/2099636235827044352
+[2026-09-15 07:08:17,977: INFO/ForkPoolWorker-1] Task tasks.create_faiss[1fe38684-57fb-42d6-a2da-c040c9c66486] succeeded in 30.245831415057182s: None
+[2026-09-15 07:09:27,293: INFO/MainProcess] Task tasks.create_faiss[b3b810e8-d55e-415e-a4e5-13197f6e8728] received
+[2026-09-15 07:09:39,557: WARNING/ForkPoolWorker-1] len of json_text: 
+[2026-09-15 07:09:39,557: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:09:39,557: WARNING/ForkPoolWorker-1] 12023
+[2026-09-15 07:09:39,557: WARNING/ForkPoolWorker-1] len of chunks: 
+[2026-09-15 07:09:39,557: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:09:39,557: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:09:39,558: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:09:39,809: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.98it/s]
+[2026-09-15 07:09:39,809: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.97it/s]
+[2026-09-15 07:09:39,810: WARNING/ForkPoolWorker-1] len of all_texts: 
+[2026-09-15 07:09:39,810: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:09:39,810: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:09:39,810: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:09:40,067: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.91it/s]
+[2026-09-15 07:09:40,067: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.90it/s]
+[2026-09-15 07:09:40,068: WARNING/ForkPoolWorker-1] FAISS vector store successfully saved at
+[2026-09-15 07:09:40,069: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:09:40,069: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/data/parse_files_db/2099636657572700160
+[2026-09-15 07:09:40,105: INFO/ForkPoolWorker-1] Task tasks.create_faiss[b3b810e8-d55e-415e-a4e5-13197f6e8728] succeeded in 12.811322782188654s: None
+
+worker: Warm shutdown (MainProcess)
+/home/crrc/anaconda3/envs/flaskFileFragment/lib/python3.10/site-packages/langchain/__init__.py:30: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain_core.prompts.PromptTemplate instead.
+  warnings.warn(
+ 
+ -------------- celery@crrc-Precision-7920-Tower v5.5.1 (immunity)
+--- ***** ----- 
+-- ******* ---- Linux-5.15.0-139-generic-x86_64-with-glibc2.31 2026-09-15 07:20:24
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         tasks:0x7f3554672710
+- ** ---------- .> transport:   redis://127.0.0.1:6379/0
+- ** ---------- .> results:     redis://127.0.0.1:6379/0
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . tasks.create_faiss
+  . tasks.create_rule
+  . tasks.parse_file
+
+[2026-09-15 07:20:24,962: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2026-09-15 07:20:24,967: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-15 07:20:25,980: INFO/MainProcess] mingle: all alone
+[2026-09-15 07:20:26,000: INFO/MainProcess] celery@crrc-Precision-7920-Tower ready.
+
+worker: Warm shutdown (MainProcess)
+/home/crrc/anaconda3/envs/flaskFileFragment/lib/python3.10/site-packages/langchain/__init__.py:30: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain_core.prompts.PromptTemplate instead.
+  warnings.warn(
+ 
+ -------------- celery@crrc-Precision-7920-Tower v5.5.1 (immunity)
+--- ***** ----- 
+-- ******* ---- Linux-5.15.0-139-generic-x86_64-with-glibc2.31 2026-09-15 07:21:23
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         tasks:0x7f6337eda590
+- ** ---------- .> transport:   redis://127.0.0.1:6379/0
+- ** ---------- .> results:     redis://127.0.0.1:6379/0
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . tasks.create_faiss
+  . tasks.create_rule
+  . tasks.parse_file
+
+[2026-09-15 07:21:23,586: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2026-09-15 07:21:23,589: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-15 07:21:24,598: INFO/MainProcess] mingle: all alone
+[2026-09-15 07:21:24,619: INFO/MainProcess] celery@crrc-Precision-7920-Tower ready.
+[2026-09-15 07:22:07,082: INFO/MainProcess] Task tasks.create_faiss[31cb0026-123b-4246-936e-852fe0fed03e] received
+[2026-09-15 07:22:19,378: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/app_parse/file_processing/jsonFaissCreate_Local_v02.py:24: LangChainDeprecationWarning: The class `OllamaEmbeddings` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaEmbeddings``.
+  self.embeddings = OllamaEmbeddings(model=model, show_progress=show_progress)
+
+[2026-09-15 07:22:19,380: WARNING/ForkPoolWorker-1] len of json_text: 
+[2026-09-15 07:22:19,386: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:22:19,386: WARNING/ForkPoolWorker-1] 12023
+[2026-09-15 07:22:19,386: WARNING/ForkPoolWorker-1] len of chunks: 
+[2026-09-15 07:22:19,387: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:22:19,387: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:22:19,390: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:22:22,614: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.22s/it]
+[2026-09-15 07:22:22,614: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.22s/it]
+[2026-09-15 07:22:22,614: WARNING/ForkPoolWorker-1] len of all_texts: 
+[2026-09-15 07:22:22,614: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:22:22,614: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:22:22,615: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:22:22,883: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.73it/s]
+[2026-09-15 07:22:22,884: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.72it/s]
+[2026-09-15 07:22:22,888: INFO/ForkPoolWorker-1] Loading faiss with AVX512 support.
+[2026-09-15 07:22:22,922: INFO/ForkPoolWorker-1] Successfully loaded faiss with AVX512 support.
+[2026-09-15 07:22:22,928: INFO/ForkPoolWorker-1] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2026-09-15 07:22:22,931: WARNING/ForkPoolWorker-1] FAISS vector store successfully saved at
+[2026-09-15 07:22:22,931: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:22:22,931: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/data/parse_files_db/2099636235827044352
+[2026-09-15 07:22:22,971: INFO/ForkPoolWorker-1] Task tasks.create_faiss[31cb0026-123b-4246-936e-852fe0fed03e] succeeded in 15.887147523462772s: None
+[2026-09-15 07:25:41,114: INFO/MainProcess] Task tasks.create_faiss[186aebd1-3be3-447b-a77e-3a0d4b55efd3] received
+[2026-09-15 07:25:55,420: WARNING/ForkPoolWorker-1] len of json_text: 
+[2026-09-15 07:25:55,420: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:25:55,420: WARNING/ForkPoolWorker-1] 12046
+[2026-09-15 07:25:55,420: WARNING/ForkPoolWorker-1] len of chunks: 
+[2026-09-15 07:25:55,420: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:25:55,420: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:25:55,421: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:25:55,676: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.93it/s]
+[2026-09-15 07:25:55,676: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.92it/s]
+[2026-09-15 07:25:55,676: WARNING/ForkPoolWorker-1] len of all_texts: 
+[2026-09-15 07:25:55,676: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:25:55,676: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:25:55,677: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:25:55,953: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.62it/s]
+[2026-09-15 07:25:55,954: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.61it/s]
+[2026-09-15 07:25:55,955: WARNING/ForkPoolWorker-1] FAISS vector store successfully saved at
+[2026-09-15 07:25:55,955: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:25:55,955: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/data/parse_files_db/2099640732989153280
+[2026-09-15 07:25:55,992: INFO/ForkPoolWorker-1] Task tasks.create_faiss[186aebd1-3be3-447b-a77e-3a0d4b55efd3] succeeded in 14.87592102214694s: None
+[2026-09-15 07:30:21,898: INFO/MainProcess] Task tasks.create_faiss[cc496ef7-74e2-41aa-82bc-2fc388813a52] received
+[2026-09-15 07:30:36,221: WARNING/ForkPoolWorker-1] len of json_text: 
+[2026-09-15 07:30:36,221: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:30:36,221: WARNING/ForkPoolWorker-1] 12023
+[2026-09-15 07:30:36,221: WARNING/ForkPoolWorker-1] len of chunks: 
+[2026-09-15 07:30:36,221: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:30:36,221: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:30:36,222: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:30:36,477: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.92it/s]
+[2026-09-15 07:30:36,478: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.91it/s]
+[2026-09-15 07:30:36,478: WARNING/ForkPoolWorker-1] len of all_texts: 
+[2026-09-15 07:30:36,478: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:30:36,478: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:30:36,479: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:30:36,754: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.64it/s]
+[2026-09-15 07:30:36,754: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.63it/s]
+[2026-09-15 07:30:36,756: WARNING/ForkPoolWorker-1] FAISS vector store successfully saved at
+[2026-09-15 07:30:36,756: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:30:36,756: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/data/parse_files_db/2099640732989153280
+[2026-09-15 07:30:36,790: INFO/ForkPoolWorker-1] Task tasks.create_faiss[cc496ef7-74e2-41aa-82bc-2fc388813a52] succeeded in 14.890952091664076s: None
+
+worker: Warm shutdown (MainProcess)
+/home/crrc/anaconda3/envs/flaskFileFragment/lib/python3.10/site-packages/langchain/__init__.py:30: UserWarning: Importing PromptTemplate from langchain root module is no longer supported. Please use langchain_core.prompts.PromptTemplate instead.
+  warnings.warn(
+ 
+ -------------- celery@crrc-Precision-7920-Tower v5.5.1 (immunity)
+--- ***** ----- 
+-- ******* ---- Linux-5.15.0-139-generic-x86_64-with-glibc2.31 2026-09-15 07:37:31
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         tasks:0x7f95147a6710
+- ** ---------- .> transport:   redis://127.0.0.1:6379/0
+- ** ---------- .> results:     redis://127.0.0.1:6379/0
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . tasks.create_faiss
+  . tasks.create_rule
+  . tasks.parse_file
+
+[2026-09-15 07:37:31,747: INFO/MainProcess] Connected to redis://127.0.0.1:6379/0
+[2026-09-15 07:37:31,750: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-15 07:37:32,759: INFO/MainProcess] mingle: all alone
+[2026-09-15 07:37:32,780: INFO/MainProcess] celery@crrc-Precision-7920-Tower ready.
+[2026-09-15 07:38:25,996: INFO/MainProcess] Task tasks.create_faiss[02b90530-ba4f-4793-b4d0-3c4dc9bc8723] received
+[2026-09-15 07:38:40,364: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/app_parse/file_processing/jsonFaissCreate_Local_v02.py:24: LangChainDeprecationWarning: The class `OllamaEmbeddings` was deprecated in LangChain 0.3.1 and will be removed in 1.0.0. An updated version of the class exists in the :class:`~langchain-ollama package and should be used instead. To use it run `pip install -U :class:`~langchain-ollama` and import as `from :class:`~langchain_ollama import OllamaEmbeddings``.
+  self.embeddings = OllamaEmbeddings(model=model, show_progress=show_progress)
+
+[2026-09-15 07:38:40,366: WARNING/ForkPoolWorker-1] len of json_text: 
+[2026-09-15 07:38:40,366: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:38:40,366: WARNING/ForkPoolWorker-1] 12023
+[2026-09-15 07:38:40,366: WARNING/ForkPoolWorker-1] len of chunks: 
+[2026-09-15 07:38:40,366: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:38:40,366: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:38:40,370: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:38:43,614: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.24s/it]
+[2026-09-15 07:38:43,614: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.24s/it]
+[2026-09-15 07:38:43,615: WARNING/ForkPoolWorker-1] len of all_texts: 
+[2026-09-15 07:38:43,615: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:38:43,615: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:38:43,615: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:38:43,908: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.41it/s]
+[2026-09-15 07:38:43,909: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.41it/s]
+[2026-09-15 07:38:43,913: INFO/ForkPoolWorker-1] Loading faiss with AVX512 support.
+[2026-09-15 07:38:43,947: INFO/ForkPoolWorker-1] Successfully loaded faiss with AVX512 support.
+[2026-09-15 07:38:43,953: INFO/ForkPoolWorker-1] Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+[2026-09-15 07:38:43,956: WARNING/ForkPoolWorker-1] FAISS vector store successfully saved at
+[2026-09-15 07:38:43,956: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:38:43,956: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/data/parse_files_db/2099636235827044352
+[2026-09-15 07:38:43,994: INFO/ForkPoolWorker-1] Task tasks.create_faiss[02b90530-ba4f-4793-b4d0-3c4dc9bc8723] succeeded in 17.9960032440722s: None
+[2026-09-15 07:45:52,387: INFO/MainProcess] Task tasks.create_faiss[7bd7f004-8634-4cc3-a1b5-ee6f7e86492f] received
+[2026-09-15 07:46:04,655: WARNING/ForkPoolWorker-1] len of json_text: 
+[2026-09-15 07:46:04,655: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:46:04,655: WARNING/ForkPoolWorker-1] 12023
+[2026-09-15 07:46:04,655: WARNING/ForkPoolWorker-1] len of chunks: 
+[2026-09-15 07:46:04,655: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:46:04,655: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:46:04,656: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:46:07,894: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.24s/it]
+[2026-09-15 07:46:07,895: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:03<00:00,  3.24s/it]
+[2026-09-15 07:46:07,895: WARNING/ForkPoolWorker-1] len of all_texts: 
+[2026-09-15 07:46:07,895: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:46:07,895: WARNING/ForkPoolWorker-1] 1
+[2026-09-15 07:46:07,895: WARNING/ForkPoolWorker-1] OllamaEmbeddings:   0%|          | 0/1 [00:00<?, ?it/s]
+[2026-09-15 07:46:08,206: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.22it/s]
+[2026-09-15 07:46:08,207: WARNING/ForkPoolWorker-1] OllamaEmbeddings: 100%|##########| 1/1 [00:00<00:00,  3.22it/s]
+[2026-09-15 07:46:08,208: WARNING/ForkPoolWorker-1] FAISS vector store successfully saved at
+[2026-09-15 07:46:08,208: WARNING/ForkPoolWorker-1]  
+[2026-09-15 07:46:08,208: WARNING/ForkPoolWorker-1] /home/crrc/PycharmProjects/FlaskOllama/data/parse_files_db/2099645823515254784
+[2026-09-15 07:46:08,244: INFO/ForkPoolWorker-1] Task tasks.create_faiss[7bd7f004-8634-4cc3-a1b5-ee6f7e86492f] succeeded in 15.854803044348955s: None
+
+worker: Warm shutdown (MainProcess)
