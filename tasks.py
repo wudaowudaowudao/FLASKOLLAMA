@@ -61,7 +61,7 @@ def _zip_parse_data_folder(file_id, original_file_path):
                 archive_name = os.path.relpath(file_path, parent_folder)
                 archive.write(file_path, archive_name)
         original_archive_name = os.path.join(
-            os.path.basename(source_folder), 'original', os.path.basename(original_file_path)
+            os.path.basename(source_folder), os.path.basename(original_file_path)
         )
         archive.write(original_file_path, original_archive_name)
 
