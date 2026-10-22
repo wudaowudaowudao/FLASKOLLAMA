@@ -61,6 +61,34 @@ class PDFQuerySystem:
 
         self.chain = self.prompt | self.llm
 
+    @staticmethod
+    def _file_id_from_index(index_name):
+        # Older PDF indexes used <file_id>_content_list as their basename.
+        match = re.fullmatch(r"([0-9]+)(?:_content_list)?", index_name)
+        if match:
+            return match.group(1)
+        # The legacy upload endpoint used UUIDs instead of numeric IDs.
+        if re.fullmatch(r"[0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}", index_name):
+            return index_name
+        return None
+
+    @staticmethod
+    def _metadata_file_id(metadata):
+        for key in ("file_id", "fileId"):
+            value = metadata.get(key)
+            if value is not None:
+                value = str(value).strip()
+                if value and not re.search(r"[\s|]", value):
+                    return value
+        return None
+
+    @staticmethod
+    def _format_source_reference(item):
+        # Each marker must occupy one line; nothing may follow its file ID.
+        source = " ".join(str(item["source"]).split()).replace("|", "\uff5c")
+        file_id = item.get("file_id")
+        return f"@graph: {source}|{file_id}" if file_id else source
+
     def load_database(self, db_path, source_name=None, index_name=None):
         try:
             print("======================" + str(db_path))
@@ -74,7 +102,8 @@ class PDFQuerySystem:
                 # Older indexes do not carry LangChain metadata. Attach the
                 # source while the index identity is still known, before
                 # merging it into the shared vector store.
-                source = source_name or index_file
+                index_file_id = self._file_id_from_index(index_file)
+                source = source_name or index_file_id or index_file
                 inferred_source = source
                 if str(source).isdigit():
                     for document in temp_db.docstore._dict.values():
@@ -100,6 +129,11 @@ class PDFQuerySystem:
                 for document in temp_db.docstore._dict.values():
                     document.metadata = dict(document.metadata or {})
                     document.metadata.setdefault("source", inferred_source)
+                    # Capture the child index ID before merging stores. A simulation
+                    # directory can be a file set, so its directory name is not a file ID.
+                    file_id = self._metadata_file_id(document.metadata) or index_file_id
+                    if file_id:
+                        document.metadata["file_id"] = file_id
                 if self.db is None:
                     self.db = temp_db
                 else:
@@ -122,8 +156,8 @@ class PDFQuerySystem:
         if self.source_attributions:
             lines = ["知识来源："]
             lines.extend(
-                f"{index}. {item['source']}（命中 {item['hits']} 个片段，最佳排名 #{item['best_rank']}）"
-                for index, item in enumerate(self.source_attributions, start=1)
+                self._format_source_reference(item)
+                for item in self.source_attributions
             )
             footer = "\n\n" + "\n".join(lines)
             yield footer
@@ -134,6 +168,7 @@ class PDFQuerySystem:
 
     def set_final_input(self, query, use_vector_db=False, enable_thinking=True):
         self.question = query
+        self.source_attributions = []
         final_query = query if enable_thinking else f"{query} /no_think"
         if use_vector_db:
             if not self.db:
@@ -143,8 +178,10 @@ class PDFQuerySystem:
             source_groups = {}
             for rank, (doc, _score) in enumerate(docs_with_scores, start=1):
                 source = (doc.metadata or {}).get("source") or "未标注来源"
+                file_id = self._metadata_file_id(doc.metadata or {})
+                key = ("file_id", file_id) if file_id else ("source", source)
                 group = source_groups.setdefault(
-                    source, {"source": source, "hits": 0, "best_rank": rank}
+                    key, {"source": source, "file_id": file_id, "hits": 0, "best_rank": rank}
                 )
                 group["hits"] += 1
                 group["best_rank"] = min(group["best_rank"], rank)
